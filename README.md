@@ -6,6 +6,14 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.3.0 — Ecclesiasticus
+
+The second book of our own references is **Ecclesiasticus** (Sirach), added to `our-references.json` — which now holds **185 references** (93 parallel, 83 allusion, 1 quotation, 8 theme) across the two books:
+
+- **85 new references** for Ecclesiasticus: the praise of the fathers (chapters 44–50) mapped person by person to the accounts it retells; the yoke of chapter 51 taken up in Matthew 11 ("submit your neck to the yoke" — "Take up my yoke upon you"); the forgiveness rule of chapter 28 in Matthew 6 and Mark 11; five threads into James; and Sirach's own roots in Deuteronomy 30, Jeremias's potter, and the creation hymn
+- Fifty further candidates were set aside and recorded — most already carried by the seed (Sirach's old margins were the seed's densest), the rest unproven from the text: chapter 50's Simon the high priest, who has no earlier account to point to, is left honestly unlinked
+- One discipline note: Sirach's numbering in the original Douay-Rheims differs in places from modern editions (the yoke stands at 51:34–35, not 51:26–27); this dataset follows the text as printed
+
 ## Version 0.2.0 — our own references begin: Wisdom
 
 On top of the seed, this project is now building its own cross references, book by book. The first book is **Wisdom**, in `our-references.json`:
@@ -48,6 +56,6 @@ Before this dataset was published, its deuterocanon counts were cross-checked ag
 
 ## Where this goes
 
-The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Wisdom is done (0.2.0, above); the remaining deuterocanon books follow the same way, one at a time, each audited before it is published. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
+The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Wisdom and Ecclesiasticus are done (0.2.0 and 0.3.0, above); the remaining deuterocanon books — Tobias, Judith, Baruch, the two Machabees, and the added chapters of Esther and Daniel — follow the same way, one at a time, each audited before it is published. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
 
 *Soli Deo gloria.*

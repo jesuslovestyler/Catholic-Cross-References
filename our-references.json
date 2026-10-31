@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.2.0",
- "stage": "Stage 2, Book 1: Wisdom",
+ "version": "0.3.0",
+ "stage": "Stage 2, Books 1–2: Wisdom and Ecclesiasticus",
  "generated": "2026-10-31",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
- "about": "References built by this project on top of the seed (cross-references.json), beginning with the Book of Wisdom in both directions — Wisdom pointing to the rest of Scripture, and the rest of Scripture pointing to Wisdom. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
+ "about": "References built by this project on top of the seed (cross-references.json), book by book, beginning with Wisdom and Ecclesiasticus, in both directions — each book pointing to the rest of Scripture, and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 100,
+  "references": 185,
   "by_kind": {
-   "parallel": 47,
-   "allusion": 48,
+   "parallel": 93,
+   "allusion": 83,
    "quotation": 1,
-   "theme": 4
+   "theme": 8
   },
-  "source_books": 3,
-  "source_verses": 80
+  "source_books": 4,
+  "source_verses": 158
  },
  "references": {
   "Wisdom": {
@@ -1080,6 +1080,929 @@
       "target": "the Creator of them may be seen, to be known thereby"
      },
      "note": "Paul's invisible things seen through the things made is Wisdom's Creator seen through the creature's greatness."
+    }
+   ]
+  },
+  "Ecclesiasticus": {
+   "44:16": [
+    {
+     "target": "Genesis 5:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Henoch pleased God, and was translated into paradise",
+      "target": "he walked with God, and was seen no more: because God took him"
+     },
+     "note": "Sirach’s translated Henoch is Genesis’ Enoch, who walked with God and was seen no more."
+    }
+   ],
+   "49:16": [
+    {
+     "target": "Genesis 5:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "for he also was taken up from the earth",
+      "target": "he walked with God, and was seen no more: because God took him"
+     },
+     "note": "The roll’s closing word on Henoch returns to the same Genesis sentence: God took him."
+    }
+   ],
+   "44:17": [
+    {
+     "target": "Genesis 6:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Noe was found perfect, just",
+      "target": "Noe was a just and perfect man in his generations"
+     },
+     "note": "Sirach’s praise of Noe is Genesis’ own description of him before the flood."
+    }
+   ],
+   "44:19": [
+    {
+     "target": "Genesis 9:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that all flesh should no more be destroyed with the flood",
+      "target": "all flesh shall be no more destroyed with the waters of a flood"
+     },
+     "note": "The testament made with Noe is the covenant after the flood: all flesh shall no more be destroyed by its waters."
+    }
+   ],
+   "44:21": [
+    {
+     "target": "Genesis 17:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In his flesh he made the covenant to stand",
+      "target": "that it may be for a sign of the covenant between me and you"
+     },
+     "note": "The covenant made to stand in Abraham’s flesh is circumcision, the sign of the covenant in Genesis."
+    },
+    {
+     "target": "Genesis 22:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in tentation he was found faithful",
+      "target": "hast not spared thine only begotten son for my sake"
+     },
+     "note": "Abraham found faithful in tentation is Abraham on Moriah, not sparing his only begotten son."
+    }
+   ],
+   "44:23": [
+    {
+     "target": "Genesis 22:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he would exalt his seed as the stars",
+      "target": "I will multiply thy seed as the stars of heaven"
+     },
+     "note": "The oath that Abraham’s seed would be exalted as the stars is God’s oath after the offering of Isaac."
+    }
+   ],
+   "44:24": [
+    {
+     "target": "Genesis 26:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he did in like manner in Isaac for Abraham his father",
+      "target": "in thy seed Shall be Blessed All The Nations of The Earth"
+     },
+     "note": "What God did in Isaac is the oath repeated to him: in his seed all the nations of the earth shall be blessed."
+    }
+   ],
+   "44:26": [
+    {
+     "target": "Genesis 49:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "divided him his portion in twelve tribes",
+      "target": "All these in the tribes of Israel twelve"
+     },
+     "note": "Jacob’s portion divided in twelve tribes is Jacob blessing his twelve sons in Genesis 49."
+    }
+   ],
+   "45:5": [
+    {
+     "target": "Exodus 24:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "brought him into a cloud",
+      "target": "Moyses entering into the midst of the cloud, ascended into the mount"
+     },
+     "note": "God bringing Moses into the cloud is Moses entering the midst of the cloud on the mount."
+    }
+   ],
+   "45:10": [
+    {
+     "target": "Exodus 28:34",
+     "kind": "parallel",
+     "evidence": {
+      "source": "compassed him with little bells of gold very many round about",
+      "target": "there be a bell of gold and a pomegranate"
+     },
+     "note": "Aaron’s ringing hem in Sirach is the bell of gold and pomegranate of Exodus."
+    }
+   ],
+   "45:13": [
+    {
+     "target": "Exodus 28:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "for a memorial, according to the number of the tribes of Israel",
+      "target": "thou shalt grave them with the names of the children of Israel"
+     },
+     "note": "The stones graven for a memorial by the tribes’ number are the shoulder stones of Exodus, graven with the names of Israel’s children."
+    }
+   ],
+   "45:14": [
+    {
+     "target": "Exodus 28:36",
+     "kind": "parallel",
+     "evidence": {
+      "source": "A crown of gold upon his mitre graven with a seal of holiness",
+      "target": "a plate of the purest gold: wherein thou shalt grave"
+     },
+     "note": "The gold crown on Aaron’s mitre, graven as a seal of holiness, is the plate of purest gold of Exodus, graven Holy to the Lord."
+    }
+   ],
+   "45:18": [
+    {
+     "target": "Leviticus 8:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Moyses filled his hands, & anointed him with holy oil",
+      "target": "pouring upon Aaron's head, he anointed, & consecrated him"
+     },
+     "note": "Moses anointing Aaron with holy oil is the consecration of Leviticus 8."
+    }
+   ],
+   "45:24": [
+    {
+     "target": "Numbers 16:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He did prodigious things unto them, and consumed them in flame of fire",
+      "target": "fire also coming forth from our Lord, slew the two hundred fifty men"
+     },
+     "note": "The flame that consumed Dathan’s company in Sirach is the fire from the Lord that slew the two hundred fifty men."
+    }
+   ],
+   "45:30": [
+    {
+     "target": "Numbers 25:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Priesthood should be to him and to his seed for ever",
+      "target": "to him as to his seed the covenant of priesthood for ever"
+     },
+     "note": "The covenant of peace made with Phinees is the covenant of everlasting priesthood of Numbers 25."
+    }
+   ],
+   "46:6": [
+    {
+     "target": "Josue 10:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the great and holy God heard him in hail-stones of exceeding great force",
+      "target": "our Lord sent upon them great stones from heaven"
+     },
+     "note": "The hail-stones that answered Jesus Nave’s prayer are the great stones from heaven at Beth-horon."
+    }
+   ],
+   "46:10": [
+    {
+     "target": "Deuteronomy 1:36",
+     "kind": "parallel",
+     "evidence": {
+      "source": "delivered out of danger from among the number of six hundred thousand",
+      "target": "to him I will give the Land, that he hath trodden"
+     },
+     "note": "Of the six hundred thousand, Caleb alone with Josue was delivered to enter; Deuteronomy gives Caleb the land he trod."
+    }
+   ],
+   "46:19": [
+    {
+     "target": "1 Kings 7:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the oblation of an immaculate lamb",
+      "target": "Samuel took one sucking lamb, and offered it a whole holocaust"
+     },
+     "note": "Samuel’s oblation of the lamb before the thunder is the sucking lamb offered at Masphath."
+    }
+   ],
+   "46:23": [
+    {
+     "target": "1 Kings 28:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he notified to the king, and shewed him the end of his life",
+      "target": "why hast thou disquieted me, that I should be raised up?"
+     },
+     "note": "Samuel notifying the king after his sleep is Samuel raised for Saul at Endor."
+    }
+   ],
+   "47:5": [
+    {
+     "target": "1 Kings 17:49",
+     "kind": "parallel",
+     "evidence": {
+      "source": "with a stone of the sling he overthrew the boasting of Goliath",
+      "target": "took one stone, and cast it with the sling"
+     },
+     "note": "David overthrowing Goliath’s boasting with the sling-stone is the stone taken from the scrip in 1 Kings."
+    }
+   ],
+   "47:8": [
+    {
+     "target": "1 Paralipomenon 18:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "rooted out the Philisthiims the adversaries even until this present day",
+      "target": "David struck the Philisthiims, and humbled them"
+     },
+     "note": "David rooting out the Philistine adversaries is the victory the Chronicles record at Geth."
+    }
+   ],
+   "47:13": [
+    {
+     "target": "2 Kings 7:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "gave him a testament of the kingdom, and the seat of glory",
+      "target": "thy house shall be faithful, and thy Kingdom for ever"
+     },
+     "note": "The testament of the kingdom given to David is Nathan’s promise: thy kingdom for ever, thy throne firm continually."
+    }
+   ],
+   "47:17": [
+    {
+     "target": "3 Kings 4:32",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou didst multiply dark sayings in comparisons",
+      "target": "spake three thousand parables: and his songs were a thousand & five"
+     },
+     "note": "Salomon’s multiplied comparisons are the three thousand parables and thousand and five songs of 3 Kings."
+    }
+   ],
+   "47:20": [
+    {
+     "target": "2 Paralipomenon 9:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Thou didst gather gold as copper, and filledst silver as lead",
+      "target": "made so great plenty of silver in Jerusalem as it were of stones"
+     },
+     "note": "Salomon filling silver as lead is the silver made as plenty as stones in Jerusalem."
+    }
+   ],
+   "47:23": [
+    {
+     "target": "3 Kings 11:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "to make the Kingdom divided",
+      "target": "Behold I will rent the Kingdom out of the hand of Salomon"
+     },
+     "note": "The kingdom made divided after Salomon is Ahias’s sentence: I will rent the kingdom out of his hand."
+    }
+   ],
+   "48:3": [
+    {
+     "target": "3 Kings 18:38",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he brought down fire from heaven thrice",
+      "target": "the fire of our Lord fell, and devoured the holocaust"
+     },
+     "note": "Elias bringing down fire from heaven is first the fire that fell on Carmel and devoured the holocaust."
+    }
+   ],
+   "48:5": [
+    {
+     "target": "3 Kings 17:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who didst raise up the dead from hell, from the lot of death",
+      "target": "the soul of the child returned into him, and he revived"
+     },
+     "note": "Elias raising the dead is the widow’s son, whose soul returned into him and he revived."
+    }
+   ],
+   "48:7": [
+    {
+     "target": "3 Kings 19:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who hearest judgement in Sina, and in Horeb judgements of defence",
+      "target": "stand in the mount before our Lord: and behold our Lord passeth"
+     },
+     "note": "Elias hearing judgment in Horeb is Elias standing in the mount as the Lord passed by."
+    }
+   ],
+   "48:8": [
+    {
+     "target": "3 Kings 19:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "makest Prophets successors after thee",
+      "target": "Eliseus the son of Saphat, which is of Abelmeula"
+     },
+     "note": "The prophet made successor after Elias is Eliseus the son of Saphat, anointed at God’s word in Horeb."
+    }
+   ],
+   "48:13": [
+    {
+     "target": "4 Kings 2:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "his spirit was complete in Eliseus",
+      "target": "The spirit of Elias hath rested upon Eliseus"
+     },
+     "note": "Elias’s spirit completed in Eliseus is the spirit the sons of the prophets saw resting on him at Jericho."
+    }
+   ],
+   "48:14": [
+    {
+     "target": "4 Kings 13:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "his body prophesied being dead",
+      "target": "when it had touched the bones of Eliseus, the man revived"
+     },
+     "note": "Eliseus’ body prophesying dead is the corpse that revived on touching his bones."
+    }
+   ],
+   "48:19": [
+    {
+     "target": "2 Paralipomenon 32:30",
+     "kind": "parallel",
+     "evidence": {
+      "source": "brought in water into the midst thereof, and digged a rock with iron",
+      "target": "stopped the upper fountain of the waters of Gihon"
+     },
+     "note": "Ezechias bringing water into the city is his stopping of Gihon’s upper fountain and turning it underneath."
+    }
+   ],
+   "48:22": [
+    {
+     "target": "4 Kings 19:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "spreading their hands, they lifted them up to heaven",
+      "target": "Lord God of Israel, which sittest upon the cherubins"
+     },
+     "note": "The people lifting their hands to heaven is Ezechias spreading Rabsaces’ letter and praying before the Lord of the cherubins."
+    }
+   ],
+   "48:27": [
+    {
+     "target": "Isaias 40:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "comforted the mourners in Sion",
+      "target": "Be comforted, be comforted my people, saith your God"
+     },
+     "note": "Isaias comforting the mourners in Sion is the voice that opens his fortieth chapter: Be comforted, my people."
+    }
+   ],
+   "48:10": [
+    {
+     "target": "Malachias 4:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to reconcile the heart of the father to the son",
+      "target": "he shall convert the heart of the fathers to the children"
+     },
+     "note": "Sirach’s charge laid on the returning Elias is Malachias’s prophecy, nearly in its own words."
+    },
+    {
+     "target": "Isaias 49:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to restore the tribes of Jacob",
+      "target": "thou shouldst be my servant to raise up the tribes of Jacob"
+     },
+     "note": "The second half of Elias’s charge is Isaias’s word to the servant: to raise up the tribes of Jacob."
+    },
+    {
+     "target": "Luke 1:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to reconcile the heart of the father to the son",
+      "target": "he may convert the hearts of the fathers unto the children"
+     },
+     "note": "The angel announces John in Elias’s spirit with Sirach’s own charge: to convert the hearts of the fathers unto the children."
+    }
+   ],
+   "49:3": [
+    {
+     "target": "4 Kings 23:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he took away the abominations of impiety",
+      "target": "Josias took away: that he might establish the words of the law"
+     },
+     "note": "Josias taking away the abominations is his purging of Juda and Jerusalem in 4 Kings 23."
+    }
+   ],
+   "49:8": [
+    {
+     "target": "Jeremias 39:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "They burnt the chosen city of holiness, & made the ways thereof desolate",
+      "target": "the house of the common people the Chaldees burnt with fire"
+     },
+     "note": "The city burnt in Jeremie’s hand is the burning Jeremias himself records: the Chaldees burnt the houses with fire."
+    }
+   ],
+   "49:10": [
+    {
+     "target": "Ezechiel 10:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "which he shewed him in the chariot of Cherubs",
+      "target": "in the firmament, that was over the head of the Cherubs"
+     },
+     "note": "Ezechiel’s sight of glory in the chariot of cherubs is the throne seen above the cherubs’ heads by the river Chobar."
+    }
+   ],
+   "49:14": [
+    {
+     "target": "Zacharias 6:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Jesus the son of Josedec: who in their days built the house",
+      "target": "set on the head of Jesus the son of Josedec the grand Priest"
+     },
+     "note": "Jesus the son of Josedec, builder of the house with Zorobabel, is the high priest crowned in Zacharias."
+    }
+   ],
+   "49:15": [
+    {
+     "target": "2 Esdras 6:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "who erected us our walls overthrown, and set up the gates and locks",
+      "target": "the wall was finished the five and twentieth day"
+     },
+     "note": "Nehemias erecting the overthrown walls is the wall finished on the twenty-fifth day of Elul."
+    }
+   ],
+   "49:18": [
+    {
+     "target": "Exodus 13:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "his bones were visited, and after death they prophesied",
+      "target": "God shall visit you, carry out my bones from hence with you"
+     },
+     "note": "Joseph’s bones visited after death are the bones Moses carried out of Egypt, as Joseph had adjured Israel."
+    }
+   ],
+   "51:34": [
+    {
+     "target": "Matthew 11:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "submit your neck to the yoke, and let your soul receive discipline",
+      "target": "Take up my yoke upon you, and learn of me"
+     },
+     "note": "Wisdom’s invitation to bow the neck under her yoke is taken up on Christ’s lips: Take up my yoke upon you, and learn of me."
+    }
+   ],
+   "51:35": [
+    {
+     "target": "Matthew 11:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have laboured a little, and have found much rest to myself",
+      "target": "all that labour, and are burdened, and I will refresh you"
+     },
+     "note": "The rest Sirach found after a little labour is the refreshment Christ promises to all that labour and are burdened."
+    }
+   ],
+   "28:2": [
+    {
+     "target": "Matthew 6:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Forgive thy neighbour hurting thee: & then shall thy sins be loosed",
+      "target": "if you will forgive men their offences, your heavenly father will forgive you"
+     },
+     "note": "Sirach’s rule of forgiveness is the Lord’s own exposition of the prayer: forgive, and your Father will forgive you."
+    },
+    {
+     "target": "Mark 11:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "then shall thy sins be loosed to thee when thou prayest",
+      "target": "when you shall stand to pray, forgive if you have ought"
+     },
+     "note": "Forgiveness at prayer, in Sirach tied to the hour of praying, is Christ’s rule for standing to pray."
+    }
+   ],
+   "15:12": [
+    {
+     "target": "James 1:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Say not: He hath made me err",
+      "target": "when he is tempted, say that he is tempted of God"
+     },
+     "note": "Sirach forbids the excuse James forbids: let no man say he is tempted of God."
+    }
+   ],
+   "1:33": [
+    {
+     "target": "James 1:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Son, coveting wisdom, keep justice, & God will give her to thee",
+      "target": "let him ask of God who giveth to all men aboundantly"
+     },
+     "note": "The wisdom God gives the son who covets and keeps justice is the wisdom James bids the lacking ask of the God who gives abundantly."
+    }
+   ],
+   "1:36": [
+    {
+     "target": "James 1:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "come not to him with a double heart",
+      "target": "Aman double of mind is inconstant in all his ways"
+     },
+     "note": "Sirach’s double heart, barred from coming to God, is James’s double-minded man, inconstant in all his ways."
+    }
+   ],
+   "5:13": [
+    {
+     "target": "James 1:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Be mild to hear the word, thou mayst understand",
+      "target": "be swift to hear, but slow to speak, and slow to anger"
+     },
+     "note": "Sirach’s mildness to hear the word is James’s rule in brief: swift to hear, slow to speak, slow to anger."
+    }
+   ],
+   "28:14": [
+    {
+     "target": "James 3:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If thou blow upon a spark, it will burn as a fire",
+      "target": "Behold how much fire what a great wood it kindleth?"
+     },
+     "note": "The spark blown into flame in Sirach is James’s little fire kindling a great wood — both are the tongue."
+    }
+   ],
+   "28:22": [
+    {
+     "target": "James 3:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "not so as they that have perished by their tongue",
+      "target": "the tongue, is fire, a whole world of iniquity"
+     },
+     "note": "More have perished by the tongue than by the sword, says Sirach; James names that tongue a fire, a whole world of iniquity."
+    }
+   ],
+   "2:5": [
+    {
+     "target": "1 Peter 1:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "gold and silver are tried in the fire, but acceptable men in the furnace",
+      "target": "much more precious than gold (which is proved by the fire)"
+     },
+     "note": "Acceptable men tried in the furnace as gold in the fire is Peter’s probation of faith, more precious than gold proved by fire."
+    }
+   ],
+   "5:4": [
+    {
+     "target": "Romans 2:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Say not: I have sinned, and what sorrowful thing hath chanced to me?",
+      "target": "not knowing that the benignity of God bringeth thee to penance?"
+     },
+     "note": "The sinner who presumes on God’s patience in Sirach is the man Paul warns: that patience is meant to bring him to penance."
+    }
+   ],
+   "11:19": [
+    {
+     "target": "Luke 12:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have found me rest, and now I will eat of my goods alone",
+      "target": "thou hast much goods laid up for many years, take thy rest, eat"
+     },
+     "note": "The rich man’s soliloquy in Sirach — I have found rest, now I will eat of my goods — is spoken again by the fool in the parable."
+    }
+   ],
+   "11:20": [
+    {
+     "target": "Luke 12:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he must leave all to others, and shall die",
+      "target": "the things that thou hast provided, whose shall they be?"
+     },
+     "note": "Sirach’s rich man, who must leave all to others and die, meets God’s question in the parable: whose shall those things be?"
+    }
+   ],
+   "24:5": [
+    {
+     "target": "Colossians 1:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the first begotten before all creatures",
+      "target": "the first-born of all creature"
+     },
+     "note": "Wisdom’s self-praise as first-begotten before all creatures is the title Paul gives Christ, the first-born of all creature."
+    }
+   ],
+   "24:13": [
+    {
+     "target": "John 1:14",
+     "kind": "theme",
+     "evidence": {
+      "source": "Inhabit in Jacob, and inherit in Israel, and take root in mine elect",
+      "target": "The Word Was Made Flesh, and dwelt in us"
+     },
+     "note": "Wisdom is commanded to take her dwelling in Jacob; the Word himself is made flesh and dwells among us."
+    },
+    {
+     "target": "Baruch 3:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Inhabit in Jacob, and inherit in Israel",
+      "target": "delivered it to Jacob his servant, and to Israel his beloved"
+     },
+     "note": "Baruch’s wisdom, found out by God and delivered to Jacob and Israel, is Sirach’s wisdom commanded to inhabit in Jacob."
+    }
+   ],
+   "24:29": [
+    {
+     "target": "John 6:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "shall yet hunger: and they that drink me, shall yet thirst",
+      "target": "he that cometh to me, shall not hunger"
+     },
+     "note": "Christ answers wisdom’s banquet and reverses it: they that eat her hunger still; he that cometh to him shall not hunger, and shall never thirst."
+    }
+   ],
+   "29:14": [
+    {
+     "target": "Matthew 6:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Put thy treasure in the precepts of the Highest",
+      "target": "heap up to yourselves treasures in heaven"
+     },
+     "note": "Treasure laid up in the precepts of the Highest is treasure heaped up in heaven, where neither rust nor moth corrupts."
+    }
+   ],
+   "38:9": [
+    {
+     "target": "James 5:15",
+     "kind": "theme",
+     "evidence": {
+      "source": "but pray our Lord, and he will cure thee",
+      "target": "the prayer of faith shall save the sick"
+     },
+     "note": "In sickness Sirach bids the son pray to the Lord who will cure him; James promises the prayer of faith shall save the sick."
+    }
+   ],
+   "15:18": [
+    {
+     "target": "Deuteronomy 30:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Before man there is life and death, good and evil",
+      "target": "set before thee this day life and good, and contrarywise death and evil"
+     },
+     "note": "Life and death, good and evil set before man is Moses’ sentence in Deuteronomy, which Sirach takes up."
+    }
+   ],
+   "15:17": [
+    {
+     "target": "Deuteronomy 30:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to which thou wilt, stretch forth thine hand",
+      "target": "I have proposed to you life and death, blessing and cursing"
+     },
+     "note": "The hand stretched forth to fire or water answers Moses’ proposal of life and death, blessing and cursing, with its command to choose life."
+    }
+   ],
+   "17:1": [
+    {
+     "target": "Genesis 1:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "after his own image he made him",
+      "target": "God created man to his own image"
+     },
+     "note": "Man made after God’s own image is Genesis’ first word on his creation."
+    },
+    {
+     "target": "Genesis 2:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God created man of the earth",
+      "target": "Our Lord God therefore formed man of the slime of the earth"
+     },
+     "note": "Man created of the earth is man formed of the slime of the earth."
+    }
+   ],
+   "17:4": [
+    {
+     "target": "Genesis 1:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he had dominion of beasts and fowls",
+      "target": "rule over the fishes and the sea, and fowls of the air"
+     },
+     "note": "The dominion God put over beasts and fowls is the blessing of Genesis: rule over the fishes of the sea and the fowls of the air."
+    }
+   ],
+   "17:5": [
+    {
+     "target": "Genesis 2:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He created of him an helper like to himself",
+      "target": "let us make him a help like unto himself"
+     },
+     "note": "The helper like to himself, created of the man, is the help like unto himself that God makes in Genesis."
+    }
+   ],
+   "24:14": [
+    {
+     "target": "Proverbs 8:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "From the beginning and before the worlds was I created",
+      "target": "From eternity I was ordained & of old before the earth was made"
+     },
+     "note": "Wisdom created before the worlds in Sirach is wisdom ordained from eternity, of old before the earth was made, in Proverbs."
+    }
+   ],
+   "24:32": [
+    {
+     "target": "Baruch 4:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All these things are the book of life, and the testament of the Highest",
+      "target": "This is the book of the commandments of God"
+     },
+     "note": "Sirach ends wisdom’s praise by naming her the book of life; Baruch names the same wisdom the book of the commandments of God."
+    }
+   ],
+   "33:13": [
+    {
+     "target": "Jeremias 18:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As potter's clay is in his hand, to fashion and dispose it",
+      "target": "as clay in the hand of the potter, so are you in my hand"
+     },
+     "note": "Man as potter’s clay in the Maker’s hand is Jeremias’s word in the potter’s house."
+    },
+    {
+     "target": "Wisdom 15:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As potter's clay is in his hand, to fashion and dispose it",
+      "target": "of the same clay maketh the vessels that are clean to use"
+     },
+     "note": "The two deuterocanon books share the potter: Wisdom’s potter makes vessels clean and contrary of the same clay, as Sirach’s clay is fashioned at his pleasure."
+    }
+   ],
+   "35:16": [
+    {
+     "target": "Deuteronomy 10:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord will not accept person against the poor",
+      "target": "that accepteth not person nor gifts"
+     },
+     "note": "The Lord who accepts no person against the poor is Moses’ God of gods, that accepteth not person nor gifts."
+    }
+   ],
+   "35:17": [
+    {
+     "target": "Deuteronomy 10:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He will not despise the prayers of the pupil: nor the widow",
+      "target": "He doth judgment to the pupil and the widow"
+     },
+     "note": "The pupil and widow whose prayers God will not despise are the pupil and widow to whom he does judgment in Deuteronomy."
+    }
+   ],
+   "36:8": [
+    {
+     "target": "Psalms 78:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Raise up fury, and pour out wrath",
+      "target": "Pour out thy wrath upon the Gentiles, that have not known thee"
+     },
+     "note": "Sirach’s prayer for Israel takes up the psalm’s: Pour out thy wrath upon the Gentiles that have not known thee."
+    }
+   ],
+   "39:40": [
+    {
+     "target": "1 Timothy 4:4",
+     "kind": "theme",
+     "evidence": {
+      "source": "It is not to be said: This is worse than that",
+      "target": "every creature of God is good, and nothing to be rejected"
+     },
+     "note": "Sirach forbids saying of any work of God, this is worse than that; Paul forbids rejecting any creature of God received with thanksgiving."
+    }
+   ],
+   "40:1": [
+    {
+     "target": "Genesis 3:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "an heavy yoke upon the children of Adam",
+      "target": "with much toiling shalt thou eat thereof all the days of thy life"
+     },
+     "note": "The heavy yoke on Adam’s children is the curse on the ground: with much toiling shalt thou eat thereof all thy life."
+    }
+   ],
+   "41:13": [
+    {
+     "target": "Genesis 3:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All things that are of the earth, shall return into the earth",
+      "target": "because dust thou art, and into dust thou shalt return"
+     },
+     "note": "All things of the earth returning into the earth is Adam’s sentence: dust thou art, and into dust thou shalt return."
+    }
+   ],
+   "42:16": [
+    {
+     "target": "Psalms 18:2",
+     "kind": "theme",
+     "evidence": {
+      "source": "full of the glory of our Lord is his work",
+      "target": "The heavens shew forth the glory of God"
+     },
+     "note": "Sirach’s hymn opens where the psalm opens: the heavens shew forth the glory of God, and his work is full of it."
+    }
+   ],
+   "43:7": [
+    {
+     "target": "Psalms 103:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "By the moon is the sign of a festival day",
+      "target": "He made the moon for seasons"
+     },
+     "note": "The moon that in Sirach signs the festival day is the moon God made for seasons in the psalm."
+    }
+   ],
+   "43:12": [
+    {
+     "target": "Genesis 9:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "See the bow, and bless him that made it",
+      "target": "my bow will I set in the clouds"
+     },
+     "note": "The bow Sirach bids us see and bless its Maker for is the bow God set in the clouds as the sign of the covenant."
+    }
+   ],
+   "43:15": [
+    {
+     "target": "Job 38:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Therefore are the treasures opened, & the clouds fly forth as birds",
+      "target": "Hast thou entered into the treasures of the snow"
+     },
+     "note": "The treasures opened in Sirach, out of which snow and hail fly at God’s command, are Job’s treasures of the snow."
+    }
+   ],
+   "3:33": [
+    {
+     "target": "Tobias 12:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Water quencheth burning fire, and alms resisteth sins",
+      "target": "alms delivereth from death, and that is it which purgeth sins"
+     },
+     "note": "Alms resisting sins in Sirach is Tobias’s angel’s word: alms delivereth from death and purgeth sins."
     }
    ]
   }
