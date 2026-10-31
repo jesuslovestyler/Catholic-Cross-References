@@ -6,6 +6,15 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.2.0 — our own references begin: Wisdom
+
+On top of the seed, this project is now building its own cross references, book by book. The first book is **Wisdom**, in `our-references.json`:
+
+- **100 references** at 80 verses, in both directions — Wisdom pointing to the rest of Scripture, and the rest of Scripture (Romans 1:20, Hebrews 1:3) pointing to Wisdom
+- By kind: **47 parallel, 48 allusion, 1 quotation, 4 theme**
+- The history spine of Wisdom 10–19 is mapped verse by verse to the Genesis, Exodus, and Numbers passages it retells; the New Testament layer runs from the just man of Wisdom 2 behind the Passion, through Wisdom 13–15 answering in Romans 1 and 9, to God's armor in Wisdom 5 reappearing in Ephesians 6
+- Every reference carries its **evidence**: the short quotations from both passages on which the link rests, so any reader can check it against the text. Candidates that could not be proven from the words on the page were set aside, not stretched — including the famous near-miss of Wisdom 18:15 and John 1:14, which share the word "word" and nothing more.
+
 ## Version 0.1.0 — the seed
 
 The seed is the cross-reference apparatus printed in the margins of the **original Douay-Rheims Bible** — the New Testament at Rheims in 1582 and the Old Testament at Douay in 1609–1610 — parsed into structured data.
@@ -18,7 +27,8 @@ The seed data comes from the [Original Douay-Rheims project](https://thedouayrhe
 
 ### Files
 
-- `cross-references.json` — the dataset. References are keyed by book (Douay-Rheims names and numbering, Psalms in Vulgate numbering), then by `"chapter:verse"`. Each entry keeps the margin's printed string (`raw`) beside its parsed `targets`, so every line can be traced back to the page it came from. A target with no verse (e.g. `"Genesis 22"`) cites the whole chapter, as the margin printed it.
+- `cross-references.json` — the seed dataset. References are keyed by book (Douay-Rheims names and numbering, Psalms in Vulgate numbering), then by `"chapter:verse"`. Each entry keeps the margin's printed string (`raw`) beside its parsed `targets`, so every line can be traced back to the page it came from. A target with no verse (e.g. `"Genesis 22"`) cites the whole chapter, as the margin printed it.
+- `our-references.json` — this project's own references, built on top of the seed (see the 0.2.0 section above). Same keying; each reference is labeled by kind and carries the quoted evidence from both passages.
 - `dropped-entries.json` — everything that was **not** carried into the dataset, with the reason in plain words. Nothing was guessed to make the numbers bigger.
 - `tools/parse_seed.py` — the parser that produced both files from the CC0 corpus, so the work can be re-run and checked.
 
@@ -38,6 +48,6 @@ Before this dataset was published, its deuterocanon counts were cross-checked ag
 
 ## Where this goes
 
-The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
+The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Wisdom is done (0.2.0, above); the remaining deuterocanon books follow the same way, one at a time, each audited before it is published. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
 
 *Soli Deo gloria.*

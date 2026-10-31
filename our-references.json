@@ -1,0 +1,1087 @@
+{
+ "name": "Catholic Cross References — our own references",
+ "version": "0.2.0",
+ "stage": "Stage 2, Book 1: Wisdom",
+ "generated": "2026-10-31",
+ "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
+ "about": "References built by this project on top of the seed (cross-references.json), beginning with the Book of Wisdom in both directions — Wisdom pointing to the rest of Scripture, and the rest of Scripture pointing to Wisdom. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
+ "counts": {
+  "references": 100,
+  "by_kind": {
+   "parallel": 47,
+   "allusion": 48,
+   "quotation": 1,
+   "theme": 4
+  },
+  "source_books": 3,
+  "source_verses": 80
+ },
+ "references": {
+  "Wisdom": {
+   "10:1": [
+    {
+     "target": "Genesis 2:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that was first made of God father of the world",
+      "target": "Our Lord God therefore formed man of the slime of the earth"
+     },
+     "note": "Wisdom's first man, created alone, is Adam as Genesis tells his forming."
+    }
+   ],
+   "10:2": [
+    {
+     "target": "Genesis 1:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "gave him power to contain all things",
+      "target": "subdue it, and rule over the fishes and the sea"
+     },
+     "note": "The power Wisdom says Adam received is the dominion blessed in Genesis 1."
+    }
+   ],
+   "10:3": [
+    {
+     "target": "Genesis 4:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "by the fury of brother's manslaughter he perished",
+      "target": "Cain rose up against his brother Abel, and slew him"
+     },
+     "note": "The unjust one who departed from wisdom in anger is Cain, Abel's slayer."
+    }
+   ],
+   "10:4": [
+    {
+     "target": "Genesis 6:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "governing the just by contemptible wood",
+      "target": "Make thee an ark of timber plank"
+     },
+     "note": "The contemptible wood that steered the just man through the flood is Noah's ark."
+    }
+   ],
+   "10:5": [
+    {
+     "target": "Genesis 11:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when the nations had confederated themselves",
+      "target": "let us make us a city and a tower"
+     },
+     "note": "The confederated nations Wisdom passes over are the builders of Babel."
+    },
+    {
+     "target": "Genesis 22:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in his son's mercy kept the strong",
+      "target": "hast not spared thine only begotten son for my sake"
+     },
+     "note": "Wisdom's just man kept strong in the trial of his son is Abraham on Moriah."
+    }
+   ],
+   "10:6": [
+    {
+     "target": "Genesis 19:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when the fire came down upon Pentapolis",
+      "target": "our Lord rained upon Sodome and Gomorre brimstone & fire"
+     },
+     "note": "The fire that fell on the five cities is the rain of brimstone on Sodom and Gomorrah."
+    },
+    {
+     "target": "Genesis 19:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "She delivered the just, flying from the impious that perished",
+      "target": "delivered Lot out of the subversion of the cities"
+     },
+     "note": "Genesis names the just man Wisdom says was delivered out of the overthrow: Lot."
+    },
+    {
+     "target": "Luke 17:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when the fire came down upon Pentapolis",
+      "target": "it rained fire & brimstone from Heaven, & destroyed them all"
+     },
+     "note": "Christ's day of Lot is Wisdom's fire on the five cities, told in the same words."
+    },
+    {
+     "target": "2 Peter 2:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "She delivered the just, flying from the impious that perished",
+      "target": "delivered just Lot oppressed by the injury and luxurious conversation"
+     },
+     "note": "Both books give Lot the same title - the just - and the same deliverance."
+    }
+   ],
+   "10:7": [
+    {
+     "target": "Genesis 19:26",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the memory of an incredulous soul a standing pillar of salt",
+      "target": "his wife looking behind her, was turned into a statua of salt"
+     },
+     "note": "The standing pillar of salt that still witnesses is Lot's wife."
+    },
+    {
+     "target": "Luke 17:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the memory of an incredulous soul a standing pillar of salt",
+      "target": "Be mindful of Lot's wife."
+     },
+     "note": "The standing pillar Wisdom calls a memory is the very memorial Christ bids us remember."
+    }
+   ],
+   "10:10": [
+    {
+     "target": "Genesis 28:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "shewed him the kingdom of God",
+      "target": "he saw in his sleep a ladder standing upon the earth"
+     },
+     "note": "The fugitive shown the kingdom of God is Jacob, shown the ladder at Bethel."
+    }
+   ],
+   "10:11": [
+    {
+     "target": "Genesis 31:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In the fraud of the circumventers of him she was present with him",
+      "target": "hath circumvented me, and hath changed my wages ten times"
+     },
+     "note": "The fraud Wisdom says she stood beside Jacob in is Laban's ten-times-changed wages."
+    }
+   ],
+   "10:12": [
+    {
+     "target": "Genesis 32:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "gave him a strong fight, that he might overcome",
+      "target": "behold a man wrestled with him till morning"
+     },
+     "note": "The strong fight wisdom gave Jacob to overcome in is the wrestling at the Jabbok."
+    }
+   ],
+   "10:14": [
+    {
+     "target": "Genesis 39:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and in bands left him not",
+      "target": "gave him grace in the sight of the chief of the prison"
+     },
+     "note": "Wisdom did not leave Joseph in his bands: the Lord was with him in the prison."
+    }
+   ],
+   "10:17": [
+    {
+     "target": "Exodus 13:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "for the light of stars by night",
+      "target": "by night in a pillar of fire"
+     },
+     "note": "The cover by day and light by night are the pillar of cloud and of fire."
+    }
+   ],
+   "11:4": [
+    {
+     "target": "Exodus 17:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "water was given them out of a most high rock",
+      "target": "thou shalt strike the rock, & water shall go out thereof"
+     },
+     "note": "The rock that answered Israel's thirst in Wisdom is the struck rock of Horeb."
+    },
+    {
+     "target": "Psalms 77:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "water was given them out of a most high rock",
+      "target": "He struck the rock in the desert: and gave them water to drink"
+     },
+     "note": "The psalm's own retelling of the same rock and the same water."
+    },
+    {
+     "target": "1 Corinthians 10:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "water was given them out of a most high rock",
+      "target": "the spiritual rock that followed them, and the rock was Christ"
+     },
+     "note": "Water from Wisdom's high rock is Paul's spiritual rock that followed Israel - and the rock was Christ."
+    }
+   ],
+   "11:7": [
+    {
+     "target": "Exodus 7:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou gavest man's blood to the unjust",
+      "target": "which was turned into blood"
+     },
+     "note": "Instead of the ever-flowing river, Egypt was given the first plague: water become blood."
+    }
+   ],
+   "11:8": [
+    {
+     "target": "Exodus 1:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when they were diminished in the destruction of the murdered infants",
+      "target": "Whatsoever shall be born of the male-sex cast it into the river"
+     },
+     "note": "The murdered infants Wisdom remembers are the Hebrew boys Pharaoh ordered into the river."
+    }
+   ],
+   "11:16": [
+    {
+     "target": "Exodus 8:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou didst send upon them a multitude of dumb beasts for revenge",
+      "target": "the river shall bubble with frogs, which shall come up"
+     },
+     "note": "The multitude of beasts sent in revenge begins with the frogs out of the river."
+    }
+   ],
+   "12:5": [
+    {
+     "target": "Deuteronomy 12:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the murderers of their own children without mercy",
+      "target": "offering their sons and daughters, and burning them with fire"
+     },
+     "note": "The child-murder Wisdom abhors in the old inhabitants is what Deuteronomy forbids as their gods' abomination."
+    }
+   ],
+   "12:8": [
+    {
+     "target": "Josue 24:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "didst send forerunners of thine host, wasps",
+      "target": "I sent before you hornets: and I cast them forth out of their places"
+     },
+     "note": "Joshua himself recalls the forerunners Wisdom means: the hornets God sent before Israel."
+    }
+   ],
+   "16:2": [
+    {
+     "target": "Exodus 16:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "preparing them the quail for meat",
+      "target": "the quail rose, and covered the camp"
+     },
+     "note": "The quail prepared for God's people is the evening flight that covered the camp."
+    }
+   ],
+   "16:5": [
+    {
+     "target": "Numbers 21:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they were destroyed with the bitings of perverse serpents",
+      "target": "our Lord sent upon the people fiery serpents"
+     },
+     "note": "The perverse serpents whose biting destroyed Israel in the desert are Numbers' fiery serpents."
+    }
+   ],
+   "16:6": [
+    {
+     "target": "Numbers 21:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "having a sign of salvation",
+      "target": "Make a brazen serpent, and set it for a sign"
+     },
+     "note": "The sign of salvation Wisdom names is the brazen serpent Moses set up."
+    },
+    {
+     "target": "John 3:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "having a sign of salvation for the remembrance of the commandment",
+      "target": "as Moyses exalted the serpent in the desert"
+     },
+     "note": "Wisdom reads the lifted serpent as a sign of salvation; Christ takes up the same sign for his own lifting up."
+    }
+   ],
+   "16:9": [
+    {
+     "target": "Exodus 10:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the bitings of locusts and flies killed them",
+      "target": "and sat in all the coasts of the Ægyptians innumerable"
+     },
+     "note": "The locusts Wisdom says no remedy could answer are the innumerable locusts of the eighth plague."
+    }
+   ],
+   "16:12": [
+    {
+     "target": "Psalms 106:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but thy word, o Lord, which healeth all things",
+      "target": "He sent his word, and healed them"
+     },
+     "note": "The psalm and Wisdom say it in one breath: God's word is what heals."
+    }
+   ],
+   "16:13": [
+    {
+     "target": "1 Kings 2:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "bringest down to the gates of death, and fetchest again",
+      "target": "bringeth down to hell and fetcheth back again"
+     },
+     "note": "Wisdom takes up Hannah's sentence almost word for word: God brings down and fetches back."
+    }
+   ],
+   "16:20": [
+    {
+     "target": "Exodus 16:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "bread prepared thou gavest them from heaven without labour",
+      "target": "This is the bread, which our Lord hath given you to eat"
+     },
+     "note": "The bread given from heaven without labour is the manna Moses named to Israel."
+    },
+    {
+     "target": "Psalms 77:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "bread prepared thou gavest them from heaven without labour",
+      "target": "bread of heaven he gave to them"
+     },
+     "note": "The psalm's name for the manna is Wisdom's too: bread of heaven."
+    },
+    {
+     "target": "Psalms 77:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou didst nourish thy people with the meat of Angels",
+      "target": "Bread of Angels did man eat: he sent them victuals in aboundance"
+     },
+     "note": "Wisdom's 'meat of Angels' is the psalm's 'Bread of Angels' that man ate."
+    },
+    {
+     "target": "John 6:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "bread prepared thou gavest them from heaven without labour",
+      "target": "Bread from Heaven he gave them to eat"
+     },
+     "note": "The crowd's citation of the heaven-bread is the gift Wisdom describes: bread from heaven without labour."
+    },
+    {
+     "target": "1 Corinthians 10:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "bread prepared thou gavest them from heaven without labour",
+      "target": "and all did eat the same spiritual food"
+     },
+     "note": "The bread from heaven in Wisdom is the spiritual food all the fathers ate in Paul."
+    }
+   ],
+   "16:22": [
+    {
+     "target": "Exodus 9:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that fire burning in hail, and lightening in rain destroyed the fruits",
+      "target": "every herb of the field did the hail strike"
+     },
+     "note": "Fire burning inside the hail is the storm that struck every herb of Egypt's fields."
+    }
+   ],
+   "16:26": [
+    {
+     "target": "Deuteronomy 8:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "not the fruits of nativity do feed men, but thy word preserveth them",
+      "target": "but in every word that proceedeth from the mouth of God"
+     },
+     "note": "Wisdom ends the manna lesson where Deuteronomy put it: man lives by God's word, not by bread alone."
+    }
+   ],
+   "16:27": [
+    {
+     "target": "Exodus 16:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "being heated with a little beam of the sun did melt",
+      "target": "and after the sun waxed hot, it melted"
+     },
+     "note": "The manna that melted under a little sunbeam is the manna of Exodus that melted when the sun waxed hot."
+    }
+   ],
+   "18:1": [
+    {
+     "target": "Exodus 10:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "But to thy saints there was very great light",
+      "target": "wheresoever the children of Israel dwelt, there was light"
+     },
+     "note": "While darkness lay on Egypt, Wisdom's great light on the saints is the light in Israel's dwellings."
+    }
+   ],
+   "18:5": [
+    {
+     "target": "Exodus 2:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "one child being laid forth, and delivered",
+      "target": "put within it the little infant, and laid him in a sedgy place"
+     },
+     "note": "The one child laid forth and delivered, against Egypt's decree, is Moses in the bulrush basket."
+    }
+   ],
+   "18:9": [
+    {
+     "target": "Exodus 12:42",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the just children of the good sacrificed secretly",
+      "target": "This is the observable night of our Lord, when he brought them forth"
+     },
+     "note": "The secret sacrifice of that night is the pasch of the night Israel was brought forth."
+    },
+    {
+     "target": "Hebrews 11:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the just children of the good sacrificed secretly",
+      "target": "By faith, he celebrated the Pasch, & the shedding of the blood"
+     },
+     "note": "The secret sacrifice of the just in Wisdom is the pasch Hebrews says Moses kept by faith."
+    }
+   ],
+   "18:11": [
+    {
+     "target": "Exodus 12:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the servant with the master was afflicted with like punishment",
+      "target": "our Lord struck every first-begotten in the Land of Ægypt"
+     },
+     "note": "Servant and master struck alike is the midnight stroke on every firstborn of Egypt."
+    }
+   ],
+   "18:12": [
+    {
+     "target": "Exodus 12:30",
+     "kind": "parallel",
+     "evidence": {
+      "source": "All therefore alike by one name of death had dead ones innumerable",
+      "target": "neither was there a house wherein there lay not a dead one"
+     },
+     "note": "The innumerable dead of one night are the dead in every house of Egypt."
+    }
+   ],
+   "18:23": [
+    {
+     "target": "Numbers 16:48",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he stood between, and cut off the violence",
+      "target": "standing between the dead and the living, he prayed for the people"
+     },
+     "note": "Aaron standing between the dead and the living is Wisdom's man who cut off the plague's violence."
+    }
+   ],
+   "18:24": [
+    {
+     "target": "Exodus 28:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the glorious things of the fathers were graven in the four jewels of stones",
+      "target": "shalt grave in them the names of the children of Israel"
+     },
+     "note": "The names graven on the high priest's stones are the fathers' names of Exodus 28."
+    }
+   ],
+   "19:7": [
+    {
+     "target": "Exodus 14:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the red sea a way without impediment",
+      "target": "the children of Israel went through the midst of the dry sea"
+     },
+     "note": "The way without impediment through the sea is Israel's passage through the dry deep."
+    }
+   ],
+   "19:10": [
+    {
+     "target": "Exodus 8:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "for the nation of beasts the earth brought forth flies",
+      "target": "all the dust of the earth was turned into sciniphs"
+     },
+     "note": "The earth bringing forth swarms is Aaron's rod turning Egypt's dust to sciniphs."
+    }
+   ],
+   "19:12": [
+    {
+     "target": "Numbers 11:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "there came up to them the quail from the sea",
+      "target": "taking quails over the sea brought them"
+     },
+     "note": "Wisdom's quail 'from the sea' is Numbers' wind-borne quail brought over the sea."
+    }
+   ],
+   "19:16": [
+    {
+     "target": "Genesis 19:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they were strucken with blindness: as they in the doors of the just",
+      "target": "them that were without they struck with blindness"
+     },
+     "note": "Wisdom itself makes the comparison: Egypt's blindness was like the Sodomites struck blind at Lot's door."
+    }
+   ],
+   "2:20": [
+    {
+     "target": "Mark 15:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To a most shameful death let us condemn him",
+      "target": "come down now from the cross that we may see and believe"
+     },
+     "note": "The plotters' bargain in Wisdom - shameful death, then we shall see - is spoken again at the cross."
+    },
+    {
+     "target": "Isaias 53:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To a most shameful death let us condemn him",
+      "target": "Because he is cut out of the land of the living"
+     },
+     "note": "The shameful death plotted in Wisdom is the servant cut out of the land of the living in Isaiah."
+    }
+   ],
+   "2:24": [
+    {
+     "target": "Romans 5:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "by the envy of the devil, death entered into the world",
+      "target": "by one man sin entered into this world, and by sin death"
+     },
+     "note": "Paul and Wisdom tell one doctrine of death's entry into the world; Wisdom names the devil's envy as its door."
+    }
+   ],
+   "2:25": [
+    {
+     "target": "John 8:44",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they follow him that are of his part",
+      "target": "You are of your father the devil"
+     },
+     "note": "Those Wisdom calls the devil's party are those Christ calls the devil's children."
+    }
+   ],
+   "7:26": [
+    {
+     "target": "Colossians 1:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the unspotted glass of God's majesty, and the image of his goodness",
+      "target": "who is the image of the invisible God"
+     },
+     "note": "Wisdom calls her the image of God's goodness; Paul calls Christ the image of the invisible God."
+    },
+    {
+     "target": "2 Corinthians 4:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "she is the brightness of eternal light",
+      "target": "the glory of Christ, who is the image of God"
+     },
+     "note": "Brightness of eternal light and image of God: Paul's words for Christ are Wisdom's words for her."
+    },
+    {
+     "target": "John 1:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "she is the brightness of eternal light",
+      "target": "It was the true light, which lighteneth every man"
+     },
+     "note": "The brightness of eternal light in Wisdom answers to the true light that enlightens every man in John."
+    }
+   ],
+   "7:30": [
+    {
+     "target": "John 1:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "night succeedeth to it, but malice overcometh not wisdom",
+      "target": "the light shineth in darkness, and the darkness did not comprehend it"
+     },
+     "note": "Night succeeds the light but cannot overcome wisdom; darkness has not overcome John's light either."
+    }
+   ],
+   "13:9": [
+    {
+     "target": "Romans 1:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "how did they not more easily find the Lord thereof?",
+      "target": "saying themselves to be wise, they became fools"
+     },
+     "note": "Men who could estimate the world yet missed its Lord are Paul's wise men become fools."
+    }
+   ],
+   "13:10": [
+    {
+     "target": "Romans 1:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "called the works of men's hands gods, gold & silver",
+      "target": "into a similitude of the image of a corruptible man"
+     },
+     "note": "Gods of gold and silver from men's hands are Paul's exchange of God's glory for corruptible images."
+    }
+   ],
+   "14:12": [
+    {
+     "target": "Romans 1:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the beginning of fornication is the devising of idols",
+      "target": "God hath delivered them up unto the desires of their heart, unto uncleanness"
+     },
+     "note": "Both books run the same sequence: idols devised first, then God delivers men to uncleanness."
+    }
+   ],
+   "14:25": [
+    {
+     "target": "Romans 1:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "blood, manslaughter, theft and fiction, corruption and infidelity, trouble and perjury",
+      "target": "replenished with all iniquity, malice, fornication, avarice, wickedness, full of envy, murder"
+     },
+     "note": "The two vice-catalogues of idolatry's fruit, Wisdom's and Paul's, belong side by side."
+    }
+   ],
+   "15:7": [
+    {
+     "target": "Romans 9:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "of the same clay maketh the vessels that are clean to use",
+      "target": "to make one vessel unto honour, and another unto contumely"
+     },
+     "note": "Wisdom's potter of the same clay, judging each vessel's use, is Paul's potter of the same mass."
+    }
+   ],
+   "12:12": [
+    {
+     "target": "Romans 9:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who shall say to thee: what hast thou done?",
+      "target": "Why hast thou made me thus?"
+     },
+     "note": "Wisdom's unanswerable question to God is the one Paul puts in the clay's mouth."
+    }
+   ],
+   "9:15": [
+    {
+     "target": "2 Corinthians 5:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the body that is corrupted burdeneth the soul",
+      "target": "we also that are in this tabernacle, groan being burdened"
+     },
+     "note": "The corruptible body that burdens the soul in Wisdom is Paul's tabernacle in which we groan, burdened."
+    }
+   ],
+   "5:19": [
+    {
+     "target": "Ephesians 6:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He will put on justice for a breast-plate",
+      "target": "clothed with the breast-plate of justice"
+     },
+     "note": "God's own breast-plate of justice in Wisdom becomes the Christian's breast-plate in Ephesians."
+    },
+    {
+     "target": "Ephesians 6:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "will take sincere judgement for an helmet",
+      "target": "take unto you the helmet of salvation"
+     },
+     "note": "The helmet God takes in Wisdom, sincere judgement, is handed to the soldier in Ephesians as the helmet of salvation."
+    },
+    {
+     "target": "1 Thessalonians 5:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He will put on justice for a breast-plate",
+      "target": "the breast-plate of faith and charity, and a helmet, the hope of salvation"
+     },
+     "note": "Breast-plate and helmet together: Paul arms the watchful with the very pieces God wears in Wisdom."
+    },
+    {
+     "target": "Isaias 59:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He will put on justice for a breast-plate",
+      "target": "He is clothed with justice as with a breastplate"
+     },
+     "note": "Before Wisdom arms God, Isaiah has already clothed him with justice as a breastplate."
+    }
+   ],
+   "5:20": [
+    {
+     "target": "Ephesians 6:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he will take equity for an invincible shield",
+      "target": "taking the shield of faith, wherewith you may extinguish all the fiery darts"
+     },
+     "note": "God's invincible shield of equity in Wisdom is the pattern of the shield of faith."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "1 Peter 1:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As gold in the furnace he hath proved them",
+      "target": "much more precious than gold (which is proved by the fire)"
+     },
+     "note": "The just proved as gold in God's furnace are the faith Peter says is proved by fire."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "Apocalypse 6:9",
+     "kind": "theme",
+     "evidence": {
+      "source": "the souls of the just are in the hand of God",
+      "target": "I saw under the altar the souls of them that were slain"
+     },
+     "note": "Souls of the just kept in God's hand; souls of the slain seen under heaven's altar - one keeping."
+    }
+   ],
+   "3:9": [
+    {
+     "target": "Apocalypse 14:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the faithful in love shall rest in him",
+      "target": "saith the Spirit, that they rest from their labours"
+     },
+     "note": "The faithful in love resting in him is the Spirit's blessing on the dead who die in the Lord."
+    }
+   ],
+   "3:4": [
+    {
+     "target": "Romans 8:18",
+     "kind": "theme",
+     "evidence": {
+      "source": "though before men they suffered torments, their hope is full of immortality",
+      "target": "the passions of this time are not condign to the glory to come"
+     },
+     "note": "Torments before men weighed against a hope full of immortality is Paul's arithmetic of suffering and glory."
+    }
+   ],
+   "3:8": [
+    {
+     "target": "1 Corinthians 6:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "They shall judge nations, & have dominion over peoples",
+      "target": "know you not that the saints shall judge of the world?"
+     },
+     "note": "The just judging nations in Wisdom is Paul's saints judging the world."
+    }
+   ],
+   "11:24": [
+    {
+     "target": "Romans 2:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "dissemblest the sins of men for repentance",
+      "target": "the benignity of God bringeth thee to penance"
+     },
+     "note": "God dissembling men's sins for repentance in Wisdom is the benignity that leads to penance in Paul."
+    }
+   ],
+   "12:10": [
+    {
+     "target": "2 Peter 3:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "judging by parts thou gavest place of repentance",
+      "target": "not willing that any perish, but that all return to penance"
+     },
+     "note": "Judgement given by parts, giving place for repentance, is Peter's God unwilling that any perish."
+    }
+   ],
+   "10:8": [
+    {
+     "target": "Jude 1:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they left also unto men a memory of their foolishness",
+      "target": "were made an example, sustaining the pain of eternal fire"
+     },
+     "note": "Sodom left as a memory to men in Wisdom is Sodom made an example in Jude."
+    }
+   ],
+   "6:7": [
+    {
+     "target": "Luke 12:48",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the mighty shall mightily suffer torments",
+      "target": "every one to whom much was given, much shall be required of him"
+     },
+     "note": "The mighty mightily tormented in Wisdom is the steward of Luke from whom much is required."
+    }
+   ],
+   "7:7": [
+    {
+     "target": "James 1:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I invocated, and the spirit of wisdom came upon me",
+      "target": "if any of you lack wisdom, let him ask of God"
+     },
+     "note": "Solomon asked and wisdom came; James promises the same asking the same gift."
+    },
+    {
+     "target": "3 Kings 3:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I wished, and understanding was given me",
+      "target": "have given thee a wise heart and intelligent"
+     },
+     "note": "Solomon's wishing in Wisdom is answered in Kings with the wise and intelligent heart."
+    }
+   ],
+   "7:23": [
+    {
+     "target": "James 3:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "gentle, benign, stable, certain, secure, having all power",
+      "target": "the wisdom that is from above, first certes is chaste; then peaceable"
+     },
+     "note": "The character of wisdom's spirit in Wisdom 7 is the character James gives the wisdom from above."
+    }
+   ],
+   "9:4": [
+    {
+     "target": "2 Paralipomenon 1:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "give me wisdom the assistant of thy seats",
+      "target": "Give me wisdom and intelligence, that I may come in and go out"
+     },
+     "note": "Wisdom 9 is Solomon's prayer; Chronicles records the petition it expands: give me wisdom."
+    }
+   ],
+   "7:9": [
+    {
+     "target": "Proverbs 3:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all gold in comparison of her, is a little sand",
+      "target": "she is more precious than all riches"
+     },
+     "note": "Gold counted as sand beside wisdom is Proverbs' wisdom more precious than all riches."
+    }
+   ],
+   "6:2": [
+    {
+     "target": "Psalms 2:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "learn ye judges of the ends of the earth",
+      "target": "now ye kings understand: take instruction you that judge the earth"
+     },
+     "note": "Wisdom opens its address to rulers where the psalm ends: kings and judges of the earth, take instruction."
+    }
+   ],
+   "6:5": [
+    {
+     "target": "Psalms 81:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you judged not rightly, nor kept the law of justice",
+      "target": "How long judge ye iniquity: and accept ye the persons of sinners"
+     },
+     "note": "The charge against unjust rulers is the same in the psalm of the gods and in Wisdom's warning."
+    }
+   ],
+   "2:18": [
+    {
+     "target": "Psalms 21:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "will deliver him from the hands of the adversaries",
+      "target": "He hoped in the Lord, let him deliver him: let him save him"
+     },
+     "note": "The taunt Wisdom puts in the plotters' mouths is the taunt of the passion psalm."
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Isaias 53:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "his life is unlike to others, & his ways are changed",
+      "target": "Despised, and most abject of men, a man of sorrows"
+     },
+     "note": "The just man grievous even to behold, his life unlike others, is Isaiah's despised man of sorrows."
+    }
+   ],
+   "4:11": [
+    {
+     "target": "Isaias 57:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He was taken away lest malice should change his understanding",
+      "target": "at the face of malice, is the just gathered away"
+     },
+     "note": "Isaiah says the just is gathered away at the face of malice; Wisdom says why: lest malice change him."
+    }
+   ],
+   "4:7": [
+    {
+     "target": "Isaias 57:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the just if he be prevented with death",
+      "target": "let him rest in his bed that hath walked in his direction"
+     },
+     "note": "The just man overtaken early by death in Wisdom is Isaiah's just man resting in peace."
+    }
+   ],
+   "3:14": [
+    {
+     "target": "Isaias 56:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a most acceptable lot in the temple of God",
+      "target": "in my house, and within my walls a place, and a name"
+     },
+     "note": "The eunuch's acceptable lot in God's temple is the place and name Isaiah promises in God's house."
+    }
+   ],
+   "1:13": [
+    {
+     "target": "Ezechiel 33:11",
+     "kind": "theme",
+     "evidence": {
+      "source": "neither doth he rejoice in the perdition of the living",
+      "target": "I will not the death of the impious, but that the impious convert"
+     },
+     "note": "God made not death and does not rejoice in perdition: Ezechiel swears it by God's own life."
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Genesis 5:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "living among sinners he was translated",
+      "target": "he walked with God, and was seen no more: because God took him"
+     },
+     "note": "The beloved man translated from among sinners is Enoch, who walked with God and was seen no more."
+    }
+   ],
+   "2:23": [
+    {
+     "target": "Genesis 1:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to the image of his own likeness he made him",
+      "target": "God created man to his own image"
+     },
+     "note": "Man made incorruptible in Wisdom rests on Genesis: God created man to his own image."
+    }
+   ],
+   "7:25": [
+    {
+     "target": "Ecclesiasticus 24:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a certain sincere emanation of the glory of God omnipotent",
+      "target": "I came forth from the mouth of the Highest"
+     },
+     "note": "Sirach's wisdom comes forth from the mouth of the Highest; Solomon's is the pure emanation of his glory."
+    }
+   ],
+   "15:15": [
+    {
+     "target": "Psalms 134:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "nor ears to hear, nor fingers of the hands to handle",
+      "target": "they have eyes, and shall not see"
+     },
+     "note": "The senseless idols of Wisdom 15 are the psalm's idols with eyes that shall not see."
+    }
+   ]
+  },
+  "Hebrews": {
+   "1:3": [
+    {
+     "target": "Wisdom 7:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who being the brightness of his glory, and the figure of his substance",
+      "target": "a certain sincere emanation of the glory of God omnipotent"
+     },
+     "note": "Before the brightness of glory in Hebrews stands Wisdom's sincere emanation of the glory of God."
+    }
+   ]
+  },
+  "Romans": {
+   "1:20": [
+    {
+     "target": "Wisdom 13:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "are seen, being understood by those things that are made",
+      "target": "the Creator of them may be seen, to be known thereby"
+     },
+     "note": "Paul's invisible things seen through the things made is Wisdom's Creator seen through the creature's greatness."
+    }
+   ]
+  }
+ }
+}
