@@ -1,0 +1,858 @@
+{
+ "name": "Dropped margin entries — Catholic Cross References seed",
+ "generated": "2026-10-31",
+ "about": "Every part of the original Douay-Rheims marginal apparatus that the seed parse did NOT carry into cross-references.json, each with the printed text and the reason, in plain words. Kept so the work can be checked: a reference that could not be read with certainty was dropped, never guessed.",
+ "count": 85,
+ "dropped": [
+  {
+   "source": {
+    "book": "1 Corinthians",
+    "chapter": 15,
+    "verse": 52
+   },
+   "raw_entry": "11, 15.",
+   "dropped_part": "11, 15.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "1 Corinthians",
+    "chapter": 16,
+    "verse": 20
+   },
+   "raw_entry": "c See Ro. 16, 16.",
+   "dropped_part": "See",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "1 Kings",
+    "chapter": 17,
+    "verse": 34
+   },
+   "raw_entry": "* or, for and. v. 36. 37.",
+   "dropped_part": "* or, for and. v. 36. 37.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "1 Thessalonians",
+    "chapter": 4,
+    "verse": 16
+   },
+   "raw_entry": "Mt. 24, 31. 1. Cor. 13, 52.",
+   "dropped_part": "1 Corinthians 13:52",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "2 Corinthians",
+    "chapter": 11,
+    "verse": 25
+   },
+   "raw_entry": "14, 18.",
+   "dropped_part": "14, 18.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "2 Corinthians",
+    "chapter": 11,
+    "verse": 25
+   },
+   "raw_entry": "27, 15.",
+   "dropped_part": "27, 15.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "2 Corinthians",
+    "chapter": 13,
+    "verse": 11
+   },
+   "raw_entry": "c παρακαλεῖσθε, Ro. 16, 16. 1. Cor. 16, 20.",
+   "dropped_part": "παρακαλεῖσθε,",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Acts of the Apostles",
+    "chapter": 13,
+    "verse": 21
+   },
+   "raw_entry": "Iud. 1. Reg. 8.",
+   "dropped_part": "Reg.",
+   "reason": "a book that needs its number (as in 1.–4. Reg.) cited without one — ambiguous, dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Acts of the Apostles",
+    "chapter": 15,
+    "verse": 16
+   },
+   "raw_entry": "Tim. 3, 5.",
+   "dropped_part": "Tim.",
+   "reason": "a book that needs its number (as in 1.–4. Reg.) cited without one — ambiguous, dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Apocalypse",
+    "chapter": 1,
+    "verse": 13
+   },
+   "raw_entry": "c podere Sap. 18. 24.",
+   "dropped_part": "podere",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Baruch",
+    "chapter": 2,
+    "verse": 35
+   },
+   "raw_entry": "Ier. 31. v. 31. &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Baruch",
+    "chapter": 6,
+    "verse": 1
+   },
+   "raw_entry": "Iere. 25. v. 8. 9. &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Ecclesiasticus",
+    "chapter": 7,
+    "verse": 4
+   },
+   "raw_entry": "Eccl. 7.",
+   "dropped_part": "Eccl. 7.",
+   "reason": "ambiguous abbreviation 'Eccl.' with chapter 12 or under — could be Ecclesiastes or Ecclesiasticus; dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Ecclesiasticus",
+    "chapter": 27,
+    "verse": 29
+   },
+   "raw_entry": "Pro. 26. Eccl. 10.",
+   "dropped_part": "Eccl. 10.",
+   "reason": "ambiguous abbreviation 'Eccl.' with chapter 12 or under — could be Ecclesiastes or Ecclesiasticus; dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Ecclesiasticus",
+    "chapter": 49,
+    "verse": 17
+   },
+   "raw_entry": "Gen. 39. 40 &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Ephesians",
+    "chapter": 5,
+    "verse": 14
+   },
+   "raw_entry": "Esa. 9, 60.",
+   "dropped_part": "Isaias 9:60",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Esther",
+    "chapter": 13,
+    "verse": 7
+   },
+   "raw_entry": "Fch. 3. v. 14. Hitherto the copy of the letter. That which followeth I found written after that place, where it is read,",
+   "dropped_part": "Hitherto the copy of the letter. That which followeth I found written after that place, where it is read,",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Genesis",
+    "chapter": 1,
+    "verse": 2
+   },
+   "raw_entry": "Psal. 32, 6. 135, 5. Eccl. 10, 1.",
+   "dropped_part": "Eccl. 10, 1.",
+   "reason": "ambiguous abbreviation 'Eccl.' with chapter 12 or under — could be Ecclesiastes or Ecclesiasticus; dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Hebrews",
+    "chapter": 9,
+    "verse": 1
+   },
+   "raw_entry": "Exo. 25, 26. 1, 36.",
+   "dropped_part": "Exodus 1:36",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Isaias",
+    "chapter": 13,
+    "verse": 10
+   },
+   "raw_entry": "Eze. 32. Ioel. 3. Mat. 24. Mar. 23. Luc. 21.",
+   "dropped_part": "Mark 23",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Isaias",
+    "chapter": 17,
+    "verse": 9
+   },
+   "raw_entry": "Iosue 10. 11. &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Isaias",
+    "chapter": 47,
+    "verse": 9
+   },
+   "raw_entry": "Infra. 5.",
+   "dropped_part": "Infra. 5.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Isaias",
+    "chapter": 60,
+    "verse": 18
+   },
+   "raw_entry": "Apoc. 22. v. 23.",
+   "dropped_part": "Apocalypse 22:23",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 7,
+    "verse": 39
+   },
+   "raw_entry": "* Act. 2, 1.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 12,
+    "verse": 13
+   },
+   "raw_entry": "* Mt. 21, 7. Mr. 11, 7. Lu. 19, 35.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 19,
+    "verse": 23
+   },
+   "raw_entry": "* Mt. 27, 35. Mr. 15, 24. Luc. 23, 34.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 19,
+    "verse": 38
+   },
+   "raw_entry": "* Mt. 27, 57. Mr. 15, 42. Lu. 23, 50.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 20,
+    "verse": 1
+   },
+   "raw_entry": "EASTER DAY. Mt. 28, 1. Mr. 16, 1. Lu. 24, 1.",
+   "dropped_part": "EASTER DAY.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "John",
+    "chapter": 21,
+    "verse": 25
+   },
+   "raw_entry": "* See li. 1. ep. 72. 75. li. 2. ep. 37. 45. li. 4. ep. 95. li. 7. ep. 63.",
+   "dropped_part": "* See li. 1. ep. 72. 75. li. 2. ep. 37. 45. li. 4. ep. 95. li. 7. ep. 63.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Judith",
+    "chapter": 5,
+    "verse": 10
+   },
+   "raw_entry": "Exod. 7. &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Judith",
+    "chapter": 5,
+    "verse": 17
+   },
+   "raw_entry": "Iudic. 2. 3. 4. &c.",
+   "dropped_part": "&c.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Leviticus",
+    "chapter": 23,
+    "verse": 3
+   },
+   "raw_entry": "1.",
+   "dropped_part": "1.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 2,
+    "verse": 26
+   },
+   "raw_entry": "See John 1, 20. and 41.",
+   "dropped_part": "See",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 5,
+    "verse": 14
+   },
+   "raw_entry": "See S. Mat. Annot. c. 8, 4.",
+   "dropped_part": "See S.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 5,
+    "verse": 14
+   },
+   "raw_entry": "See S. Mat. Annot. c. 8, 4.",
+   "dropped_part": "Mat. Annot. c. 8, 4.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 5,
+    "verse": 33
+   },
+   "raw_entry": "See S. Mat. Annot. c. 9, 14.",
+   "dropped_part": "See S.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 5,
+    "verse": 33
+   },
+   "raw_entry": "See S. Mat. Annot. c. 9, 14.",
+   "dropped_part": "Mat. Annot. c. 9, 14.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 6,
+    "verse": 19
+   },
+   "raw_entry": "See S. Mar. Annot. c. 5, 28.",
+   "dropped_part": "See S.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 6,
+    "verse": 19
+   },
+   "raw_entry": "See S. Mar. Annot. c. 5, 28.",
+   "dropped_part": "Mar. Annot. c. 5, 28.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 11,
+    "verse": 34
+   },
+   "raw_entry": "d Mt. 6, 22.",
+   "dropped_part": "d",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 12,
+    "verse": 10
+   },
+   "raw_entry": "See Annot. Mt. 12, 32.",
+   "dropped_part": "See Annot. Mt. 12, 32.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 12,
+    "verse": 58
+   },
+   "raw_entry": "See Annot. Mt. 5, 25.",
+   "dropped_part": "See Annot. Mt. 5, 25.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 14,
+    "verse": 34
+   },
+   "raw_entry": "Mt. 5, 13. Mar. 9, 50.",
+   "dropped_part": "Mark 9:50",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 19,
+    "verse": 45
+   },
+   "raw_entry": "* Mt. 21, 12. Mr. 11, 15.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Luke",
+    "chapter": 20,
+    "verse": 2
+   },
+   "raw_entry": "See Annot. Mat. c. 21, 23.",
+   "dropped_part": "See Annot. Mat. c. 21, 23.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Malachias",
+    "chapter": 4,
+    "verse": 2
+   },
+   "raw_entry": "Zach. 3. v. 8. & 6. v. 11. Luc. 1. v. 78.",
+   "dropped_part": "v. 11.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Mark",
+    "chapter": 12,
+    "verse": 13
+   },
+   "raw_entry": "Mt. 22, 15. Lu. 26, 20.",
+   "dropped_part": "Luke 26:20",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Mark",
+    "chapter": 14,
+    "verse": 25
+   },
+   "raw_entry": "See Annot. in Mat. c. 26, 29.",
+   "dropped_part": "See Annot. in Mat. c. 26, 29.",
+   "reason": "points to an annotation ('Annot.'), not a Scripture reference"
+  },
+  {
+   "source": {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 13
+   },
+   "raw_entry": "Mr. 9, 50. Luc. 14, 34.",
+   "dropped_part": "Mark 9:50",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Matthew",
+    "chapter": 19,
+    "verse": 19
+   },
+   "raw_entry": "* Lev. 19, 18.",
+   "dropped_part": "*",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Numbers",
+    "chapter": 29,
+    "verse": 1
+   },
+   "raw_entry": "6.",
+   "dropped_part": "6.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Proverbs",
+    "chapter": 2,
+    "verse": 10
+   },
+   "raw_entry": "Sap. 3. v. 32. 10. v. 9.",
+   "dropped_part": "Wisdom 3:32",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 1,
+    "verse": 2
+   },
+   "raw_entry": "Ios. 1. 1. Hath not gone, not stood, not sit.]",
+   "dropped_part": "Hath not gone, not stood, not sit.]",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 40,
+    "verse": 1
+   },
+   "raw_entry": "Io. 13. v. 18. This Psalm is also applied by the Church in the office of the sick, whom whosoever assisteth in that case, may hope to have assistance in their own like necessity.",
+   "dropped_part": "This",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 40,
+    "verse": 1
+   },
+   "raw_entry": "Io. 13. v. 18. This Psalm is also applied by the Church in the office of the sick, whom whosoever assisteth in that case, may hope to have assistance in their own like necessity.",
+   "dropped_part": "Psalm",
+   "reason": "book cited with no chapter"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 40,
+    "verse": 1
+   },
+   "raw_entry": "Io. 13. v. 18. This Psalm is also applied by the Church in the office of the sick, whom whosoever assisteth in that case, may hope to have assistance in their own like necessity.",
+   "dropped_part": "is also applied by the Church in the office of the sick, whom whosoever assisteth in that case, may hope to have assistance in their own like necessity.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 62,
+    "verse": 1
+   },
+   "raw_entry": "Reg. 22.",
+   "dropped_part": "Reg.",
+   "reason": "a book that needs its number (as in 1.–4. Reg.) cited without one — ambiguous, dropped rather than guessed"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 67,
+    "verse": 19
+   },
+   "raw_entry": "Ephe. 4.",
+   "dropped_part": "Ephe. 4.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 104,
+    "verse": 18
+   },
+   "raw_entry": "Gen. 37. v. 28. Gen. 39. & seq.",
+   "dropped_part": "seq.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 104,
+    "verse": 44
+   },
+   "raw_entry": "Iosue 6. & seq.",
+   "dropped_part": "seq.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 105,
+    "verse": 35
+   },
+   "raw_entry": "Deut. 2. v. 2. & 12. v. 2. & 3. Iudic. 2. v. 11. 12. Iudic. 3. v. 5. 6. &c. Iere. 19. v. 5.",
+   "dropped_part": "v. 2. & 3.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Psalms",
+    "chapter": 105,
+    "verse": 35
+   },
+   "raw_entry": "Deut. 2. v. 2. & 12. v. 2. & 3. Iudic. 2. v. 11. 12. Iudic. 3. v. 5. 6. &c. Iere. 19. v. 5.",
+   "dropped_part": "&c. Iere. 19. v. 5.",
+   "reason": "'&c.' (et cetera) tail — the margin points onward without naming verses"
+  },
+  {
+   "source": {
+    "book": "Romans",
+    "chapter": 1,
+    "verse": 24
+   },
+   "raw_entry": "Eph. 4, 19. he saith, They have delivered or given up themselves to all uncleanness. By which conference of scriptures we learn that themselves are the cause of their own sin and damnation, God of his justice permitting & leaving them to their own will, and so giving them up into passions &c.",
+   "dropped_part": "he saith, They have delivered or given up themselves to all uncleanness. By which conference of scriptures we learn that themselves are the cause of their own sin and damnation, God of his justice permitting & leaving them to their own will, and so giving them up into passions &c.",
+   "reason": "commentary prose or annotation text, not a reference"
+  },
+  {
+   "source": {
+    "book": "Romans",
+    "chapter": 3,
+    "verse": 4
+   },
+   "raw_entry": "Ps. 115, 11.",
+   "dropped_part": "Psalms 115:11",
+   "reason": "target does not exist in the original Douay-Rheims text (book, chapter, or verse beyond its count)"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 3
+   },
+   "raw_entry": "1.",
+   "dropped_part": "1.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 3
+   },
+   "raw_entry": "2.",
+   "dropped_part": "2.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 6
+   },
+   "raw_entry": "3.",
+   "dropped_part": "3.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 7
+   },
+   "raw_entry": "4.",
+   "dropped_part": "4.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 13
+   },
+   "raw_entry": "5.",
+   "dropped_part": "5.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 14
+   },
+   "raw_entry": "6.",
+   "dropped_part": "6.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 15
+   },
+   "raw_entry": "7.",
+   "dropped_part": "7.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 16
+   },
+   "raw_entry": "8.",
+   "dropped_part": "8.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 18
+   },
+   "raw_entry": "9.",
+   "dropped_part": "9.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 18
+   },
+   "raw_entry": "10.",
+   "dropped_part": "10.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 19
+   },
+   "raw_entry": "11.",
+   "dropped_part": "11.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 20
+   },
+   "raw_entry": "12.",
+   "dropped_part": "12.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 21
+   },
+   "raw_entry": "13.",
+   "dropped_part": "13.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 4,
+    "verse": 23
+   },
+   "raw_entry": "14.",
+   "dropped_part": "14.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "1.",
+   "dropped_part": "1.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "2.",
+   "dropped_part": "2.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "3.",
+   "dropped_part": "3.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "4.",
+   "dropped_part": "4.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "5.",
+   "dropped_part": "5.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "6.",
+   "dropped_part": "6.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  },
+  {
+   "source": {
+    "book": "Tobias",
+    "chapter": 12,
+    "verse": 3
+   },
+   "raw_entry": "7.",
+   "dropped_part": "7.",
+   "reason": "bare numbers with no book named — annotation markers in the text, not references"
+  }
+ ]
+}
