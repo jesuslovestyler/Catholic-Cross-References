@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.4.0",
- "stage": "Stage 2, Books 1–4: Wisdom, Ecclesiasticus, Tobias, Judith",
+ "version": "0.5.0",
+ "stage": "Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel",
  "generated": "2026-10-31",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
- "about": "References built by this project on top of the seed (cross-references.json), book by book — so far Wisdom, Ecclesiasticus, Tobias, and Judith — in both directions: each book pointing to the rest of Scripture, and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
+ "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 252,
+  "references": 380,
   "by_kind": {
-   "parallel": 105,
-   "allusion": 128,
-   "quotation": 6,
-   "theme": 13
+   "parallel": 137,
+   "allusion": 207,
+   "quotation": 11,
+   "theme": 25
   },
-  "source_books": 6,
-  "source_verses": 209
+  "source_books": 11,
+  "source_verses": 320
  },
  "references": {
   "Wisdom": {
@@ -2712,6 +2712,1390 @@
       "target": "their worm shall not die, and their fire shall not be quenched"
      },
      "note": "Fire and worms given into the flesh, to burn and to be felt for ever, is Isaiah's sentence on the men that transgressed: their worm shall not die, and their fire shall not be quenched."
+    }
+   ]
+  },
+  "Baruch": {
+   "1:15": [
+    {
+     "target": "Daniel 9:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "To the Lord our God justice: but to us confusion of our face",
+      "target": "To thee o Lord, justice: but to us confusion of face"
+     },
+     "note": "The confession opens with Daniel's own sentence: to the Lord justice, but to us confusion of face."
+    },
+    {
+     "target": "1 Esdras 9:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but to us confusion of our face: as is this day",
+      "target": "into confusion of countenance, as also at this day"
+     },
+     "note": "Esdras's confession ends where Baruch's begins: delivered into captivity, and into confusion of countenance, as also at this day."
+    }
+   ],
+   "1:20": [
+    {
+     "target": "Daniel 9:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "many evils and maledictions have cloven to us",
+      "target": "the malediction hath distilled upon us, & the detestation"
+     },
+     "note": "Both prayers say the malediction written in the law of Moses the servant has come upon Israel and clings to them."
+    }
+   ],
+   "2:2": [
+    {
+     "target": "Daniel 9:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "were not done under the heaven, as have been done in Jerusalem",
+      "target": "a great evil, such as never was under all the heaven"
+     },
+     "note": "Baruch measures Jerusalem's calamity with Daniel's measure: a great evil such as was never done under all the heaven."
+    }
+   ],
+   "2:3": [
+    {
+     "target": "Deuteronomy 28:53",
+     "kind": "allusion",
+     "evidence": {
+      "source": "eat the flesh of his son, and the flesh of his daughter",
+      "target": "the flesh of thy sons & of thy daughters"
+     },
+     "note": "The siege-curse of Deuteronomy, that a man should eat the flesh of his son and daughter, is the very evil Baruch sees come upon Jerusalem."
+    }
+   ],
+   "2:8": [
+    {
+     "target": "Daniel 9:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we have not besought the face of the Lord our God",
+      "target": "we besought not thy face o Lord our God"
+     },
+     "note": "Both confessions admit the same omission in the same words: we besought not the face of the Lord our God."
+    }
+   ],
+   "2:9": [
+    {
+     "target": "Daniel 9:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord is just in all his works",
+      "target": "just is the Lord our God in all his works"
+     },
+     "note": "Both confessions acquit God in one breath: the Lord is just in all his works, and we have not heard his voice."
+    }
+   ],
+   "2:11": [
+    {
+     "target": "Daniel 9:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and madest thee a name as is this day",
+      "target": "madest thee a name according to this day"
+     },
+     "note": "Both prayers name God by the exodus: he brought his people out of Egypt in a strong hand, and made himself a name as it is this day."
+    }
+   ],
+   "2:12": [
+    {
+     "target": "Psalms 105:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we have sinned, we have done impiously, we have dealt unjustly",
+      "target": "We have sinned with our fathers: we have dealt unjustly"
+     },
+     "note": "Baruch's triple confession, we have sinned and dealt unjustly, is the psalm's own confession for Israel and her fathers."
+    }
+   ],
+   "2:13": [
+    {
+     "target": "Daniel 9:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Let thy wrath be turned away from us",
+      "target": "but let thy wrath be turned away I beseech thee"
+     },
+     "note": "The plea is Daniel's plea in Daniel's words: let thy wrath be turned away from us."
+    }
+   ],
+   "2:16": [
+    {
+     "target": "Daniel 9:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "incline thine ear, and hear us",
+      "target": "Incline my God thine ear, & hear"
+     },
+     "note": "Baruch prays Daniel's prayer for the desolate sanctuary: incline thine ear, and hear."
+    }
+   ],
+   "2:17": [
+    {
+     "target": "Isaias 38:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "shall not give honour and justification to our Lord",
+      "target": "Because hell shall not confess to thee, neither shall death praise thee"
+     },
+     "note": "Baruch argues as Ezechias argued: the dead in hell shall not confess thee, so hear the living soul that sorrows."
+    }
+   ],
+   "2:21": [
+    {
+     "target": "Jeremias 27:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "do works for the king of Babylon",
+      "target": "submit their neck under the yoke of the king of Babylon"
+     },
+     "note": "The word Baruch quotes over the exiles is Jeremias's yoke-oracle: submit the neck and serve the king of Babylon, and remain in the land."
+    }
+   ],
+   "2:23": [
+    {
+     "target": "Jeremias 25:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the voice of the bridegroom, and the voice of the bride",
+      "target": "the voice of the bridegroom, and the voice of the bride"
+     },
+     "note": "Baruch takes up Jeremias's sentence whole: God takes away the voice of joy, of the bridegroom, and of the bride."
+    }
+   ],
+   "1:11": [
+    {
+     "target": "Jeremias 29:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and pray ye for the life of Nabuchodonosor the king of Babylon",
+      "target": "seek the peace of the city, to which I have transported you"
+     },
+     "note": "Baruch's letter enacts Jeremias's own command to the captives: seek the peace of Babylon, and pray for the king under whose shadow they live."
+    }
+   ],
+   "2:31": [
+    {
+     "target": "Jeremias 24:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and I will give them a heart, and they shall understand",
+      "target": "I will give them an heart to know me"
+     },
+     "note": "The heart God promises the returning exiles in Jeremias, a heart to know him, is the heart Baruch says he will give, with ears that hear."
+    }
+   ],
+   "2:34": [
+    {
+     "target": "Deuteronomy 30:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will recall them back into the land",
+      "target": "will bring thee again from thy captivity, and have mercy upon thee"
+     },
+     "note": "Moses promised that God would bring Israel back from captivity and gather them again; Baruch hears that promise spoken over his own dispersion."
+    }
+   ],
+   "2:35": [
+    {
+     "target": "Jeremias 32:40",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And I will establish unto them another testament everlasting",
+      "target": "And I will make an everlasting covenant with them"
+     },
+     "note": "Baruch's 'another testament everlasting' restates the everlasting covenant of Jeremias 32, that God be their God and they his people."
+    }
+   ],
+   "3:12": [
+    {
+     "target": "Jeremias 2:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou hast forsaken the fountain of wisdom",
+      "target": "Me they have forsaken the fountain of living water"
+     },
+     "note": "Jeremias's forsaken fountain of living water becomes in Baruch the forsaken fountain of wisdom: the leaving is the same leaving."
+    }
+   ],
+   "3:15": [
+    {
+     "target": "Job 28:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who hath found the place thereof? and who hath entered into the treasures thereof?",
+      "target": "But where is wisdom to be found, and what is the place of understanding?"
+     },
+     "note": "Baruch's hymn opens with Job's unanswered question: where is wisdom to be found, and who has found her place?"
+    }
+   ],
+   "3:29": [
+    {
+     "target": "Deuteronomy 30:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who hath ascended into heaven, and taken her",
+      "target": "that thou mayest say: Which of us is able to ascend unto heaven"
+     },
+     "note": "Baruch asks of wisdom herself the question Moses asked of the commandment: who shall ascend into heaven to bring her to us?"
+    }
+   ],
+   "3:30": [
+    {
+     "target": "Deuteronomy 30:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who hath passed over the sea, and found her",
+      "target": "that thou mayest pretend, and say: Which of us can pass over the sea"
+     },
+     "note": "And Moses' second question follows: who can pass over the sea to bring her to us?"
+    }
+   ],
+   "3:32": [
+    {
+     "target": "Job 28:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he that knoweth all things, knoweth her",
+      "target": "God understandeth the way of it, & he knoweth the place thereof"
+     },
+     "note": "Job's answer stands in Baruch too: no man knows wisdom's way, but he that knoweth all things knoweth her."
+    }
+   ],
+   "3:38": [
+    {
+     "target": "John 1:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "After these things he was seen upon the earth, and was conversant with men",
+      "target": "And The Word Was Made Flesh, and dwelt in us"
+     },
+     "note": "Baruch's word that God was seen upon the earth and conversed with men is the sentence the Church has always heard again in John's prologue."
+    }
+   ],
+   "4:1": [
+    {
+     "target": "Deuteronomy 4:6",
+     "kind": "theme",
+     "evidence": {
+      "source": "This is the book of the commandments of God, and the law",
+      "target": "For this is your wisdom, and understanding before peoples"
+     },
+     "note": "Deuteronomy said the commandments kept would be Israel's wisdom and understanding before the peoples; Baruch names that wisdom: the book of the commandments itself."
+    }
+   ],
+   "3:3": [
+    {
+     "target": "Lamentations 5:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Because thou sittest for ever, and shall we perish everlastingly?",
+      "target": "But thou o Lord shalt remain for ever"
+     },
+     "note": "The prayer of chapter 3 opens where Lamentations ends: thou, Lord, remainest for ever — shall we perish everlastingly?"
+    }
+   ],
+   "4:12": [
+    {
+     "target": "Lamentations 1:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "rejoice over me a widow, and desolate: I am forsaken of many",
+      "target": "how is the lady of the Gentiles become as a widow"
+     },
+     "note": "Jerusalem speaks in Baruch with Lamentations' own figure: the lady of the Gentiles become as a widow, and forsaken."
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Lamentations 1:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have seen the captivity of my people, and of my sons, and daughters",
+      "target": "my children are become desolate because the enemy hath prevailed"
+     },
+     "note": "The mother of Lamentations weeps because her children are become desolate; Baruch's Jerusalem has seen the captivity of her sons and daughters."
+    }
+   ],
+   "4:30": [
+    {
+     "target": "Isaias 40:1",
+     "kind": "theme",
+     "evidence": {
+      "source": "Be of good comfort Jerusalem: for he exhorteth thee, that named thee",
+      "target": "Be comforted, be comforted my people, saith your God"
+     },
+     "note": "The whole consolation of Baruch 4 and 5 takes up the word that opens Isaias's book of comfort: be comforted, my people."
+    }
+   ],
+   "4:37": [
+    {
+     "target": "Psalms 146:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whom thou hast let go dispersed, they come gathered together",
+      "target": "Our Lord building up Jerusalem: will gather together the dispersions of Israel"
+     },
+     "note": "The psalm's promise that the Lord building Jerusalem will gather together the dispersions of Israel is Baruch's closing sight: the dispersed come gathered together."
+    }
+   ],
+   "5:1": [
+    {
+     "target": "Isaias 52:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and put on the beauty, and honor of that everlasting glory",
+      "target": "put on the garments of thy glory o Jerusalem"
+     },
+     "note": "Isaias bade Jerusalem put on the garments of her glory; Baruch tells her to put off the robe of mourning and put that everlasting glory on."
+    }
+   ],
+   "5:2": [
+    {
+     "target": "Isaias 61:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God will clothe thee with the doublet of justice",
+      "target": "and with the garment of justice he hath compassed me"
+     },
+     "note": "The doublet of justice God clothes Jerusalem with in Baruch is Isaias's garment of justice, worn with the garments of salvation."
+    }
+   ],
+   "5:5": [
+    {
+     "target": "Isaias 60:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Arise Jerusalem, and stand on high: and look about toward the East",
+      "target": "Arise, be illuminated Jerusalem: because thy light is come"
+     },
+     "note": "Baruch's 'Arise, Jerusalem' takes up Isaias's call to the city whose light is come."
+    },
+    {
+     "target": "Isaias 60:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "see thy children gathered together from the rising of the sun",
+      "target": "all these are gathered together, they are come to thee"
+     },
+     "note": "What Jerusalem is told to look and see is Isaias's sight: her children gathered together, come to her from afar."
+    }
+   ],
+   "5:7": [
+    {
+     "target": "Isaias 40:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to humble every high mountain, and everlasting rocks, and to fill up valleys",
+      "target": "Every valley shall be exalted, and every mountain and little hill shall be humbled"
+     },
+     "note": "God's road home for Israel in Baruch is Isaias's road: every valley filled up, and every high mountain humbled."
+    }
+   ],
+   "4:33": [
+    {
+     "target": "Isaias 47:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "so shall she be made sorrowful in her own desolation",
+      "target": "I shall not sit a widow, and I shall not know barrenness"
+     },
+     "note": "Babylon swore she would never sit a widow nor know loss; Baruch answers that the city which rejoiced in Jerusalem's ruin shall be made sorrowful in her own desolation."
+    }
+   ],
+   "4:35": [
+    {
+     "target": "Apocalypse 18:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and she shall be inhabited of devils a great time",
+      "target": "and it is become the habitation of devils"
+     },
+     "note": "Baruch's sentence on the city that held her children — fire from the Everlasting, and inhabited of devils for a long time — is Babylon's sentence in the Apocalypse."
+    }
+   ],
+   "6:3": [
+    {
+     "target": "Isaias 46:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to be carried upon shoulders, shewing fear to the Gentiles",
+      "target": "They bear him on their shoulders carrying, and setting him in his place"
+     },
+     "note": "The first sight of the epistle, gods of gold and wood carried upon shoulders, is Isaias's carried god, set in his place and unable to move from it."
+    }
+   ],
+   "6:7": [
+    {
+     "target": "Psalms 113:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "are false things, and they cannot speak",
+      "target": "They have mouth, and shall not speak: they have eyes, an shall not see"
+     },
+     "note": "The epistle's idols that cannot speak are the psalm's idols: they have mouth, and shall not speak; eyes, and shall not see."
+    }
+   ],
+   "6:22": [
+    {
+     "target": "Jeremias 10:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Whereby you may know that they are not gods. Therefore fear them not",
+      "target": "Therefore fear them not, because they can neither do ill nor well"
+     },
+     "note": "The epistle's refrain is Jeremias's own: fear them not, for they are not gods, and can neither do ill nor well."
+    }
+   ],
+   "6:24": [
+    {
+     "target": "Jeremias 10:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "With all price are they bought, whereas there is no breath in them",
+      "target": "it is false that he hath melted, and there is no spirit in them"
+     },
+     "note": "Jeremias's craftsman is confounded in a sculptile with no spirit in it; the epistle's gods, bought at full price, have no breath in them."
+    }
+   ],
+   "6:50": [
+    {
+     "target": "Psalms 134:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but the works of men's hands, and no work of God is with them",
+      "target": "The idols of the Gentiles are silver, and gold, the works of men's hands"
+     },
+     "note": "The epistle's verdict is the psalm's first line on idols: silver and gold, the works of men's hands — and no work of God in them."
+    }
+   ],
+   "6:40": [
+    {
+     "target": "Daniel 14:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who when they hear that the dumb cannot speak, they offer it to Bel",
+      "target": "this same is within of clay, and without of brass"
+     },
+     "note": "The epistle names Bel himself, whose worshippers beg a dumb god to speak; Daniel's Bel is that same god, clay within and brass without, that never ate at any time."
+    }
+   ],
+   "6:69": [
+    {
+     "target": "Jeremias 10:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For as in a garden of cucumbers a scarecrow keepeth nothing",
+      "target": "They are framed after the similitude of a palm tree, & shall not speak"
+     },
+     "note": "Jeremias's idol stands like a post that cannot speak; the epistle gives the same figure its other form, a scarecrow in a garden of cucumbers that keepeth nothing."
+    }
+   ]
+  },
+  "1 Machabees": {
+   "1:47": [
+    {
+     "target": "Daniel 12:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and should prohibit holocausts & sacrifices",
+      "target": "the continual sacrifice shall be taken away"
+     },
+     "note": "Antiochus's prohibition of holocausts and sacrifices in the temple is Daniel's taking away of the continual sacrifice, before the abomination is set up."
+    }
+   ],
+   "1:57": [
+    {
+     "target": "Daniel 11:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "built the abominable idol of desolation upon the altar of God",
+      "target": "they shall give abomination into desolation"
+     },
+     "note": "The arms of Daniel's prophecy pollute the sanctuary of strength and set up the abomination; Antiochus builds it upon the altar of God."
+    },
+    {
+     "target": "Matthew 24:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the abominable idol of desolation upon the altar of God",
+      "target": "the abomination of desolation, which was spoken of by Daniel the Prophet"
+     },
+     "note": "Our Lord warns of the abomination of desolation spoken of by Daniel, standing in the holy place; its first historical standing is this idol upon the altar."
+    }
+   ],
+   "2:51": [
+    {
+     "target": "Ecclesiasticus 44:1",
+     "kind": "theme",
+     "evidence": {
+      "source": "remember the works of the fathers, which they have done in their generations",
+      "target": "Let us praise glorious men, and our fathers in their generation"
+     },
+     "note": "Mathathias's dying testament opens the same roll of the fathers in their generation that Sirach opened, that the sons may receive great glory and an eternal name."
+    }
+   ],
+   "2:52": [
+    {
+     "target": "Genesis 15:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "and it was reputed to him unto justice",
+      "target": "Abram believed God, and it was reputed to him unto justice"
+     },
+     "note": "Mathathias tells Abraham's faithfulness in Genesis 15's own clause: it was reputed to him unto justice."
+    },
+    {
+     "target": "Hebrews 11:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Abraham was he not in tentation found faithful",
+      "target": "By faith, Abraham offered Isaac, when he was tempted"
+     },
+     "note": "Hebrews sings the same temptation: Abraham offered Isaac when he was tempted, and was found faithful."
+    }
+   ],
+   "2:53": [
+    {
+     "target": "Genesis 39:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Joseph in the time of his distress kept the commandment",
+      "target": "can I do this wicked thing, and sin against my God?"
+     },
+     "note": "The seed carries Joseph's lordship from Genesis 41; his keeping of the commandment in distress is Potiphar's house, where he will not sin against his God."
+    }
+   ],
+   "2:54": [
+    {
+     "target": "Psalms 105:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "received the testament of an everlasting Priesthood",
+      "target": "reputed to him unto justice, in generation and generation even for ever"
+     },
+     "note": "The psalm reckons Phinees's zeal with Abraham's formula, reputed unto justice for ever, where Numbers 25, carried by the seed, gives the priesthood covenant itself."
+    }
+   ],
+   "2:55": [
+    {
+     "target": "Josue 11:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Jesus whilst he accomplished the word, was made the Duke in Israel",
+      "target": "Josue therefore took all the Land, as our Lord spake to Moyses"
+     },
+     "note": "Jesus the son of Nun accomplished the word when he took all the land, as the Lord had spoken to Moyses, and delivered it in possession to Israel."
+    }
+   ],
+   "2:56": [
+    {
+     "target": "Josue 14:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Caleb whilst he testifieth in the Church, received an inheritance",
+      "target": "And Josue blessed him, and delivered to him Hebron in possession"
+     },
+     "note": "The seed carries Caleb's testimony among the spies from Numbers 14; the inheritance he received is Hebron, delivered to him in possession."
+    }
+   ],
+   "2:57": [
+    {
+     "target": "2 Kings 7:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "David in his mercy obtained the seat of the kingdom for ever",
+      "target": "and thy Kingdom for ever before thy face"
+     },
+     "note": "David's everlasting seat is Nathan's promise: thy kingdom for ever before thy face, and thy throne firm continually."
+    }
+   ],
+   "2:58": [
+    {
+     "target": "3 Kings 19:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Elias whilst he zealeth the zeal of the law",
+      "target": "With zeal have I been zealous for our Lord the God of hosts"
+     },
+     "note": "The seed carries Elias's receiving into heaven from 4 Kings 2; his zeal is his own word on Horeb, with zeal have I been zealous for the Lord."
+    }
+   ],
+   "2:59": [
+    {
+     "target": "Hebrews 11:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "believing, were delivered out of the flame",
+      "target": "extinguished the force of fire"
+     },
+     "note": "Hebrews gathers the three children's deliverance into one clause: by faith they extinguished the force of fire."
+    }
+   ],
+   "2:60": [
+    {
+     "target": "Daniel 6:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Daniel in his simplicity was delivered out of the lions' mouth",
+      "target": "hath sent his Angel, and hath shut up the mouths of the lions"
+     },
+     "note": "The seed's margin cites Daniel 5, but the lions' mouths shut by God's angel stand in Daniel 6, where Daniel tells the king of his deliverance."
+    },
+    {
+     "target": "Hebrews 11:33",
+     "kind": "allusion",
+     "evidence": {
+      "source": "was delivered out of the lions' mouth",
+      "target": "stopped the mouths of lions"
+     },
+     "note": "Hebrews's roll of faith keeps Daniel's image: by faith they stopped the mouths of lions."
+    }
+   ],
+   "2:63": [
+    {
+     "target": "Psalms 145:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "he is turned into his earth, & his cogitation is perished",
+      "target": "return into his earth: in that day all their cogitations shall perish"
+     },
+     "note": "Mathathias's warning against the sinful man's glory takes up the psalm's sentence on princes: turned into his earth, and his cogitation perished."
+    }
+   ],
+   "4:9": [
+    {
+     "target": "Exodus 14:30",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Remember in what sort our fathers were saved in the red sea",
+      "target": "delivered Israel in that day out of the hand of the Ægyptians"
+     },
+     "note": "Judas heartens his men with the fathers' first deliverance: saved in the Red Sea when Pharao with a great army followed them."
+    }
+   ]
+  },
+  "2 Machabees": {
+   "2:10": [
+    {
+     "target": "2 Paralipomenon 7:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "fire came down from heaven, and consumed the holocaust",
+      "target": "fire descended from heaven, and devoured the holocausts & victims"
+     },
+     "note": "The verse names Moyses and Salomon in one breath; the seed carries the Moyses half from the next verse to Leviticus 9:24, and Salomon's fire, falling when his prayer ended, stands here."
+    }
+   ],
+   "7:9": [
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which die for his laws, in the resurrection of eternal life",
+      "target": "shall awake: some unto life everlasting"
+     },
+     "note": "The second brother's hope, to be raised by the King of the world in the resurrection of eternal life, is Daniel's awakening of the sleepers: some unto life everlasting."
+    },
+    {
+     "target": "Hebrews 11:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "will raise us up which die for his laws",
+      "target": "were racked, not accepting redemption, that they might find a better resurrection"
+     },
+     "note": "Hebrews's racked ones, not accepting redemption that they might find a better resurrection, are these brethren on the wheel and in the frying pan."
+    }
+   ],
+   "7:14": [
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For to thee there shall not be resurrection unto life",
+      "target": "others unto reproach to see it always"
+     },
+     "note": "The fourth brother denies Antiochus the other half of Daniel's awakening: for thee there shall not be resurrection unto life, but reproach to see it always."
+    }
+   ],
+   "7:29": [
+    {
+     "target": "Hebrews 11:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that in that mercy I may receive thee again with thy brethren",
+      "target": "women received of resurrection their dead"
+     },
+     "note": "The mother who hopes to receive her son again in that mercy stands at the head of Hebrews's women who received of resurrection their dead."
+    },
+    {
+     "target": "4 Kings 4:37",
+     "kind": "theme",
+     "evidence": {
+      "source": "that in that mercy I may receive thee again with thy brethren",
+      "target": "and took her son, and went out"
+     },
+     "note": "The Sunamitess took up her son alive in this life; the Machabee mother expects to receive hers again in the resurrection mercy, and Hebrews 11:35 holds the two mothers in one verse."
+    }
+   ],
+   "7:30": [
+    {
+     "target": "Acts of the Apostles 5:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I obey not the commandment of the king",
+      "target": "God must be obeyed, rather than men"
+     },
+     "note": "The youngest brother's refusal, the king's commandment set against the law given by Moyses, is Peter's rule before the council: God must be obeyed, rather than men."
+    }
+   ],
+   "9:5": [
+    {
+     "target": "2 Paralipomenon 21:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "struck him with an uncurable and invisible plague",
+      "target": "our Lord struck him with an incurable disease of the belly"
+     },
+     "note": "Antiochus, struck with a cruel plague of the bowels he had tormented in others, dies Joram's death: the Lord struck him with an incurable disease of the belly."
+    }
+   ],
+   "9:8": [
+    {
+     "target": "Daniel 4:34",
+     "kind": "parallel",
+     "evidence": {
+      "source": "now being humbled to the ground",
+      "target": "them that walk in pride he can humble"
+     },
+     "note": "He that was replenished with pride above the measure of man, and would weigh the mountains in a balance, now humbled to the ground in a litter, learns Nabuchodonosor's confession: them that walk in pride he can humble."
+    }
+   ],
+   "9:9": [
+    {
+     "target": "Acts of the Apostles 12:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "out of the body of the impious man, worms crawled abundantly",
+      "target": "being consumed of worms, he gave up the ghost"
+     },
+     "note": "Herod, struck by the angel because he had not given the honour to God, and consumed of worms, dies Antiochus's death before the Church's eyes."
+    }
+   ],
+   "10:8": [
+    {
+     "target": "John 10:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all the nation of the Jews every year to keep these days",
+      "target": "And the Dedication was in Jerusalem: and it was winter"
+     },
+     "note": "The days decreed here, to be kept every year by all the nation of the Jews, are the Dedication John finds celebrated in Jerusalem in winter, when Jesus walked in Salomon's porch."
+    }
+   ],
+   "12:44": [
+    {
+     "target": "1 Corinthians 15:29",
+     "kind": "theme",
+     "evidence": {
+      "source": "unless he hoped that they that were slain should rise again",
+      "target": "baptized for the dead, if the dead rise not again at all"
+     },
+     "note": "Judas's sacrifice for the dead and Paul's baptism for the dead rest on one argument: the practice is superfluous and vain unless the dead rise again."
+    }
+   ],
+   "12:45": [
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "had taken their sleep with godliness, had very good grace laid up",
+      "target": "many of those, that sleep in the dust of the earth, shall awake"
+     },
+     "note": "The slain who took their sleep with godliness, with very good grace laid up for them, are Daniel's sleepers in the dust of the earth who shall awake."
+    }
+   ],
+   "15:14": [
+    {
+     "target": "Jeremias 15:1",
+     "kind": "theme",
+     "evidence": {
+      "source": "this is he that prayeth much for the people",
+      "target": "If Moyses & Samuel shall stand before me"
+     },
+     "note": "Onias names Jeremias the prophet who prayeth much for the people and for the whole city; Jeremias's own book sets the measure of such intercession, Moyses and Samuel standing before God."
+    }
+   ]
+  },
+  "Esther": {
+   "11:6": [
+    {
+     "target": "Esther 10:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "two great dragons, prepared one against another into battle",
+      "target": "But the two dragons: I am, and Aman"
+     },
+     "note": "The dream's two dragons are named by the interpretation the book itself prints: Mardochaeus and Aman."
+    }
+   ],
+   "11:10": [
+    {
+     "target": "Esther 10:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a little fountain grew into a very great river",
+      "target": "The little fountain which grew into a river"
+     },
+     "note": "The little fountain that swells into a great river is Esther herself, as Mardochaeus's own interpretation declares."
+    }
+   ],
+   "13:9": [
+    {
+     "target": "Daniel 4:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there is none that can resist thy will",
+      "target": "there is none that can resist his hand"
+     },
+     "note": "Mardochaeus confesses beforehand what Nabuchodonosor learned by humbling: there is none that can resist God's hand or will."
+    }
+   ],
+   "13:17": [
+    {
+     "target": "Deuteronomy 32:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "be propitious to thy lot and cord",
+      "target": "Jacob the cord of his inheritance"
+     },
+     "note": "The 'lot and cord' of the prayer is Moses' word in his song: Jacob, the cord of the Lord's inheritance."
+    },
+    {
+     "target": "Psalms 29:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "turn our mourning into joy, that living we may praise thy name",
+      "target": "Thou hast turned my mourning into joy unto me"
+     },
+     "note": "Mardochaeus begs in the psalm's own phrase for mourning turned into joy, that living they may praise God's name."
+    }
+   ],
+   "14:3": [
+    {
+     "target": "Judith 9:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "help me solitary woman",
+      "target": "help I beseech thee, o Lord God, me a widow"
+     },
+     "note": "Two lone women beg the same help in the same form before going in to the enemy: Esther the solitary, Judith the widow."
+    },
+    {
+     "target": "Psalms 26:9",
+     "kind": "theme",
+     "evidence": {
+      "source": "which have no other helper beside thee",
+      "target": "Be thou my helper: forsake me not"
+     },
+     "note": "Esther's whole plea is the psalm's in one line: she has no helper but God, and begs not to be forsaken."
+    }
+   ],
+   "14:5": [
+    {
+     "target": "Psalms 43:2",
+     "kind": "theme",
+     "evidence": {
+      "source": "I have heard of my father that thou Lord didst take Israel",
+      "target": "we have heard with our ears: our fathers have declared to us"
+     },
+     "note": "Both prayers open with what was heard from the fathers: the work God wrought for Israel in the days of old."
+    }
+   ],
+   "14:7": [
+    {
+     "target": "Daniel 9:7",
+     "kind": "theme",
+     "evidence": {
+      "source": "Thou art just o Lord",
+      "target": "To thee o Lord, justice: but to us confusion of face"
+     },
+     "note": "Esther's confession stands in Daniel's form: the sin and the shame are the people's, the justice is the Lord's alone."
+    }
+   ],
+   "14:9": [
+    {
+     "target": "Psalms 78:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "destroy thine inheritance, and shut the mouths of them that praise thee",
+      "target": "are come into thine inheritance, they have polluted thy holy temple"
+     },
+     "note": "What Esther begs God to prevent — the inheritance destroyed and the temple's worship extinguished — is the psalm's lament over what the Gentiles have done."
+    },
+    {
+     "target": "Psalms 82:5",
+     "kind": "theme",
+     "evidence": {
+      "source": "they will change thy promises, and destroy thine inheritance",
+      "target": "Come, and let us destroy them out of the nation"
+     },
+     "note": "The plot Esther prays against is the psalm's conspiracy enacted: enemies resolved to destroy God's people out of the nation."
+    }
+   ],
+   "14:13": [
+    {
+     "target": "Judith 9:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "give me speech well framed in my mouth",
+      "target": "give a word in my mouth"
+     },
+     "note": "Both heroines ask for the same gift before facing the mighty: a word put in the mouth by God."
+    }
+   ],
+   "15:11": [
+    {
+     "target": "Proverbs 21:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God turned the king's spirit into mildness",
+      "target": "the heart of the king is in the hand of our Lord"
+     },
+     "note": "The addition shows the Proverb's sentence at work: the king's heart in the Lord's hand, inclined to mildness."
+    },
+    {
+     "target": "Esther 5:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God turned the king's spirit into mildness",
+      "target": "he put forth toward her the golden rod"
+     },
+     "note": "The addition supplies what the first account leaves unseen: why the king, terrible to behold, put forth the golden rod to her."
+    }
+   ],
+   "16:16": [
+    {
+     "target": "Daniel 6:26",
+     "kind": "theme",
+     "evidence": {
+      "source": "the children of the highest and the greatest, and always loving God",
+      "target": "he is the living and eternal God for ever"
+     },
+     "note": "Artaxerxes' counter-edict confesses the Jews' God — highest, greatest, and everlasting — as Darius's decree confessed Daniel's God."
+    }
+   ],
+   "16:21": [
+    {
+     "target": "Psalms 29:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath turned this day of sadness and mourning into joy",
+      "target": "Thou hast turned my mourning into joy unto me"
+     },
+     "note": "The edict proclaims in the psalm's phrase what Mardochaeus's prayer had begged: the day of mourning turned into joy."
+    }
+   ]
+  },
+  "Daniel": {
+   "3:27": [
+    {
+     "target": "Daniel 9:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou art just in all things, which thou hast done to us",
+      "target": "just is the Lord our God in all his works"
+     },
+     "note": "Azarias in the furnace and Daniel in his prayer confess the same thing: God is just in all that he has done, and the sin is Israel's."
+    }
+   ],
+   "3:29": [
+    {
+     "target": "Daniel 9:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "we have sinned, and done unjustly revolting from thee",
+      "target": "We have sinned, we have done iniquity, we have dealt impiously"
+     },
+     "note": "The confession Azarias speaks in the fire is Daniel's own confession over the same ruins: we have sinned, done iniquity, and revolted."
+    },
+    {
+     "target": "Baruch 2:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "we have sinned, and done unjustly revolting from thee",
+      "target": "we have sinned, we have done impiously, we have dealt unjustly"
+     },
+     "note": "Baruch's confession for the exiles takes the same shape as Azarias's in the furnace: sinned, done impiously, dealt unjustly."
+    }
+   ],
+   "3:33": [
+    {
+     "target": "Psalms 78:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we are become a confusion, and reproach to thy servants",
+      "target": "We are become a reproach to our neighbours"
+     },
+     "note": "Azarias's 'we are become a reproach' is Asaph's lament over fallen Jerusalem in nearly the same words."
+    }
+   ],
+   "3:34": [
+    {
+     "target": "Psalms 78:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Deliver us not for ever, we beseech thee, for thy name sake",
+      "target": "for the glory of thy name o Lord deliver us"
+     },
+     "note": "Both pleas rest on the same ground: deliver us, not for our deserving, but for thy name's sake."
+    }
+   ],
+   "3:36": [
+    {
+     "target": "Genesis 22:17",
+     "kind": "quotation",
+     "evidence": {
+      "source": "promising that thou wouldest multiply their seed as the stars of heaven",
+      "target": "I will multiply thy seed as the stars of heaven"
+     },
+     "note": "Pleading for the covenant, Azarias rehearses God's own oath to Abraham almost in God's words."
+    }
+   ],
+   "3:39": [
+    {
+     "target": "Psalms 50:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in contrite mind, & spirit of humility let us be received",
+      "target": "a contrite and humbled heart, o God, thou wilt not despise"
+     },
+     "note": "Having no holocaust to offer, Azarias offers what David's psalm says God will not despise: a contrite and humbled heart."
+    }
+   ],
+   "3:50": [
+    {
+     "target": "Isaias 43:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the fire touched them not at all, nor pained them",
+      "target": "when thou shalt walk in fire, thou shalt not be burnt"
+     },
+     "note": "Isaias's promise to Israel, that walking in fire they shall not be burnt, is kept to the letter in the furnace."
+    }
+   ],
+   "3:58": [
+    {
+     "target": "Psalms 148:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Bless our Lord ye Angels of our Lord",
+      "target": "Praise ye him all his Angels"
+     },
+     "note": "The Song's summons begins where the psalm's begins: with the angels."
+    }
+   ],
+   "3:59": [
+    {
+     "target": "Psalms 148:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Ye heavens bless our Lord",
+      "target": "Praise ye our Lord from the heavens"
+     },
+     "note": "The heavens are called to bless in the Song as they are called to praise in the psalm."
+    }
+   ],
+   "3:60": [
+    {
+     "target": "Psalms 148:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "All waters that are above the heavens, bless ye our Lord",
+      "target": "the waters that are above the heavens"
+     },
+     "note": "The waters above the heavens are named in the same phrase by the Song and by the psalm."
+    }
+   ],
+   "3:62": [
+    {
+     "target": "Psalms 148:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Sun and moon bless ye our Lord",
+      "target": "Praise ye him sun and moon"
+     },
+     "note": "Sun and moon are summoned to praise in both hymns."
+    },
+    {
+     "target": "Genesis 1:16",
+     "kind": "theme",
+     "evidence": {
+      "source": "Sun and moon bless ye our Lord",
+      "target": "a greater light to govern the day, and a lesser light"
+     },
+     "note": "Genesis does not name the sun and moon; it made them as the two great lights, and the Song summons those same lights by name to bless their Maker."
+    }
+   ],
+   "3:63": [
+    {
+     "target": "Psalms 148:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Stars of heavens bless ye our Lord",
+      "target": "praise him all ye stars, and light"
+     },
+     "note": "The stars of heaven are called on in both hymns."
+    }
+   ],
+   "3:66": [
+    {
+     "target": "Psalms 148:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Fire and heat bless ye our Lord",
+      "target": "Fire, hail, snow, ice, spirit of storms"
+     },
+     "note": "The fire that could not harm the singers is itself summoned to bless, as the psalm summons fire among the storm's works."
+    }
+   ],
+   "3:70": [
+    {
+     "target": "Psalms 148:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Ice and snows bless ye our Lord",
+      "target": "Fire, hail, snow, ice, spirit of storms"
+     },
+     "note": "The psalm packs fire, hail, snow and ice into one verse; the Song gives the ice and snows their own summons."
+    }
+   ],
+   "3:75": [
+    {
+     "target": "Psalms 148:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Mountains and little hills bless ye our Lord",
+      "target": "Mountains, and all little hills"
+     },
+     "note": "Mountains and little hills are named in the same words by both hymns."
+    }
+   ],
+   "3:79": [
+    {
+     "target": "Psalms 103:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Whales, and all things that move in the waters",
+      "target": "there are creeping beasts, whereof there is no number"
+     },
+     "note": "The Song's whales and all that move in the waters answer to the psalm's innumerable creeping things of the great sea."
+    }
+   ],
+   "3:81": [
+    {
+     "target": "Psalms 148:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "All beasts and cattle bless ye our Lord",
+      "target": "Beasts, and all cattle"
+     },
+     "note": "Beasts and all cattle are summoned in both catalogues."
+    }
+   ],
+   "3:83": [
+    {
+     "target": "Psalms 148:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Let Israel bless our Lord",
+      "target": "to the children of Israel a people approaching unto him"
+     },
+     "note": "Both hymns end their catalogue with Israel, the people that approach unto God."
+    }
+   ],
+   "3:86": [
+    {
+     "target": "Psalms 148:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Spirits and souls of the just bless ye our Lord",
+      "target": "An hymn to all his saints"
+     },
+     "note": "The Song's spirits and souls of the just are the psalm's saints, to whom the hymn belongs."
+    }
+   ],
+   "3:88": [
+    {
+     "target": "Psalms 65:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "delivered us out of the midst of the burning flame",
+      "target": "We have passed through fire and water"
+     },
+     "note": "The psalm's 'we have passed through fire and water' is sung by the Three from inside the fire itself."
+    },
+    {
+     "target": "Hebrews 11:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "out of the midst of the fire hath he rid us",
+      "target": "extinguished the force of fire"
+     },
+     "note": "The roll of faith remembers those who by faith extinguished the force of fire; the Three sing of it as it happens."
+    }
+   ],
+   "13:23": [
+    {
+     "target": "Genesis 39:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "than to sin in the sight of our Lord",
+      "target": "can I do this wicked thing, and sin against my God"
+     },
+     "note": "Joseph refused the mistress rather than sin against God; Susanna refuses the elders in the same resolve, though for her the false charge follows and for him it came by surprise."
+    }
+   ],
+   "13:42": [
+    {
+     "target": "Psalms 43:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Eternal God, which art the knower of hidden things",
+      "target": "he knoweth the secrets of the heart"
+     },
+     "note": "Condemned on hidden deeds that never happened, Susanna appeals to the God who knoweth the secrets of the heart."
+    }
+   ],
+   "13:43": [
+    {
+     "target": "Deuteronomy 19:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou knowest that they have borne false witness against me",
+      "target": "If a lying witness stand against a man"
+     },
+     "note": "Susanna's prayer names her case in the law's own terms: a lying witness standing against her."
+    }
+   ],
+   "13:51": [
+    {
+     "target": "Deuteronomy 19:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Separate them far one from another, and I will discover them",
+      "target": "they shall find that the false witness hath said a lie"
+     },
+     "note": "Daniel's separation of the elders is the law's diligent search at work: apart, their lies no longer agree, and the false witness is found out."
+    }
+   ],
+   "13:61": [
+    {
+     "target": "Deuteronomy 19:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they did to them as they had dealt naughtily against their neighbour",
+      "target": "render to him as he meant to do to his brother"
+     },
+     "note": "The elders suffer the very death they had dealt against their neighbour, as the law of the false witness commands."
+    }
+   ],
+   "14:4": [
+    {
+     "target": "Baruch 6:50",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I worship not idols made with hand",
+      "target": "they are no gods, but the works of men's hands"
+     },
+     "note": "Daniel's answer to the king is the Epistle of Jeremias's doctrine: the idols are no gods, but the works of men's hands."
+    },
+    {
+     "target": "Psalms 113:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I worship not idols made with hand",
+      "target": "are silver, and gold, the works of men's hands"
+     },
+     "note": "The psalm's sentence on the Gentiles' idols, silver and gold, the works of men's hands, is Daniel's reason for not adoring Bel."
+    },
+    {
+     "target": "Wisdom 13:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I worship not idols made with hand",
+      "target": "who have called the works of men's hands gods"
+     },
+     "note": "Wisdom pities those who called the works of men's hands gods; Daniel at Babylon simply refuses to be one of them."
+    }
+   ],
+   "14:21": [
+    {
+     "target": "Isaias 46:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he delivered Bel into the power of Daniel: who overthrew him",
+      "target": "Bel is broken, Nabo is destroyed"
+     },
+     "note": "Isaias foretold Bel broken and carried off; Daniel, with ashes on a temple floor, overthrows him."
+    }
+   ],
+   "14:30": [
+    {
+     "target": "Daniel 6:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who cast him into the lake of lions",
+      "target": "they brought Daniel, and cast him into the lake of lions"
+     },
+     "note": "The second den begins as the first did: Daniel cast into the lake of lions by a king who would rather have spared him."
+    }
+   ],
+   "14:40": [
+    {
+     "target": "Daniel 6:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he drew him out of the lake of lions",
+      "target": "Daniel was brought out of the lake"
+     },
+     "note": "As in the first den, the king comes, finds Daniel alive, and has him drawn out unhurt."
+    }
+   ],
+   "14:41": [
+    {
+     "target": "Daniel 6:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he cast into the lake, and they were devoured in a moment",
+      "target": "they were cast into the lake of the lions"
+     },
+     "note": "Both dens close the same way: the men who sought Daniel's death are cast into the lake and devoured by the lions."
+    }
+   ],
+   "14:35": [
+    {
+     "target": "3 Kings 18:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "carried him by the hair of his head",
+      "target": "the Spirit of our Lord will carry thee"
+     },
+     "note": "Obadias feared the Spirit would carry Elias off to a place he knew not; Habacuc is carried exactly so, by the hair of his head, to Babylon."
+    },
+    {
+     "target": "Acts of the Apostles 8:39",
+     "kind": "allusion",
+     "evidence": {
+      "source": "took him by the top of his head, and carried him",
+      "target": "the Spirit of our Lord took away Philip"
+     },
+     "note": "The angel's carrying of Habacuc to the den is the Spirit's taking away of Philip from the eunuch's road: a prophet snatched from one place to another in a moment."
     }
    ]
   }
