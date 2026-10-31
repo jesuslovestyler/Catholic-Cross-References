@@ -6,6 +6,13 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.4.0 — Tobias and Judith
+
+Two smaller books added to `our-references.json`, which now holds **252 references** (105 parallel, 128 allusion, 6 quotation, 13 theme):
+
+- **Tobias — 32 references.** The old margins nearly skipped this book (one real reference in the whole of it), so its layer is mostly new ground: Raphael, "one of the seven, which assist before our Lord," tied to the seven angels of Apocalypse 8 and to Gabriel's own introduction in Luke 1; Tobit's instruction in chapter 4 — alms laying up a good treasure, the hire paid the same day, the rule of doing to no man what you hate — beside Matthew 6, James 5, and the golden rule; Tobias's song in chapter 13, which takes up Anna's sentence from 1 Kings 2 and runs on to Isaiah 60 and the sapphires of Apocalypse 21. Sarah's seven husbands are set beside the Sadducees' question as **parallel, not allusion** — the sevens match, the situations differ, and the dataset says so.
+- **Judith — 35 references.** The Jael thread is woven whole: the deliverance "by the hand of a woman" (Judges 4:9) behind Judith 13, Deborah's "blessed among women" (Judges 5:24) behind Ozias's blessing of Judith "above all women upon the earth," and that blessing beside Elizabeth's in Luke 1:42. Her canticle quotes the Psalms outright (13:21; 16:17), and her rebuke of the elders in chapter 8 reaches both the desert serpents of Numbers 21 and Paul's warning from them in 1 Corinthians 10 — from a single verse.
+
 ## Version 0.3.0 — Ecclesiasticus
 
 The second book of our own references is **Ecclesiasticus** (Sirach), added to `our-references.json` — which now holds **185 references** (93 parallel, 83 allusion, 1 quotation, 8 theme) across the two books:
@@ -56,6 +63,6 @@ Before this dataset was published, its deuterocanon counts were cross-checked ag
 
 ## Where this goes
 
-The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Wisdom and Ecclesiasticus are done (0.2.0 and 0.3.0, above); the remaining deuterocanon books — Tobias, Judith, Baruch, the two Machabees, and the added chapters of Esther and Daniel — follow the same way, one at a time, each audited before it is published. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
+The seed is a beginning, not the harvest — four-century-old margins were sparing. On top of it, this project is building **our own cross references**, book by book, starting with the deuterocanon and the added chapters where the need is greatest. Wisdom, Ecclesiasticus, Tobias, and Judith are done (0.2.0–0.4.0, above); the remaining deuterocanon — Baruch with the Epistle of Jeremias, the two books of Machabees, and the added chapters of Esther and Daniel — follows the same way, one book at a time, each audited before it is published. Every added reference will be checked against both passages it joins, and labeled by kind — quotation, allusion, parallel account, or shared theme — and the dataset and the app will name their sources honestly as the work grows. Sources are public domain only: the biblical texts themselves (Sirach 44–50 and Wisdom 10 are built-in spines of parallels), public-domain commentaries and Fathers, and the seed above. No modern copyrighted apparatus is copied.
 
 *Soli Deo gloria.*

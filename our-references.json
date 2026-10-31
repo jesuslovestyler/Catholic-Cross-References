@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.3.0",
- "stage": "Stage 2, Books 1–2: Wisdom and Ecclesiasticus",
+ "version": "0.4.0",
+ "stage": "Stage 2, Books 1–4: Wisdom, Ecclesiasticus, Tobias, Judith",
  "generated": "2026-10-31",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
- "about": "References built by this project on top of the seed (cross-references.json), book by book, beginning with Wisdom and Ecclesiasticus, in both directions — each book pointing to the rest of Scripture, and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
+ "about": "References built by this project on top of the seed (cross-references.json), book by book — so far Wisdom, Ecclesiasticus, Tobias, and Judith — in both directions: each book pointing to the rest of Scripture, and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 185,
+  "references": 252,
   "by_kind": {
-   "parallel": 93,
-   "allusion": 83,
-   "quotation": 1,
-   "theme": 8
+   "parallel": 105,
+   "allusion": 128,
+   "quotation": 6,
+   "theme": 13
   },
-  "source_books": 4,
-  "source_verses": 158
+  "source_books": 6,
+  "source_verses": 209
  },
  "references": {
   "Wisdom": {
@@ -2003,6 +2003,715 @@
       "target": "alms delivereth from death, and that is it which purgeth sins"
      },
      "note": "Alms resisting sins in Sirach is Tobias’s angel’s word: alms delivereth from death and purgeth sins."
+    }
+   ]
+  },
+  "Tobias": {
+   "1:2": [
+    {
+     "target": "4 Kings 17:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he was captive in the days of Salmanasar the king of the Assyrians",
+      "target": "the king of Assyrians took Samaria, and transferred Israel unto the Assyrians"
+     },
+     "note": "Tobias's captivity under Salmanasar is the carrying away of Israel into Assyria told at the end of 4 Kings."
+    }
+   ],
+   "1:5": [
+    {
+     "target": "3 Kings 12:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the golden calves, which Jeroboam the king of Israel had made",
+      "target": "he made two golden calves, and said to them"
+     },
+     "note": "The calves Tobias alone refused to worship are the two Jeroboam made and set up for Israel."
+    }
+   ],
+   "1:20": [
+    {
+     "target": "Matthew 25:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the hungry he nourished",
+      "target": "I was an hungered, and you gave me to eat"
+     },
+     "note": "Tobias nourishing the hungry stands behind the King's word: I was an hungered, and you gave me to eat."
+    },
+    {
+     "target": "Matthew 25:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to the naked he gave cloths",
+      "target": "naked, and you covered me"
+     },
+     "note": "Clothing the naked is counted by the King as done to himself: naked, and you covered me."
+    }
+   ],
+   "2:12": [
+    {
+     "target": "Job 1:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "be given to posterity of his patience, as also of holy Job",
+      "target": "Our Lord gave, and our Lord hath taken away"
+     },
+     "note": "The book itself sets Tobias beside holy Job: his blindness is permitted that posterity may have an example of patience like Job's."
+    },
+    {
+     "target": "John 9:3",
+     "kind": "theme",
+     "evidence": {
+      "source": "our Lord permitted to chance unto him, that an example might be given",
+      "target": "but that the works of God may be manifested in him"
+     },
+     "note": "Both blindnesses are permitted not for the sufferer's sin but for what God will shew in them: an example of patience in Tobias, the works of God in the man born blind."
+    }
+   ],
+   "3:21": [
+    {
+     "target": "James 1:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "his life, if it be in probation, shall be crowned",
+      "target": "when he hath been proved, he shall receive the crown of life"
+     },
+     "note": "Sara's certainty — the life in probation shall be crowned — is James's crown of life for the man who has been proved."
+    }
+   ],
+   "4:7": [
+    {
+     "target": "Ecclesiasticus 4:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "turn not away thy face from any poor person",
+      "target": "turn not away thy face from the needy"
+     },
+     "note": "Tobias charges his son in Sirach's very words: turn not away thy face from the poor."
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Matthew 6:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou doest treasure up to thyself a good reward in the day of necessity",
+      "target": "heap up to yourselves treasures in heaven"
+     },
+     "note": "Alms treasured up as a good reward against the day of necessity is Christ's treasure heaped up in heaven."
+    },
+    {
+     "target": "Ecclesiasticus 29:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou doest treasure up to thyself a good reward",
+      "target": "Put thy treasure in the precepts of the Highest, & it shall profit thee"
+     },
+     "note": "Sirach's treasure put in the Highest's precepts, profiting more than gold, is the good reward Tobias bids his son treasure up by alms."
+    }
+   ],
+   "4:15": [
+    {
+     "target": "Leviticus 19:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "let not the hire of thy hired servant remain with thee at all",
+      "target": "The work of thy hireling shall not abide with thee until morning"
+     },
+     "note": "Tobias's wage rule is the law's own word: the hireling's hire shall not abide with thee until morning."
+    },
+    {
+     "target": "Deuteronomy 24:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Whosoever hath wrought any thing for thee, pay him his hire immediately",
+      "target": "the same day thou shalt pay him the price of his labour"
+     },
+     "note": "Pay him the same day, says Deuteronomy; pay him his hire immediately, says Tobias — one precept in two voices."
+    },
+    {
+     "target": "James 5:4",
+     "kind": "theme",
+     "evidence": {
+      "source": "pay him his hire immediately",
+      "target": "which is defrauded of you, cryeth: and their cry hath entered into the ears"
+     },
+     "note": "The hire Tobias commands to be paid at once is the very hire James hears crying to the Lord of Sabboth when it is kept back."
+    }
+   ],
+   "4:16": [
+    {
+     "target": "Matthew 7:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "That which thou hatest to be done to thee by another",
+      "target": "whatsoever you will that men do to you, do you also to them"
+     },
+     "note": "Tobias gives the rule in its negative form — do not to another what thou hatest done to thee; Christ states it positively and calls it the Law and the Prophets."
+    }
+   ],
+   "4:17": [
+    {
+     "target": "Luke 14:13",
+     "kind": "theme",
+     "evidence": {
+      "source": "Eat thy bread with the hungry & needy",
+      "target": "when thou makest a feast, call the poor, feeble, lame, and blind"
+     },
+     "note": "Bread eaten with the hungry and needy becomes, on Christ's lips, the feast to which the poor who cannot repay are called."
+    }
+   ],
+   "5:21": [
+    {
+     "target": "Genesis 24:40",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God be in your journey, and his Angel accompany you",
+      "target": "will send his Angel with thee, & will direct thy way"
+     },
+     "note": "Abraham sent his servant with an angel promised, to take a wife for his son from his own kindred; Tobias sends his son the same way, and the angel goes with him to a kinswoman's marriage."
+    }
+   ],
+   "3:8": [
+    {
+     "target": "Matthew 22:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "she had been delivered to seven husbands",
+      "target": "whose wife of the seven shall she be? For they all had her"
+     },
+     "note": "The Sadducees' riddle — one woman, seven husbands — is Sara's history turned against the resurrection; in Tobias a devil, not levirate duty, left her seven times widowed."
+    }
+   ],
+   "7:7": [
+    {
+     "target": "Genesis 29:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "with tears kissed him, and weeping upon his neck",
+      "target": "he ran forth to meet him, & embracing him & heartily kissing him"
+     },
+     "note": "As Laban ran forth to embrace and kiss Jacob his sister's son at his journey's end, so Raguel receives Tobias with tears, kissing him and weeping upon his neck."
+    }
+   ],
+   "8:3": [
+    {
+     "target": "Apocalypse 20:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Raphael the Angel took the devil, & bound him in the desert",
+      "target": "which is the devil and Satan, and bound him for a thousand years"
+     },
+     "note": "Raphael taking the devil Asmodeus and binding him in the desert is the first picture of John's angel apprehending the devil and Satan and binding him."
+    }
+   ],
+   "8:8": [
+    {
+     "target": "Genesis 2:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou madest Adam of the slime of the earth",
+      "target": "Our Lord God therefore formed man of the slime of the earth"
+     },
+     "note": "The wedding-night prayer retells the creation it blesses: Adam formed of the slime of the earth, and Eve given him for an helper."
+    }
+   ],
+   "12:9": [
+    {
+     "target": "Daniel 4:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "alms delivereth from death, and that is it which purgeth sins",
+      "target": "redeem thou thy sins with alms, & thine iniquities"
+     },
+     "note": "Raphael's doctrine, that alms purgeth sins, is Daniel's counsel to the king: redeem thou thy sins with alms."
+    }
+   ],
+   "12:12": [
+    {
+     "target": "Apocalypse 8:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I offered thy prayer to our Lord",
+      "target": "he should give of the prayers of all saints upon the altar of gold"
+     },
+     "note": "Raphael offered Tobias's prayer to the Lord; in the Apocalypse the angel gives the prayers of all saints upon the golden altar before God's throne."
+    }
+   ],
+   "12:15": [
+    {
+     "target": "Apocalypse 8:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I am Raphael an Angel, one of the seven, which assist before our Lord",
+      "target": "I saw seven Angels standing in the sight of God"
+     },
+     "note": "Raphael names himself one of the seven that assist before the Lord; John sees those seven angels standing in the sight of God."
+    },
+    {
+     "target": "Luke 1:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I am Raphael an Angel, one of the seven, which assist before our Lord",
+      "target": "I am Gabriel that assist before God"
+     },
+     "note": "Gabriel declares himself in Raphael's own form: I am —, that assist before God."
+    }
+   ],
+   "13:2": [
+    {
+     "target": "1 Kings 2:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "leadest down to hell, and bringest back again",
+      "target": "bringeth down to hell and fetcheth back again"
+     },
+     "note": "Tobias's song takes up Anna's sentence in her own words: God bringeth down to hell and fetcheth back again."
+    },
+    {
+     "target": "Wisdom 16:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou scourgest, and savest: leadest down to hell, and bringest back again",
+      "target": "bringest down to the gates of death, and fetchest again"
+     },
+     "note": "Tobias and Wisdom sing Anna's sentence together: God bringeth down to the gates of death, and fetcheth back again."
+    },
+    {
+     "target": "Deuteronomy 32:39",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there is none that may escape thy hand",
+      "target": "there is none that can deliver out of my hand"
+     },
+     "note": "Moses' song ends the matter as Tobias does: there is none that can deliver out of God's hand."
+    }
+   ],
+   "13:13": [
+    {
+     "target": "Isaias 60:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou shalt shine with a glorious light",
+      "target": "the Gentiles shall walk in thy light, and kings in the brightness"
+     },
+     "note": "Jerusalem shining with a glorious light in Tobias's song is Isaias's Jerusalem, in whose light the Gentiles walk and kings in the brightness of her rising."
+    }
+   ],
+   "13:14": [
+    {
+     "target": "Apocalypse 21:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Nations from far shall come to thee: and bringing gifts",
+      "target": "the kings of the earth shall bring their glory and honour into it"
+     },
+     "note": "The nations coming from far with gifts to adore the Lord in Jerusalem are the kings of the earth bringing their glory and honour into John's city."
+    }
+   ],
+   "13:17": [
+    {
+     "target": "Isaias 60:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they shall all be blessed, and shall be gathered together to our Lord",
+      "target": "all these are gathered together, they are come to thee"
+     },
+     "note": "Jerusalem's children gathered together to the Lord is Isaias's gathering: all these are gathered together, they are come to thee."
+    }
+   ],
+   "13:21": [
+    {
+     "target": "Apocalypse 21:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The gates of Jerusalem shall be built of Sapphire and the Emerald",
+      "target": "the second, the sapphire: the third, the calcedonius: the fourth, the emerald"
+     },
+     "note": "Tobias builds Jerusalem's gates of sapphire and emerald; the foundations of John's city are adorned with the same stones among the twelve."
+    }
+   ],
+   "14:6": [
+    {
+     "target": "Jonas 3:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The destruction of Ninive is near: for the word of our Lord faileth not",
+      "target": "As yet forty days, and Ninive shall be subverted"
+     },
+     "note": "Dying Tobias foretells the fall Jonas preached in Ninive's streets — the word once delayed by the city's repentance, not failed."
+    }
+   ]
+  },
+  "Judith": {
+   "1:7": [
+    {
+     "target": "Daniel 5:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Then was the Kingdom of Nabuchodonosor exalted, and his heart was elevated",
+      "target": "when his heart was elevated, and his spirit obstinately set to pride"
+     },
+     "note": "Daniel says of Nabuchodonosor in nearly the same words what Judith's first chapter says: his heart was elevated, and for it he was deposed from his throne."
+    }
+   ],
+   "4:9": [
+    {
+     "target": "Joel 2:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they laid the infants prostrate against the face of the temple",
+      "target": "gather together the little ones, & them that suck the breasts"
+     },
+     "note": "In Judith's solemn fast even the infants are laid prostrate before the temple, as Joel's fast gathers the little ones and them that suck the breasts."
+    },
+    {
+     "target": "Joel 2:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and the altar of our Lord they covered with hair-cloth",
+      "target": "the priests our Lord's ministers shall weep, & shall say"
+     },
+     "note": "Judith's priests minister in hair-cloth with the altar itself covered in hair-cloth, as Joel's priests, the Lord's ministers, weep before the altar in the fast."
+    }
+   ],
+   "6:2": [
+    {
+     "target": "Daniel 3:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I may shew thee that there is no God but Nabuchodonosor",
+      "target": "what God is there that shall deliver you out of my hand?"
+     },
+     "note": "Holofernes' sentence, that there is no God but Nabuchodonosor, is the king's own challenge in Daniel: what God is there that shall deliver you out of my hand?"
+    },
+    {
+     "target": "4 Kings 18:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I may shew thee that there is no God but Nabuchodonosor",
+      "target": "that the Lord can deliver Jerusalem out of my hand?"
+     },
+     "note": "The Assyrian boast over Bethulia is Sennacherib's taunt over Jerusalem: which god ever delivered his country, that the Lord should deliver his city out of my hand?"
+    }
+   ],
+   "7:19": [
+    {
+     "target": "Psalms 105:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "We have sinned with our fathers, we have done unjustly",
+      "target": "We have sinned with our fathers: we have dealt unjustly"
+     },
+     "note": "The besieged people's confession takes up the psalm's words: we have sinned with our fathers, we have done unjustly, we have committed iniquity."
+    }
+   ],
+   "7:21": [
+    {
+     "target": "Psalms 78:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "that they say not among the Gentiles: Where is their God?",
+      "target": "Lest they say perhaps amongst the Gentiles: where is their God?"
+     },
+     "note": "The people's dread, lest the Gentiles say 'Where is their God?', is the psalm's dread in nearly the same words."
+    },
+    {
+     "target": "Joel 2:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that they say not among the Gentiles: Where is their God?",
+      "target": "Why say they in the peoples: Where is their God?"
+     },
+     "note": "Joel's priests plead against the same reproach Judith's people cry aloud: why say they among the peoples, Where is their God?"
+    }
+   ],
+   "8:6": [
+    {
+     "target": "Luke 2:37",
+     "kind": "theme",
+     "evidence": {
+      "source": "she fasted all the days of her life",
+      "target": "by fastings and prayers serving night and day"
+     },
+     "note": "Judith, the widow who fasted all the days of her life, stands behind Anna, the widow who departed not from the temple, by fastings and prayers serving night and day."
+    }
+   ],
+   "8:11": [
+    {
+     "target": "Deuteronomy 6:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And what are you, that tempt our Lord?",
+      "target": "Thou shalt not tempt the Lord thy God"
+     },
+     "note": "Judith's rebuke of the elders who set God a five-day term speaks the law of Massah: thou shalt not tempt the Lord thy God."
+    },
+    {
+     "target": "Exodus 17:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And what are you, that tempt our Lord?",
+      "target": "Why chide you against me? Wherefore do you tempt our Lord?"
+     },
+     "note": "Her question to the ancients is Moses' rebuke at the waters of contradiction in the same form: wherefore do you tempt our Lord?"
+    }
+   ],
+   "8:22": [
+    {
+     "target": "Genesis 22:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "how our father Abraham was tempted, and by many tribulations proved",
+      "target": "God tempted Abraham, and said to him: Abraham, Abraham"
+     },
+     "note": "Judith bids the elders remember Abraham, whom God tempted and who through many tribulations was proved and made the friend of God."
+    }
+   ],
+   "8:25": [
+    {
+     "target": "Numbers 21:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "were destroyed of the destroyer, and perished by serpents",
+      "target": "our Lord sent upon the people fiery serpents"
+     },
+     "note": "The fathers Judith warns the elders against perished by the fiery serpents the Lord sent upon the murmuring people in the desert."
+    },
+    {
+     "target": "1 Corinthians 10:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "were destroyed of the destroyer, and perished by serpents",
+      "target": "as certain of them murmured, and perished by the destroyer"
+     },
+     "note": "Judith's two strokes, destroyed of the destroyer and perished by serpents, are Paul's two warnings to the Corinthians drawn from the same desert story."
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Genesis 34:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Lord God of my father Simeon, who gavest him a sword",
+      "target": "Simeon and Levi, the brothers of Dina, taking their swords"
+     },
+     "note": "Judith prays by the sword God gave her father Simeon, who with Levi took his sword into Sichem against the ravishers of their sister Dina."
+    }
+   ],
+   "9:7": [
+    {
+     "target": "Exodus 14:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "But thou didst look over their camp, and darkness wearied them",
+      "target": "behold our Lord looking upon the Ægyptians' camp through the pillar"
+     },
+     "note": "She asks God to look on the Assyrians as he looked upon the Egyptians' camp through the pillar of fire and slew their army."
+    }
+   ],
+   "9:8": [
+    {
+     "target": "Exodus 14:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The depth held their feet, and the waters overwhelmed them",
+      "target": "And the waters returned, and overwhelmed the chariots & the horsemen"
+     },
+     "note": "Her prayer remembers the sea: the depth held their feet, as the returning waters overwhelmed Pharaoh's chariots and horsemen, and not one remained."
+    }
+   ],
+   "9:9": [
+    {
+     "target": "Psalms 19:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which trust in their multitude, and in their chariots",
+      "target": "These in chariots, and these in horses: but we will invocate"
+     },
+     "note": "Against the Assyrians who trust in their multitude and their chariots Judith prays the psalm's confession: these in chariots, but we will invocate the name of the Lord."
+    }
+   ],
+   "9:10": [
+    {
+     "target": "Psalms 45:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which destroyest wars from the beginning, and Lord is thy name",
+      "target": "taking away wars even unto the end of the earth"
+     },
+     "note": "The God who destroyest wars from the beginning is the psalm's God, taking away wars even unto the end of the earth."
+    }
+   ],
+   "9:16": [
+    {
+     "target": "Psalms 32:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For not in multitude is thy power o Lord",
+      "target": "shall not be saved in the multitude of his strength"
+     },
+     "note": "Her 'not in multitude is thy power, neither in strength of horses' is the psalm's: the giant shall not be saved in the multitude of his strength, and the horse faileth to safety."
+    },
+    {
+     "target": "Luke 1:52",
+     "kind": "theme",
+     "evidence": {
+      "source": "but the prayer of the humble and meek hath always pleased thee",
+      "target": "hath deposed the mighty from their seat, & hath exalted the humble"
+     },
+     "note": "The God whom the proud never pleased from the beginning, but whose ear the humble and meek always had, is Mary's God, who deposes the mighty from their seat and exalts the humble."
+    }
+   ],
+   "9:19": [
+    {
+     "target": "3 Kings 8:60",
+     "kind": "allusion",
+     "evidence": {
+      "source": "acknowledge that thou art God, and there is no other besides thee",
+      "target": "our Lord he is God, and there is none other besides him"
+     },
+     "note": "Her prayer ends where Solomon's prayer at the dedication ended: that all nations may acknowledge thou art God, and there is no other besides thee."
+    }
+   ],
+   "13:10": [
+    {
+     "target": "Judges 4:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and she struck twice upon his neck, and cut off his head",
+      "target": "she put the nail upon the temple of his head"
+     },
+     "note": "As Jael struck the sleeping Sisera through the head in her tent, Judith strikes the sleeping, drunken Holofernes twice upon the neck in his chamber and cuts off his head."
+    }
+   ],
+   "13:19": [
+    {
+     "target": "Judges 4:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Lord our God struck him by the hand of a woman",
+      "target": "Sisara shall be delivered into the hand of a woman"
+     },
+     "note": "Judith's own word over the severed head, that the Lord struck him by the hand of a woman, answers Deborah's word that Sisara should be delivered into the hand of a woman."
+    }
+   ],
+   "13:21": [
+    {
+     "target": "Psalms 105:1",
+     "kind": "quotation",
+     "evidence": {
+      "source": "because he is good, because his mercy is for ever",
+      "target": "because he is good: because his mercy is for ever"
+     },
+     "note": "Her thanksgiving opens with the psalms' standing refrain (the same opening stands at Psalms 106:1, 117:1 and 135:1): confess ye to our Lord, because he is good, because his mercy is for ever."
+    }
+   ],
+   "13:23": [
+    {
+     "target": "Judges 5:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed art thou daughter of our Lord the high God, above all",
+      "target": "Blessed among women be Jahel the wife of Haber the Cineite"
+     },
+     "note": "Ozias blesses Judith above all women upon the earth, as Deborah's song blessed Jael among women for the same deed against the same kind of foe."
+    },
+    {
+     "target": "Luke 1:42",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed art thou daughter of our Lord the high God",
+      "target": "Blessed art thou among women"
+     },
+     "note": "The blessing spoken over the woman through whom God slew her people's enemy, blessed art thou, is Elizabeth's blessing over the woman who bore her people's Saviour."
+    }
+   ],
+   "16:1": [
+    {
+     "target": "Judges 5:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Then sang Judith this song to our Lord, saying",
+      "target": "Debbora and Barac the son of Abinoem sang in that day, saying"
+     },
+     "note": "As Deborah sang in that day over Sisera fallen by a woman's hand, Judith sings her song to the Lord over Holofernes."
+    }
+   ],
+   "16:2": [
+    {
+     "target": "Exodus 15:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Begin ye to our Lord in timbrels, sing ye to our Lord",
+      "target": "and all the women went forth after her with timbrels and dances"
+     },
+     "note": "Her timbrels are Miriam's, who took a timbrel in her hand and led all the women forth with timbrels when Pharaoh's host fell."
+    }
+   ],
+   "16:3": [
+    {
+     "target": "Exodus 15:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord confoundeth battles, Lord is his name",
+      "target": "Our Lord is a man of war, Omnipotent is his name"
+     },
+     "note": "Her 'Lord is his name' over confounded battles answers the song at the sea: our Lord is a man of war, Omnipotent is his name."
+    }
+   ],
+   "16:7": [
+    {
+     "target": "Judges 4:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath delivered him into the hands of a woman",
+      "target": "Sisara shall be delivered into the hand of a woman"
+     },
+     "note": "Her canticle itself names the pattern: the Lord omnipotent delivered the mighty one into the hands of a woman, as Deborah foretold that Sisara would be delivered into the hand of a woman."
+    }
+   ],
+   "16:17": [
+    {
+     "target": "Psalms 32:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "because thou saidst, and they were made",
+      "target": "he said, and they were made: he commanded and they were created"
+     },
+     "note": "Her creation line takes the psalm's up almost word for word: thou saidst, and they were made."
+    },
+    {
+     "target": "Psalms 103:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou didst send thy spirit, and they were created",
+      "target": "Thou shalt send forth thy spirit, and they shall be created"
+     },
+     "note": "The second half of the same verse, thou didst send thy spirit and they were created, is the psalm's word on the Spirit sent forth to create and renew."
+    }
+   ],
+   "16:18": [
+    {
+     "target": "Psalms 96:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the rocks shall melt as wax before thy face",
+      "target": "The mountains melted as wax, before the face of our Lord"
+     },
+     "note": "Rocks melting as wax before his face is the psalm's mountains melted as wax before the face of our Lord."
+    }
+   ],
+   "16:21": [
+    {
+     "target": "Isaias 66:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For he will give fire, and worms into their flesh",
+      "target": "their worm shall not die, and their fire shall not be quenched"
+     },
+     "note": "Fire and worms given into the flesh, to burn and to be felt for ever, is Isaiah's sentence on the men that transgressed: their worm shall not die, and their fire shall not be quenched."
     }
    ]
   }
