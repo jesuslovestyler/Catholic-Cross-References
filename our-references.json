@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.13.0",
- "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, and Psalms. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.14.0",
+ "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, Psalms, Job, Proverbs, Ecclesiastes, and Canticle of Canticles. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 1054,
+  "references": 1134,
   "by_kind": {
-   "parallel": 326,
-   "allusion": 591,
-   "quotation": 84,
-   "theme": 53
+   "parallel": 332,
+   "allusion": 655,
+   "quotation": 93,
+   "theme": 54
   },
-  "source_books": 61,
-  "source_verses": 956
+  "source_books": 64,
+  "source_verses": 1033
  },
  "references": {
   "Wisdom": {
@@ -1491,6 +1491,28 @@
      },
      "note": "Hebrews' session argument rests on this clause of the great session psalm; the seed's Hebrews pairs to 109:1 are at 1:13 and chapter level at 10."
     }
+   ],
+   "12:6": [
+    {
+     "target": "Proverbs 3:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "For whom our Lord loveth, he chasteneth; & he scourgeth every child that he receiveth.",
+      "target": "for whom our Lord loveth he chastiseth: and as a father in the son he pleaseth himself."
+     },
+     "note": "The second half of Hebrews' quotation of the discipline proverb. The seed carries the first half (Hebrews 12:5 to 3:11) and Apocalypse 3:19 to this verse; Hebrews 12:6 itself was unkeyed. The apostle's 'scourgeth every child' goes beyond the proverb's 'as a father in the son', and the entry is graded on the half that is the proverb's own."
+    }
+   ],
+   "4:13": [
+    {
+     "target": "Proverbs 15:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all things are naked and open to his eyes",
+      "target": "In every place the eyes of our Lord behold the good and the evil."
+     },
+     "note": "The proverb's eyes of the Lord in every place, beholding good and evil, become in Hebrews the eyes to whom all things are naked and open."
+    }
    ]
   },
   "Romans": {
@@ -1525,6 +1547,15 @@
       "target": "cursed is the earth in thy work"
      },
      "note": "Paul reads the whole creature's subjection to vanity out of the curse on the earth for Adam's sake — and reads it as a subjection in hope, which points beyond the curse to its lifting."
+    },
+    {
+     "target": "Ecclesiastes 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For the creature is made subject to vanity, not willing",
+      "target": "Vanity of vanities, said Ecclesiastes: vanity of vanities, and all things are vanity."
+     },
+     "note": "Paul's whole doctrine of the groaning creature is the Preacher's first word universalised: the creature made subject to vanity — all things are vanity — yet in hope, which is Paul's addition, not the Preacher's."
     }
    ],
    "5:14": [
@@ -1712,6 +1743,50 @@
       "target": "Let their eyes be darkened that they see not: and make their back crooked always."
      },
      "note": "The second verse of Paul's Psalm 68 imprecation; the seed carries Romans 11:9 to 68:23 only."
+    }
+   ],
+   "11:35": [
+    {
+     "target": "Job 41:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Or who hath first given to him, and retribution shall be made him?",
+      "target": "Who hath given me before, that I may render unto him?"
+     },
+     "note": "Paul closes his doxology with God's unanswerable question from the whirlwind: no one has given to God first, so no repayment can be claimed. The wording is reworked, not quoted entire, and is graded allusion."
+    }
+   ],
+   "12:16": [
+    {
+     "target": "Proverbs 3:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Be not wise in your own conceit.",
+      "target": "Be not wise in thine own conceit: fear God, and depart from evil"
+     },
+     "note": "Paul's church-order is the proverb word for word, with only the pronoun changed."
+    }
+   ],
+   "12:17": [
+    {
+     "target": "Proverbs 17:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To no man rendering evil for evil.",
+      "target": "He that rendereth evil things for good, evil shall not depart from his house."
+     },
+     "note": "Paul's prohibition stands in the proverb's rendering-language: the man who renders evil — for good, says Solomon; to no man for evil, says the apostle — carries evil that does not depart. The seed carries this proverb from 1 Thessalonians 5:15 and 1 Peter 3:9; Romans' use was unkeyed."
+    }
+   ],
+   "12:20": [
+    {
+     "target": "Proverbs 25:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "if thine enemy hunger, give him meat: if he thirst, give him drink. For, doing this, thou shalt heap coals of fire upon his head.",
+      "target": "for thou shalt heap hot coals upon his head, and our Lord will reward thee."
+     },
+     "note": "The coals half of Paul's quotation of the enemy-feeding proverb; the seed carries the feeding half (Romans 12:20 to 25:21) and points Proverbs 25:22 at Romans 12 only by chapter. The verse anchor for the coals is entered here."
     }
    ]
   },
@@ -2690,6 +2765,39 @@
       "target": "Behold, our Lord hath anointed thee upon his inheritance to be Prince, and thou shalt deliver his people out of the hands of their enemies"
      },
      "note": "Sirach sums Samuel's work as anointing princes in his nation; the first anointing is Saul's, Samuel pouring the oil and naming him prince over the Lord's inheritance. Sirach 46:19-20's Samuel sayings are carried already (our layer and the seed); the anointing summary was unkeyed."
+    }
+   ],
+   "1:16": [
+    {
+     "target": "Proverbs 1:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The fear of our Lord is the beginning of wisdom",
+      "target": "The fear of our Lord is the beginning of wisdom."
+     },
+     "note": "Sirach's son opens his book with Solomon's first sentence entire. The seed keys the neighbouring verse of Sirach (1:17) to Proverbs 1 and 9 by chapter; the sentence itself stands at 1:16 in this corpus."
+    }
+   ],
+   "28:12": [
+    {
+     "target": "Proverbs 26:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For according to the wood of the forest, so the fire burneth",
+      "target": "When wood faileth, the fire shall be extinguished: and the whisperer taken away, brawls cease."
+     },
+     "note": "Sirach's anger-fire burns according to its wood; the proverb states the same law from the other side — when the wood fails, the fire is extinguished and brawls cease. The seed carries this verse of Sirach only at chapter level (Proverbs 26)."
+    }
+   ],
+   "27:29": [
+    {
+     "target": "Ecclesiastes 10:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He that diggeth a pit, shall fall into it: and he that setteth a stone for his neighbour, shall stumble on it",
+      "target": "He that diggeth a pit, shall fall into it: and he that breaketh the hedge, a serpent shall bite him."
+     },
+     "note": "Sirach repeats the pit sentence in the Preacher's form. The seed carries this verse of Sirach to Ecclesiastes 10 only at chapter level; its twin pointer to Proverbs 26 is served by the Ecclesiastes entry above, and Sirach to Proverbs directly is set aside as a duplicate anchor."
     }
    ]
   },
@@ -6069,6 +6177,39 @@
      },
      "note": "The seed keys James 5:18 to 3 Kings 18:41, Elias on Carmel praying; the rain's falling, which James reports, stands at 18:45."
     }
+   ],
+   "5:11": [
+    {
+     "target": "Job 42:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The sufferance of Job you have heard, and the end of our Lord you have seen",
+      "target": "our Lord added all things whatsoever had been Job's, double."
+     },
+     "note": "James names Job's sufferance and points his readers to its end; the end he means stands here, the Lord turning Job's penance into a double restoration. Tobias' naming of Job is already in our layer; James' was unkeyed."
+    }
+   ],
+   "4:13": [
+    {
+     "target": "Proverbs 27:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Today or tomorrow we will go into that city, and there certes will spend a year, and will traffic, and make our gain",
+      "target": "Boast not for tomorrow, being ignorant what the day to come may bring forth."
+     },
+     "note": "James rebukes the merchants' tomorrow in the proverb's own terms: boast not for tomorrow, being ignorant what the day may bring — James' merchants are ignorant of the very thing the proverb names (4:14)."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "Proverbs 16:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And the tongue, is fire, a whole world of iniquity.",
+      "target": "The impious man diggeth evil, and in his lips fire burneth."
+     },
+     "note": "James' tongue that is fire is the proverb's impious man, in whose lips fire burneth while he digs evil."
+    }
    ]
   },
   "Ecclesiastes": {
@@ -6102,6 +6243,114 @@
      },
      "note": "The Preacher's vow-counsel is Deuteronomy's law turned to wisdom: defer not to pay it, for the Lord will require it. Our layer keys Deuteronomy's own restatement of the vow law back to Numbers 30."
     }
+   ],
+   "5:14": [
+    {
+     "target": "Job 1:21",
+     "kind": "quotation",
+     "evidence": {
+      "source": "As he came forth naked from his mother's womb, so shall he return",
+      "target": "Naked came I out of my mother's womb, and naked shall I return thither"
+     },
+     "note": "The Preacher restates Job's confession at the loss of all things in Job's own words, turned from one man's loss into every labourer's lot. The seed carries 1 Timothy 6:7 to this verse; the Preacher's taking of it was unkeyed."
+    }
+   ],
+   "7:15": [
+    {
+     "target": "Job 2:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "In the good day enjoy good things, and beware before of the evil day. For as this, so that also hath God made",
+      "target": "if we have received good things of the hand of God, evil things why should we not receive?"
+     },
+     "note": "The Preacher's counsel — God has made the evil day alongside the good — is Job's rebuke to his wife turned into wisdom: good received from God's hand, and evil not refused."
+    }
+   ],
+   "2:26": [
+    {
+     "target": "Job 27:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to the sinner he hath given affliction, and superfluous care, to add, and to gather together, and deliver it to him that hath pleased God",
+      "target": "He shall prepare indeed, but the just man shall be clothed with them: and the innocent shall divide the silver."
+     },
+     "note": "The Preacher's sinner gathers only to deliver to him that has pleased God; Job had said it of the silver and the raiment: he shall prepare, but the just shall be clothed, the innocent shall divide."
+    }
+   ],
+   "5:2": [
+    {
+     "target": "Proverbs 10:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in many words folly will be found.",
+      "target": "In much talk there shall not want sin: but he that moderateth his lips is most wise."
+     },
+     "note": "The Preacher's warning against many words in prayer is the proverb's warning against much talk, carried into the house of God."
+    }
+   ],
+   "4:17": [
+    {
+     "target": "1 Kings 15:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "much better is obedience, than the victims of fools",
+      "target": "For Better is Obedience Than Victims: and to harken rather than to offer the fat of rams."
+     },
+     "note": "The Preacher's counsel at the house of God is Samuel's sentence to Saul turned proverb: better is obedience than victims — in Ecclesiastes, than the victims of fools. The seed carries this verse of Ecclesiastes only at chapter level (1 Kings 15, with Osee 6); the verse anchor is entered here."
+    }
+   ],
+   "12:7": [
+    {
+     "target": "Genesis 3:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and the dust return into his earth, from whence it was, and the spirit return to God, who gave it.",
+      "target": "dust thou art, and into dust thou shalt return."
+     },
+     "note": "The Preacher's last word on the body is Adam's sentence fulfilled at every death: dust returns into its earth, as it was taken. Our layer keys Genesis 3:19 to Ecclesiastes 3:20 besides; the closing form at 12:7 was unkeyed."
+    }
+   ],
+   "12:13": [
+    {
+     "target": "Deuteronomy 10:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Fear God, and observe his commandments: for this is every man",
+      "target": "what doth the Lord thy God require of thee, but that thou fear the Lord thy God"
+     },
+     "note": "The end of the whole matter — fear God and observe his commandments — is Moses' 'what doth the Lord thy God require of thee' answered in two words. The keeping of the commandments stands in the next verse of Deuteronomy (10:13)."
+    }
+   ],
+   "7:21": [
+    {
+     "target": "Proverbs 20:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For there is no just man in the earth, that doth good, and sinneth not.",
+      "target": "Who can say: My heart is clean, I am pure from sin?"
+     },
+     "note": "The Preacher states flatly what the proverb asks as a question no man can answer yes to. The seed carries this verse of Ecclesiastes only at chapter level (Proverbs 20, among others); the verse anchor is entered here."
+    },
+    {
+     "target": "3 Kings 8:46",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For there is no just man in the earth, that doth good, and sinneth not.",
+      "target": "for there is no man which sinneth not"
+     },
+     "note": "Solomon's dedication prayer confesses it first — there is no man which sinneth not — and the Preacher, Solomon's other voice, restates it of the just man himself. The seed carries Ecclesiastes 7:21 to 3 Kings 8 only at chapter level."
+    }
+   ],
+   "10:8": [
+    {
+     "target": "Proverbs 26:27",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He that diggeth a pit, shall fall into it",
+      "target": "He that diggeth a pit, shall fall into it: and he that rolleth a stone, it shall return to him."
+     },
+     "note": "The Preacher takes the proverb's first clause entire and adds the hedge and the serpent of his own. Sirach's form of the same sentence is keyed to this verse of Ecclesiastes in this draft."
+    }
    ]
   },
   "Ephesians": {
@@ -6125,6 +6374,17 @@
       "target": "Sit on my right hand:"
      },
      "note": "The resurrection session in Ephesians is the session psalm's word enacted; stated as allusion, since Paul does not quote the psalm here."
+    }
+   ],
+   "5:27": [
+    {
+     "target": "Canticle of Canticles 4:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "not having spot, or wrinkle, or any such thing, but that it may be holy and unspotted.",
+      "target": "Thou art all fair o my love, and there is not a spot in thee."
+     },
+     "note": "Paul's glorious Church, not having spot or wrinkle but holy and unspotted, is the bridegroom's word over the bride in the Canticle: thou art all fair, and there is not a spot in thee."
     }
    ]
   },
@@ -6272,6 +6532,50 @@
       "target": "Put these my words in your hearts and minds, and hang them for a sign on your hands, and place them between your eyes."
      },
      "note": "The father's commandments are to be worn as the law's words were worn: bound in the heart, hung about the body. Proverbs takes Deuteronomy's discipline for God's words and applies it to a father's — the same image stands at 6:8, the phylactery verse."
+    }
+   ],
+   "13:9": [
+    {
+     "target": "Job 18:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The light of the just maketh glad: but the candle of the impious shall be extinguished.",
+      "target": "Shall not the light of the impious be extinguished, and the flame of his fire not shine?"
+     },
+     "note": "Bildad's sentence on the impious — his light extinguished, his flame not shining — is distilled into the proverb's candle of the impious, set against the light of the just."
+    }
+   ],
+   "21:3": [
+    {
+     "target": "Osee 6:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To do mercy and judgment, doth more please our Lord than victims.",
+      "target": "because I would mercy, and not sacrifice: and the knowledge of God more than holocausts."
+     },
+     "note": "The proverb states as Solomon's settled wisdom what Osee speaks as God's desire: mercy, more pleasing than victims. Ecclesiastes 4:17 carries the same preference from Samuel's sentence (1 Kings 15:22) in this draft."
+    }
+   ],
+   "18:10": [
+    {
+     "target": "Psalms 60:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "A most strong tower, the name of our Lord: the just runneth to it, and shall be exalted.",
+      "target": "thou art made my hope: a tower of strength from the face of the enemy."
+     },
+     "note": "David's tower of strength from the face of the enemy is named in the proverb: the name of the Lord, the most strong tower to which the just man runs."
+    }
+   ],
+   "16:3": [
+    {
+     "target": "Psalms 36:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Reveal thy works to our Lord: and thy cogitations shall be directed.",
+      "target": "Reveal thy way to our Lord, and hope in him: and he will do it."
+     },
+     "note": "The proverb takes the psalm's verb for its counsel: reveal — thy way, says David; thy works, says Solomon — to the Lord."
     }
    ]
   },
@@ -6435,6 +6739,28 @@
       "target": "All nations whatsoever thou hast made, shall come, and shall adore before thee, o Lord:"
      },
      "note": "The song before the plagues takes up the psalm's promise that all nations shall come and adore."
+    }
+   ],
+   "3:20": [
+    {
+     "target": "Canticle of Canticles 5:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I stand at the door and knock. If any man shall hear my voice, and open to me the gate, I will enter in to him",
+      "target": "the voice of my beloved knocking: Open to me my sister, my love, my dove, mine immaculate"
+     },
+     "note": "The risen Lord's word to Laodicea is the Canticle's night scene fulfilled: the beloved's voice knocking — open to me — become 'Behold I stand at the door and knock; if any man shall hear my voice and open, I will enter in to him'."
+    }
+   ],
+   "12:1": [
+    {
+     "target": "Canticle of Canticles 6:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a woman clothed with the sun, and the moon under her feet",
+      "target": "What is she, that cometh forth as the morning rising, fair as the moon, elect as the sun, terrible as the army of a camp set in array?"
+     },
+     "note": "The great sign in heaven — a woman clothed with the sun, the moon under her feet — gathers the Canticle's question over the bride: what is she that cometh forth, fair as the moon, elect as the sun, terrible as an army set in array?"
     }
    ]
   },
@@ -6603,6 +6929,28 @@
      },
      "note": "Jeremias' blessed man is the psalter's opening tree, leaf and fruit included; the seed keys Jeremias 17 to Psalm 1 at chapter level and 17:7 to the psalm as a whole."
     }
+   ],
+   "12:1": [
+    {
+     "target": "Job 21:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Why doth the way of the impious prosper: why is it well with all that transgress, and do wickedly?",
+      "target": "Why then do the impious live, are they advanced, & strengthened with riches?"
+     },
+     "note": "Jeremias opens his dispute with God in Job's own question — why do the impious prosper? The seed carries this verse of Jeremias only at chapter level (Job 21); the verse anchor is entered here. Habacuc's form of the same question is set aside as mediated through this one."
+    }
+   ],
+   "8:7": [
+    {
+     "target": "Canticle of Canticles 2:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the turtle, and the swallow, and the stork have observed the time of their coming",
+      "target": "the voice of the turtle-dove is heard in our land:"
+     },
+     "note": "Jeremias shames the people with the Canticle's spring sign: the turtle-dove whose voice is heard in the land has observed the time of her coming, but my people have not known the judgment of the Lord."
+    }
    ]
   },
   "2 Peter": {
@@ -6651,6 +6999,17 @@
      },
      "note": "Sophonias' gathering-away of man, beast, fowl, and fish unmakes the order of Genesis 1 in reverse: judgment as de-creation."
     }
+   ],
+   "1:18": [
+    {
+     "target": "Proverbs 11:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "their silver, and their gold shall not be able to deliver them in the day of the wrath of our Lord",
+      "target": "Riches shall not profit in the day of revenge: but justice shall deliver from death."
+     },
+     "note": "Sophonias preaches the proverb at the nations: riches shall not profit in the day of wrath — silver and gold shall not be able to deliver them — where the proverb's other half promises that justice shall deliver."
+    }
    ]
   },
   "Isaias": {
@@ -6663,6 +7022,15 @@
       "target": "formed man of the slime of the earth"
      },
      "note": "Isaiah's prayer takes its plea from the making of Adam: we are the clay, and the God who formed man of the slime of the earth is our maker and father."
+    },
+    {
+     "target": "Job 10:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou art our father, & we clay: and thou art our maker",
+      "target": "as clay thou madest me, & into dust thou wilt bring me again."
+     },
+     "note": "Job pleads with his Maker from the clay he was made of; Isaias' confession takes the same clay into the people's prayer — we clay, and thou our maker. The potter form of the image (Jeremias 18) is keyed in our layer from Ecclesiasticus; the clay plea is Job's."
     }
    ],
    "10:26": [
@@ -6893,6 +7261,94 @@
      },
      "note": "Isaias' short canticle sings this verse of the festal psalm (itself Exodus 15:2's word); the seed keys Isaias 12:2 to Psalm 117 only at chapter level."
     }
+   ],
+   "59:4": [
+    {
+     "target": "Job 15:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they have conceived labour, and brought forth iniquity.",
+      "target": "He conceived sorrow, and hath brought forth iniquity"
+     },
+     "note": "Eliphaz's sentence on the wicked man becomes Isaias' sentence on the whole people. The seed carries this verse of Isaias only at chapter level (Job 15); the verse anchor is entered here."
+    }
+   ],
+   "27:1": [
+    {
+     "target": "Job 40:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord will visit with his sore, and great, and strong sword upon Leviathan the serpent",
+      "target": "Canst thou draw out the Leviathan with a hook"
+     },
+     "note": "The Leviathan no man can draw out with a hook is the serpent the Lord himself will visit with his great sword in that day. The seed carries this verse of Isaias only at chapter level (Job 40); in this corpus the Leviathan discourse opens at 40:20."
+    }
+   ],
+   "38:12": [
+    {
+     "target": "Job 7:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "My life is cut off, as by a weaver; whilst I yet began he cut me off",
+      "target": "My days have passed more swiftly, than the web is cut of the weaver"
+     },
+     "note": "Ezechias on his sickbed laments in Job's figure: a life cut off as by a weaver, the web severed before its time."
+    }
+   ],
+   "11:1": [
+    {
+     "target": "Job 14:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a rod shall come forth of the root of Jesse, and a flower shall rise up out of his root.",
+      "target": "A tree hath hope: if it be cut, it waxeth green again, and the boughs thereof spring."
+     },
+     "note": "Job's hope for a cut tree — it waxes green again and its boughs spring — is the shape of Isaias' promise: a rod coming forth from the cut root of Jesse. Graded parallel: the hope is the same, the wording is not."
+    }
+   ],
+   "51:9": [
+    {
+     "target": "Job 26:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Hast not thou strucken the proud, & wounded the dragon?",
+      "target": "with his wisdom he struck the proud man."
+     },
+     "note": "The arm of the Lord is asked whether it has not struck the proud and wounded the dragon — Job's hymn says his wisdom struck the proud one, and the winding serpent follows in the next verse (26:13)."
+    }
+   ],
+   "26:19": [
+    {
+     "target": "Job 19:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thy dead shall live, my slain shall rise again: awake, and praise ye that dwell in the dust",
+      "target": "I know that my Redeemer liveth, & in the last day I shall rise out of the earth."
+     },
+     "note": "Job's confession — in the last day I shall rise out of the earth — is taken up into the prophets' resurrection hope: thy dead shall live, thy slain shall rise again, ye that dwell in the dust."
+    }
+   ],
+   "59:7": [
+    {
+     "target": "Proverbs 1:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Their feet run to evil, & hasten to shed innocent blood",
+      "target": "For their feet run to evil, and make haste to shed blood."
+     },
+     "note": "Isaias describes the people's feet in Wisdom's warning words from Proverbs' first chapter. The seed carries this verse of Isaias only at chapter level (Proverbs 1); Romans 3:15 is keyed to the same proverb by the seed at verse level."
+    }
+   ],
+   "65:12": [
+    {
+     "target": "Proverbs 1:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because I called, and you have not answered: I spake, and you have not heard",
+      "target": "Because I called, and you refused: I stretched out my hand, and there was none that regarded."
+     },
+     "note": "The Lord's charge against the people is Wisdom's charge in Proverbs: I called, and you refused to answer. The seed carries this verse of Isaias only at chapter level (Proverbs 1)."
+    }
    ]
   },
   "John": {
@@ -6994,6 +7450,28 @@
      },
      "note": "John says the word is written in their law; Psalm 68:5 has the same phrase and is chapter-keyed to John 15 in the seed, but this verse of Psalm 34 carries it in a psalm of the persecuted just man."
     }
+   ],
+   "3:8": [
+    {
+     "target": "Ecclesiastes 11:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou hearest his voice, but thou knowest not whence he cometh and whither he goeth: so is every one that is born of the Spirit.",
+      "target": "thou art ignorant which is the way of the spirit, & how the bones are framed together in the womb of her that conceiveth child: so thou knowest not the works of God"
+     },
+     "note": "The Lord teaches Nicodemus out of the Preacher's ignorance: as thou knowest not the way of the spirit, nor how bones are framed in the womb, so the Spirit's breathing is heard but its whence and whither unknown — and the womb of Ecclesiastes becomes the new birth of John."
+    }
+   ],
+   "12:3": [
+    {
+     "target": "Canticle of Canticles 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the house was filled of the odour of the ointment.",
+      "target": "we will run after thee in the odour of thine ointments."
+     },
+     "note": "Bethany's house filled with the odour of the ointment is the Canticle's opening desire made event: drawn after the beloved in the odour of his ointments. The spikenard word itself (Canticle 4:13) is set aside as a single-word anchor; the odour phrase carries the verse."
+    }
    ]
   },
   "Galatians": {
@@ -7081,6 +7559,17 @@
       "target": "he is accursed of God that hangeth on a tree"
      },
      "note": "Paul's parenthesis is Deuteronomy's sentence on the hanged man, quoted as written. The seed carries this verse of Galatians only at chapter level (Deuteronomy 21); the verse anchor is entered here."
+    }
+   ],
+   "6:8": [
+    {
+     "target": "Job 4:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For what things a man shall sow, those also shall he reap.",
+      "target": "I have seen them that work iniquity, and sow sorrows, and reap them,"
+     },
+     "note": "Eliphaz's observed law — they that sow sorrows reap them — is the root of Paul's 'what things a man shall sow, those also shall he reap', turned from the wicked's sorrows to flesh and spirit."
     }
    ]
   },
@@ -7332,6 +7821,83 @@
       "target": "And they gave gall for my meat:"
      },
      "note": "Matthew's gall answers the psalm's gall; the vinegar half of the same psalm verse is keyed from John 19:28 in the seed."
+    }
+   ],
+   "14:25": [
+    {
+     "target": "Job 9:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he came unto them walking upon the sea.",
+      "target": "He that alone spreadeth the heaven, & goeth upon the waves of the sea."
+     },
+     "note": "What Job confesses of God alone — going upon the waves of the sea — the Lord does on the lake in the fourth watch. Mark's and John's tellings of the same walking are set aside; Matthew's carries the verse."
+    }
+   ],
+   "5:29": [
+    {
+     "target": "Job 31:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whosoever shall see a woman to lust after her, hath already committed adultery with her in his heart.",
+      "target": "I have made a covenant with mine eyes, that I would not so much as think of a virgin."
+     },
+     "note": "Job's defence begins with the covenant he made with his eyes not so much as to think of a virgin; the Lord's sermon names the same look adultery already committed in the heart. Corpus numbering: the looking saying stands at Matthew 5:29 in this text, one verse later than in modern editions."
+    }
+   ],
+   "25:40": [
+    {
+     "target": "Proverbs 19:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "as long as you did it to one of these my least brethren, you did it to me.",
+      "target": "He lendeth our Lord that hath mercy on the poor: and he will repay him the like."
+     },
+     "note": "Graded theme, honestly: the link is the identification, not shared wording. The proverb says mercy to the poor is a loan to the Lord, repaid by him; the King in the judgment names the mechanism — done to the least brethren, it was done to me."
+    }
+   ],
+   "13:43": [
+    {
+     "target": "Proverbs 4:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Then shall the just shine as the sun, in the Kingdom of their Father.",
+      "target": "the path of the just, as shining light, proceedeth even to perfect day."
+     },
+     "note": "The proverb's path of the just, shining light proceeding to perfect day, reaches its day in the Lord's word: then shall the just shine as the sun in the Father's kingdom."
+    }
+   ],
+   "6:7": [
+    {
+     "target": "Ecclesiastes 5:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And when you are praying, speak not much, as the Heathen. For they think that in their much-speaking they may be heard.",
+      "target": "For God is in heaven, and thou upon the earth: therefore let thy words be few."
+     },
+     "note": "The Lord's prayer-teaching — speak not much, for the heathen think they are heard for much-speaking — is the Preacher's ground stated from heaven's side: God is in heaven, thou upon earth, therefore let thy words be few."
+    }
+   ],
+   "21:33": [
+    {
+     "target": "Canticle of Canticles 8:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "planted a vineyard, and made a hedge round about it, and digged in it a press, and builded a tower, and let it out to husbandmen",
+      "target": "The peace-maker had a vineyard, in that which hath peoples: he delivered the same to keepers"
+     },
+     "note": "Graded parallel, with the parable's other source named: the hedge, press and tower are Isaias 5's; what the Canticle shares with the parable is the vineyard delivered to keepers — the peace-maker's (Solomon's) vineyard let out, as the householder lets his out to husbandmen."
+    }
+   ],
+   "6:28": [
+    {
+     "target": "Canticle of Canticles 2:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Consider the lilies of the field how they grow",
+      "target": "I am the flower of the field, and the lily of the valleys."
+     },
+     "note": "The Lord bids his disciples consider the lilies of the field; the bride names herself with the field's own flower — the flower of the field, and the lily of the valleys. Graded allusion on the field-and-lily pairing, stated as such."
     }
    ]
   },
@@ -8009,6 +8575,39 @@
      },
      "note": "The Benedictus' dawn visits the prisoners Psalm 106 describes sitting in darkness and the shadow of death."
     }
+   ],
+   "14:10": [
+    {
+     "target": "Proverbs 25:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Friend sit up higher: then shalt thou have glory before them that sit at table with thee.",
+      "target": "For it is better that it be said to thee: Come up hither, than that thou be humbled before the Prince."
+     },
+     "note": "The Lord's banquet counsel is the proverb enacted: take the lowest place, that it may be said to thee — in the proverb's words, Come up hither; in the Gospel's, Friend, sit up higher."
+    }
+   ],
+   "14:11": [
+    {
+     "target": "Proverbs 29:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "every one that exalteth himself, shall be humbled: and he that humbleth himself, shall be exalted.",
+      "target": "Humiliation followeth the proud: and glory shall receive the humble of spirit."
+     },
+     "note": "The sentence the Lord pronounces at the same banquet (14:7-11) is the proverb's two ways stated as law: humiliation follows the proud; glory receives the humble."
+    }
+   ],
+   "12:19": [
+    {
+     "target": "Ecclesiastes 8:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Soul, thou hast much goods laid up for many years, take thy rest, eat, drink, make good cheer.",
+      "target": "there was no good thing for a man under the sun, but that he should eat, and drink, and be glad: and this only he should take away with him of his labour"
+     },
+     "note": "The rich fool speaks the Preacher's counsel as a presumption: eat, drink, be glad is Ecclesiastes' sober portion from one's labour 'in the days of his life which God hath given him' — the fool says it over goods laid up for many years, and that night his soul is required. The counsel is the same; the taking is opposite, and the note states it rather than harmonising it."
+    }
    ]
   },
   "Exodus": {
@@ -8056,6 +8655,17 @@
       "target": "But his brother shall take her, & raise up the seed of his brother:"
      },
      "note": "Booz takes Ruth 'to raise up the name of the deceased' — the end Deuteronomy's levirate law exists for. Graded parallel, honestly: Booz is a kinsman redeeming, not the brother the law names, and the sandal of 25:7–9 is drawn off in the gate (Ruth 4:7–8) without the widow's spitting."
+    }
+   ],
+   "3:11": [
+    {
+     "target": "Proverbs 31:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "all the people that dwelleth within the gates of my city know, that thou art a woman of virtue.",
+      "target": "A valiant woman who shall find?"
+     },
+     "note": "Booz confesses before all the gates what the acrostic asks: a valiant woman — who shall find? Ruth is the portrait's living instance, her works praising her in the same gates (31:31). Graded parallel: the DR wording differs ('woman of virtue' against 'valiant woman'), and no quotation is claimed."
     }
    ]
   },
@@ -8827,6 +9437,94 @@
      },
      "note": "The litany psalm opens with the festal psalm's opening line, which becomes its own refrain; the seed keys 117:1 to Psalm 135 only at chapter level (in reverse)."
     }
+   ],
+   "7:15": [
+    {
+     "target": "Job 15:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he hath conceived sorrow, and brought forth iniquity.",
+      "target": "He conceived sorrow, and hath brought forth iniquity"
+     },
+     "note": "The psalm sings Eliphaz's sentence almost in his words. The seed keys the psalm's preceding verse (7:14 in this corpus) to Job 15 at chapter level; the conceiving line itself stands at 7:15 here."
+    }
+   ],
+   "72:12": [
+    {
+     "target": "Job 21:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lo the sinners themselves, and they that abound in the world, have obtained riches.",
+      "target": "Why then do the impious live, are they advanced, & strengthened with riches?"
+     },
+     "note": "Asaph's psalm is built on Job's question: sinners abounding in the world and obtaining riches is the spectacle that nearly made his feet slip (72:2-3)."
+    }
+   ],
+   "146:9": [
+    {
+     "target": "Job 38:41",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who giveth to beasts their food: and to the young ravens that call upon him.",
+      "target": "Who prepareth for the raven her meat, when her young ones cry to God"
+     },
+     "note": "The psalm answers the whirlwind's question with praise: the God who asked who prepares the raven's meat is confessed as the one who feeds the young ravens that call upon him."
+    }
+   ],
+   "103:9": [
+    {
+     "target": "Job 38:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou hast set a bound, which they shall not pass over",
+      "target": "Hitherto thou shalt come, and shalt not proceed farther, and here thou shalt break thy swelling waves."
+     },
+     "note": "The creation psalm confesses as praise what the whirlwind declares as command: a bound set for the sea — hitherto shalt thou come, and no farther."
+    }
+   ],
+   "93:12": [
+    {
+     "target": "Job 5:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed is the man whom thou shalt instruct, o Lord, and shalt teach out of thy law.",
+      "target": "Blessed is the man that is corrected of God: refuse not therefore the chastising of our Lord"
+     },
+     "note": "Eliphaz's beatitude — blessed the man corrected of God — becomes the psalm's blessed man instructed and taught out of the law. James 1:10 is keyed to this verse of Job by the seed's margin on other grounds; the psalm's taking of the beatitude was unkeyed."
+    }
+   ],
+   "11:7": [
+    {
+     "target": "Proverbs 30:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Words of our Lord be chaste words: silver examined by fire, tried from the earth, purged seven fold.",
+      "target": "Every word of God tried by fire, is a buckler to them that hope in him"
+     },
+     "note": "Agur's confession — every word of God tried by fire — is the psalm's silver examined by fire and purged sevenfold, carried from the psalmist's trouble into the proverb. The seed carries the psalm only at chapter level (Proverbs 30)."
+    }
+   ],
+   "36:30": [
+    {
+     "target": "Proverbs 31:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The mouth of the just shall meditate wisdom, and his tongue shall speak judgment.",
+      "target": "She hath opened her mouth to wisdom, and the law of clemency is in her tongue."
+     },
+     "note": "The valiant woman's portrait closes the Proverbs with the psalm's just man in feminine form: a mouth opened to wisdom, a tongue carrying the law of clemency where the psalm's tongue speaks judgment. The seed carries the psalm only at chapter level (Proverbs 31)."
+    }
+   ],
+   "48:13": [
+    {
+     "target": "Ecclesiastes 3:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he was compared to beasts without understanding, and became like to them.",
+      "target": "there is one death of man, and beasts, and the condition of both equal: as man dieth, so they also die"
+     },
+     "note": "The wisdom psalm's refrain — man in honour compared to beasts and become like them — is the Preacher's sentence in brief: one death of man and beasts, and the condition of both equal."
+    }
    ]
   },
   "Deuteronomy": {
@@ -9348,6 +10046,39 @@
      },
      "note": "Peter's casting is the psalm's imperative turned into an exhortation; the seed keys 1 Peter 5 to this psalm only at chapter level."
     }
+   ],
+   "1:7": [
+    {
+     "target": "Job 23:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that the probation of your faith much more precious than gold (which is proved by the fire)",
+      "target": "he knoweth my way, and hath proved me as gold that passeth through the fire:"
+     },
+     "note": "Job's confidence — proved as gold through the fire — becomes Peter's praise of a faith much more precious than gold, proved by the same fire."
+    }
+   ],
+   "5:5": [
+    {
+     "target": "Proverbs 3:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God resisteth the proud, and to the humble he giveth grace.",
+      "target": "He shall delude the deluders, and to the mild he will give grace."
+     },
+     "note": "Peter and James both cite the proverb in its Greek form — God resisteth the proud. Stated openly: this corpus's Proverbs, from the Vulgate, prints only the second half ('to the mild he will give grace'); the entry rests on that printed half, as James 4:6 is keyed by the seed to the neighbouring verse (3:35)."
+    }
+   ],
+   "4:8": [
+    {
+     "target": "Proverbs 10:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "charity covereth the multitude of sins.",
+      "target": "charity covereth all sins."
+     },
+     "note": "Peter takes the proverb's clause entire, widening 'all sins' to 'the multitude of sins'. The seed carries this verse of Peter only at chapter level (Proverbs 10); the verse anchor is entered here."
+    }
    ]
   },
   "2 Paralipomenon": {
@@ -9701,6 +10432,17 @@
       "target": "and taking up his parable, he said: From Aram hath Balac king of the Moabites brought me, from the mountains of the East"
      },
      "note": "The answer God bids his people remember is the parables of chapters 23-24; this is their head, where Balaam owns that Balac brought him to curse."
+    }
+   ],
+   "7:8": [
+    {
+     "target": "Proverbs 24:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because I am fallen: I shall arise, when I have sit in darkness, our Lord is my light.",
+      "target": "For seven times shall the just fall, and shall rise again"
+     },
+     "note": "Micheas answers his enemy with the proverb's law of the just man: fallen, he shall rise again."
     }
    ]
   },
@@ -10180,6 +10922,17 @@
       "target": "spread thy mantle upon thy servant, because thou art nigh of kin."
      },
      "note": "God's espousal of Jerusalem is spoken in Ruth's own gesture: I spread my garment over thee, and entered a covenant. At the threshing floor Ruth asks Booz, her near kinsman, to spread his mantle over his handmaid — the covering that claims a wife. Ezechiel takes the gesture up into God's mouth."
+    }
+   ],
+   "14:14": [
+    {
+     "target": "Job 1:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "these three men shall be in the midst thereof, Noe, Daniel, & Job: they by their justice shall deliver their own souls",
+      "target": "that man was simple, and right, and fearing God, and departing from evil."
+     },
+     "note": "Ezechiel ranks Job with Noe and Daniel as a man whose justice could deliver his own soul; the justice he presumes is the book's opening verdict on Job. The prophet's second naming (14:20) is set aside as this entry's duplicate."
     }
    ]
   },
@@ -10888,6 +11641,28 @@
      },
      "note": "Paul's unequal yoke is the law's plough-team: an ox and an ass under one yoke, kinds that cannot pull together. The image is Deuteronomy's; the application — fellowship with unbelief — is the apostle's."
     }
+   ],
+   "9:6": [
+    {
+     "target": "Proverbs 11:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he that soweth sparingly, sparingly also shall reap: and he that soweth in blessings, of blessings also shall reap.",
+      "target": "Some divide their own goods, and are made richer: others take violently not their own, and are always in poverty."
+     },
+     "note": "Graded parallel: Paul's sowing economy is the proverb's scattering economy — dividing one's goods and growing richer — with no shared wording beyond the shape of the law itself."
+    }
+   ],
+   "5:10": [
+    {
+     "target": "Ecclesiastes 12:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we must all be manifested before the judgement seat of Christ, that every one may receive the proper things of the body, according as he hath done, either good or evil.",
+      "target": "all things that are done, God will bring into judgement for every error, whether it be good or evil."
+     },
+     "note": "Paul's judgment seat is the Preacher's closing sentence with its seat named: God will bring all things done into judgement, whether good or evil — every one receiving according as he hath done, either good or evil."
+    }
    ]
   },
   "4 Kings": {
@@ -11448,6 +12223,17 @@
      },
      "note": "The sin Amos charges on Israel is forcing the consecrated to break the first rule of their consecration — wine, which the Nazarite shall not touch."
     }
+   ],
+   "5:8": [
+    {
+     "target": "Job 9:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Him that maketh Arcturus, and Orion",
+      "target": "He that maketh Arcturus, and Orion, and Hyades"
+     },
+     "note": "Amos names the Maker in Job's own catalogue words: maketh Arcturus and Orion. The seed carries nothing between Amos and Job."
+    }
    ]
   },
   "Habacuc": {
@@ -11496,6 +12282,17 @@
      },
      "note": "Paul applies the law of witnesses to the church's own elders: no accusation received but under two or three witnesses. The seed carries the same law for Matthew 18:16, 2 Corinthians 13:1, John 8:17 and Hebrews 10:28; Timothy's church-order use was unkeyed."
     }
+   ],
+   "6:10": [
+    {
+     "target": "Ecclesiastes 5:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For the root of all evils is covetousness",
+      "target": "A covetous man shall not be filled with money: and he that loveth riches, shall take no fruit of them"
+     },
+     "note": "Paul's root answers the Preacher's fruitlessness: the covetous man shall not be filled with money, and he that loveth riches shall take no fruit of them — of that loveless root, all evils."
+    }
    ]
   },
   "Lamentations": {
@@ -11534,6 +12331,89 @@
       "target": "What is man, that thou art mindful of him? Or the son of man, that thou visitest him?"
      },
      "note": "Job asks the psalm's wonder-question in affliction's key: what is man, that God should regard him. Entered as a verbal echo between the two books, without asserting which text was written first."
+    }
+   ],
+   "33:15": [
+    {
+     "target": "Numbers 12:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "By a dream in a vision by night, when heavy sleep falleth upon men",
+      "target": "in vision will I appear to him, or in sleep I will speak to him."
+     },
+     "note": "Elihu's doctrine of God's night-speaking — by a dream in a vision, when heavy sleep falls — rests on the Lord's own word to Aaron and Mary: in vision he appears, in sleep he speaks."
+    }
+   ],
+   "28:28": [
+    {
+     "target": "Proverbs 1:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold the fear of our Lord, that is wisdom: and to depart from evil, understanding.",
+      "target": "The fear of our Lord is the beginning of wisdom."
+     },
+     "note": "The wisdom hymn ends where Proverbs begins: the fear of the Lord is wisdom itself. Job's form — that is wisdom — and Solomon's — the beginning of wisdom — state the one sentence from its two ends."
+    }
+   ],
+   "31:15": [
+    {
+     "target": "Proverbs 22:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Did not he make me in the womb that made him also",
+      "target": "The rich and poor have met one another: our Lord is the maker of both."
+     },
+     "note": "Job pleads his servants' cause from the proverb's ground before Solomon states it: one Maker made master and servant in the womb, as rich and poor have one Maker of both."
+    }
+   ]
+  },
+  "1 John": {
+   "1:9": [
+    {
+     "target": "Proverbs 28:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If we confess our sins, he is faithful & just, for to forgive us our sins",
+      "target": "he that shall confess, and shall forsake them, shall obtain mercy."
+     },
+     "note": "The proverb's promise — he that confesses and forsakes shall obtain mercy — is the ground of John's: if we confess our sins, he is faithful and just to forgive."
+    }
+   ],
+   "3:17": [
+    {
+     "target": "Proverbs 21:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He that shall have the substance of the world, and shall see his brother have need, and shall shut his bowels from him",
+      "target": "He that stoppeth his ear at the cry of the poor, himself also shall cry and shall not be heard."
+     },
+     "note": "The proverb's stopped ear against the poor man's cry becomes John's shut bowels against the brother in need; both ask how a man so closed can stand before God."
+    }
+   ]
+  },
+  "Colossians": {
+   "3:23": [
+    {
+     "target": "Ecclesiastes 9:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Whatsoever you do, work it from the heart as to our Lord, and not to men",
+      "target": "Whatsoever thy hand is able to do, work it instantly"
+     },
+     "note": "Paul's household rule is the Preacher's urgency with its reason changed: whatsoever thy hand is able to do, work it — instantly, says Ecclesiastes, for there is no work in hell; from the heart as to the Lord, says the apostle."
+    }
+   ]
+  },
+  "Canticle of Canticles": {
+   "7:13": [
+    {
+     "target": "Genesis 30:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The Mandragoræs have given a smell.",
+      "target": "found mandragoras: which he brought to his mother Lia"
+     },
+     "note": "The bride's mandrakes at the gates are Rachel's mandrakes of the wheat harvest, the love-fruit Ruben found in the field and Lia's son brought home. The corpus spells the word Mandragoræs in the Canticle and mandragoras in Genesis; the plant and its errand are the same."
     }
    ]
   }

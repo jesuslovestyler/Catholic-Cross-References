@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.14.0 — Job, Proverbs, Ecclesiastes, Canticle of Canticles
+
+**Job, Proverbs, Ecclesiastes, Canticle of Canticles — 80 new references** (6 parallel, 64 allusion, 9 quotation, 1 theme). `our-references.json` now holds **1134 references** (332 parallel, 655 allusion, 93 quotation, 54 theme).
+
+Job's words prove to have a long afterlife: the Preacher restates his naked confession entire (Ecclesiastes 5:14 → Job 1:21), Paul closes his doxology with the whirlwind's unanswerable question (Romans 11:35 → Job 41:2), and his resurrection confession is taken up in Isaias 26:19 (→ Job 19:25), while what Job confesses of God alone — going upon the waves of the sea — the Lord does on the lake (Matthew 14:25 → Job 9:8). Proverbs is completed where the seed carried only a first half or a chapter pointer: Hebrews 12:6 supplies the unkeyed half of the discipline proverb (→ Proverbs 3:12), Romans 12:20 the coals half of the enemy-feeding proverb (→ 25:22), and 1 Peter 4:8 the proverb's clause entire (→ 10:12); the Canticle, long bare, is keyed where later texts actually take up its words — the knocking beloved of 5:2 behind Apocalypse 3:20, the woman fair as the moon and elect as the sun (6:9) behind Apocalypse 12:1, and the bride without spot (4:7) behind Ephesians 5:27. The gaps are stated plainly: whole runs of Job's speeches, several Proverbs chapters, Ecclesiastes 6, and the Canticle's middle chapters yield nothing a later text anchors in words and are left empty rather than padded; Proverbs 8's Wisdom at creation is not keyed to John 1 or Colossians 1, an identification this corpus's wording does not print, and James 4:14's vapour is not keyed to the Preacher's vanity, because Challoner prints two different words. One further draft entry was removed at merge because an earlier group of this same run had already carried it into our layer.
+
 ## Version 0.13.0 — Psalms (the whole psalter)
 
 **Psalms (the whole psalter) — 92 new references** (23 parallel, 31 allusion, 38 quotation). `our-references.json` now holds **1054 references** (326 parallel, 591 allusion, 84 quotation, 53 theme).
