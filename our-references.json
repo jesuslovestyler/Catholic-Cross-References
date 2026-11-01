@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.16.0",
- "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, Psalms, Job, Proverbs, Ecclesiastes, Canticle of Canticles, Isaias, Jeremias, Lamentations, Ezechiel, Daniel chapters 1-12 only, Osee, Joel, Amos, Abdias, Jonas, Micheas, Nahum, Habacuc, Sophonias, Aggeus, Zacharias, and Malachias. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.17.0",
+ "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, Psalms, Job, Proverbs, Ecclesiastes, Canticle of Canticles, Isaias, Jeremias, Lamentations, Ezechiel, Daniel chapters 1-12 only, Osee, Joel, Amos, Abdias, Jonas, Micheas, Nahum, Habacuc, Sophonias, Aggeus, Zacharias, Malachias, Matthew, Mark, Luke, John, and Acts of the Apostles. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 1322,
+  "references": 1379,
   "by_kind": {
-   "parallel": 357,
-   "allusion": 776,
-   "quotation": 131,
-   "theme": 58
+   "parallel": 372,
+   "allusion": 812,
+   "quotation": 136,
+   "theme": 59
   },
-  "source_books": 67,
-  "source_verses": 1194
+  "source_books": 69,
+  "source_verses": 1246
  },
  "references": {
   "Wisdom": {
@@ -6349,6 +6349,28 @@
      },
      "note": "Graded allusion, honestly: in this corpus Paul's taunt and Osee's promise share the address to death but not a sentence — Osee speaks God's 'I will be thy death' where Paul asks 'where is thy sting?' The seed carries the neighbouring 1 Corinthians 15:54 -> Osee 13:14 pair."
     }
+   ],
+   "11:25": [
+    {
+     "target": "Luke 22:20",
+     "kind": "quotation",
+     "evidence": {
+      "source": "This Chalice is The New Testament in my Blood. This do ye, as often as you shall drink, for the commemoration of me",
+      "target": "This is The Chalice The New Testament in my Blood, Which Shall be Shed For You"
+     },
+     "note": "Paul's chalice word is Luke's: 'the New Testament in my Blood', with the commemoration command. The seed carries Paul's bread word (11:23-24) to Luke 22:19; the chalice verse was unkeyed."
+    }
+   ],
+   "15:5": [
+    {
+     "target": "Luke 24:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he was seen of Cephas; and after that of the eleven",
+      "target": "our Lord is risen indeed, and hath appeared to Simon"
+     },
+     "note": "Paul's first named appearance — seen of Cephas — is the appearance Luke alone narrates by name: 'risen indeed, and hath appeared to Simon.' The seed keys 1 Corinthians 15:5 to Luke 24 at chapter level only; the verse anchor is entered here, and Simon is Peter under his other name in both texts."
+    }
    ]
   },
   "James": {
@@ -6469,6 +6491,17 @@
       "target": "judge for the pupil, defend the widow"
      },
      "note": "Clean religion defined as visiting pupils (orphans) and widows is Isaias's 'learn to do good' in apostolic form: judge for the pupil, defend the widow. Graded theme: the shared matter is exact, the wording is James's own."
+    }
+   ],
+   "5:12": [
+    {
+     "target": "Matthew 5:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "let your talk be, yea, yea: no, no: that you fall not under judgement",
+      "target": "Let your talk be yea, yea: no, no: and that which is over & above these, is of evil"
+     },
+     "note": "James' oath rule ends in the Sermon's own formula: let your talk be yea, yea; no, no. The seed keys James 5:12 to Matthew 5:34 in this corpus's numbering (the oath saying); the yea-yea clause itself stands at 5:37."
     }
    ]
   },
@@ -7050,6 +7083,15 @@
       "target": "the voice of my beloved knocking: Open to me my sister, my love, my dove, mine immaculate"
      },
      "note": "The risen Lord's word to Laodicea is the Canticle's night scene fulfilled: the beloved's voice knocking — open to me — become 'Behold I stand at the door and knock; if any man shall hear my voice and open, I will enter in to him'."
+    },
+    {
+     "target": "Luke 12:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I stand at the door and knock. If any man shall hear my voice, and open to me the gate, I will enter in to him",
+      "target": "when he doth come and knock, forthwith they may open unto him"
+     },
+     "note": "The knocking Christ of Laodicea is the returning Lord of Luke's watchful-servants parable: he comes and knocks, and they open forthwith — here the supper is promised to the one who opens."
     }
    ],
    "12:1": [
@@ -7512,6 +7554,28 @@
      },
      "note": "John names Zacharias' vision outright: the two olive trees flanking the candlestick (4:2) are his two witnesses."
     }
+   ],
+   "16:15": [
+    {
+     "target": "Matthew 24:43",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I come as a thief: Blessed is he that watcheth, & keepeth his garments",
+      "target": "he would surely watch, and would not suffer his house to be broken up"
+     },
+     "note": "The voice among the vials speaks the discourse's image in the first person — 'I come as a thief: blessed is he that watcheth' — the watchfulness of Matthew's good-man become a beatitude."
+    }
+   ],
+   "22:17": [
+    {
+     "target": "John 7:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he that thirsteth, let him come: and he that will, let him take the water of life gratis",
+      "target": "If any man thirst, let him come to me, and drink"
+     },
+     "note": "The Bible's last invitation repeats its great feast-day invitation: 'If any man thirst, let him come' — now with the water of life given gratis to him that will."
+    }
    ]
   },
   "Jeremias": {
@@ -7790,6 +7854,17 @@
       "target": "having the price of divination in their hands"
      },
      "note": "The reward Balaam loved is here in the elders' hands — the price of divination carried out to him. The 'way' Peter names is the road the angel meets at 22:32 ('thy way is perverse'). The seed carries Peter's next verse, the speaking ass, at 22:23."
+    }
+   ],
+   "1:18": [
+    {
+     "target": "Matthew 17:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "this voice we heard brought from heaven, when we were with him in the holy mount",
+      "target": "a voice out of the cloud, saying: This is my wellbeloved Son, in whom I am well pleased: hear ye him"
+     },
+     "note": "Peter, an eyewitness, testifies to the voice brought from heaven in the holy mount — the Transfiguration voice out of the bright cloud. The seed carries 2 Peter 1:17 (the honour and glory) to this verse; Peter's hearing of it was unkeyed."
     }
    ]
   },
@@ -8340,6 +8415,15 @@
       "target": "he shall bear their iniquities"
      },
      "note": "The Baptist's title joins the lamb (53:7's image, carried by the seed at Acts 8:32) to the sin-bearing that is 53:11's own words: the just servant justifies many, bearing their iniquities."
+    },
+    {
+     "target": "Isaias 53:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold the lamb of God, behold him that taketh away the sin of the world",
+      "target": "as a sheep to slaughter shall he be led, and as a lamb before his shearer, he shall be dumb"
+     },
+     "note": "The Baptist's 'lamb of God' gathers Isaias' lamb led to slaughter, dumb before his shearer. Graded allusion: John names the lamb; the Servant's silence under slaughter is what the name carries."
     }
    ],
    "7:37": [
@@ -8406,6 +8490,50 @@
       "target": "many of those, that sleep in the dust of the earth, shall awake: some unto life everlasting, & others unto reproach to see it always"
      },
      "note": "The resurrection sorted two ways — to life, to judgement — is Daniel's first clear word of it: sleepers in the dust awaking, some to life everlasting, others to reproach. Our layer carries this verse to the Machabean martyrs; the Lord's own use was unkeyed."
+    }
+   ],
+   "3:14": [
+    {
+     "target": "Numbers 21:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as Moyses exalted the serpent in the desert, so must the Son of man be exalted",
+      "target": "Make a brazen serpent, and set it for a sign: he that being strucken looketh on it, shall live"
+     },
+     "note": "The lifting-up the Lord speaks of is the serpent set 'for a sign', that the stricken who look on it shall live. The seed keys John 3:14 to Numbers 21:9 (Moses making the serpent); the command and the promise of life to the looker stand at 21:8. Our Wisdom layer keys the same sign at Wisdom 16:6."
+    }
+   ],
+   "20:22": [
+    {
+     "target": "Ezechiel 37:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he breathed upon them; and he said to them: Receive ye the Holy Ghost",
+      "target": "spirit entered into them, and they lived: and they stood upon their feet"
+     },
+     "note": "The risen Lord breathes, and the Spirit is received — Ezechiel's valley answered in an upper room: the spirit entered into them, and they lived and stood on their feet. Our Genesis layer already keys the breathing itself to Genesis 2:7; the prophet's reviving is the second witness."
+    }
+   ],
+   "15:1": [
+    {
+     "target": "Psalms 79:15",
+     "kind": "theme",
+     "evidence": {
+      "source": "I AM the true vine; and my Father is the husband-man",
+      "target": "regard from heaven, and see, and visit this vineyard"
+     },
+     "note": "Jesus' 'true vine' gathers Israel's vineyard-psalm, whose plea is that God regard from heaven and visit this vine. Graded theme: the image and the husbandman correspond; the wording is the Lord's own. The psalm's transport verse (79:9) tells the planting out of Egypt."
+    }
+   ],
+   "21:6": [
+    {
+     "target": "Luke 5:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Cast the net on the right side of the boat; and you shall find. They therefore did cast it: and now they were not able to draw it for the multitude of fishes",
+      "target": "they inclosed a very great multitude of fishes, and their net was broken"
+     },
+     "note": "The risen Lord repeats the first miraculous catch that called Peter: a net cast at his word, a multitude of fishes beyond drawing. Luke's catch broke the net; John's, for all its hundred fifty-three, is not broken — the difference is printed in both texts."
     }
    ]
   },
@@ -8536,6 +8664,28 @@
       "target": "the just shall live in his faith"
      },
      "note": "Paul's Habacuc anchor. The seed carries this only at chapter level (Habacuc 2:5 -> Galatians 3, and Romans 1:17 -> Habacuc 2:4 at verse level); the Galatians verse-level entry is filled here."
+    }
+   ],
+   "2:1": [
+    {
+     "target": "Acts of the Apostles 15:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "after fourteen years I went up again to Jerusalem with Barnabas, taking Titus also with me",
+      "target": "they appointed that Paul and Barnabas should go up, & certain others of the rest, to the Apostles and Priests unto Jerusalem, upon this question"
+     },
+     "note": "Paul's own account of going up again to Jerusalem with Barnabas is the council journey Luke tells in Acts 15. The two accounts differ in emphasis — Paul's revelation and Titus, Luke's question from Antioch — and are entered as parallel, not harmonized."
+    }
+   ],
+   "1:18": [
+    {
+     "target": "Acts of the Apostles 9:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "after three years I came to Jerusalem to see Peter: and tarried with him fifteen days",
+      "target": "Barnabas took him & brought him to the Apostles, and told them how in the way he had seen our Lord"
+     },
+     "note": "Paul's first Jerusalem visit, to see Peter, is the visit Luke tells from the other side: Barnabas bringing the feared convert to the apostles and telling the Damascus story for him."
     }
    ]
   },
@@ -9132,6 +9282,127 @@
      },
      "note": "Matthew's fulfilment note: the seed carries Matthew 27:9 -> Zacharias 11:12 (the thirty pieces weighed); the disposal of the price — to the statuary/potter, in the Lord's house — is 11:13's, entered here. 'Statuary' is this corpus's word where Matthew says the potter's field."
     }
+   ],
+   "1:21": [
+    {
+     "target": "Psalms 129:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall save his people from their sins",
+      "target": "he shall redeem Israel, from all his iniquities"
+     },
+     "note": "The angel explains the name Jesus out of the De profundis promise: he shall save his people from their sins, as the psalm's God 'shall redeem Israel from all his iniquities.'"
+    }
+   ],
+   "12:40": [
+    {
+     "target": "Jonas 2:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as Jonas was in the whale's belly three days and three nights; so shall the Son of man be in the heart of the earth three days and three nights",
+      "target": "Jonas was in the belly of the fish three days and three nights"
+     },
+     "note": "The sign of Jonas rests on this verse's three days and three nights in the fish's belly. The seed keys Matthew 12:40 to Jonas 2:2 (the prayer that follows); the belly verse in this corpus is 2:1."
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Osee 11:1",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Out of Ægypt have I called my Son",
+      "target": "out of Ægypt I called my son"
+     },
+     "note": "Matthew quotes Osee's Exodus word — 'out of Egypt I called my son' — of the child brought back from Egypt. In its own place the son is Israel; Matthew reads the nation's pattern in the true Son."
+    }
+   ],
+   "21:42": [
+    {
+     "target": "Psalms 117:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The stone which the builders rejected, the same is made into the head of the corner",
+      "target": "The stone, which the builders rejected: the same is made into the head of the corner"
+     },
+     "note": "The Lord quotes the rejected stone in the psalm's own words. The seed keys this verse of Matthew to Psalms 117:21 (the confession verse) — apparently the margin's verse misread; the stone stands at 117:22 in this corpus, and Mark's and Luke's forms are the seed's at that verse."
+    }
+   ],
+   "27:39": [
+    {
+     "target": "Psalms 21:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they that passed by, blasphemed him, wagging their heads",
+      "target": "they have spoken with the lips, & wagged the head"
+     },
+     "note": "The passers-by at the cross wag their heads as the psalm's scorners do — 'all that see me have scorned me... and wagged the head'. The seed carries the neighbouring taunt (27:43 to 21:9); the wagging itself was unkeyed."
+    }
+   ],
+   "4:6": [
+    {
+     "target": "Psalms 90:11",
+     "kind": "quotation",
+     "evidence": {
+      "source": "for it is written: That he will give his Angels charge of thee",
+      "target": "Because he hath given his Angels charge of thee: that they keep thee in all thy ways"
+     },
+     "note": "Satan himself quotes the psalm's angel-charge in the second temptation. The seed carries Luke's telling of the same quotation (4:10); Matthew's was unkeyed."
+    }
+   ],
+   "10:36": [
+    {
+     "target": "Micheas 7:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a man's enemies, they of his own household",
+      "target": "a man's enemies they of his own household"
+     },
+     "note": "The Lord takes Micheas' sentence whole: a man's enemies, they of his own household. Luke's telling expands the list (next entry); Matthew keeps the prophet's closing words verbatim."
+    }
+   ],
+   "16:27": [
+    {
+     "target": "Psalms 61:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "then will he render to every man according to his works",
+      "target": "thou wilt render to every one according to his works"
+     },
+     "note": "The Son of man's rendering to every man according to his works is the psalm's confession about God himself: 'thou wilt render to every one according to his works.' Paul's use at Romans 2:6 stands on the same clause."
+    }
+   ],
+   "5:3": [
+    {
+     "target": "Luke 6:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Blessed are the poor in spirit: for theirs is the Kingdom of Heaven",
+      "target": "Blessed are ye poor: for yours is the Kingdom of God"
+     },
+     "note": "The first Beatitude in its two tellings: Matthew's poor in spirit and Luke's poor, both promised the Kingdom. The seed carries the Lord's Prayer pair (Matthew 6:9 to Luke 11:2); the Beatitudes' opening pair was unkeyed."
+    }
+   ],
+   "5:6": [
+    {
+     "target": "Luke 6:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Blessed are they that hunger and thirst after justice: for they shall have their fill",
+      "target": "Blessed are you that now are an hungered: because you shall be filled"
+     },
+     "note": "The hunger Beatitude in two forms: Matthew's hunger and thirst after justice, Luke's present hunger — both ending in being filled."
+    }
+   ],
+   "9:17": [
+    {
+     "target": "Luke 5:37",
+     "kind": "parallel",
+     "evidence": {
+      "source": "new wine they put into new bottles: and both are preserved together",
+      "target": "nobody putteth new wine into old bottles; otherwise the new wine will break the bottles"
+     },
+     "note": "The wineskins parable in two tellings: new wine breaking old bottles in both, Matthew adding that new wine in new bottles preserves both together."
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -9612,6 +9883,127 @@
      },
      "note": "The exile clause of Stephen's quotation, with the divergence stated, not harmonized: Amos in this corpus says beyond Damascus, Stephen says beyond Babylon."
     }
+   ],
+   "24:15": [
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there shall be a resurrection of just and unjust",
+      "target": "many of those, that sleep in the dust of the earth, shall awake: some unto life everlasting, & others unto reproach"
+     },
+     "note": "Paul's hope before Felix — a resurrection of just and unjust together — is Daniel's awakening of the sleepers in the dust, both companies in one rising."
+    }
+   ],
+   "17:31": [
+    {
+     "target": "Psalms 95:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he will judge the world in equity, by a man whom he hath appointed",
+      "target": "He will judge the round world in equity, and peoples in his truth"
+     },
+     "note": "Paul at Athens preaches the psalm's coming judge: he 'will judge the round world in equity' — with the appointed man now named, and his resurrection given as the faith of it."
+    }
+   ],
+   "4:24": [
+    {
+     "target": "Exodus 20:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord, thou that didst make Heaven & earth, the sea, and all things that are in them",
+      "target": "For six days the Lord made heaven and earth, and the sea, and all things that are in them"
+     },
+     "note": "The church's prayer opens with the Sabbath commandment's own making-formula — heaven and earth, the sea, and all things in them — the Creator confessed before the Psalm 2 quotation that follows."
+    }
+   ],
+   "26:18": [
+    {
+     "target": "Isaias 42:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to open their eyes, that they may be converted from darkness to light",
+      "target": "That thou mightest open the eyes of the blind, and bring forth the prisoner out of prison, and them that sit in darkness"
+     },
+     "note": "Paul's commission on the Damascus road is written in the Servant's terms: eyes opened, and those who sit in darkness brought out — now spoken to the apostle of the Gentiles himself."
+    }
+   ],
+   "17:24": [
+    {
+     "target": "Isaias 42:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The God that made the world and all things that are in it, he being Lord of Heaven & earth",
+      "target": "the Lord God that created the heavens, and stretched them out: that established the earth"
+     },
+     "note": "Paul's Athens opening — the God who made the world, Lord of heaven and earth, giving breath to all — stands on Isaias' Creator word: created the heavens, established the earth, 'giveth breath to the people upon it' (Acts 17:25)."
+    }
+   ],
+   "22:6": [
+    {
+     "target": "Acts of the Apostles 9:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "drawing nigh to Damascus at mid-day, suddenly from Heaven there shone round about me much light",
+      "target": "he drew nigh to Damascus: and suddenly a light from Heaven shined round about him"
+     },
+     "note": "Paul's own retelling before the multitude of the Damascus light, as Luke first told it: drawing nigh to Damascus, a light from heaven shining round about him."
+    }
+   ],
+   "26:13": [
+    {
+     "target": "Acts of the Apostles 9:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "from Heaven a light to have shined round about me and them that were in company with me, above the brightness of the sun",
+      "target": "suddenly a light from Heaven shined round about him"
+     },
+     "note": "The third telling, before Agrippa: the same light from heaven, now 'above the brightness of the sun' and falling on his company also — details Acts 9 does not carry, stated here without harmonizing."
+    }
+   ],
+   "1:8": [
+    {
+     "target": "Luke 24:47",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you shall be witnesses unto me in Jerusalem, and in all Jewry, and Samaria, and even to the utmost of the earth",
+      "target": "penance to be preached in his name and remission of sins unto all nations, beginning from Jerusalem"
+     },
+     "note": "The Acts programme is the risen Lord's Luke commission unfolded: preaching to all nations, beginning from Jerusalem, becomes witnesses in Jerusalem, Jewry, Samaria, and to the utmost of the earth."
+    }
+   ],
+   "2:33": [
+    {
+     "target": "Luke 24:49",
+     "kind": "allusion",
+     "evidence": {
+      "source": "having received of his Father the promise of the Holy Ghost, he hath poured out this",
+      "target": "I send the promise of my Father upon you: but you, tarry in the city, till you be endued with power from high"
+     },
+     "note": "Peter explains Pentecost with Luke's last promise: the promise of the Father, received by the exalted Lord and poured out — what the disciples were told to tarry in the city for. The seed carries Acts 1:4 to this verse; Peter's Pentecost use was unkeyed."
+    }
+   ],
+   "10:38": [
+    {
+     "target": "Luke 4:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God anointed him with the Holy Ghost and with power",
+      "target": "The Spirit of the Lord upon me, for which he anointed me"
+     },
+     "note": "Peter's summary of Jesus' ministry — God anointed him with the Holy Ghost and with power — is the Nazareth anointing (Luke 4:18, itself Isaias 61) preached back as history."
+    }
+   ],
+   "5:29": [
+    {
+     "target": "Acts of the Apostles 4:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God must be obeyed, rather than men",
+      "target": "If it be just in the sight of God, to hear you rather than God, judge ye"
+     },
+     "note": "Peter's second answer to the council is his first answer become a rule: 'God must be obeyed rather than men' gathers 'to hear you rather than God, judge ye' into one sentence."
+    }
    ]
   },
   "Luke": {
@@ -9765,6 +10157,15 @@
       "target": "Our Lord maketh poor and enricheth, humbleth and lifteth up."
      },
      "note": "The Magnificat sings Anna's canticle in new words: deposing and exalting answer Anna's humbleth and lifteth up, from the song of the barren woman who received Samuel. The next line of Mary's song is keyed beside this at 2:8."
+    },
+    {
+     "target": "1 Kings 2:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He hath deposed the mighty from their seat, & hath exalted the humble",
+      "target": "He raiseth the needy man from the dust, and from the dung he lifteth up the poor: that he may sit with Princes"
+     },
+     "note": "The Magnificat sings Hannah's song again: the mighty deposed and the humble exalted is Anna's lifting of the poor from the dust to sit with princes, turned upside down and fulfilled."
     }
    ],
    "1:53": [
@@ -9796,6 +10197,15 @@
       "target": "He shall build a house to my name, and I will establish the throne of his Kingdom for ever."
      },
      "note": "Gabriel promises Mary the seat of David his father; Nathan's oracle is where that seat is promised, its throne established for ever for David's seed who builds the house. The eternity clause is keyed beside this at 7:16."
+    },
+    {
+     "target": "2 Kings 7:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord God shall give him the seat of David his father",
+      "target": "thy throne shall be firm continually"
+     },
+     "note": "Gabriel promises the seat of David his father under Nathan's promise to David: a throne firm continually, a kingdom for ever before his face."
     }
    ],
    "1:33": [
@@ -10021,6 +10431,15 @@
       "target": "and hath prayed for the transgressors"
      },
      "note": "From the cross itself, the Servant's last named act in Isaias — he prayed for the transgressors — is done aloud. Graded allusion: the link is the act and its object, not shared wording beyond the praying."
+    },
+    {
+     "target": "Psalms 21:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they dividing his garments, did cast lots",
+      "target": "they have divided my garments among them: and upon my vesture they have cast lot"
+     },
+     "note": "Luke sets the dividing of the garments and the casting of lots inside the word of forgiveness itself — Psalm 21's clothing lot fulfilled under the prayer 'Father, forgive them'. Matthew's and John's tellings are the seed's."
     }
    ],
    "3:5": [
@@ -10118,6 +10537,116 @@
       "target": "Gabriel make this man understand the vision"
      },
      "note": "Gabriel is named in Scripture only in Daniel and in Luke: the voice between Ulai's banks commissions him to make Daniel understand the vision, and he stands before God announcing to Zacharias and to Mary. Graded parallel: a person, not a phrase, is what is shared."
+    }
+   ],
+   "1:46": [
+    {
+     "target": "1 Kings 2:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "MY Soul doth magnify our Lord",
+      "target": "My heart hath rejoiced in our Lord, and my horn is exalted in my God"
+     },
+     "note": "Two mothers' canticles open the two Testaments' infancy songs: Anna's heart rejoicing in the Lord stands behind Mary's soul magnifying him. Graded parallel: the shape and the singer correspond, the wording is Mary's own."
+    }
+   ],
+   "1:47": [
+    {
+     "target": "Habacuc 3:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my spirit hath rejoiced in God my Saviour",
+      "target": "will rejoice in God my Jesus"
+     },
+     "note": "'Rejoiced in God my Saviour': Habacuc's closing joy — 'I will rejoice in God my Jesus' as this translation prints it — is the phrase Mary's spirit takes up."
+    }
+   ],
+   "1:54": [
+    {
+     "target": "Psalms 97:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He hath received Israel his child, being mindful of his mercy",
+      "target": "He hath remembered his mercy, and his truth to the house of Israel"
+     },
+     "note": "God mindful of his mercy toward Israel his child: the psalm's 'he hath remembered his mercy... to the house of Israel' is the Magnificat's closing memory."
+    }
+   ],
+   "2:30": [
+    {
+     "target": "Isaias 52:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "mine eyes have seen thy Salvation",
+      "target": "all the ends of the earth shall see the salvation of our God"
+     },
+     "note": "Simeon has seen with his own eyes what Isaias promised all the ends of the earth would see: the salvation of our God, now an infant in his arms."
+    }
+   ],
+   "2:11": [
+    {
+     "target": "Isaias 9:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "this day is born to you a Saviour which is Christ our Lord, in the city of David",
+      "target": "A little Child is Born TO US, and a son is given to us"
+     },
+     "note": "The angel's 'born to you' answers Isaias' 'a little child is born to us': the child of the prophecy is the Saviour born in David's city."
+    }
+   ],
+   "11:30": [
+    {
+     "target": "Jonas 3:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "as Jonas was a sign to the Ninivites; so shall the Son of man also be to this generation",
+      "target": "the men of Ninive believed in God: and they proclaimed a fast"
+     },
+     "note": "Jonas was a sign to the Ninivites in his preaching, and they believed and fasted; the Son of man is the greater sign set before a generation that does not. Matthew's form of the saying (12:41) is the seed's."
+    }
+   ],
+   "10:19": [
+    {
+     "target": "Psalms 90:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have given you power to tread upon serpents, and scorpions",
+      "target": "thou shalt tread upon the lion, and the dragon"
+     },
+     "note": "The power to tread upon serpents given to the Seventy is the psalm's treading promise — upon asp, basilisk, lion and dragon — handed to the missionaries as their charter."
+    }
+   ],
+   "12:53": [
+    {
+     "target": "Micheas 7:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the father against the son, and the son against his father, the mother against the daughter, and the daughter against the mother, the mother in law against her daughter in law",
+      "target": "the daughter riseth against her mother, the daughter in law against her mother in law"
+     },
+     "note": "Luke's division list walks Micheas' household in order — son against father, daughter against mother, daughter-in-law against mother-in-law — as the division the Lord's coming brings."
+    }
+   ],
+   "9:58": [
+    {
+     "target": "Matthew 8:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The foxes have holes, and the fowls of the air nests; but the Son of man hath not where to repose his head",
+      "target": "The foxes have holes, and the fowls of the air nests: but the Son of man hath not where to lay his head"
+     },
+     "note": "The foxes saying in its two tellings, nearly word for word — Luke's 'repose his head' for Matthew's 'lay his head'."
+    }
+   ],
+   "13:28": [
+    {
+     "target": "Matthew 8:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you shall see Abraham and Isaac and Jacob, and all the Prophets in the Kingdom of God, and you to be thrust out",
+      "target": "many shall come from the East and West, and shall sit down with Abraham, and Isaac, & Jacob in the Kingdom of Heaven"
+     },
+     "note": "Luke's thrust-out hearers see what Matthew's centurion saying promises: Abraham, Isaac and Jacob seated in the Kingdom, with all the Prophets added in Luke's form."
     }
    ]
   },
@@ -12496,6 +13025,28 @@
      },
      "note": "Mark's form of the same unexampled-tribulation saying, its beginning measured from creation where Daniel measures from the beginning of nations."
     }
+   ],
+   "1:3": [
+    {
+     "target": "Isaias 40:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "A voice of one crying in the desert. Prepare ye the way of our Lord, make straight his paths",
+      "target": "The voice of one crying in the desert: Prepare the way of our Lord, make straight the paths of our God"
+     },
+     "note": "Mark opens with the voice in the desert in Isaias' own words. The seed carries Matthew's and John's speaking of this verse; Mark's opening quotation and Luke's (3:4, the seed's) stand together — Mark's was unkeyed."
+    }
+   ],
+   "1:2": [
+    {
+     "target": "Exodus 23:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I send mine Angel before thy face, who shall prepare thy way before thee",
+      "target": "Behold I will send mine Angel, which shall go before thee, and keep thee in thy journey"
+     },
+     "note": "Mark's opening citation is composite: its first half ('I send mine Angel before thy face') is Exodus' angel promised for the journey, before it is Malachias' (the seed keys Mark 1:2 to Malachias 3:1). Mark himself heads the whole with Esay's name."
+    }
    ]
   },
   "Ezechiel": {
@@ -13567,6 +14118,17 @@
      },
      "note": "Stone against flesh: Paul's not-in-stone-but-heart tables take up Ezechiel's surgery, the stony heart taken away and a fleshy heart given. The Jeremias 31:33 anchor of the same verse (the heart-writing) is entered separately."
     }
+   ],
+   "11:33": [
+    {
+     "target": "Acts of the Apostles 9:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "through a window in a basket was I let down by the wall, and so escaped his hands",
+      "target": "conveyed him away by the wall, letting him down in a basket"
+     },
+     "note": "Paul's basket escape from Damascus in his own telling and in Luke's: let down by the wall in a basket, in the night. The seed carries 2 Corinthians 11:32 (the governor's watch) to Acts 9:24; the escape verse itself was unkeyed."
+    }
    ]
   },
   "4 Kings": {
@@ -14348,6 +14910,28 @@
      },
      "note": "The proverb's stopped ear against the poor man's cry becomes John's shut bowels against the brother in need; both ask how a man so closed can stand before God."
     }
+   ],
+   "5:6": [
+    {
+     "target": "John 19:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he that came by water & blood Jesus Christ: not in water only, but in water and blood",
+      "target": "there came forth blood and water"
+     },
+     "note": "John's epistle bears witness to what his Gospel saw at the cross: the blood and water that came forth from the opened side — 'not in water only, but in water and blood.'"
+    }
+   ],
+   "1:1": [
+    {
+     "target": "John 1:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which we have seen with our eyes, which we have looked upon, and our hands have handled, of the word of life",
+      "target": "The Word Was Made Flesh, and dwelt in us (and we saw the glory of him"
+     },
+     "note": "The epistle opens on the Gospel's prologue: the Word of life seen with eyes and handled with hands is the Word made flesh, whose glory 'we saw'."
+    }
    ]
   },
   "Colossians": {
@@ -14434,6 +15018,43 @@
       "target": "Why is wisdom no more in Theman? Counsel is perished from the children"
      },
      "note": "The wisdom of Edom destroyed — Jeremias asks why wisdom is no more in Theman, Abdias answers with its destruction."
+    }
+   ]
+  },
+  "1 Thessalonians": {
+   "5:2": [
+    {
+     "target": "Matthew 24:43",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the day of our Lord shall so come, as a thief in the night",
+      "target": "if the good-man of the house did know what hour the thief would come, he would surely watch"
+     },
+     "note": "Paul's 'day of the Lord as a thief in the night' is the Lord's own householder image from the discourse: the thief who comes at an unknown hour, against whom the good-man watches."
+    }
+   ],
+   "2:2": [
+    {
+     "target": "Acts of the Apostles 16:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "having suffered before and been abused with contumelies (as you know) at Philippi",
+      "target": "the magistrates tearing their coats, commanded them to be beaten with rods"
+     },
+     "note": "Paul reminds the Thessalonians — 'as you know' — of the Philippi abuse Luke narrates: the magistrates tearing the coats and the beating with rods before the gaol."
+    }
+   ]
+  },
+  "2 Timothy": {
+   "4:11": [
+    {
+     "target": "Acts of the Apostles 15:37",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Take Mark, and bring him with thee: for he is profitable to me for the ministry",
+      "target": "Barnabas would have taken with them John also that was surnamed Mark"
+     },
+     "note": "The Mark over whom Paul and Barnabas parted in Acts — John surnamed Mark — is the Mark the aged Paul asks for by name: 'profitable to me for the ministry.' The parting and the recall belong to one story."
     }
    ]
   }
