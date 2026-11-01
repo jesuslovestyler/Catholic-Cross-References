@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.9.0 — Numbers
+
+**Numbers — 68 new references** (50 allusion, 14 parallel, 2 quotation, 2 theme). `our-references.json` now holds **749 references** (235 parallel, 433 allusion, 29 quotation, 52 theme).
+
+The seed's Numbers margins looked generous — 58 pairs — until inspected: a large share are whole-chapter pointers with no verse at all, and the sharpest verse of all was missing. Hebrews 9:13, the red heifer's ashes, is keyed by the seed to three Leviticus verses but never to the heifer's own law; 19:9 now carries it. Also new: the great processional psalm opening with Moses' cry at the rising of the ark (Ps 67:2 → 10:35); the Magi's star traced to Balaam's star risen out of Jacob (Matt 2:2 → 24:17); "sheep without a shepherd" traced to Moses' prayer for a successor (Matt 9:36 → 27:17, with 3 Kings 22:17 and Ezechiel 34:5); Jeremias turning Sehon's fire back on Moab in the ancient Hesebon proverb (48:45 → 21:28–29); and Moses' wish over Eldad and Medad — "O that all the people might prophesy" — become Joel's promise of the Spirit on all flesh (Joel 2:28 → 11:29). Paul's reckoning at Phogor is entered with its tension stated, not smoothed: 1 Corinthians 10:8 counts 23,000 fallen in one day; Numbers 25:9 gives the plague's whole toll, 24,000. The brazen serpent and Paul's wilderness catalogue were already the seed's — not duplicated. Thirteen chapters (the censuses, the jealousy ordeal, the feast tariffs) honestly yield nothing a later text anchors to a verse.
+
 ## Version 0.8.0 — Leviticus
 
 **Leviticus — 75 new references** (49 allusion, 16 parallel, 6 theme, 4 quotation). `our-references.json` now holds **681 references** (221 parallel, 383 allusion, 27 quotation, 50 theme).

@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.8.0",
- "stage": "Stage 3: Genesis, Exodus, and Leviticus. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.9.0",
+ "stage": "Stage 3: Genesis, Exodus, Leviticus, and Numbers. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 681,
+  "references": 749,
   "by_kind": {
-   "parallel": 221,
-   "allusion": 383,
-   "quotation": 27,
-   "theme": 50
+   "parallel": 235,
+   "allusion": 433,
+   "quotation": 29,
+   "theme": 52
   },
-  "source_books": 52,
-  "source_verses": 602
+  "source_books": 55,
+  "source_verses": 666
  },
  "references": {
   "Wisdom": {
@@ -1144,6 +1144,15 @@
       "target": "Take one vessel, and put Manna into it, so much as a gomor can hold: and lay it up before our Lord to keep unto your generations"
      },
      "note": "The ark's furniture in Hebrews includes the golden pot of manna — the vessel Moses commanded to be laid up 'to keep unto your generations'."
+    },
+    {
+     "target": "Numbers 17:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and the rod of Aaron that had blossomed, and the tables of the testament",
+      "target": "Carry back Aaron's rod into the tabernacle of testimony, that it may be kept there for a sign of the rebellious children of Israel"
+     },
+     "note": "Hebrews numbers the blossomed rod among the ark's treasures; this is the command that laid it up — budded the night before (17:8) and kept in the tabernacle for a sign."
     }
    ],
    "12:19": [
@@ -1243,6 +1252,39 @@
       "target": "The soul that sinneth by ignorance"
      },
      "note": "Leviticus' whole sin-offering system opens by limiting itself to sins of ignorance; for deliberate sin the law appoints no host. Hebrews preaches from inside that limit: to sin willingly, after knowledge received, is to step where no sacrifice was ever provided."
+    }
+   ],
+   "3:18": [
+    {
+     "target": "Numbers 14:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And to whom did he swear that they should not enter into his rest: but to them that were incredulous?",
+      "target": "they shall not see the Land for the which I sware to their fathers, neither shall any of them that hath detracted me, behold it"
+     },
+     "note": "Hebrews asks the psalm's question and answers it from this verse: the incredulous who should not enter are the men who detracted the Lord after the spies' report."
+    }
+   ],
+   "9:13": [
+    {
+     "target": "Numbers 19:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For if the blood of goats and of oxen and the ashes of an heifer being sprinkled, sanctifieth the polluted to the cleansing of the flesh",
+      "target": "shall gather the ashes of the cow, and shall pour them out without the camp in a most clean place, that they may be reserved for the multitude of the children of Israel, and for water of aspersion: because the cow was burnt for sin"
+     },
+     "note": "The ashes of Hebrews' argument are the red cow's, gathered and kept for the water of aspersion against the pollution of the dead (the sprinkling itself at 19:17-18). The seed carries this verse of Hebrews at three verses of Leviticus, but not at the heifer's own law."
+    }
+   ],
+   "6:18": [
+    {
+     "target": "Numbers 35:11",
+     "kind": "theme",
+     "evidence": {
+      "source": "that by two things unmoveable, whereby it is impossible for God to lie, we may have a most strong comfort. Who have fled to hold fast the hope proposed",
+      "target": "determine what cities shall be for the succour of fugitives, that have not voluntarily shed blood"
+     },
+     "note": "Hebrews' comfort is for those who 'have fled' — the fugitive's own word and posture: as the manslayer fled to the appointed city and was safe from the avenger until judgment, so these have fled to hold fast the hope. Entered as theme: the link is the flight itself, not a shared phrase."
     }
    ]
   },
@@ -4437,6 +4479,26 @@
       "target": "Two lambs of a year old every day continually"
      },
      "note": "The 'continual sacrifice' Daniel sees taken away is the daily oblation instituted here: two lambs of a year old, every day, continually (the institution runs to 29:42, 'a perpetual oblation')."
+    },
+    {
+     "target": "Numbers 28:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and from him it took the continual sacrifice, and threw down the place of his sanctification",
+      "target": "It is the continual holocaust which you offered in Mount Sinai for a most sweet odour of the burnt sacrifice of the Lord"
+     },
+     "note": "The sacrifice the horn takes away — Daniel's 'continual sacrifice', again at 11:31 and 12:11 — is this chapter's continual holocaust: the morning and evening lambs (28:3-4) standing since Sinai."
+    }
+   ],
+   "11:30": [
+    {
+     "target": "Numbers 24:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And there shall come upon him galleys, and the Romans",
+      "target": "They shall come in galleys from Italy, they shall overcome the Assyrians, and shall waste the Hebrews"
+     },
+     "note": "Daniel's galleys and Romans are the last word of Balaam's last oracle — the ships from Italy (the corpus's rendering of Cethim) that waste even the Hebrews."
     }
    ]
   },
@@ -5375,6 +5437,17 @@
      },
      "note": "Paul's altar-communion argument presupposes the peace offering's rule: the flesh is eaten by the offerers on the same day — eating the sacrifice is sharing the altar. What is true at Israel's altar is then turned against table-fellowship with idols."
     }
+   ],
+   "10:8": [
+    {
+     "target": "Numbers 25:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Neither let us fornicate, as certain of them did fornicate, and there fell in one day three and twenty thousand",
+      "target": "and there were slain four and twenty thousand men"
+     },
+     "note": "Paul counts those who fell in one day at Phogor; Numbers gives the plague's whole toll — three and twenty thousand in the day, four and twenty thousand in all. The seed keys Paul's verse to the sin's opening (25:1); the reckoning of the dead is this verse."
+    }
    ]
   },
   "James": {
@@ -5431,6 +5504,17 @@
       "target": "God created man to his own image"
      },
      "note": "The Preacher sums up the fall in one line: God made man right — created to his image — and man has entangled himself."
+    }
+   ],
+   "5:3": [
+    {
+     "target": "Numbers 30:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If thou hast vowed any thing to God, defer not to pay it: for an unfaithful and foolish promise displeaseth him. But whatsoever thou hast vowed, pay it",
+      "target": "he shall not make his word frustrate, but all that he promised he shall fulfill"
+     },
+     "note": "The Preacher's counsel is the law's edge turned proverb: defer not to pay what thou hast vowed — the same duty this verse lays on the man who binds himself by an oath."
     }
    ]
   },
@@ -5512,6 +5596,17 @@
       "target": "If it have a blemish, you shall not offer it, neither shall it be acceptable"
      },
      "note": "The prophet's charge — blind, lame and feeble victims on the altar — is measured by the blemish law (spelled out at 22:22: the blind, the broken, the maimed). What would shame a governor's table profanes God's."
+    }
+   ],
+   "2:5": [
+    {
+     "target": "Numbers 25:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "My covenant was with him of life and peace: & I gave him fear: and he feared me",
+      "target": "Therefore speak to him: Behold I give him the peace of my covenant"
+     },
+     "note": "The covenant 'of life and peace' Malachias recalls for Levi is this grant to Levi's zealous son: the peace of God's covenant, given to Phinees in the act of zeal."
     }
    ]
   },
@@ -5658,6 +5753,17 @@
      },
      "note": "The covenant formula of Leviticus 26:12 reaches its last form in the new Jerusalem: God dwelling with men, they his people, he their God. Ezekiel 37:27 stands between (entered at 26:11)."
     }
+   ],
+   "2:14": [
+    {
+     "target": "Numbers 31:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "them that hold the doctrine of Balaam, who taught Balac to cast a scandal before the children of Israel, to eat and commit fornication",
+      "target": "that deceived the children of Israel at the suggestion of Balaam, and made you prevaricate against our Lord upon the sin of Phogor"
+     },
+     "note": "Moses' own indictment names the teacher John condemns: the eating and fornication at Phogor were Balaam's suggestion. The seed keys this verse of John to Balaam's parting counsel (24:14) and to the sin itself (25:2), but not to the verse that names its author."
+    }
    ]
   },
   "Jeremias": {
@@ -5693,6 +5799,28 @@
      },
      "note": "Jerusalem's masters made the jubilee proclamation — liberty to their Hebrew slaves — and then took it back. Jeremiah answers with God's counter-proclamation of 'liberty' to the sword, the pestilence and the famine, turning Leviticus 25:10's word against them."
     }
+   ],
+   "48:45": [
+    {
+     "target": "Numbers 21:28",
+     "kind": "quotation",
+     "evidence": {
+      "source": "because there came a fire out of Hesebon, and a flame out of the midst of Sehon, and it hath devoured part of Moab, and the top of the children of tumult",
+      "target": "Afire went forth from Hesebon, a flame from the town of Sehon, & devoured Ar of the Moabites, and the inhabitants of the high places of Arnon"
+     },
+     "note": "Jeremiah takes up the ancient proverb of Hesebon and turns it on Moab itself: the fire that once went forth from Sehon's town for Israel now devours Moab's own children of tumult."
+    }
+   ],
+   "48:46": [
+    {
+     "target": "Numbers 21:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Woe to thee Moab, thou hast perished, o people of Chamos: because thy sons are taken, and thy daughters into captivity",
+      "target": "Woe to thee Moab, thou art undone people of Chamos. He hath given his sons into flight, and his daughters into captivity to Sehon the King of the Amorrheites"
+     },
+     "note": "The proverb's woe over Moab stands word for word in Jeremiah's mouth; only the flight of the sons has ripened into captivity."
+    }
    ]
   },
   "2 Peter": {
@@ -5716,6 +5844,17 @@
       "target": "all flesh was consumed that moved upon the earth"
      },
      "note": "The world that then perished, overflowed with water, is the flood of Genesis, when all flesh that moved upon the earth was consumed."
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Numbers 22:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "having followed the way of Balaam of Bosor, which loved the reward of iniquity",
+      "target": "having the price of divination in their hands"
+     },
+     "note": "The reward Balaam loved is here in the elders' hands — the price of divination carried out to him. The 'way' Peter names is the road the angel meets at 22:32 ('thy way is perverse'). The seed carries Peter's next verse, the speaking ass, at 22:23."
     }
    ]
   },
@@ -6021,6 +6160,15 @@
       "target": "Thou shalt not forswear thyself in my name, nor pollute the name of thy God"
      },
      "note": "The old saying the Lord cites is Leviticus' ban on swearing falsely by God's name; its second half also gathers the law of vows performed (Numbers 30). In this corpus the oath saying stands at Matthew 5:34; the seed keys that verse to the neighbouring 19:11, but the perjury clause itself is 19:12."
+    },
+    {
+     "target": "Numbers 30:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but thou shall perform thy oaths to our Lord",
+      "target": "all that he promised he shall fulfill"
+     },
+     "note": "The second half of the old saying in the Sermon — perform thy oaths to the Lord — is the vow law of this verse. Its perjury half is already keyed to Leviticus 19:12 in our layer; in this corpus the saying stands at Matthew 5:34."
     }
    ],
    "26:63": [
@@ -6043,6 +6191,28 @@
       "target": "he shall not rent his garments"
      },
      "note": "At the verdict the high priest does the one thing Leviticus forbids the anointed high priest to do, even in mourning: he rents his garments."
+    }
+   ],
+   "2:2": [
+    {
+     "target": "Numbers 24:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For we have seen his star in the East, and are come to adore him.",
+      "target": "A star Shall Rise out of Jacob, and a rod shall arise from Israel"
+     },
+     "note": "The star the Sages follow to Bethlehem is Balaam's star, risen out of Jacob in the last of his parables. Our Genesis stage already keys Jacob's own blessing (Gen 49:10) to this verse; the sighting itself was still unkeyed."
+    }
+   ],
+   "9:36": [
+    {
+     "target": "Numbers 27:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And seeing the multitudes, he pitied them; because they were vexed, and lay like sheep that have not a shepherd",
+      "target": "lest the people of our Lord be as sheep without a pastor"
+     },
+     "note": "The compassion of Jesus over the multitudes speaks Moses' prayer back to him — sheep without a shepherd — and answers it in his own person, the man provided to go in and out before them."
     }
    ]
   },
@@ -6545,6 +6715,171 @@
      },
      "note": "The psalm summons the trumpet for the appointed solemnity at the new moon — the memorial of blowing trumpets on the first day of the seventh month, which opens the autumn feasts of Leviticus 23."
     }
+   ],
+   "94:11": [
+    {
+     "target": "Numbers 14:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And these have not known my ways: as I sware in my wrath: if they shall enter into my rest",
+      "target": "they shall not see the Land for the which I sware to their fathers, neither shall any of them that hath detracted me, behold it"
+     },
+     "note": "The oath the psalm sings — the text Hebrews 3-4 preaches — was sworn here, at Cades, against the generation of the spies: they shall not see the land."
+    }
+   ],
+   "105:14": [
+    {
+     "target": "Numbers 11:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And they coveted concupiscence in the desert: and tempted God in the place without water",
+      "target": "For the common vulgar people that came up with them, burned with desire, sitting and weeping, the children of Israel being joined together with them"
+     },
+     "note": "The psalm's 'concupiscence in the desert' is this burning desire for flesh — the craving that named the place itself, the Sepulchres of concupiscence (11:34). Paul's 'as they also coveted' is seed-carried at this verse."
+    }
+   ],
+   "77:27": [
+    {
+     "target": "Numbers 11:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he rained upon them flesh as dust: and as the sand of the sea feathered fowls",
+      "target": "And a wind coming forth from our Lord, taking quails over the sea brought them, and let them fall into the camp the space of one day's journey"
+     },
+     "note": "The psalm's rain of flesh is this wind from the Lord, driving the quails in over the sea to fall around the camp. Wisdom's retelling of the quails is already keyed to this verse in our layer."
+    }
+   ],
+   "77:30": [
+    {
+     "target": "Numbers 11:33",
+     "kind": "allusion",
+     "evidence": {
+      "source": "They were not defrauded of their desire. As yet their meats were in their mouth",
+      "target": "As yet the flesh was in their teeth, neither had that kind of meat failed: & behold the fury of our Lord being provoked against the people, struck them with an exceeding great plague"
+     },
+     "note": "Meats in the mouth, flesh in the teeth, and the blow falling while they ate — the psalm keeps Numbers' very image of the plague at the Sepulchres of concupiscence."
+    }
+   ],
+   "105:17": [
+    {
+     "target": "Numbers 16:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The earth was opened, and swallowed Dathan, and overwhelmed the congregation of Abiron",
+      "target": "and opening her mouth, devoured them with their tabernacles & all their substance"
+     },
+     "note": "The psalm's history names what this verse records: Dathan swallowed, Abiron's congregation overwhelmed, in the one opening of the earth."
+    }
+   ],
+   "105:18": [
+    {
+     "target": "Numbers 16:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And a fire flamed up in their synagogue: the flame burnt the sinners",
+      "target": "But a fire also coming forth from our Lord, slew the two hundred fifty men, that offered the incense"
+     },
+     "note": "The fire that flamed in their synagogue is the fire that took the two hundred fifty censer-bearers. Sirach's praise of Aaron reaches the same verse from the other side in our layer."
+    }
+   ],
+   "105:32": [
+    {
+     "target": "Numbers 20:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And they provoked him at the waters of contradiction: and Moyses was vexed for them",
+      "target": "This is the water of contradiction, where the children of Israel quarrelled against our Lord, and he was sanctified in them"
+     },
+     "note": "The psalm calls the place by the very name this verse gives it — the water of contradiction at Cades."
+    }
+   ],
+   "105:33": [
+    {
+     "target": "Numbers 20:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because they exasperated his spirit. And he plainly affirmed in his lips",
+      "target": "Hear ye rebellious & incredulous: Can we out of this rock bring you forth water?"
+     },
+     "note": "The psalm's diagnosis — a spirit exasperated, a rash word on the lips — is this cry before the rock, the word for which Moses lost the land he was not to enter."
+    }
+   ],
+   "66:2": [
+    {
+     "target": "Numbers 6:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God have mercy upon us, and bless us: illuminate his countenance upon us, and have mercy on us",
+      "target": "Our Lord shew his face to thee, and have mercy upon thee"
+     },
+     "note": "The psalm prays Aaron's blessing back upon the whole congregation — bless us, shew thy face on us, have mercy — in the blessing's own words and order."
+    }
+   ],
+   "4:7": [
+    {
+     "target": "Numbers 6:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The light of thy countenance, o Lord is signed upon us: thou hast given gladness in my heart",
+      "target": "Our Lord turn his countenance upon thee, and give thee peace"
+     },
+     "note": "The countenance lifted and turned upon the blessed one, and its fruit in the heart — gladness answering to the blessing's peace."
+    }
+   ],
+   "67:2": [
+    {
+     "target": "Numbers 10:35",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Let God arise, and let his enemies be dispersed, and let them that hate him fly from his face",
+      "target": "Arise Lord, and be thine enemies dispersed, and let them fly that hate thee, from thy face"
+     },
+     "note": "The psalm opens with Moses' cry at the rising of the ark, transposed into the third person for the liturgy — enemies dispersed, haters fled from his face — but the words are the ark's own."
+    }
+   ],
+   "135:19": [
+    {
+     "target": "Numbers 21:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Sehon the king of the Amorrheites: because his mercy is for ever",
+      "target": "Of whom he was strucken in the edge of the sword, and his land was possessed from Arnon unto Jeboc"
+     },
+     "note": "The litany's first conquered king is Sehon, struck in the edge of the sword at Jasa and possessed from Arnon to Jeboc. The seed points the sister psalm (134:11) at this chapter only."
+    }
+   ],
+   "135:20": [
+    {
+     "target": "Numbers 21:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And Og the king of Basan: because his mercy is for ever",
+      "target": "Fear him not, for into thy hand I have delivered him, and all his people, and land: and thou shalt do to him as thou didst to Sehon the king of the Amorrheites, the inhabiter of Hesebon"
+     },
+     "note": "The litany's second king is Og of Basan, delivered into Israel's hand by this word — do to him as thou didst to Sehon."
+    }
+   ],
+   "105:30": [
+    {
+     "target": "Numbers 25:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And Phinees stood, and pacified: and the slaughter ceased",
+      "target": "And the plague ceased from the children of Israel"
+     },
+     "note": "Phinees standing, and the plague ceasing — the psalm compresses the deed at the brothel house into its one effect, and the next verse reckons it to him for justice."
+    }
+   ],
+   "105:31": [
+    {
+     "target": "Numbers 25:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And it was reputed to him unto justice, in generation and generation even for ever",
+      "target": "and there shall be as well to him as to his seed the covenant of priesthood for ever, because he hath been zealous for his God, and hath expiated the wicked fact of the children of Israel"
+     },
+     "note": "The psalm reckons Phinees' zeal with Abraham's own reckoning word — reputed unto justice — and its 'for ever' is this covenant's: an everlasting priesthood to him and to his seed. Sirach's praise of Phinees is keyed to the same verse in our layer."
+    }
    ]
   },
   "Deuteronomy": {
@@ -6756,6 +7091,127 @@
      },
      "note": "Deuteronomy re-legislates Leviticus' gleaning law as the forgotten sheaf: what the reaper leaves behind is suffered to the stranger, the pupil and the widow. Leviticus extends the same mercy to the vineyard at 19:10 — left 'to the poor, and the strangers to take'."
     }
+   ],
+   "23:4": [
+    {
+     "target": "Numbers 22:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and because they hired against thee Balaam, the son of Beor of Mesopotamia in Syria, to curse thee",
+      "target": "Come therefore, and curse this people, because it is mightier than I"
+     },
+     "note": "The hiring Deuteronomy will not let Israel forget is Balac's summons itself, in its own words: come, and curse this people."
+    }
+   ],
+   "23:5": [
+    {
+     "target": "Numbers 23:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "& our Lord thy God would not hear Balaam, and he turned his cursing into thy blessing, for that he loved thee",
+      "target": "That thou shouldst curse mine enemies I called thee: and thou contrary wise blessest them"
+     },
+     "note": "The turning of cursing into blessing that Deuteronomy preaches is Balac's complaint verbatim: called to curse, he blessed contrariwise."
+    }
+   ],
+   "1:35": [
+    {
+     "target": "Numbers 14:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "There shall not any of the men of this wicked generation see the good Land, which by oath I promised to your fathers",
+      "target": "they shall not see the Land for the which I sware to their fathers, neither shall any of them that hath detracted me, behold it"
+     },
+     "note": "Moses' retelling forty years on keeps the oath's own frame — not see the land, sworn to the fathers — with Caleb's exception following in both tellings."
+    }
+   ],
+   "2:14": [
+    {
+     "target": "Numbers 14:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "until all the generation of the men that were warriors was consumed out of the camp, as our Lord had sworn",
+      "target": "In this wilderness shall your carcasses lie. All you that are numbered from twenty years & upward, and have murmured against me"
+     },
+     "note": "Thirty-eight years from Cadesbarne to Zared, Deuteronomy looks back and finds this sentence spent to the last man, 'as our Lord had sworn'."
+    }
+   ],
+   "11:6": [
+    {
+     "target": "Numbers 16:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whom the earth opening her mouth swallowed up with their houses and tabernacles, and all their substance, which they had in the midst of Israel",
+      "target": "and opening her mouth, devoured them with their tabernacles & all their substance"
+     },
+     "note": "Deuteronomy's rehearsal for the children keeps the event's own words — the earth's mouth, the tabernacles, all their substance."
+    }
+   ],
+   "32:51": [
+    {
+     "target": "Numbers 20:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because you did prevaricate against me in the midst of the children of Israel at the Waters of contradiction in Cades of the desert of Sin: and you did not sanctify me among the children of Israel",
+      "target": "Because you have not believed me, to sanctify me before the children of Israel, you shall not bring in these peoples into the land, which I will give them"
+     },
+     "note": "At the sentence of Moses' own death the charge is read back in its first words: you did not sanctify me at the waters of contradiction."
+    }
+   ],
+   "24:9": [
+    {
+     "target": "Numbers 12:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Remember what our Lord your God did to Mary, in the way when you came out of Ægypt",
+      "target": "and behold Mary appeared white with leprosy as it were snow"
+     },
+     "note": "The law of the leper in Deuteronomy is taught by a memory: what befell Mary in the way — white with leprosy as snow — for speaking against Moyses."
+    }
+   ],
+   "29:7": [
+    {
+     "target": "Numbers 21:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And you came to this place: and there came forth Sehon the king of Hesebon, and Og the king of Basan, meeting us to fight. And we struck them",
+      "target": "Of whom he was strucken in the edge of the sword, and his land was possessed from Arnon unto Jeboc"
+     },
+     "note": "The covenant renewal in the plains of Moab looks back one generation: both kings came forth to fight at the border, and both were struck — the first land Israel ever possessed."
+    }
+   ],
+   "34:9": [
+    {
+     "target": "Numbers 27:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And Josue the son of Nun was replenished with the spirit of wisdom, because Moyses did put his hands upon him",
+      "target": "And imposing his hands on his head, he repeated all things that our Lord had commanded"
+     },
+     "note": "The wisdom Josue is full of when Moses dies is traced by Deuteronomy's last page to this laying on of hands before Eleazar and all the assembly."
+    }
+   ],
+   "23:23": [
+    {
+     "target": "Numbers 30:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "But that which is once gone out of thy lips, thou shalt observe, & shalt do as thou hast promised to our Lord thy God, & hast spoken with thy proper will and thine own mouth",
+      "target": "If any man make a vow to our Lord, or bind himself by an oath: he shall not make his word frustrate, but all that he promised he shall fulfill"
+     },
+     "note": "Deuteronomy restates the vow law first spoken to the princes of the tribes (30:2 in this corpus's numbering): what has gone out of the lips must be fulfilled, not made frustrate."
+    }
+   ],
+   "19:13": [
+    {
+     "target": "Numbers 35:33",
+     "kind": "theme",
+     "evidence": {
+      "source": "Thou shalt not pity him, & thou shalt take away the guilty blood out of Israel, that it may be well with thee",
+      "target": "Pollute not the land of your habitation, which is polluted with the blood of innocents: neither can it otherwise be expiated, but by his blood, that sheddeth another man's blood"
+     },
+     "note": "Deuteronomy's command to purge the guilty blood from Israel rests on this verse's doctrine, the Torah's fullest statement of it: a land polluted with blood is expiated no other way than by the blood of him who shed it."
+    }
    ]
   },
   "Osee": {
@@ -6779,6 +7235,17 @@
       "target": "I am the Lord thy God, which brought thee forth out of the Land of Ægypt"
      },
      "note": "Osee re-utters the Decalogue's preface as accusation: 'I the Lord thy God out of the land of Egypt — and God beside me thou shalt not know'."
+    }
+   ],
+   "9:10": [
+    {
+     "target": "Numbers 25:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but they have entered into Beelphegor, and are alienated into confusion, and are become abominable, as those things, which they loved",
+      "target": "And Israel was professed to Beelphegor, and our Lord being angry"
+     },
+     "note": "The prophet's one word for Israel's fall in the wilderness is this verse's: entered into, professed to, Beelphegor. The seed carries the psalm's witness (105:28) at this verse; Osee's is its own."
     }
    ]
   },
@@ -6870,6 +7337,17 @@
      },
      "note": "The leper king lives out the leper's sentence — cut off from the house of the Lord he had invaded, dwelling apart until his death — exactly as Leviticus 13:46 appoints for everyone the disease marks."
     }
+   ],
+   "30:2": [
+    {
+     "target": "Numbers 9:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Counsel therefore being taken of the king and the Princes, and of all the assembly of Jerusalem, they decreed to make the Phase the second month",
+      "target": "in the second month, the fourteenth day of the month at even: with azymes and wild lettuce shall they eat it"
+     },
+     "note": "Ezechias' Passover is kept under this provision: the Phase of the second month, first given for the man unclean upon a soul or far off in his journey (9:10)."
+    }
    ]
   },
   "Micheas": {
@@ -6894,6 +7372,17 @@
      },
      "note": "Micheas opens with the song's own question — 'Who is like to thee?' — and turns it from God's power against Egypt to his taking away of iniquity."
     }
+   ],
+   "6:5": [
+    {
+     "target": "Numbers 23:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "what Balaam the son of Beor answered him: from Setim even to Galgal, that thou mightest know the justices of our Lord",
+      "target": "and taking up his parable, he said: From Aram hath Balac king of the Moabites brought me, from the mountains of the East"
+     },
+     "note": "The answer God bids his people remember is the parables of chapters 23-24; this is their head, where Balaam owns that Balac brought him to curse."
+    }
    ]
   },
   "Josue": {
@@ -6917,6 +7406,72 @@
       "target": "thou shalt not build it of hewed stones: for if thou lift up thy knife over it, it shall be polluted"
      },
      "note": "Josue builds the altar on Ebal expressly 'as Moses had commanded... in the volume of the law' — the unhewed stones of Exodus' altar law, on which no iron has been lifted."
+    }
+   ],
+   "24:10": [
+    {
+     "target": "Numbers 23:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "& I would not hear him, but contrarywise by him I blessed you, and delivered you out of his hand",
+      "target": "That thou shouldst curse mine enemies I called thee: and thou contrary wise blessest them"
+     },
+     "note": "Josue's farewell rehearses the same reversal, and keeps its key word: 'contrarywise' in both the complaint and the retelling."
+    }
+   ],
+   "14:7": [
+    {
+     "target": "Numbers 13:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Forty years old was I when Moyses the servant of our Lord sent me from Cadesbarne, to view the Land, & I reported to him that which to me seemed true",
+      "target": "Send men that may view the Land of Chanaan, which I will give to the children of Israel, one of every tribe, of the Princes"
+     },
+     "note": "Caleb, pleading for Hebron in his old age, names the errand that began with this command — sent from Cadesbarne to view the land."
+    }
+   ],
+   "22:17": [
+    {
+     "target": "Numbers 25:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Is it a small thing to you that you sinned in Beelphegor, and until this present day the spot of this abomination abideth in us? And many of the people fell dead",
+      "target": "And Israel was professed to Beelphegor, and our Lord being angry"
+     },
+     "note": "The tribes beyond Jordan are warned by the standing spot of Phogor: the sin that abides is this professing to Beelphegor, for which the many fell."
+    }
+   ],
+   "17:4": [
+    {
+     "target": "Numbers 27:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "saying: Our Lord commanded by the hand of Moyses, that a possession should be given us in the midst of our brethren. And he gave them according to the commandment of our Lord a possession in the midst of their father's brethren",
+      "target": "The daughters of Salphaad require a just thing: give them possession among their father's kin, and let them succeed him in the inheritance"
+     },
+     "note": "In the dividing of the land the daughters plead the ruling itself, and Josue gives the possession 'according to the commandment of our Lord' — this commandment, spoken to Moyses at their first asking."
+    }
+   ],
+   "20:2": [
+    {
+     "target": "Numbers 35:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Separate the cities of the fugitives, of the which I spake to you by the hand of Moyses",
+      "target": "determine what cities shall be for the succour of fugitives, that have not voluntarily shed blood"
+     },
+     "note": "Josue separates the very cities God 'spake of by the hand of Moyses': the refuge law of this chapter put into possession, six cities among the Levites' forty-eight (35:6)."
+    }
+   ],
+   "23:13": [
+    {
+     "target": "Numbers 33:55",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but they shall be a pit and a snare for you, and a stumbling block at your side, and stakes in your eyes, till he take you away and destroy you from his excellent Land",
+      "target": "they that remain, shall be unto you as it were nails in your eyes, and spears in your sides, and they shall be your adversaries in the Land of your habitation"
+     },
+     "note": "Josue's farewell takes up the warning spoken on the march: the nations left in the land as nails — stakes — in the eyes, and spears in the sides."
     }
    ]
   },
@@ -6952,6 +7507,28 @@
       "target": "he shall offer for his offence a ram without spot out of the flocks"
      },
      "note": "Even the Philistines' diviners know an offended god is answered with the offence offering: they send golden emerods and mice 'for sin' beside the ark — Leviticus' asham imitated by Gentiles, restitution carried to the sanctuary."
+    }
+   ],
+   "15:29": [
+    {
+     "target": "Numbers 23:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for neither is he a man that he may repent",
+      "target": "God is not as man, that he may lie, nor as the son of man, that he may be changed"
+     },
+     "note": "Samuel's sentence over Saul is Balaam's confession turned to judgment: God is not as man, to lie or to repent of his word — so the kingdom is rent and not restored."
+    }
+   ],
+   "1:11": [
+    {
+     "target": "Numbers 6:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will give him to our Lord all the days of his life, & the razor shall not come upon his head",
+      "target": "a razor shall not pass over his head"
+     },
+     "note": "Anna's vow for Samuel borrows the Nazarite's visible mark — the unshorn head of a child given to the Lord all the days of his life."
     }
    ]
   },
@@ -7144,6 +7721,28 @@
      },
      "note": "Ezekiel's temple law extends the high priest's marriage rule — no widow, no divorced woman, a virgin of his own people — to all the priests of the restored house, with one stated exception for a priest's widow."
     }
+   ],
+   "34:5": [
+    {
+     "target": "Numbers 27:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And my sheep were dispersed, because there was no Pastor: & they came to be devoured of all the beasts of the field, and were dispersed",
+      "target": "lest the people of our Lord be as sheep without a pastor"
+     },
+     "note": "Ezechiel's charge against the shepherds of Israel opens where Moses' prayer began: a flock with no pastor is a flock dispersed and devoured."
+    }
+   ],
+   "47:15": [
+    {
+     "target": "Numbers 34:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And this is the border of the land: toward the North quarter, from the great sea by the way of Hethalon, as they come to Sedada",
+      "target": "from the which they shall come unto Emath as far as the borders of Sedada"
+     },
+     "note": "Ezechiel's survey of the restored land retraces this chapter's borders: the north line still runs from the great sea by Emath toward Sedada and Enan (34:7-9) — the old lot lines kept for the new possession."
+    }
    ]
   },
   "Zacharias": {
@@ -7214,6 +7813,17 @@
      },
      "note": "Naboth is condemned on a manufactured blasphemy charge and executed in the blasphemy law's own form — brought forth outside and stoned by the multitude. Stephen's death follows the same shape without the law's warrant (Acts 7:58, set aside: no verbal anchor)."
     }
+   ],
+   "22:17": [
+    {
+     "target": "Numbers 27:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And he said: I saw all Israel dispersed in the mountains, as sheep not having a shepherd, and our Lord said: These have no master",
+      "target": "and may go out and enter in before them, and bring them out, or bring them in: lest the people of our Lord be as sheep without a pastor"
+     },
+     "note": "Micheas' vision over Ahab is Moses' fear for the congregation after him, in the same figure: Israel scattered as sheep not having a shepherd — and the Lord's answer there is that they have no master."
+    }
    ]
   },
   "Numbers": {
@@ -7271,6 +7881,28 @@
      },
      "note": "Core's company repeats Nadab and Abihu's offence — incense offered without command — and meets their fire. Unauthorized incense is answered from the same presence in both books."
     }
+   ],
+   "11:17": [
+    {
+     "target": "Exodus 18:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and I will take of thy spirit, and will deliver to them, that they may sustain with thee the burden of the people, and thou only be not burdened",
+      "target": "& so it may be lighter for thee, the burden being imparted unto others"
+     },
+     "note": "The seventy elders are Jethro's counsel come of age: the burden of the people imparted to others — now with Moses' own spirit delivered to them, which Exodus' judges did not have."
+    }
+   ],
+   "27:14": [
+    {
+     "target": "Numbers 20:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "because you did offend me in the desert Sin in the contradiction of the multitude, neither would you sanctify me before them upon the waters",
+      "target": "Because you have not believed me, to sanctify me before the children of Israel, you shall not bring in these peoples into the land, which I will give them"
+     },
+     "note": "When Moses must provide his successor, the old sentence is recited once more — the book keeps its own record straight, word for word in the charge."
+    }
    ]
   },
   "2 Esdras": {
@@ -7306,6 +7938,28 @@
      },
      "note": "Nehemiah's generation finds the booths command 'written in the law' and keeps it as it had not been kept since the days of Josue — the feast of Leviticus 23:34-42 revived out of the book itself."
     }
+   ],
+   "13:2": [
+    {
+     "target": "Numbers 23:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and they hired against them Balaam to curse them: and our God turned the cursing into blessing",
+      "target": "That thou shouldst curse mine enemies I called thee: and thou contrary wise blessest them"
+     },
+     "note": "Read aloud from the law in the restored congregation (the text is Deuteronomy 23), the cursing turned to blessing is anchored here at the moment Balac heard it. The seed points this verse only at Numbers 22 by chapter."
+    }
+   ],
+   "9:22": [
+    {
+     "target": "Numbers 21:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and they possessed the land of Sehon, and the land of the king Hesebon, and the land of Og the king of Basan",
+      "target": "Of whom he was strucken in the edge of the sword, and his land was possessed from Arnon unto Jeboc"
+     },
+     "note": "Nehemias' great confession counts the firstfruits of the promise kept as these two kingdoms east of Jordan — Sehon's land and Og's, possessed in this chapter."
+    }
    ]
   },
   "Joel": {
@@ -7318,6 +7972,17 @@
       "target": "merciful and clement, patient and of much compassion"
      },
      "note": "Joel summons Israel to return on the strength of the proclamation: 'he is benign and merciful, patient and of much mercy'."
+    }
+   ],
+   "2:28": [
+    {
+     "target": "Numbers 11:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will pour out my spirit upon all flesh: and your sons, and your daughters shall prophesy",
+      "target": "O that all the people might prophesy, and that our Lord would give them his spirit!"
+     },
+     "note": "What Moses wished over Eldad and Medad — all the people prophesying, the Lord giving them his spirit — Joel promises outright: the spirit poured on all flesh. Peter preaches Joel's form at Pentecost; the wish underneath it is this verse."
     }
    ]
   },
@@ -7451,6 +8116,87 @@
       "target": "he had touched the tip of the right ear of every one, and the thumbs of the right hand and foot"
      },
      "note": "Within the book itself: the cleansed leper is restored with the consecration rite of Aaron's sons — the host's blood on the right ear, the right thumb, the right foot — as one re-ordained into the camp."
+    }
+   ]
+  },
+  "Jude": {
+   "1:11": [
+    {
+     "target": "Numbers 22:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and with the error of Balaam, have for reward poured out themselves",
+      "target": "having the price of divination in their hands"
+     },
+     "note": "Jude's 'for reward' is this price: the hire of cursing, carried in the messengers' hands, is the error's whole motive."
+    },
+    {
+     "target": "Numbers 16:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and have perished in the contradiction of Core",
+      "target": "and opening her mouth, devoured them with their tabernacles & all their substance"
+     },
+     "note": "The perishing Jude names is this: the earth opening her mouth on Core's company in their contradiction of Moses and Aaron."
+    }
+   ]
+  },
+  "Judges": {
+   "13:5": [
+    {
+     "target": "Numbers 6:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because thou shalt conceive & bear a son, whose head the razor shall not touch: for he shall be a Nazarite of God, from his infancy, and from his mother's womb",
+      "target": "All the time of his separation a razor shall not pass over his head, until the day be expired, that he is consecrated to the Lord"
+     },
+     "note": "Samson is the law's lifelong Nazarite: the angel lays this chapter's razor rule on him from the womb, and his mother's abstinence (13:4) extends the consecration backward before his birth."
+    }
+   ],
+   "16:17": [
+    {
+     "target": "Numbers 6:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "There never came iron upon my head, because I am a Nazarite, that is to say, consecrated to God from my mother's womb: if my head shall be shaven, my strength shall depart from me",
+      "target": "a razor shall not pass over his head"
+     },
+     "note": "Samson's confession to Delila is the vow's own term spoken at its breaking point — no razor on the consecrated head; shorn, he is as other men."
+    }
+   ],
+   "4:11": [
+    {
+     "target": "Numbers 10:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And Haber the Cineite was in time past departed from the rest of the Cineites his brethren of Hobab, the cousin of Moyses",
+      "target": "And Moyses said to Hobab the son of Raguel the Madianite, his allied: We march toward the place, which our Lord will give us: come with us, that we may do thee good"
+     },
+     "note": "The Cineans dwelling in Israel — Haber among them, in the days of the Judges — are there because Hobab took this invitation and did not return to his own country."
+    }
+   ],
+   "11:19": [
+    {
+     "target": "Numbers 21:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Israel therefore sent messengers to Sehon the king of the Amorrheites, who dwelt in Hesebon, & they said to him: Suffer me to pass through thy land unto the river",
+      "target": "And Israel sent messengers to Sehon King of the Amorrheites, saying"
+     },
+     "note": "Jephte's embassy to Ammon argues Israel's title from this embassy — the same messengers, the same request for passage, the same refusal that ended at Jasa."
+    }
+   ]
+  },
+  "Amos": {
+   "2:12": [
+    {
+     "target": "Numbers 6:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And you drank wine to the Nazareites: and the Prophets you commanded, saying: prophesy not",
+      "target": "they shall abstain from wine, & every thing that can make one drunk"
+     },
+     "note": "The sin Amos charges on Israel is forcing the consecrated to break the first rule of their consecration — wine, which the Nazarite shall not touch."
     }
    ]
   }
