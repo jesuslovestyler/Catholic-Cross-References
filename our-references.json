@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "1.0.0",
+ "version": "1.1.0",
  "stage": "The whole Catholic canon is covered, stage by stage. Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. Stage 4: the rest of the canon — Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, Psalms, Job, Proverbs, Ecclesiastes, Canticle of Canticles, Isaias, Jeremias, Lamentations, Ezechiel, Daniel chapters 1-12, Osee, Joel, Amos, Abdias, Jonas, Micheas, Nahum, Habacuc, Sophonias, Aggeus, Zacharias, Malachias, Matthew, Mark, Luke, John, Acts of the Apostles, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, and Apocalypse. Every book of the 73 was drafted and audited; 70 of the 73 are touched by at least one reference in either direction, and Philemon, 2 John, and 3 John were examined and honestly left empty — they yield no verifiable Scripture anchor, and nothing was padded in.",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 1448,
+  "references": 1870,
+  "verses_with_references": 1687,
+  "books_with_references": 70,
   "by_kind": {
-   "parallel": 391,
-   "allusion": 853,
-   "quotation": 145,
-   "theme": 59
-  },
-  "source_books": 70,
-  "source_verses": 1304
+   "allusion": 1099,
+   "parallel": 475,
+   "quotation": 220,
+   "theme": 76
+  }
  },
  "references": {
   "Wisdom": {
@@ -781,6 +781,14 @@
       "target": "much more precious than gold (which is proved by the fire)"
      },
      "note": "The just proved as gold in God's furnace are the faith Peter says is proved by fire."
+    },
+    {
+     "target": "Proverbs 17:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As gold in the furnace he hath proved them",
+      "target": "gold in the furnace: so our Lord proveth the hearts"
+     }
     }
    ],
    "3:1": [
@@ -836,6 +844,14 @@
       "target": "the benignity of God bringeth thee to penance"
      },
      "note": "God dissembling men's sins for repentance in Wisdom is the benignity that leads to penance in Paul."
+    },
+    {
+     "target": "Ezechiel 33:11",
+     "kind": "theme",
+     "evidence": {
+      "source": "thou hast mercy on all, because thou canst do all things, and dissemblest the sins of men for repentance",
+      "target": "I will not the death of the impious, but that the impious convert from his way, and live"
+     }
     }
    ],
    "12:10": [
@@ -1054,6 +1070,66 @@
       "target": "they have eyes, and shall not see"
      },
      "note": "The senseless idols of Wisdom 15 are the psalm's idols with eyes that shall not see."
+    }
+   ],
+   "2:12": [
+    {
+     "target": "Psalms 36:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Let us therefore circumvent the just",
+      "target": "The sinner considereth the just: and seeketh to murder him"
+     }
+    }
+   ],
+   "3:5": [
+    {
+     "target": "2 Corinthians 4:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "Vexed in few things, in many they shall be well disposed of",
+      "target": "our tribulation which presently is momentary & light, worketh above measure exceedingly an eternal weight of glory"
+     }
+    }
+   ],
+   "6:13": [
+    {
+     "target": "Proverbs 8:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "is easily seen of them that love her, and is found of them that seek her",
+      "target": "I love them that love me: and they that watch toward me shall find me"
+     }
+    }
+   ],
+   "9:1": [
+    {
+     "target": "John 1:3",
+     "kind": "theme",
+     "evidence": {
+      "source": "which madest all things with thy Word",
+      "target": "All things were made by him"
+     }
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Genesis 1:26",
+     "kind": "parallel",
+     "evidence": {
+      "source": "didst appoint man, that he should have dominion of the creature, that was made by thee",
+      "target": "let him have dominion over the fishes of the sea"
+     }
+    }
+   ],
+   "9:5": [
+    {
+     "target": "Psalms 115:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I am thy servant, and the son of thy handmaid",
+      "target": "I am thy servant, and the son of thy handmaid"
+     }
     }
    ]
   },
@@ -1349,6 +1425,14 @@
       "target": "Call this Sunamite. Who being called, went in unto him: Who said: Take thy son."
      },
      "note": "The second raising behind the same clause of Hebrews: Eliseus gives the Sunamite her son back. Keyed beside the Sarepta entry, not merged into it."
+    },
+    {
+     "target": "2 Machabees 7:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "others were racked, not accepting redemption, that they might find a better resurrection",
+      "target": "they shall be raised up again by him"
+     }
     }
    ],
    "1:9": [
@@ -1655,6 +1739,74 @@
       "target": "the sword of the spirit (which is the word of God)"
      },
      "note": "Ephesians names the sword outright — the spirit's sword is the word of God; Hebrews draws that same word as a two-edged sword piercing to the division of soul and spirit."
+    },
+    {
+     "target": "Wisdom 18:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "more piercing than any two-edged sword",
+      "target": "a sharp sword carrying thy unfeigned commandment"
+     }
+    }
+   ],
+   "12:20": [
+    {
+     "target": "Exodus 19:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if a beast shall touch the mount, it shall be stoned",
+      "target": "he shall be stoned to death, or shall be shot through with arrows: whether it be beast, or man"
+     }
+    }
+   ],
+   "10:27": [
+    {
+     "target": "Isaias 26:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "rage of fire, which shall consume the adversaries",
+      "target": "let fire devour thine enemies"
+     }
+    }
+   ],
+   "11:38": [
+    {
+     "target": "3 Kings 18:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "wandering in deserts, in mountains & dens, and in caves of the earth",
+      "target": "hid them by fifty and fifty in caves"
+     }
+    }
+   ],
+   "11:16": [
+    {
+     "target": "Exodus 3:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God is not confounded to be called their God",
+      "target": "I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob"
+     }
+    }
+   ],
+   "13:20": [
+    {
+     "target": "Ezechiel 34:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the great Pastor of the sheep",
+      "target": "I will Raise up Over Them One Pastor: who shall feed them"
+     }
+    }
+   ],
+   "11:31": [
+    {
+     "target": "Josue 2:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Rahab the harlot perished not with the incredulous, receiving the spies with peace",
+      "target": "entered into the house of a woman, a harlot, named Rahab, and rested with her"
+     }
     }
    ]
   },
@@ -2036,6 +2188,26 @@
       "target": "a father of many Nations I have made thee."
      },
      "note": "Paul quotes the renaming word itself — Abram become Abraham because a father of many nations — as the ground of justification by faith for all nations."
+    }
+   ],
+   "2:6": [
+    {
+     "target": "Proverbs 24:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "render to every man according to his works",
+      "target": "he shall render to man according to his works"
+     }
+    }
+   ],
+   "1:23": [
+    {
+     "target": "Psalms 105:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they changed the glory of the incorruptible God, into a similitude of the image of a corruptible man",
+      "target": "they changed their glory into the similitude of a calf that eateth grass"
+     }
     }
    ]
   },
@@ -3048,6 +3220,116 @@
      },
      "note": "Sirach repeats the pit sentence in the Preacher's form. The seed carries this verse of Sirach to Ecclesiastes 10 only at chapter level; its twin pointer to Proverbs 26 is served by the Ecclesiastes entry above, and Sirach to Proverbs directly is set aside as a duplicate anchor."
     }
+   ],
+   "11:28": [
+    {
+     "target": "Jeremias 32:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to reward every one according to his ways",
+      "target": "to render unto every one according to his ways"
+     }
+    }
+   ],
+   "12:8": [
+    {
+     "target": "Proverbs 17:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "A friend shall not be known in prosperity, and an enemy shall not be hid in adversity",
+      "target": "a brother is proved in distresses"
+     }
+    }
+   ],
+   "20:7": [
+    {
+     "target": "Proverbs 11:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "A wise man will hold his peace until a time",
+      "target": "the wise man will hold his peace"
+     }
+    }
+   ],
+   "23:28": [
+    {
+     "target": "Proverbs 15:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the eyes of our Lord are much more brighter than the sun, beholding round about all the ways of man",
+      "target": "In every place the eyes of our Lord behold the good and the evil"
+     }
+    }
+   ],
+   "25:33": [
+    {
+     "target": "1 Timothy 2:14",
+     "kind": "theme",
+     "evidence": {
+      "source": "From woman came the beginning of sin, and by her we do all die",
+      "target": "the woman being seduced, was in prevarication"
+     }
+    }
+   ],
+   "41:14": [
+    {
+     "target": "Proverbs 10:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the name of the impious shall be clean wiped out",
+      "target": "The memory of the just is with praises: and the name of the impious shall rot"
+     }
+    }
+   ],
+   "45:4": [
+    {
+     "target": "Numbers 12:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In his faith and meekness he made him holy, and chose him of all flesh",
+      "target": "Moyses was the mildest man above all men that dwelt upon the earth"
+     }
+    }
+   ],
+   "45:12": [
+    {
+     "target": "Exodus 28:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "An holy robe, of gold, and hyacinth, and purple",
+      "target": "they shall make the Ephod of gold and hyacinth and purple"
+     }
+    }
+   ],
+   "45:27": [
+    {
+     "target": "Numbers 18:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he hath no part in the nation: for himself is his portion & inheritance",
+      "target": "you shall possess nothing, neither shall you have a portion among them: I am thy portion and inheritance"
+     }
+    }
+   ],
+   "46:20": [
+    {
+     "target": "Psalms 17:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And our Lord thundered from heaven, and in great sound he made his voice heard",
+      "target": "And our Lord thundered from heaven, and the Highest gave his voice"
+     }
+    }
+   ],
+   "2:22": [
+    {
+     "target": "2 Kings 24:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we shall fall into the hands of our Lord, and not into the hands of men",
+      "target": "it is better that I fall into the hands of our Lord (for his mercies be many) than into the hands of men"
+     }
+    }
    ]
   },
   "Tobias": {
@@ -3215,6 +3497,14 @@
       "target": "will send his Angel with thee, & will direct thy way"
      },
      "note": "Abraham sent his servant with an angel promised, to take a wife for his son from his own kindred; Tobias sends his son the same way, and the angel goes with him to a kinswoman's marriage."
+    },
+    {
+     "target": "Exodus 23:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God be in your journey, and his Angel accompany you",
+      "target": "I will send mine Angel, which shall go before thee, and keep thee in thy journey"
+     }
     }
    ],
    "3:8": [
@@ -3270,6 +3560,14 @@
       "target": "redeem thou thy sins with alms, & thine iniquities"
      },
      "note": "Raphael's doctrine, that alms purgeth sins, is Daniel's counsel to the king: redeem thou thy sins with alms."
+    },
+    {
+     "target": "Ecclesiasticus 3:33",
+     "kind": "allusion",
+     "evidence": {
+      "source": "alms delivereth from death, and that is it which purgeth sins",
+      "target": "Water quencheth burning fire, and alms resisteth sins:"
+     }
     }
    ],
    "12:12": [
@@ -3352,6 +3650,14 @@
       "target": "the kings of the earth shall bring their glory and honour into it"
      },
      "note": "The nations coming from far with gifts to adore the Lord in Jerusalem are the kings of the earth bringing their glory and honour into John's city."
+    },
+    {
+     "target": "Isaias 60:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Nations from far shall come to thee: and bringing gifts, they shall adore our Lord in thee",
+      "target": "that the strength of the Gentiles may be brought to thee, and their kings may be brought."
+     }
     }
    ],
    "13:17": [
@@ -3396,6 +3702,16 @@
       "target": "in the third year of tithes thou shalt give to the Levite, & the stranger, & the pupil, & the widow, that they may eat within thy gates, and be filled:"
      },
      "note": "Tobias in exile keeps the third-year tithe — the tithe of the third year given to the stranger — which Deuteronomy appoints here (and at 14:28–29). The old man's charity is the law's calendar kept in a strange land."
+    }
+   ],
+   "4:11": [
+    {
+     "target": "Proverbs 10:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "alms delivereth from all sin, and from death",
+      "target": "justice shall deliver from death."
+     }
     }
    ]
   },
@@ -3767,6 +4083,46 @@
       "target": "their worm shall not die, and their fire shall not be quenched"
      },
      "note": "Fire and worms given into the flesh, to burn and to be felt for ever, is Isaiah's sentence on the men that transgressed: their worm shall not die, and their fire shall not be quenched."
+    }
+   ],
+   "5:12": [
+    {
+     "target": "Exodus 14:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the waters were consolidated as a wall, on either side, and they walking through the bottom of the sea passed dry-foot.",
+      "target": "the water was as it were a wall on their right hand and their left."
+     }
+    }
+   ],
+   "5:13": [
+    {
+     "target": "Exodus 14:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there was not one remaining, to tell the fact to posterity",
+      "target": "neither did there so much as one of them remain."
+     }
+    }
+   ],
+   "5:16": [
+    {
+     "target": "Exodus 14:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "their God fought for them, and overcame",
+      "target": "Let us fly from Israel: for the Lord fighteth for them against us."
+     }
+    }
+   ],
+   "8:15": [
+    {
+     "target": "Numbers 23:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "not as man, so will God threaten, neither as the son of man will he be inflamed to anger",
+      "target": "God is not as man, that he may lie, nor as the son of man, that he may be changed."
+     }
     }
    ]
   },
@@ -4390,6 +4746,14 @@
       "target": "extinguished the force of fire"
      },
      "note": "Hebrews gathers the three children's deliverance into one clause: by faith they extinguished the force of fire."
+    },
+    {
+     "target": "Daniel 3:50",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Ananias and Azarias & Misael believing, were delivered out of the flame.",
+      "target": "the fire touched them not at all, nor pained them, nor did them any grievance."
+     }
     }
    ],
    "2:60": [
@@ -4476,6 +4840,36 @@
       "target": "struck in the camp of the Assyrians an hundred eighty five thousand."
      },
      "note": "Judas's general prays the Sennacherib deliverance back to God, number and all. The seed carries this verse only at chapter level (4 Kings 19)."
+    }
+   ],
+   "3:18": [
+    {
+     "target": "1 Kings 14:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there is no difference in the sight of the God of heaven to deliver in many, & in few",
+      "target": "it is not hard for our Lord to save either in many or in few."
+     }
+    }
+   ],
+   "3:19": [
+    {
+     "target": "Judges 7:2",
+     "kind": "theme",
+     "evidence": {
+      "source": "not in the multitude of the army is the victory of battle, but from heaven is the strength.",
+      "target": "There is much people with thee, neither shall Madian be delivered into their hand: lest Israel glory against me"
+     }
+    }
+   ],
+   "7:37": [
+    {
+     "target": "Isaias 56:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "it might be a house of prayer, and obsecration for thy people",
+      "target": "my house shall be called the house of prayer to all peoples."
+     }
     }
    ]
   },
@@ -4661,6 +5055,46 @@
       "target": "the walls forthwith fell: and every man went up by the place that was against him, and they took the city,"
      },
      "note": "Judas invokes the God who threw down Jericho in Jesus' time — the corpus's name for Josue — without engines, as Judas now assaults walls without them. Hebrews 11:30 to this same verse is the seed's; Judas's invocation was unkeyed. The seed also carries 2 Machabees 12:15 to Josue 6 at chapter level only."
+    }
+   ],
+   "1:27": [
+    {
+     "target": "Deuteronomy 30:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Gather together our dispersion, deliver them, that serve the Gentiles",
+      "target": "gather thee again out of all the peoples, into which he dispersed thee before."
+     }
+    }
+   ],
+   "1:29": [
+    {
+     "target": "Exodus 15:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Place thy people in thy holy place, as Moyses said.",
+      "target": "plant them in the mountain of thy inheritance, in thy most firm habitation, which thou hast wrought, o Lord"
+     }
+    }
+   ],
+   "11:6": [
+    {
+     "target": "Exodus 23:20",
+     "kind": "theme",
+     "evidence": {
+      "source": "that he would send a good Angel to the saving of Israel.",
+      "target": "Behold I will send mine Angel, which shall go before thee, and keep thee in thy journey"
+     }
+    }
+   ],
+   "15:21": [
+    {
+     "target": "Psalms 43:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who not according to the might of arms, but according as it pleaseth him, giveth victory to the worthy",
+      "target": "not by their own sword did they possess the land, and their own arm did not save them"
+     }
     }
    ]
   },
@@ -4941,6 +5375,36 @@
       "target": "the law of Medes and Persians is, that every decree, which the king hath determined, is not lawful to be changed."
      },
      "note": "The irrevocable law of the Medes and Persians is stated in both courts in the same terms — in Esther it deposes Vasthi and later binds the king against his own decree for the Jews; in Daniel it binds Darius against Daniel."
+    }
+   ],
+   "4:14": [
+    {
+     "target": "Jonas 3:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who knoweth whether thou camest to the Kingdom therefore, that in such a time thou mightest be ready?",
+      "target": "Who knoweth if God will convert, and forgive"
+     }
+    }
+   ],
+   "13:10": [
+    {
+     "target": "2 Esdras 9:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou madest heaven and earth, and whatsoever is contained in the compass of heaven.",
+      "target": "thou hast made heaven, and all the host thereof: the earth and all things that are in it"
+     }
+    }
+   ],
+   "13:14": [
+    {
+     "target": "Deuteronomy 6:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "lest I should adore any except my God.",
+      "target": "Thou shalt fear the Lord thy God, and him only shalt thou serve"
+     }
     }
    ]
   },
@@ -5424,6 +5888,34 @@
       "target": "all these curses shall come upon thee, and overtake thee"
      },
      "note": "Daniel's confession names its source — the malediction written in Moyses' book come upon them — and Deuteronomy 28:15 is the curse-chapter's doorway: if thou wilt not hear, all these curses shall come upon thee and overtake thee. Daniel names the book, not the chapter; the anchor is set at the curses' head, and Leviticus 26's parallel curses are not double-claimed."
+    },
+    {
+     "target": "Deuteronomy 29:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the malediction hath distilled upon us, & the detestation, which is written in the book of Moyses the servant of God",
+      "target": "all the curses sit upon him, that be written in this volume"
+     }
+    }
+   ],
+   "9:13": [
+    {
+     "target": "Deuteronomy 28:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As it is written in the law of Moyses, all this evil is come upon us",
+      "target": "all these curses shall come upon thee, and overtake thee"
+     }
+    }
+   ],
+   "4:9": [
+    {
+     "target": "Ezechiel 31:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "under it dwelt cattle, and beasts, and in the boughs thereof conversed the fowls of heaven",
+      "target": "in his boughs all the fowls of the heaven made nests, and under his leaves all beasts of the forests engendered"
+     }
     }
    ]
   },
@@ -5470,6 +5962,14 @@
       "target": "he is the image and glory of God"
      },
      "note": "Paul's word for the man — the image and glory of God — rests on Genesis' word that God created man to his own image."
+    },
+    {
+     "target": "Matthew 19:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "male and female he created them",
+      "target": "made them male & female"
+     }
     }
    ],
    "1:28": [
@@ -5843,6 +6343,14 @@
       "target": "thou didst find his heart faithful before thee: and thou madest a covenant with him"
      },
      "note": "The same prayer remembers why the covenant followed the believing: a heart found faithful before God."
+    },
+    {
+     "target": "Romans 4:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Abram believed God, and it was reputed to him unto justice",
+      "target": "Abraham believed God, & it was reputed him to justice"
+     }
     }
    ],
    "15:7": [
@@ -6239,6 +6747,76 @@
      },
      "note": "The bones carried out of Egypt under Joseph's adjuration are buried at last in Sichem, in the field Jacob bought — the oath's long journey ended where the patriarchs lie."
     }
+   ],
+   "2:24": [
+    {
+     "target": "Matthew 19:5",
+     "kind": "quotation",
+     "evidence": {
+      "source": "man shall leave his father & mother, & shall cleave to his wife",
+      "target": "man shall leave father & mother, & shall cleave to his wife"
+     }
+    }
+   ],
+   "12:3": [
+    {
+     "target": "Galatians 3:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "IN Thee shall all the kindreds of the earth be blessed",
+      "target": "in thee shall all nations be blessed"
+     }
+    }
+   ],
+   "5:24": [
+    {
+     "target": "Hebrews 11:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he walked with God, and was seen no more: because God took him",
+      "target": "By faith Henoch was translated, that he should not see death"
+     }
+    }
+   ],
+   "18:12": [
+    {
+     "target": "1 Peter 3:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my Lord is an old one",
+      "target": "As Sara obeyed Abraham, calling him lord"
+     }
+    }
+   ],
+   "22:9": [
+    {
+     "target": "James 2:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "when he had bound Isaac his son, he laid him on the altar",
+      "target": "offering Isaac his son upon the altar"
+     }
+    }
+   ],
+   "22:16": [
+    {
+     "target": "Hebrews 6:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "By my own self have I sworn, saith the Lord: because thou hast done this thing",
+      "target": "because he had none greater by whom he might swear, he sware by himself"
+     }
+    }
+   ],
+   "26:3": [
+    {
+     "target": "Genesis 12:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "to thee and to thy seed I will give all these countries",
+      "target": "To thy seed will I give this land"
+     }
+    }
    ]
   },
   "1 Corinthians": {
@@ -6262,6 +6840,14 @@
       "target": "formed man of the slime of the earth"
      },
      "note": "The first man is 'of earth, earthly' because God formed him of the slime of the earth; the second man is set against him as from heaven."
+    },
+    {
+     "target": "Genesis 3:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The first man of earth, earthly",
+      "target": "till thou return to earth, of which thou wast taken: because dust thou art"
+     }
     }
    ],
    "15:22": [
@@ -6470,6 +7056,36 @@
      },
      "note": "The order of the resurrection in both letters: Christ the firstfruits, then — at his coming — the dead that are in Christ rising first."
     }
+   ],
+   "5:13": [
+    {
+     "target": "Deuteronomy 17:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Take away the evil one from among yourselves",
+      "target": "thou mayest take away the evil out of the midst of thee"
+     }
+    }
+   ],
+   "10:9": [
+    {
+     "target": "Numbers 21:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "as certain of them tempted, and perished by the serpents",
+      "target": "our Lord sent upon the people fiery serpents"
+     }
+    }
+   ],
+   "10:10": [
+    {
+     "target": "Numbers 16:49",
+     "kind": "parallel",
+     "evidence": {
+      "source": "as certain of them murmured, and perished by the destroyer",
+      "target": "there were, that were strucken, fourteen thousand and seven hundred men, beside them that had perished in the sedition of Core"
+     }
+    }
    ]
   },
   "James": {
@@ -6513,6 +7129,14 @@
       "target": "The work of thy hireling shall not abide with thee until morning"
      },
      "note": "The hire kept back is Leviticus' exact case — the hireling's wage held past its day. James hears the withheld wage itself crying out. Malachias names the same offence from the same verse (entered separately); Tobias 4:15's wage rule is own-carried."
+    },
+    {
+     "target": "Deuteronomy 24:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the hire of the work-men that have reaped your fields, which is defrauded of you, cryeth",
+      "target": "lest he cry against thee to our Lord, and it be reputed to thee for a sin"
+     }
     }
    ],
    "5:17": [
@@ -6645,6 +7269,46 @@
       "target": "Boast not for tomorrow, being ignorant what the day to come may bring forth."
      },
      "note": "James' vapour rebukes the merchants who presume on tomorrow — the Proverb's very ignorance: what the day to come may bring forth, no man knows."
+    }
+   ],
+   "4:8": [
+    {
+     "target": "Zacharias 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Approach to God, & he will approach to you",
+      "target": "Convert to me, saith the Lord of hosts, and I will convert to you"
+     }
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Luke 14:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Be humbled in the sight of our Lord, and he will exalt you",
+      "target": "he that humbleth himself, shall be exalted"
+     }
+    }
+   ],
+   "5:7": [
+    {
+     "target": "Deuteronomy 11:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "patiently bearing till he receive the timely and the lateward",
+      "target": "he will give rain to your Land: the timely and the lateward"
+     }
+    }
+   ],
+   "2:23": [
+    {
+     "target": "Isaias 41:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he was called the friend of God",
+      "target": "the seed of Abraham my friend"
+     }
     }
    ]
   },
@@ -6787,6 +7451,36 @@
      },
      "note": "The Preacher takes the proverb's first clause entire and adds the hedge and the serpent of his own. Sirach's form of the same sentence is keyed to this verse of Ecclesiastes in this draft."
     }
+   ],
+   "7:2": [
+    {
+     "target": "Canticle of Canticles 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Better is a good name than precious ointments",
+      "target": "Oil poured out is thy name"
+     }
+    }
+   ],
+   "9:1": [
+    {
+     "target": "Wisdom 3:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there are just men and wise: and their works are in the hand of God",
+      "target": "the souls of the just are in the hand of God"
+     }
+    }
+   ],
+   "11:1": [
+    {
+     "target": "Luke 6:38",
+     "kind": "theme",
+     "evidence": {
+      "source": "Cast thy bread upon the passing waters: because after much time thou shalt find it",
+      "target": "Give, and there shall be given to you"
+     }
+    }
    ]
   },
   "Ephesians": {
@@ -6844,6 +7538,26 @@
      },
      "note": "The feet shod with the Gospel of peace are the beautiful feet on the mountains, evangelizing and preaching peace. The seed keys Romans 10:15 to this verse; Paul's arming use was unkeyed."
     }
+   ],
+   "5:14": [
+    {
+     "target": "Isaias 60:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Rise thou that sleepest, and arise from the dead: and Christ will illuminate thee",
+      "target": "Arise, be illuminated Jerusalem: because thy light is come"
+     }
+    }
+   ],
+   "2:17": [
+    {
+     "target": "Isaias 57:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he evangelized peace to you that were far off, and peace to them that were nigh",
+      "target": "peace, peace to him that is far off, & that is near"
+     }
+    }
    ]
   },
   "Malachias": {
@@ -6878,6 +7592,14 @@
       "target": "in every place where the memory of my name shall be: I will come to thee, and will bless thee"
      },
      "note": "Exodus' altar law blesses 'every place where the memory of my name shall be'; Malachias sees the day when 'in every place there is offered to my name a clean oblation' among the Gentiles."
+    },
+    {
+     "target": "Psalms 112:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "from the rising of the sun even to the going down, great is my name among the Gentiles",
+      "target": "From the rising of the sun unto the going down, the name of our Lord is laudable"
+     }
     }
    ],
    "3:1": [
@@ -6933,6 +7655,36 @@
       "target": "thy judgments, o Jacob, and thy law, o Israel: they shall put incense in thy fury, and holocaust upon thine altar."
      },
      "note": "The priest from whose mouth the law is sought is Levi under Moses' blessing: keeper of God's judgments and law for Israel, and of the altar's incense. Malachias measures a fallen priesthood by the blessing's charge."
+    }
+   ],
+   "3:2": [
+    {
+     "target": "Joel 2:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And who shall be able to think the day of his advent? And who shall stand to see him?",
+      "target": "great is the day of our Lord, and terrible exceedingly: & who shall sustain it?"
+     }
+    }
+   ],
+   "3:6": [
+    {
+     "target": "James 1:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "For I the Lord, and I am not changed",
+      "target": "with whom is no transmutation, nor shadowing of alteration"
+     }
+    }
+   ],
+   "3:10": [
+    {
+     "target": "Genesis 7:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if I open not unto you the flood-gates of heaven",
+      "target": "the flood-gates of heaven were opened"
+     }
     }
    ]
   },
@@ -7034,6 +7786,76 @@
       "target": "Reveal thy way to our Lord, and hope in him: and he will do it."
      },
      "note": "The proverb takes the psalm's verb for its counsel: reveal — thy way, says David; thy works, says Solomon — to the Lord."
+    }
+   ],
+   "1:7": [
+    {
+     "target": "Psalms 110:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The fear of our Lord is the beginning of wisdom",
+      "target": "the fear of our Lord is the beginning of wisdom"
+     }
+    }
+   ],
+   "9:4": [
+    {
+     "target": "John 7:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "let him come to me",
+      "target": "let him come to me, and drink"
+     }
+    }
+   ],
+   "10:31": [
+    {
+     "target": "Psalms 36:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The mouth of the just shall bring forth wisdom",
+      "target": "The mouth of the just shall meditate wisdom"
+     }
+    }
+   ],
+   "15:3": [
+    {
+     "target": "2 Paralipomenon 16:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "In every place the eyes of our Lord behold",
+      "target": "the eyes of our Lord behold all the earth"
+     }
+    }
+   ],
+   "20:9": [
+    {
+     "target": "1 John 1:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who can say: My heart is clean, I am pure from sin?",
+      "target": "If we shall say that we have no sin, we seduce ourselves"
+     }
+    }
+   ],
+   "24:12": [
+    {
+     "target": "Psalms 61:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall render to man according to his works",
+      "target": "thou wilt render to every one according to his works"
+     }
+    }
+   ],
+   "30:4": [
+    {
+     "target": "Baruch 3:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who hath ascended into heaven and descended?",
+      "target": "Who hath ascended into heaven, and taken her"
+     }
     }
    ]
   },
@@ -7593,6 +8415,14 @@
       "target": "there came in, as it were the son of man"
      },
      "note": "John's first sight among the candlesticks is Daniel's figure — one like, as it were, the Son of man — now vested as priest. The vesture's linen-and-gold colouring is Daniel 10:5–6's, anchored at Apocalypse 1:15."
+    },
+    {
+     "target": "Daniel 10:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "girded about near to the paps with a girdle of gold",
+      "target": "his reins girded with the finest gold"
+     }
     }
    ],
    "20:12": [
@@ -7803,6 +8633,14 @@
       "target": "put Manna into it, so much as a gomor can hold: and lay it up before our Lord to keep unto your generations"
      },
      "note": "The hidden manna promised to Pergamus is the pot of manna laid up before the Lord — hidden in the ark through the generations (our layer keys Hebrews 9:4 to this verse; John's promise was unkeyed)."
+    },
+    {
+     "target": "Isaias 62:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a new name written, which no man knoweth, but he that receiveth it",
+      "target": "thou shalt be called by a new name, which the mouth of our Lord shall name"
+     }
     }
    ],
    "3:5": [
@@ -7825,6 +8663,14 @@
       "target": "all that detracted from thee shall adore the steps of thy feet, and shall call thee the city of the Lord"
      },
      "note": "The detractors adoring at the feet is Isaias' word to humbled Sion, transferred to the faithful church at Philadelphia: they shall know that I have loved thee."
+    },
+    {
+     "target": "Isaias 49:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will make them come and adore before thy feet. And they shall know that I have loved thee",
+      "target": "with countenance cast down toward the ground they shall adore thee"
+     }
     }
    ],
    "5:6": [
@@ -7836,6 +8682,14 @@
       "target": "as a lamb before his shearer, he shall be dumb, & shall not open his mouth:"
      },
      "note": "The Lamb as it were slain, standing in the midst of the throne, is the servant led as a lamb to the slaughter — slain, yet standing."
+    },
+    {
+     "target": "Zacharias 4:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "having seven horns & seven eyes: which are the seven Spirits of God, sent into all the earth",
+      "target": "These are the seven eyes of our Lord, that run throughout the whole earth"
+     }
     }
    ],
    "5:9": [
@@ -7957,6 +8811,14 @@
       "target": "Neither could Moyses enter the roof of covenant, the cloud covering all things, and the majesty of our Lord shining"
      },
      "note": "As at the tabernacle's dedication, the glory fills the temple and none can enter — then until Moses could approach, here until the plagues are consummate."
+    },
+    {
+     "target": "3 Kings 8:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "no man could enter into the temple",
+      "target": "the Priests could not stand and minister for the cloud: for the glory of our Lord had filled the house of our Lord"
+     }
     }
    ],
    "16:4": [
@@ -8023,6 +8885,236 @@
       "target": "I am the first, and I the last, and beside me there is no God."
      },
      "note": "The King of Israel's self-naming — I am the first and I the last — is spoken by Christ at the book's close, as at its opening (1:17, whose Isaias pair proved carried; this closing instance was unkeyed)."
+    }
+   ],
+   "8:5": [
+    {
+     "target": "Ezechiel 10:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "filled it of the fire of the altar, and cast it on the earth",
+      "target": "fill thy hand with the coals of fire, that are between the Cherubs, and pour them out upon the city"
+     }
+    }
+   ],
+   "22:10": [
+    {
+     "target": "Daniel 12:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Seal not the words of the prophecy of this book",
+      "target": "shut up the words, and seal the book"
+     }
+    }
+   ],
+   "9:6": [
+    {
+     "target": "Job 3:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "men shall seek for death, and shall not find it: and they shall desire to die",
+      "target": "that expect death, and it cometh not"
+     }
+    }
+   ],
+   "14:11": [
+    {
+     "target": "Isaias 34:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the smoke of their torments shall ascend for ever and ever: neither have they rest day and night",
+      "target": "Night and day it shall not be quenched, the smoke thereof shall go up for ever"
+     }
+    }
+   ],
+   "20:9": [
+    {
+     "target": "Ezechiel 38:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there came down fire from God out of heaven, and devoured them",
+      "target": "fire, and brimstone will I rain upon him, and upon his army"
+     }
+    }
+   ],
+   "22:14": [
+    {
+     "target": "Genesis 3:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that their power may be in the tree of life",
+      "target": "take also of the tree of life, and eat, and live for ever"
+     }
+    }
+   ],
+   "11:11": [
+    {
+     "target": "Ezechiel 37:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the spirit of life from God entered into them. And they stood upon their feet",
+      "target": "spirit entered into them, and they lived: and they stood upon their feet"
+     }
+    }
+   ],
+   "13:10": [
+    {
+     "target": "Jeremias 15:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He that shall lead into captivity, goeth into captivity: he that shall kill in the sword, he must be killed with the sword",
+      "target": "they that to sword, to sword: & they that to famine, to famine: & they that to captivity, to captivity"
+     }
+    }
+   ],
+   "3:12": [
+    {
+     "target": "Isaias 62:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which descendeth out of Heaven from my God, and my new name",
+      "target": "thou shalt be called by a new name, which the mouth of our Lord shall name"
+     }
+    }
+   ],
+   "12:5": [
+    {
+     "target": "Isaias 66:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "she brought forth a man child",
+      "target": "she brought forth a man child"
+     }
+    }
+   ],
+   "6:12": [
+    {
+     "target": "Joel 2:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the sun became black as it were sack-cloth of hair: and the whole moon became as blood",
+      "target": "The sun shall be turned into darkness, and the moon into blood"
+     }
+    }
+   ],
+   "4:8": [
+    {
+     "target": "Ezechiel 10:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "within they are full of eyes",
+      "target": "the circles were full of eyes"
+     }
+    }
+   ],
+   "22:19": [
+    {
+     "target": "Deuteronomy 4:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if any man shall diminish of the words of the book of this prophecy",
+      "target": "You shall not add to the word, that I speak to you, neither shall you take away from it"
+     }
+    }
+   ],
+   "19:2": [
+    {
+     "target": "Deuteronomy 32:43",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath revenged the blood of his servants, of her hands",
+      "target": "he will revenge the blood of his servants"
+     }
+    }
+   ],
+   "17:1": [
+    {
+     "target": "Jeremias 51:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the great harlot, which sitteth upon many waters",
+      "target": "Thou that dwellest upon many waters, rich in treasures"
+     }
+    }
+   ],
+   "7:3": [
+    {
+     "target": "Ezechiel 9:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "till we sign the servants of our God in their foreheads",
+      "target": "sign Thau upon the foreheads of the men that mourn"
+     }
+    }
+   ],
+   "13:7": [
+    {
+     "target": "Daniel 7:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "it was given unto him to make battail with the saints, & to overcome them",
+      "target": "that horn made war against the saints, and prevailed over them"
+     }
+    }
+   ],
+   "21:12": [
+    {
+     "target": "Ezechiel 48:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "names written thereon, which are the names of the twelve tribes of the children of Israel",
+      "target": "the gates of the city according to the names of the tribes of Israel"
+     }
+    }
+   ],
+   "19:9": [
+    {
+     "target": "Isaias 25:6",
+     "kind": "theme",
+     "evidence": {
+      "source": "Blessed be they that are called to the supper of the marriage of the Lamb",
+      "target": "the Lord of hosts shall make to all peoples in this mount, a feast of fat things"
+     }
+    }
+   ],
+   "8:12": [
+    {
+     "target": "Isaias 13:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the third part of the sun was smitten, and the third part of the moon, and the third part of the stars, so that the third part of them was darkened",
+      "target": "the sun is darkened in his rising, and the moon shall not shine in her light"
+     }
+    }
+   ],
+   "3:3": [
+    {
+     "target": "Matthew 24:43",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will come to thee as a thief, and thou shalt not know what hour I will come to thee",
+      "target": "if the good-man of the house did know what hour the thief would come, he would surely watch"
+     }
+    }
+   ],
+   "16:12": [
+    {
+     "target": "Isaias 44:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "dried up the water thereof that a way might be prepared to the kings from the rising of the sun",
+      "target": "Be thou desolate, and thy rivers I will dry up"
+     }
+    }
+   ],
+   "18:6": [
+    {
+     "target": "Psalms 136:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Render to her as she also hath rendered to you: and double ye double according to her works",
+      "target": "blessed is he, that shall repay thee thy payment, which thou hast payed us"
+     }
     }
    ]
   },
@@ -8268,6 +9360,214 @@
      },
      "note": "Jeremias's prayer at the field purchase opens by reciting the Sinai proclamation — mercy on thousands, iniquity of fathers rendered to children — nearly in its words. The seed points Jeremias 32:18 at Exodus 34 at chapter level; the verse anchor is entered here."
     }
+   ],
+   "52:1": [
+    {
+     "target": "4 Kings 24:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "A child of one and twenty years was Sedecias when he began to reign: and eleven years he reigned in Jerusalem: and the name of his mother was Amital, the daughter of Jeremie of Lobna",
+      "target": "One and twenty years old was Sedecias when he began to reign, and he reigned eleven years in Jerusalem: the name of his mother was Amital, the daughter of Jeremie of Lobna"
+     }
+    }
+   ],
+   "52:4": [
+    {
+     "target": "4 Kings 25:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the ninth year of his reign, in the tenth month, the tenth of the month, came Nabuchodonosor the king of Babylon, himself and all his army against Jerusalem",
+      "target": "in the ninth year of his reign, the tenth month, the tenth day of the month, came Nabuchodonosor the king of Babylon, himself and all his army unto Jerusalem"
+     }
+    }
+   ],
+   "52:7": [
+    {
+     "target": "4 Kings 25:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a breach was made into the city, and all the men of war fled, and went out of the city in the night by the way of the gate that is between the two walls, and leadeth to the king's garden",
+      "target": "a breach was made into the city: and all the men of war fled in the night by the way of the gate, which is between the double wall toward the king's garden"
+     }
+    }
+   ],
+   "52:12": [
+    {
+     "target": "4 Kings 25:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the fifth month, the tenth of the month, the same is the nineteenth year of Nabuchodonosor the king of Babylon: came Nabuzardan the Prince of the warfare",
+      "target": "The fifth month, the seventh day of the month, that is, the nineteenth year of the king of Babylon, came Nabuzardan the General of the army"
+     }
+    }
+   ],
+   "52:17": [
+    {
+     "target": "4 Kings 25:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The brazen pillars also, that were in the house of our Lord, and the feet, and the sea of brass, that was in the house of our Lord, the Chaldees brake: and they took all the brass of them into Babylon",
+      "target": "the brazen pillars, that were in the temple of our Lord, and the feet, and the sea of brass, which was in the house of our Lord, the Chaldees brake, and transported all the brass into Babylon"
+     }
+    }
+   ],
+   "52:27": [
+    {
+     "target": "4 Kings 25:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the king of Babylon struck them: and he killed them in Reblatha in the land of Emath: and Juda was transported from his land",
+      "target": "the king of Babylon struck them, and slew them in Reblatha in the land of Emath: and Juda was transported out of their land"
+     }
+    }
+   ],
+   "52:31": [
+    {
+     "target": "4 Kings 25:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the seven and thirtieth year of the transmigration of Joachin the king of Juda, the twelfth month, the five and twentieth of the month, Evilmerodach the king of Babylon lifted up",
+      "target": "in the seven & thirtieth year of the Transmigration of Joachin the king of Juda, in the twelfth month, the seven and twentieth day of the month: Evilmerodach the king of Babylon"
+     }
+    }
+   ],
+   "49:14": [
+    {
+     "target": "Abdias 1:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I have heard a bruit from our Lord, & a legate is sent to the Nations: Gather yourselves together, and come against her, and let us rise up into battle",
+      "target": "We have heard a bruit from our Lord, and he hath sent a legate to the Gentiles: Rise ye, and let us arise against him into battle"
+     }
+    }
+   ],
+   "49:16": [
+    {
+     "target": "Abdias 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thine arrogancy hath deceived thee, and the pride of thy heart: which dwellest in the caves of the rock",
+      "target": "The pride of thy heart hath extolled thee, dwelling in the clefts of rocks"
+     }
+    },
+    {
+     "target": "Abdias 1:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "When thou shalt exalt thy nest as an eagle, thence will I bring thee down, saith our Lord",
+      "target": "If thou shalt be exalted as an eagle, and if thou shalt set thy nest among the stars: thence will I pluck thee down, saith our Lord"
+     }
+    }
+   ],
+   "50:44": [
+    {
+     "target": "Jeremias 49:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Behold as a lion he shall come up from the pride of Jordan to the strong beautifulness: because I will make him run suddenly to her",
+      "target": "Behold as a lion he shall come up from the pride of Jordan, to the strong beautifulness: because I will make him run suddenly to her"
+     }
+    }
+   ],
+   "51:15": [
+    {
+     "target": "Jeremias 10:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He that made the earth in his strength, hath prepared the world in his wisdom, and with his prudence stretched out the heavens",
+      "target": "He that maketh the earth in his strength, prepareth the world in his wisdom, & with his prudence stretcheth out the heavens"
+     }
+    }
+   ],
+   "33:16": [
+    {
+     "target": "Jeremias 23:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In those days shall Juda be saved, and Jerusalem shall dwell confidently: & this is the name, that they shall call him, The Lord our just one",
+      "target": "In those days shall Juda be saved, and Israel shall dwell confidently: and this is the name that they shall call him: The Lord our just one"
+     }
+    }
+   ],
+   "23:7": [
+    {
+     "target": "Jeremias 16:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they shall say no more: Our Lord liveth, that brought forth the children of Israel out of the Land of Ægypt",
+      "target": "it shall be said no more: The Lord liveth, that brought forth the children of Israel out of the Land of Ægypt"
+     }
+    }
+   ],
+   "32:27": [
+    {
+     "target": "Genesis 18:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I am the Lord the God of all flesh: shall any word be hard for me?",
+      "target": "Is there any thing hard to God?"
+     }
+    }
+   ],
+   "29:10": [
+    {
+     "target": "2 Paralipomenon 36:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "When the seventy years shall begin to be expired in Babylon, I will visit you",
+      "target": "till the seventy years were expired"
+     }
+    }
+   ],
+   "31:20": [
+    {
+     "target": "Osee 11:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Therefore are my bowels troubled upon him: pitying I will pity him, saith our Lord",
+      "target": "My heart is turned within, my repentance is disturbed together"
+     }
+    }
+   ],
+   "7:31": [
+    {
+     "target": "4 Kings 23:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they have built the excelses of Topheth, which is in the valley of the son of Ennom, that they might burn their sons, and their daughters with fire",
+      "target": "He contaminated also Topheth, which is in the Valley of the son of Ennom: that no man should consecrate his son or daughter by fire to Moloch"
+     }
+    }
+   ],
+   "5:22": [
+    {
+     "target": "Job 38:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who have set the sand a limit for the sea, an everlasting precept, that shall not pass",
+      "target": "Hitherto thou shalt come, and shalt not proceed farther, and here thou shalt break thy swelling waves"
+     }
+    }
+   ],
+   "48:31": [
+    {
+     "target": "Isaias 16:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Therefore will I wail upon Moab, and to all Moab will I cry, to the men of the earthen wall that lament",
+      "target": "Therefore shall Moab howl: to Moab, all shall howl: to them that rejoice upon the walls of baked brick, tell ye their plagues"
+     }
+    }
+   ],
+   "48:36": [
+    {
+     "target": "Isaias 16:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my heart shall give the sound of shalms to the men of the earthen wall",
+      "target": "my belly shall sound as an harp to Moab, & my bowels to the wall of baked brick"
+     }
+    }
    ]
   },
   "2 Peter": {
@@ -8376,6 +9676,16 @@
      },
      "note": "Fountains without water and wandering stars: the false teachers carry the same sentence in both letters — darkness reserved."
     }
+   ],
+   "3:12": [
+    {
+     "target": "Isaias 34:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Heavens burning shall be resolved, and the elements shall melt with the heat of fire",
+      "target": "all the host of the heavens shall melt away, and the heavens shall be folded together as a book"
+     }
+    }
    ]
   },
   "Sophonias": {
@@ -8430,6 +9740,36 @@
       "target": "you shall build houses with square stone, and shall not dwell in them: you shall plant most amiable vineyards, and shall not drink the wine of them"
      },
      "note": "The futility curse — houses uninhabited, vineyards undrunk — in Amos' charge and Sophonias' sentence alike. The seed carries Sophonias 1:13 -> Amos 5 at chapter level only."
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Isaias 47:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that said in her heart: I am, and beside me there is none other else",
+      "target": "that sayest in thy heart: I am, and there is none else beside me"
+     }
+    }
+   ],
+   "3:13": [
+    {
+     "target": "Apocalypse 14:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "deceitful tongue shall not be found in their mouth",
+      "target": "in their mouth there was found no lie"
+     }
+    }
+   ],
+   "3:19": [
+    {
+     "target": "Micheas 4:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will save the halt, & her that was cast out I will gather",
+      "target": "I will gather her that halteth: and her that I had cast out, I will gather up"
+     }
     }
    ]
   },
@@ -8770,6 +10110,136 @@
      },
      "note": "The Lord's charge against the people is Wisdom's charge in Proverbs: I called, and you refused to answer. The seed carries this verse of Isaias only at chapter level (Proverbs 1)."
     }
+   ],
+   "36:6": [
+    {
+     "target": "4 Kings 18:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "upon this broken staff of reed, upon Ægypt: upon which if a man lean, it will enter into his hand, and pierce it",
+      "target": "a staff of reed & broken, upon which if a man lean, broken into splinters it will enter into his hand, & pierce it"
+     }
+    }
+   ],
+   "37:6": [
+    {
+     "target": "4 Kings 19:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Thus shall you say to your master: Thus saith our Lord: Fear not",
+      "target": "Thus shall you say to your master: Thus saith our Lord: Fear not"
+     }
+    }
+   ],
+   "37:24": [
+    {
+     "target": "4 Kings 19:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In the multitude of my chariots have I climbed the height of mountains",
+      "target": "In the multitude of my chariots have I climbed the height of mountains"
+     }
+    }
+   ],
+   "37:29": [
+    {
+     "target": "4 Kings 19:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thy pride ascended into mine ears: therefore I will put a ring in thy nostrils, and a bit in thy lips, and will bring thee back into the way, by which thou camest",
+      "target": "thy pride hath ascended into mine ears: I therefore will put a ring in thy nostrils, and a bit in thy lips, and will bring thee back into the way"
+     }
+    }
+   ],
+   "37:38": [
+    {
+     "target": "4 Kings 19:37",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when he adored in the temple of Nesroch his god, Adramelech & Sarasar his sons struck him with the sword: and they fled into the land of Ararat, & Asarhaddon his son reigned for him",
+      "target": "when he adored in the temple of Nesroch his god, Adramelech and Sarasar his sons struck him with the sword, and they fled into the land of the Armenians, and Asarhaddon his son reigned for him"
+     }
+    }
+   ],
+   "38:3": [
+    {
+     "target": "4 Kings 20:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I beseech thee Lord, remember I pray thee how I have walked before thee in truth, and in a perfect heart, and have done that which is good in thine eyes. And Ezechias wept with great weeping",
+      "target": "I beseech thee Lord, remember I pray thee how I have walked before thee in truth, and in a perfect heart"
+     }
+    }
+   ],
+   "38:5": [
+    {
+     "target": "4 Kings 20:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Thus saith our Lord the God of David thy father: I have heard thy prayer, and seen thy tears: Lo I will add upon thy days fifteen years",
+      "target": "Thus saith our Lord the God of David thy father: I have heard thy prayer, and seen thy tears"
+     }
+    }
+   ],
+   "39:6": [
+    {
+     "target": "4 Kings 20:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "all things that are in thy house, and that thy fathers have laid up for treasure until this day, shall be taken away into Babylon: there shall not any thing be left, saith our Lord",
+      "target": "all things shall be taken away, that are in thy house, and that thy fathers have laid up until this day, into Babylon: there shall not any thing remain, saith our Lord"
+     }
+    }
+   ],
+   "39:7": [
+    {
+     "target": "4 Kings 20:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "of thy children, which shall come forth of thee, whom thou shalt beget, they shall take away, and they shall be eunuchs in the palace of the king of Babylon",
+      "target": "of the children also that come forth of thee, whom thou shalt beget shall be taken away, and they shall be eunuchs in the palace of the king of Babylon"
+     }
+    }
+   ],
+   "12:4": [
+    {
+     "target": "1 Paralipomenon 16:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Confess ye to our Lord, and invocate his name: make his inventions known among the peoples",
+      "target": "Confess ye to our Lord, and invocate his name: make his inventions known among the peoples"
+     }
+    }
+   ],
+   "51:11": [
+    {
+     "target": "Isaias 35:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they that are redeemed of our Lord shall return, and shall come into Sion",
+      "target": "the redeemed of our Lord shall be converted, and shall come into Sion with praise"
+     }
+    }
+   ],
+   "65:25": [
+    {
+     "target": "Isaias 11:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they shall not hurt, nor kill in all my holy mountain, saith our Lord",
+      "target": "They shall not hurt, and they shall not kill in all my holy mountain"
+     }
+    }
+   ],
+   "44:28": [
+    {
+     "target": "2 Paralipomenon 36:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who say to Cyrus: Thou art my pastor, and thou shalt accomplish all my will. Who say to Jerusalem: Thou shalt be built; and to the temple: Thou shalt be formed",
+      "target": "Thus saith Cyrus king of the Persians: All Kingdoms of the earth hath the Lord the God of heaven given me, and he hath commanded me that I should build him a house in Jerusalem"
+     }
+    }
    ]
   },
   "John": {
@@ -8956,6 +10426,14 @@
       "target": "Thy dead shall live, my slain shall rise again: awake, and praise ye that dwell in the dust"
      },
      "note": "The hour when all in the graves hear his voice stands on the prophets' resurrection word; its judgement half is Daniel 12:2's, entered at John 5:29. This verse's half — the dead living, dust-dwellers awaking — is Isaias 26:19's. Graded theme: no phrase is carried over, the hope is."
+    },
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all that are in the graves, shall hear his voice",
+      "target": "many of those, that sleep in the dust of the earth, shall awake"
+     }
     }
    ],
    "10:11": [
@@ -8978,6 +10456,14 @@
       "target": "I will pour out upon you clean water, and you shall be cleansed from all your contaminations"
      },
      "note": "Born of water and the Spirit answers Ezechiel's restoration in its two movements: clean water poured out and cleansing from all contaminations (36:25), and a new spirit put within (36:27, the verse after the new heart). Graded theme honestly: the link is the cleansing water and the given Spirit together, not a carried phrase."
+    },
+    {
+     "target": "Ezechiel 36:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "unless a man be born again of water and the Spirit, he cannot enter into the Kingdom of God",
+      "target": "I will put my spirit in the midst of you"
+     }
     }
    ],
    "5:27": [
@@ -9044,6 +10530,96 @@
       "target": "they inclosed a very great multitude of fishes, and their net was broken"
      },
      "note": "The risen Lord repeats the first miraculous catch that called Peter: a net cast at his word, a multitude of fishes beyond drawing. Luke's catch broke the net; John's, for all its hundred fifty-three, is not broken — the difference is printed in both texts."
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Jeremias 2:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he would have given thee living water",
+      "target": "Me they have forsaken the fountain of living water"
+     }
+    }
+   ],
+   "10:12": [
+    {
+     "target": "Zacharias 11:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the hireling & he that is not the Pastor, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and flyeth",
+      "target": "O pastor, and idol, leaving the flock"
+     }
+    }
+   ],
+   "11:52": [
+    {
+     "target": "Isaias 56:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to gather into one the children of God that were dispersed",
+      "target": "Saith our Lord God that gathereth the dispersed of Israel: As yet will I gather unto it"
+     }
+    }
+   ],
+   "12:27": [
+    {
+     "target": "Psalms 41:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Now my soul is troubled",
+      "target": "Why art thou sorrowful my soul? & why dost thou trouble me?"
+     }
+    }
+   ],
+   "12:34": [
+    {
+     "target": "Daniel 7:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "We have heard out of the law, that Christ abideth for ever",
+      "target": "his power, an eternal power, that shall not be taken away: and his kingdom, that shall not be corrupted"
+     }
+    }
+   ],
+   "13:34": [
+    {
+     "target": "Leviticus 19:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "A new commandment I give to you, That you love one another",
+      "target": "Thou shalt love thy friend as thyself"
+     }
+    }
+   ],
+   "15:6": [
+    {
+     "target": "Ezechiel 15:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall be cast forth as the branch, and shall wither, and they shall gather him up, and cast him into the fire, and he burneth",
+      "target": "Behold it is given to the fire for food: the fire hath consumed both parts thereof"
+     }
+    }
+   ],
+   "16:21": [
+    {
+     "target": "Isaias 26:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "A woman when she travaileth, hath sorrow, because her hour is come: but when she hath brought forth the child, now she remembereth not the anguish for joy",
+      "target": "As she that conceiveth, when she draweth near to be delivered, being sorrowful cryeth in her pains"
+     }
+    }
+   ],
+   "19:29": [
+    {
+     "target": "Psalms 68:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they putting a sponge full of vinegar about hyssop, offered it to his mouth",
+      "target": "in my thirst they gave me vinegar to drink"
+     }
     }
    ]
   },
@@ -9218,6 +10794,16 @@
       "target": "And I John saw the holy city Jerusalem new descending from heaven, prepared of God, as a bride adorned for her husband."
      },
      "note": "The Jerusalem above, free and mother of the faithful, is the city John at last sees descending: above become come-down, in the bride's adornment."
+    }
+   ],
+   "3:8": [
+    {
+     "target": "Genesis 22:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in thee shall all nations be blessed",
+      "target": "Shall be Blessed All The Nations of The Earth"
+     }
     }
    ]
   },
@@ -9738,6 +11324,14 @@
       "target": "Behold I will open your graves, and will bring you out of your sepulchres o my people"
      },
      "note": "At the crucifixion the graves opening and saints rising enact, ahead of the general resurrection, Ezechiel's promise over the dry bones: I will open your graves and bring you out of your sepulchres."
+    },
+    {
+     "target": "Daniel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "many bodies of the saints that had slept, rose",
+      "target": "many of those, that sleep in the dust of the earth, shall awake"
+     }
     }
    ],
    "24:30": [
@@ -9935,6 +11529,144 @@
      },
      "note": "The wineskins parable in two tellings: new wine breaking old bottles in both, Matthew adding that new wine in new bottles preserves both together."
     }
+   ],
+   "3:4": [
+    {
+     "target": "4 Kings 1:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "had his garment of camels' hair, and a girdle of a skin about his loins",
+      "target": "A hairy man, and girded about his reins with a girdle of leather"
+     }
+    }
+   ],
+   "5:35": [
+    {
+     "target": "Isaias 66:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "neither by heaven, because it is the throne of God: neither by the earth, because it is the foot-stool of his feet",
+      "target": "Heaven is my seat, and the earth my foot stool"
+     }
+    }
+   ],
+   "11:5": [
+    {
+     "target": "Isaias 35:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The blind see, the lame walk, the lepers are made clean, the deaf hear",
+      "target": "Then shall the lame leap as an hart, and the tongue of the dumb shall be opened"
+     }
+    }
+   ],
+   "11:10": [
+    {
+     "target": "Exodus 23:20",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Behold I send mine Angel before thy face, which shall prepare thy way before thee",
+      "target": "Behold I will send mine Angel, which shall go before thee"
+     }
+    }
+   ],
+   "13:32": [
+    {
+     "target": "Ezechiel 17:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the fowls of the air come, and dwell in the branches thereof",
+      "target": "every fowl shall dwell under the shadow of the boughs thereof"
+     }
+    }
+   ],
+   "16:19": [
+    {
+     "target": "Isaias 22:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will give to thee the keys of the Kingdom of Heaven",
+      "target": "I will give the key of the house of David upon his shoulder: and he shall open, and there shall be none to shut"
+     }
+    }
+   ],
+   "18:15": [
+    {
+     "target": "Leviticus 19:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if thy brother shall offend against thee, go, and rebuke him between thee and him alone",
+      "target": "Thou shalt not hate thy brother in thy heart, but control him openly"
+     }
+    }
+   ],
+   "23:34": [
+    {
+     "target": "2 Paralipomenon 36:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "behold I send unto you Prophets, and wise men, and Scribes, and of them you shall kill & crucify",
+      "target": "they mocked the messengers of God, and little esteemed his words, and scorned the Prophets, until the fury of our Lord ascended upon his people"
+     }
+    }
+   ],
+   "23:37": [
+    {
+     "target": "Deuteronomy 32:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "how often would I gather together thy children as the hen doth gather together her chickens under her wings",
+      "target": "As the eagle provoking her young to fly, and hovering over them hath he spread his wings"
+     }
+    }
+   ],
+   "24:31": [
+    {
+     "target": "Isaias 27:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall send his Angels with a trumpet, and a great voice: and they shall gather together his Elect",
+      "target": "In that day a sound shall be made with a great trumpet, and they that were lost, shall come from the land of the Assyrians"
+     }
+    }
+   ],
+   "26:28": [
+    {
+     "target": "Exodus 24:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "This is my Blood of The New Testament, Which Shall be Shed For Many",
+      "target": "This is the blood of the Covenant which our Lord hath made with you"
+     }
+    },
+    {
+     "target": "Jeremias 31:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "This is my Blood of The New Testament",
+      "target": "I will make a new covenant with the house of Israel and the house of Juda"
+     }
+    }
+   ],
+   "27:5": [
+    {
+     "target": "2 Kings 17:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he departed: and went and hanged himself with an halter",
+      "target": "hanged himself, and was buried in the sepulchre of his father"
+     }
+    }
+   ],
+   "27:57": [
+    {
+     "target": "Isaias 53:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there came a certain rich man of Arimathæa, named Joseph",
+      "target": "he shall give the impious for his burial, and the rich for his death"
+     }
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -10130,6 +11862,14 @@
       "target": "Man, or woman, in whom is a pythonical or divining spirit"
      },
      "note": "This translation uses the same rare word in both places: the Philippian girl's 'Pythonical spirit' is the very thing Leviticus 20:27 names — and Paul expels it rather than profit by it. Saul's errand at 1 Kings 28:7 uses the same word (entered separately)."
+    },
+    {
+     "target": "1 Kings 28:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a certain wench having a Pythonical spirit, met us, that brought great gain to her masters by divining",
+      "target": "Seek me a woman that hath a pythonical spirit, and I will go to her, and will ask by her"
+     }
     }
    ],
    "27:9": [
@@ -10502,6 +12242,14 @@
       "target": "penance to be preached in his name and remission of sins unto all nations, beginning from Jerusalem"
      },
      "note": "The Acts programme is the risen Lord's Luke commission unfolded: preaching to all nations, beginning from Jerusalem, becomes witnesses in Jerusalem, Jewry, Samaria, and to the utmost of the earth."
+    },
+    {
+     "target": "Isaias 49:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you shall be witnesses unto me in Jerusalem, and in all Jewry, and Samaria, and even to the utmost of the earth",
+      "target": "I have given thee to be the light of the Gentiles, that thou mayst be salvation even to the farthest part of the earth"
+     }
     }
    ],
    "2:33": [
@@ -10535,6 +12283,234 @@
       "target": "If it be just in the sight of God, to hear you rather than God, judge ye"
      },
      "note": "Peter's second answer to the council is his first answer become a rule: 'God must be obeyed rather than men' gathers 'to hear you rather than God, judge ye' into one sentence."
+    }
+   ],
+   "1:26": [
+    {
+     "target": "Proverbs 16:33",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they gave them lots, and the lot fell upon Matthias",
+      "target": "Lots are cast into the bosom, but they are ordered of our Lord"
+     }
+    }
+   ],
+   "2:26": [
+    {
+     "target": "Psalms 15:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "my heart hath been glad and my tongue hath rejoiced: moreover my flesh also shall rest in hope",
+      "target": "my heart hath been glad, and my tongue hath rejoiced: moreover also my flesh shall rest in hope"
+     }
+    }
+   ],
+   "3:22": [
+    {
+     "target": "Deuteronomy 18:18",
+     "kind": "quotation",
+     "evidence": {
+      "source": "a prophet shall the Lord your God raise up to you of your brethren, as myself: him you shall hear",
+      "target": "A Prophet will I raise up to them out of the midst of their brethren like to thee: and I will put my words in his mouth, and he shall speak all things that I shall command him"
+     }
+    }
+   ],
+   "3:23": [
+    {
+     "target": "Deuteronomy 18:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "every soul that shall not hear that Prophet, shall be destroyed out of the people",
+      "target": "he that will not hear his words, which he shall speak in my name, I will be the revenger"
+     }
+    }
+   ],
+   "3:25": [
+    {
+     "target": "Genesis 12:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in thy seed shall all the families of the earth be blessed",
+      "target": "IN Thee shall all the kindreds of the earth be blessed"
+     }
+    }
+   ],
+   "4:32": [
+    {
+     "target": "Ezechiel 11:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the multitude of believers had one heart and one soul",
+      "target": "I will give them one heart, and will give a new spirit in their bowels"
+     }
+    }
+   ],
+   "4:34": [
+    {
+     "target": "Deuteronomy 15:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "neither was there any one needy among them",
+      "target": "needy person and beggar there shall be none among you"
+     }
+    }
+   ],
+   "5:39": [
+    {
+     "target": "Proverbs 21:30",
+     "kind": "theme",
+     "evidence": {
+      "source": "if it be of God, you are not able to dissolve them, lest perhaps you be found to resist God also",
+      "target": "There is no wisdom, there is no prudence, there is no counsel against our Lord"
+     }
+    }
+   ],
+   "7:7": [
+    {
+     "target": "Genesis 15:14",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the nation which they shall serve, will I judge, said God. And after these things they shall go forth",
+      "target": "the Nation, whom they shall serve, I will judge: and after this they shall go forth with great substance"
+     }
+    }
+   ],
+   "7:16": [
+    {
+     "target": "Genesis 33:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "were laid in the sepulchre that Abraham bought for a price of silver of the sons of Hemor the son of Sichem",
+      "target": "he bought that part of the field, wherein he had pitched his tents, of the children of Hemor, the father of Sichem, for an hundred lambs"
+     }
+    }
+   ],
+   "7:51": [
+    {
+     "target": "Jeremias 6:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "You stiff-necked and of uncircumcised hearts and ears, you always resist the Holy Ghost",
+      "target": "their ears are uncircumcised, and they cannot hear: behold the word of our Lord is become unto them as a reproach"
+     }
+    },
+    {
+     "target": "Leviticus 26:41",
+     "kind": "allusion",
+     "evidence": {
+      "source": "of uncircumcised hearts and ears",
+      "target": "until their uncircumcised mind be ashamed"
+     }
+    }
+   ],
+   "7:58": [
+    {
+     "target": "Psalms 30:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they stoned Steven invocating, and saying: Lord Jesus, receive my spirit",
+      "target": "Into thy hands I commend my spirit: thou hast redeemed me, o Lord God of truth"
+     }
+    }
+   ],
+   "8:39": [
+    {
+     "target": "3 Kings 18:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Spirit of our Lord took away Philip, & the Eunuch saw him no more",
+      "target": "the Spirit of our Lord will carry thee into a place, that I know not"
+     }
+    }
+   ],
+   "9:7": [
+    {
+     "target": "Daniel 10:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the men that went in company with him, stood amazed, hearing the voice, but seeing no man",
+      "target": "the men that were with me, saw it not, but exceeding terror fell upon them"
+     }
+    }
+   ],
+   "10:43": [
+    {
+     "target": "Jeremias 31:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all receive remission of sins by his name, which believe in him",
+      "target": "I will be propitious to their iniquity, and their sin I will remember no more"
+     }
+    }
+   ],
+   "13:20": [
+    {
+     "target": "Judges 2:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "after these things he gave Judges, until Samuel the Prophet",
+      "target": "our Lord raised up Judges, that should deliver them from the hands of the wasters"
+     }
+    }
+   ],
+   "14:14": [
+    {
+     "target": "Exodus 20:11",
+     "kind": "quotation",
+     "evidence": {
+      "source": "to the living God that made the Heaven, and the earth, and the sea, and all things that are in them",
+      "target": "the Lord made heaven and earth, and the sea, and all things that are in them"
+     }
+    }
+   ],
+   "14:16": [
+    {
+     "target": "Jeremias 14:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he left not himself without testimony, being beneficial from Heaven, giving rains, and fruitful seasons",
+      "target": "are there among the sculptiles of the Gentiles that can rain? Or can the heavens give showers? Art not thou the Lord our God"
+     }
+    }
+   ],
+   "17:25": [
+    {
+     "target": "Isaias 42:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "himself giveth life unto all, and breathing, and all things",
+      "target": "that giveth breath to the people, that is upon it, and spirit to them that tread thereupon"
+     }
+    }
+   ],
+   "17:30": [
+    {
+     "target": "Wisdom 11:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the times truly of this ignorance whereas God despised, now he denounceth unto men that all every-where do penance",
+      "target": "thou hast mercy on all, because thou canst do all things, and dissemblest the sins of men for repentance"
+     }
+    }
+   ],
+   "26:23": [
+    {
+     "target": "Isaias 42:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he were to shew light to the people and to the Gentiles",
+      "target": "I have given thee for a covenant of the people, for a light of the Gentiles"
+     }
+    }
+   ],
+   "28:5": [
+    {
+     "target": "Mark 16:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he indeed shaking off the beast into the fire, suffered no harm",
+      "target": "Serpents shall they take away; And if they drink any deadly thing, it shall not hurt them"
+     }
     }
    ]
   },
@@ -11058,6 +13034,14 @@
       "target": "even to the consummation, and to the end shall the desolation endure"
      },
      "note": "Luke renders the Daniel sign for his hearers: where Matthew and Mark keep the abomination phrase (the seed's entries), Luke names its content — Jerusalem compassed, her desolation at hand, the desolation Daniel said would endure to the consummation."
+    },
+    {
+     "target": "Daniel 9:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "when you shall see Jerusalem compassed about with an army, then know that the desolation thereof is at hand",
+      "target": "the city, & the sanctuary shall the people dissipate with the prince to come: & the end thereof waste"
+     }
     }
    ],
    "1:19": [
@@ -11180,6 +13164,234 @@
      },
      "note": "Luke's thrust-out hearers see what Matthew's centurion saying promises: Abraham, Isaac and Jacob seated in the Kingdom, with all the Prophets added in Luke's form."
     }
+   ],
+   "1:26": [
+    {
+     "target": "Daniel 9:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the Angel Gabriel was sent of God into a city of Galilee, called Nazareth",
+      "target": "lo the man Gabriel, whom I had seen in the vision from the beginning"
+     }
+    }
+   ],
+   "1:42": [
+    {
+     "target": "Judges 5:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed art thou among women, and blessed is the fruit of thy womb",
+      "target": "Blessed among women be Jahel the wife of Haber the Cineite"
+     }
+    }
+   ],
+   "1:48": [
+    {
+     "target": "1 Kings 1:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he hath regarded the humility of his handmaid",
+      "target": "if regarding thou wilt behold the affliction of thy servant, and wilt be mindful of me, and not forget thy handmaid"
+     }
+    },
+    {
+     "target": "Genesis 30:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "from hence forth all generations shall call me blessed",
+      "target": "for women will call me blessed"
+     }
+    }
+   ],
+   "1:55": [
+    {
+     "target": "Micheas 7:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As he spake to our fathers, to Abraham and his seed for ever",
+      "target": "Thou wilt give truth to Jacob, mercy to Abraham: which thou hast sworn to our fathers from the days of old"
+     }
+    }
+   ],
+   "2:52": [
+    {
+     "target": "1 Kings 2:26",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Jesus proceeded in wisdom and age, and grace with God and men",
+      "target": "the child Samuel prospered, and grew, and pleased both our Lord and men"
+     }
+    }
+   ],
+   "5:8": [
+    {
+     "target": "Isaias 6:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Go forth from me, because I am a sinful man, O Lord",
+      "target": "I am a man of polluted lips, and I dwell in the midst of a people that hath polluted lips, and the King the Lord of hosts I have seen with mine eyes"
+     }
+    }
+   ],
+   "7:15": [
+    {
+     "target": "3 Kings 17:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he that was dead, sat up, and began to speak. And he gave him to his mother",
+      "target": "delivered him to his mother, and said to her: Behold thy son liveth"
+     }
+    }
+   ],
+   "7:27": [
+    {
+     "target": "Exodus 23:20",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Behold I send mine Angel before thy face, which shall prepare thy way before thee",
+      "target": "Behold I will send mine Angel, which shall go before thee"
+     }
+    }
+   ],
+   "9:51": [
+    {
+     "target": "Isaias 50:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he fixed his face to go into Jerusalem",
+      "target": "therefore have I set my face, as a most hard rock"
+     }
+    }
+   ],
+   "9:61": [
+    {
+     "target": "3 Kings 19:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will follow thee Lord, but permit me first to take my leave of them that are at home",
+      "target": "Let me kiss, I pray thee, my father, and my mother, and so I will follow thee"
+     }
+    }
+   ],
+   "9:62": [
+    {
+     "target": "Genesis 19:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "No man putting his hand to the plough, and looking back, is apt for the Kingdom of God",
+      "target": "his wife looking behind her, was turned into a statua of salt"
+     }
+    }
+   ],
+   "10:20": [
+    {
+     "target": "Exodus 32:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "rejoice in this, that your names are written in Heaven",
+      "target": "strike me out of the book that thou hast written"
+     }
+    }
+   ],
+   "11:51": [
+    {
+     "target": "Genesis 4:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "from the blood of Abel unto the blood of Zacharie that was slain between the altar and the temple. Yea I say to you, it shall be required of this generation",
+      "target": "The voice of thy brother's blood cryeth to me out of the earth"
+     }
+    }
+   ],
+   "12:24": [
+    {
+     "target": "Psalms 146:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Consider the ravens, for they sow not, neither do they reap, which neither have storehouse nor barn, and God feedeth them",
+      "target": "Who giveth to beasts their food: and to the young ravens that call upon him"
+     }
+    }
+   ],
+   "13:35": [
+    {
+     "target": "Jeremias 22:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold your house shall be left desert to you",
+      "target": "that this house shall be into desolation"
+     }
+    }
+   ],
+   "14:26": [
+    {
+     "target": "Deuteronomy 33:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If any man come to me and hateth not his father and mother, and wife and children, and brethren and sisters",
+      "target": "He that said to his father and to his mother: I know you not; and to his brethren: I know you not"
+     }
+    }
+   ],
+   "15:20": [
+    {
+     "target": "Genesis 33:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "his father saw him, and was moved with mercy, and running to him fell upon his neck, and kissed him",
+      "target": "Esau therefore running to meet his brother, embraced him: and clasping him fast about the neck, and kissing him wept"
+     }
+    }
+   ],
+   "17:37": [
+    {
+     "target": "Job 39:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Wheresoever the body shall be, thither will the eagles also be gathered together",
+      "target": "wheresoever the carcass shall be, she is present by and by"
+     }
+    }
+   ],
+   "18:7": [
+    {
+     "target": "Ecclesiasticus 35:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "will not God revenge his elect that cry to him day and night: and will he have patience in them?",
+      "target": "our Lord will not be long, but will judge the just, and will do judgement: and the strongest will not have patience in them"
+     }
+    }
+   ],
+   "21:18": [
+    {
+     "target": "1 Kings 14:45",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a hair of your head shall not perish",
+      "target": "if there shall fall a hair from his head upon the ground"
+     }
+    }
+   ],
+   "22:31": [
+    {
+     "target": "Amos 9:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "behold Satan hath required to have you for to sift as wheat",
+      "target": "will shake the house of Israel in all nations, as wheat is shaken in a sieve"
+     }
+    }
+   ],
+   "24:47": [
+    {
+     "target": "Isaias 2:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "penance to be preached in his name and remission of sins unto all nations, beginning from Jerusalem",
+      "target": "the law shall come forth from Sion, and the word of our Lord from Jerusalem"
+     }
+    }
    ]
   },
   "Exodus": {
@@ -11192,6 +13404,96 @@
       "target": "I will multiply thy seed as the stars of heaven, and as the sand that is by the sea shore"
      },
      "note": "Moses intercedes by pleading the sworn promise back to God: the stars of heaven, in the oath's own words."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "Matthew 22:32",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob",
+      "target": "I am the God of Abraham, and the God of Isaac, and the God of Jacob"
+     }
+    }
+   ],
+   "12:5": [
+    {
+     "target": "1 Peter 1:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a lamb without spot",
+      "target": "of an immaculate and unspotted Lamb, Christ"
+     }
+    }
+   ],
+   "12:46": [
+    {
+     "target": "John 19:36",
+     "kind": "quotation",
+     "evidence": {
+      "source": "neither shall you break a bone thereof",
+      "target": "You shall not break a bone of him"
+     }
+    }
+   ],
+   "14:21": [
+    {
+     "target": "Psalms 77:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the water was divided",
+      "target": "He divided the sea & brought them through"
+     }
+    }
+   ],
+   "15:1": [
+    {
+     "target": "Apocalypse 15:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Then sang Moyses and the children of Israel this song to our Lord",
+      "target": "singing the song of Moyses the servant of God"
+     }
+    }
+   ],
+   "20:5": [
+    {
+     "target": "Deuteronomy 5:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "visiting the iniquity of the fathers upon the children, upon the third and fourth generation of them that hate me",
+      "target": "rendering the iniquity of the fathers upon the children unto the third and fourth generation to them that hate me"
+     }
+    }
+   ],
+   "20:12": [
+    {
+     "target": "Ephesians 6:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Honour thy father and thy mother",
+      "target": "Honour thy father & thy mother"
+     }
+    }
+   ],
+   "20:13": [
+    {
+     "target": "Matthew 5:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou shalt not murder",
+      "target": "You have heard that it was said to them of old: Thou shalt not kill"
+     }
+    }
+   ],
+   "21:24": [
+    {
+     "target": "Matthew 5:38",
+     "kind": "quotation",
+     "evidence": {
+      "source": "eye for eye, tooth for tooth",
+      "target": "An eye for an eye, and a tooth for a tooth"
+     }
     }
    ]
   },
@@ -11238,6 +13540,16 @@
       "target": "A valiant woman who shall find?"
      },
      "note": "Booz confesses before all the gates what the acrostic asks: a valiant woman — who shall find? Ruth is the portrait's living instance, her works praising her in the same gates (31:31). Graded parallel: the DR wording differs ('woman of virtue' against 'valiant woman'), and no quotation is claimed."
+    }
+   ],
+   "4:17": [
+    {
+     "target": "Matthew 1:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "called his name Obed: this is the father of Isai, the father of David",
+      "target": "Booz begat Obed of Ruth. And Obed begat Jesse"
+     }
     }
    ]
   },
@@ -11898,6 +14210,14 @@
       "target": "I will raise up thy seed after thee, which shall come forth of thy womb, and I will establish his Kingdom."
      },
      "note": "The sworn fruit-of-thy-womb of the psalm is Nathan's seed raised up after David. Later verses citing the psalm (Acts 2:30, John 7:42's context) are keyed elsewhere; this entry anchors the psalm to its own source."
+    },
+    {
+     "target": "Acts of the Apostles 2:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Of the fruit of thy womb I will set upon thy seat.",
+      "target": "of the fruit of his loins there should sit upon his seat;"
+     }
     }
    ],
    "17:50": [
@@ -12096,6 +14416,702 @@
       "target": "there is one death of man, and beasts, and the condition of both equal: as man dieth, so they also die"
      },
      "note": "The wisdom psalm's refrain — man in honour compared to beasts and become like them — is the Preacher's sentence in brief: one death of man and beasts, and the condition of both equal."
+    }
+   ],
+   "21:2": [
+    {
+     "target": "Matthew 27:46",
+     "kind": "quotation",
+     "evidence": {
+      "source": "why hast thou forsaken me?",
+      "target": "My God, my God, why hast thou forsaken me?"
+     }
+    }
+   ],
+   "21:19": [
+    {
+     "target": "John 19:24",
+     "kind": "quotation",
+     "evidence": {
+      "source": "they have divided my garments among them: and upon my vesture they have cast lot.",
+      "target": "They have parted my garments among them: and upon my vesture they have cast lots."
+     }
+    }
+   ],
+   "21:23": [
+    {
+     "target": "Hebrews 2:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I will declare thy name to my brethren: in the midst of the Church I will praise thee",
+      "target": "I will declare thy name to my brethren: in the midst of the Church will I praise thee."
+     }
+    }
+   ],
+   "21:8": [
+    {
+     "target": "Matthew 27:39",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they have spoken with the lips, & wagged the head.",
+      "target": "blasphemed him, wagging their heads,"
+     }
+    }
+   ],
+   "21:9": [
+    {
+     "target": "Matthew 27:43",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He hoped in the Lord, let him deliver him: let him save him",
+      "target": "He trusted in God; let him now deliver him if he will"
+     }
+    },
+    {
+     "target": "Wisdom 2:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "let him deliver him: let him save him, because he will him.",
+      "target": "he will defend him, & will deliver him from the hands of the adversaries."
+     }
+    }
+   ],
+   "44:7": [
+    {
+     "target": "Hebrews 1:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thy seat o God for ever and ever: a rod of direction the rod of thy Kingdom.",
+      "target": "Thy throne o God for ever and ever: a rod of equity, the rod of thy kingdom."
+     }
+    }
+   ],
+   "44:8": [
+    {
+     "target": "Hebrews 1:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou hast loved justice, and hast hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows.",
+      "target": "Thou hast loved justice, and hated iniquity: therefore thee, God, thy God hath anointed with the oil of exultation above thy fellows."
+     }
+    }
+   ],
+   "18:5": [
+    {
+     "target": "Romans 10:18",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Their sound hath gone forth into all the earth; and unto the ends of the round world the words of them.",
+      "target": "into all the earth hath the sound of them gone forth: and unto the ends of the whole world the words of them."
+     }
+    }
+   ],
+   "50:6": [
+    {
+     "target": "Romans 3:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "that thou mayst be justified in thy words, and mayst overcome when thou art judged.",
+      "target": "That thou mayest be justified in thy words, and overcome when thou art judged."
+     }
+    }
+   ],
+   "35:2": [
+    {
+     "target": "Romans 3:18",
+     "kind": "quotation",
+     "evidence": {
+      "source": "there is no fear of God before his eyes.",
+      "target": "There is no fear of God before their eyes."
+     }
+    }
+   ],
+   "52:4": [
+    {
+     "target": "Romans 3:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "All have declined, they are become unprofitable together: there is not that doth good, no there is not one.",
+      "target": "All have declined, they are become unprofitable together: there is not that doeth good, there is not so much as one."
+     }
+    }
+   ],
+   "101:26": [
+    {
+     "target": "Hebrews 1:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "In the beginning, o Lord, thou didst found the earth: and the heavens are the works of thy hands.",
+      "target": "Thou in the beginning o Lord didst found the earth: and the works of thy hands are the heavens."
+     }
+    }
+   ],
+   "101:28": [
+    {
+     "target": "Hebrews 1:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "but thou art the self-same, and thy years shall not fail.",
+      "target": "but thou art the self-same, and thy years shall not fail."
+     }
+    }
+   ],
+   "103:4": [
+    {
+     "target": "Hebrews 1:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Which makest spirits thine Angels: and thy ministers a burning fire.",
+      "target": "He that maketh his Angels, spirits: and his ministers, a flame of fire."
+     }
+    }
+   ],
+   "96:7": [
+    {
+     "target": "Hebrews 1:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Adore him all ye his Angels:",
+      "target": "let all the Angels of God adore him."
+     }
+    }
+   ],
+   "81:6": [
+    {
+     "target": "John 10:34",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I said: You are gods",
+      "target": "I said, you are gods?"
+     }
+    }
+   ],
+   "77:2": [
+    {
+     "target": "Matthew 13:35",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I will open my mouth in parables:",
+      "target": "I will open my mouth in parables,"
+     }
+    }
+   ],
+   "117:6": [
+    {
+     "target": "Hebrews 13:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Our Lord is my helper: I will not fear what man can do to me.",
+      "target": "Our Lord is my helper: I will not fear what man shall do to me."
+     }
+    }
+   ],
+   "115:1": [
+    {
+     "target": "2 Corinthians 4:13",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I believed, for which cause I spake:",
+      "target": "I believed, for the which cause I have spoken,"
+     }
+    }
+   ],
+   "117:22": [
+    {
+     "target": "Matthew 21:42",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The stone, which the builders rejected: the same is made into the head of the corner.",
+      "target": "The stone which the builders rejected, the same is made into the head of the corner?"
+     }
+    },
+    {
+     "target": "Acts of the Apostles 4:11",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The stone, which the builders rejected: the same is made into the head of the corner.",
+      "target": "This is the stone that was rejected of you the builders: which is made into the head of the corner:"
+     }
+    }
+   ],
+   "117:23": [
+    {
+     "target": "Matthew 21:42",
+     "kind": "quotation",
+     "evidence": {
+      "source": "This was done by our Lord: and it is marvelous in our eyes.",
+      "target": "By our Lord was this done, and it is marvelous in our eyes."
+     }
+    }
+   ],
+   "39:8": [
+    {
+     "target": "Hebrews 10:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "then said I, Behold I come. In the head of the book it is written of me,",
+      "target": "Then said I, Behold I come: in the head of the book it is written of me:"
+     }
+    }
+   ],
+   "23:1": [
+    {
+     "target": "1 Corinthians 10:26",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The earth is our Lord's, and the fullness thereof:",
+      "target": "The earth is our Lord's, and the fullness thereof."
+     }
+    }
+   ],
+   "33:14": [
+    {
+     "target": "1 Peter 3:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Stay thy tongue from evil: and thy lips that they speak not guile.",
+      "target": "let him refrain his tongue from evil, & his lips that they speak not guile."
+     }
+    }
+   ],
+   "33:15": [
+    {
+     "target": "1 Peter 3:11",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Turn away from evil, and do good: seek after peace and pursue it.",
+      "target": "Let him decline from evil, and do good: let him inquire peace, & follow it:"
+     }
+    }
+   ],
+   "33:16": [
+    {
+     "target": "1 Peter 3:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The eyes of our Lord upon the just: and his ears unto their prayers.",
+      "target": "the eyes of our Lord are upon the just, and his ears unto their prayers:"
+     }
+    }
+   ],
+   "33:17": [
+    {
+     "target": "1 Peter 3:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the countenance of our Lord is upon them that do evil things:",
+      "target": "the countenance of our Lord upon them that do evil things."
+     }
+    }
+   ],
+   "33:9": [
+    {
+     "target": "1 Peter 2:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Taste ye, and see that our Lord is sweet:",
+      "target": "you have tasted that our Lord is sweet."
+     }
+    }
+   ],
+   "90:11": [
+    {
+     "target": "Matthew 4:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "he hath given his Angels charge of thee: that they keep thee in all thy ways.",
+      "target": "he will give his Angels charge of thee,"
+     }
+    }
+   ],
+   "90:12": [
+    {
+     "target": "Matthew 4:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "In their hands they shall bear thee: lest perhaps thou knock thy foot against a stone.",
+      "target": "in their hands shall they hold thee up, lest perhaps thou knock thy foot against a stone."
+     }
+    }
+   ],
+   "90:13": [
+    {
+     "target": "Luke 10:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou shalt tread upon the lion, and the dragon.",
+      "target": "I have given you power to tread upon serpents, and scorpions,"
+     }
+    }
+   ],
+   "109:4": [
+    {
+     "target": "Hebrews 7:21",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou art a Priest for ever according to the order of Melchisedech.",
+      "target": "thou art a Priest for ever"
+     }
+    }
+   ],
+   "94:8": [
+    {
+     "target": "Hebrews 3:15",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Today if ye shall hear his voice, harden not your hearts.",
+      "target": "Today if you shall hear his voice, do not obdurate your hearts"
+     }
+    }
+   ],
+   "89:4": [
+    {
+     "target": "2 Peter 3:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a thousand years before thine eyes, are as yesterday that is past.",
+      "target": "one day with our Lord is as a thousand years, & a thousand years as one day."
+     }
+    }
+   ],
+   "85:9": [
+    {
+     "target": "Apocalypse 15:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All nations whatsoever thou hast made, shall come, and shall adore before thee, o Lord:",
+      "target": "all nations shall come, and adore in thy sight,"
+     }
+    }
+   ],
+   "97:2": [
+    {
+     "target": "Isaias 52:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord hath made known his salvation: in the sight of the Gentiles he hath revealed his justice.",
+      "target": "all the ends of the earth shall see the salvation of our God."
+     }
+    }
+   ],
+   "97:3": [
+    {
+     "target": "Luke 2:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All the ends of the earth have seen the salvation of our God.",
+      "target": "mine eyes have seen thy Salvation,"
+     }
+    }
+   ],
+   "112:3": [
+    {
+     "target": "Malachias 1:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "From the rising of the sun unto the going down, the name of our Lord is laudable.",
+      "target": "from the rising of the sun even to the going down, great is my name among the Gentiles,"
+     }
+    }
+   ],
+   "131:5": [
+    {
+     "target": "Acts of the Apostles 7:46",
+     "kind": "allusion",
+     "evidence": {
+      "source": "until I find a place for our Lord, a tabernacle for the God of Jacob.",
+      "target": "he might find a tabernacle for the God of Jacob."
+     }
+    }
+   ],
+   "145:6": [
+    {
+     "target": "Acts of the Apostles 4:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who made heaven and earth, the sea, and all things that are in them.",
+      "target": "thou that didst make Heaven & earth, the sea, and all things that are in them,"
+     }
+    }
+   ],
+   "70:1": [
+    {
+     "target": "Psalms 30:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In thee o Lord I have hoped, let me not be confounded for ever:",
+      "target": "In thee o Lord have I hoped, let me not be confounded for ever:"
+     }
+    }
+   ],
+   "70:3": [
+    {
+     "target": "Psalms 30:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Be unto me for a God protector, and for a fenced place: that thou mayst save me:",
+      "target": "Be unto me for a God protector: and for a house of refuge, that thou mayst save me."
+     }
+    }
+   ],
+   "107:8": [
+    {
+     "target": "Psalms 59:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God spake in his holy: I will rejoice, and will divide Sichem, and I will measure the vale of tabernacles.",
+      "target": "God hath spoken in his holy: I shall rejoice, and shall divide Sichem: and shall measure the valley of tabernacles."
+     }
+    }
+   ],
+   "107:13": [
+    {
+     "target": "Psalms 59:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Give us help out of tribulation: because man's salvation is vain.",
+      "target": "Give us aid from tribulation: because man's salvation is vain."
+     }
+    }
+   ],
+   "107:14": [
+    {
+     "target": "Psalms 59:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "In God we shall do strength: and he will bring our enemies to nothing.",
+      "target": "In God we shall do strength: and he shall bring to nothing them that afflict us."
+     }
+    }
+   ],
+   "107:4": [
+    {
+     "target": "Psalms 56:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will confess to thee in peoples, o Lord: and I will sing to thee in the Nations.",
+      "target": "I will confess to thee among peoples, o Lord: and I will say a Psalm to thee among the Gentiles."
+     }
+    }
+   ],
+   "69:4": [
+    {
+     "target": "Psalms 39:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that say to me: Well, well.",
+      "target": "that say to me: Well, well."
+     }
+    }
+   ],
+   "69:6": [
+    {
+     "target": "Psalms 39:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou art my helper, and deliverer: o Lord be not slack.",
+      "target": "Thou art my helper, & my protector: my God be not slack."
+     }
+    }
+   ],
+   "52:2": [
+    {
+     "target": "Psalms 13:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "They are corrupt, and become abominable in iniquities: there is not that doth good.",
+      "target": "They are corrupt, and are become abominable in their studies: there is not that doth good no not one."
+     }
+    }
+   ],
+   "17:4": [
+    {
+     "target": "2 Kings 22:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Praising I will invocate our Lord: & I shall be saved from mine enemies.",
+      "target": "Our Lord praise-worthy will I invocate: and from mine enemies I shall be saved."
+     }
+    }
+   ],
+   "17:32": [
+    {
+     "target": "2 Kings 22:32",
+     "kind": "parallel",
+     "evidence": {
+      "source": "For who is God but our Lord? Or who is God but our God?",
+      "target": "Who is God beside our Lord: and who is strong beside our God?"
+     }
+    }
+   ],
+   "95:7": [
+    {
+     "target": "1 Paralipomenon 16:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Bring to our Lord ye families of Gentiles, bring ye to our Lord glory and honour:",
+      "target": "Bring to our Lord ye families of peoples: bring to our Lord glory and empire."
+     }
+    }
+   ],
+   "95:10": [
+    {
+     "target": "1 Paralipomenon 16:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Say ye among the Gentiles that our Lord hath reigned.",
+      "target": "let them say among nations, Our Lord hath reigned."
+     }
+    }
+   ],
+   "104:1": [
+    {
+     "target": "1 Paralipomenon 16:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Confess ye to our Lord, and invocate his name: shew forth his works among the Gentiles.",
+      "target": "Confess ye to our Lord, and invocate his name: make his inventions known among the peoples."
+     }
+    }
+   ],
+   "104:15": [
+    {
+     "target": "1 Paralipomenon 16:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Touch not my anointed, and toward my Prophets be not malignant.",
+      "target": "Touch not my anointed: and unto my Prophets be not malicious."
+     }
+    }
+   ],
+   "105:1": [
+    {
+     "target": "1 Paralipomenon 16:34",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Confess ye to our Lord because he is good: because his mercy is for ever.",
+      "target": "Confess ye to our Lord, because he is good: because his mercy is for ever."
+     }
+    }
+   ],
+   "144:15": [
+    {
+     "target": "Psalms 103:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The eyes of all hope in thee, o Lord: and thou givest their meat in time convenient.",
+      "target": "all expect of thee that thou give them meat in season."
+     }
+    }
+   ],
+   "144:16": [
+    {
+     "target": "Psalms 103:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Thou openest thy hand: and fillest every living creature with blessing.",
+      "target": "thou opening thy hand, all shall be filled with bounty."
+     }
+    }
+   ],
+   "41:6": [
+    {
+     "target": "Psalms 42:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Why art thou sorrowful my soul? & why dost thou trouble me? Hope in God, because yet I will confess to him: the salvation of my countenance,",
+      "target": "why art thou sorrowful, o my soul? And why dost thou trouble me? Hope in God, because yet will I confess to him: the salvation of my countenance, and my God."
+     }
+    }
+   ],
+   "88:5": [
+    {
+     "target": "2 Kings 7:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "for ever will I prepare thy seed. And I will build thy seat unto generation and generation.",
+      "target": "He shall build a house to my name, and I will establish the throne of his Kingdom for ever."
+     }
+    }
+   ],
+   "88:27": [
+    {
+     "target": "2 Kings 7:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He shall invocate me: Thou art my Father: my God,",
+      "target": "I will be to him for a father, and he shall be to me for a son:"
+     }
+    }
+   ],
+   "74:9": [
+    {
+     "target": "Apocalypse 14:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there is a cup in the hand of our Lord of mere wine full of mixture.",
+      "target": "he also shall drink of the wine of the wrath of God, which is mingled with pure wine in the cup of his wrath,"
+     }
+    }
+   ],
+   "78:10": [
+    {
+     "target": "Apocalypse 6:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The revenge of the blood of thy servants, which hath been shed:",
+      "target": "revengest thou not our blood of them that dwell on the earth?"
+     }
+    }
+   ],
+   "148:3": [
+    {
+     "target": "Daniel 3:62",
+     "kind": "theme",
+     "evidence": {
+      "source": "Praise ye him sun and moon: praise him all ye stars, and light.",
+      "target": "Sun and moon bless ye our Lord: praise and superexalt him for ever."
+     }
+    }
+   ],
+   "50:12": [
+    {
+     "target": "Ezechiel 36:26",
+     "kind": "theme",
+     "evidence": {
+      "source": "Create a clean heart in me, o God: and renew a right spirit in my bowels.",
+      "target": "I will give you a new heart, and will put a new spirit in the midst of you:"
+     }
+    }
+   ],
+   "140:2": [
+    {
+     "target": "Apocalypse 8:3",
+     "kind": "theme",
+     "evidence": {
+      "source": "Let my prayer be directed as incense in thy sight:",
+      "target": "there were given to him many incenses that he should give of the prayers of all saints"
+     }
+    }
+   ],
+   "32:9": [
+    {
+     "target": "Genesis 1:3",
+     "kind": "theme",
+     "evidence": {
+      "source": "he said, and they were made: he commanded and they were created,",
+      "target": "And God said: Be light made. And light was made."
+     }
+    }
+   ],
+   "143:3": [
+    {
+     "target": "Job 7:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord what is man, that thou art made known to him?",
+      "target": "What is man that thou magnifiest him?"
+     }
     }
    ]
   },
@@ -12440,6 +15456,86 @@
      },
      "note": "Within the book itself: the confession of chapter 4 — the Lord thy God is a consuming fire — becomes the battle-promise of chapter 9, the same fire passing over before Israel. Hebrews 12:29's 'our God is a consuming fire' is the seed's, keyed to 4:24."
     }
+   ],
+   "6:5": [
+    {
+     "target": "Matthew 22:37",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou shalt love the Lord thy God with thy whole heart, and with thy whole soul",
+      "target": "Thou shalt love the Lord thy God from thy whole heart, and with thy whole soul"
+     }
+    }
+   ],
+   "6:13": [
+    {
+     "target": "Matthew 4:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "him only shalt thou serve",
+      "target": "him only shalt thou serve"
+     }
+    }
+   ],
+   "8:3": [
+    {
+     "target": "Matthew 4:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "not in bread only a man live, but in every word that proceedeth from the mouth of God",
+      "target": "Not in bread alone doth man live, but in every word that proceedeth from the mouth of God"
+     }
+    }
+   ],
+   "10:17": [
+    {
+     "target": "Acts of the Apostles 10:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that accepteth not person nor gifts",
+      "target": "God is not an accepter of persons"
+     }
+    }
+   ],
+   "18:15": [
+    {
+     "target": "Acts of the Apostles 3:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "A prophet of thy nation & of thy brethren like unto me, will our Lord thy God raise up to thee",
+      "target": "a prophet shall the Lord your God raise up to you of your brethren, as myself"
+     }
+    }
+   ],
+   "19:15": [
+    {
+     "target": "Matthew 18:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "in the mouth of two or three witnesses shall every word stand",
+      "target": "in the mouth of two or three witnesses every word may stand"
+     }
+    }
+   ],
+   "25:4": [
+    {
+     "target": "1 Corinthians 9:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou shalt not muzzle the mouth of the oxe that treadeth out thy corn",
+      "target": "Thou shalt not muzzle the mouth of the ox that treadeth out the corn"
+     }
+    }
+   ],
+   "32:35": [
+    {
+     "target": "Romans 12:19",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Revenge is mine, and I will repay them in time",
+      "target": "Revenge to me; I will reward, saith our Lord"
+     }
+    }
    ]
   },
   "Osee": {
@@ -12538,6 +15634,14 @@
       "target": "if thou hast been strong against God, how much more shalt thou prevail against men?"
      },
      "note": "The prevailing of Peniel in Osee's retelling, answering to the Angel's own verdict in Genesis."
+    },
+    {
+     "target": "Genesis 32:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And he prevailed against the Angel, and was strengthened",
+      "target": "behold a man wrestled with him till morning"
+     }
     }
    ],
    "12:12": [
@@ -12560,6 +15664,76 @@
       "target": "Convert to me in all your heart, in fasting, & in weeping, and in mourning"
      },
      "note": "The conversion call that closes Osee answers Joel's conversion call — 'convert' is the prophets' shared summons-word in this corpus, and Osee's whole book ends where Joel's remedy begins."
+    }
+   ],
+   "1:4": [
+    {
+     "target": "4 Kings 10:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will visit the blood of Jezrahel upon the house of Jehu",
+      "target": "Jehu therefore smote all that were left of the house of Achab in Jezrahel"
+     }
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Josue 7:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the vale of Achor to open hope",
+      "target": "the name of that place was called, the valley of Achor, until this day"
+     }
+    }
+   ],
+   "4:3": [
+    {
+     "target": "Sophonias 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the fowl of the heaven: yea and the fishes of the sea shall be gathered together",
+      "target": "gathering the fowls of the heaven, and fishes of the sea"
+     }
+    }
+   ],
+   "5:10": [
+    {
+     "target": "Deuteronomy 19:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The princes of Juda are become as they that take the bound",
+      "target": "Thou shalt not take, and transfer thy neighbour's bounds"
+     }
+    }
+   ],
+   "9:3": [
+    {
+     "target": "Deuteronomy 28:68",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Ephraim is returned into Ægypt",
+      "target": "Our Lord shall bring thee again with ships into Ægypt"
+     }
+    }
+   ],
+   "10:12": [
+    {
+     "target": "Jeremias 4:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Sow to yourselves in justice, and reap in the mouth of mercy, fallow ground",
+      "target": "Make unto you new fallow ground, & sow not upon thorns"
+     }
+    }
+   ],
+   "11:10": [
+    {
+     "target": "Amos 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as a lion will he roar: because he will roar",
+      "target": "Our Lord will roar out of Sion"
+     }
     }
    ]
   },
@@ -12734,6 +15908,14 @@
       "target": "All we have strayed as sheep"
      },
      "note": "Peter turns Isaias's confession into his readers' past: we all strayed as sheep. The Pastor to whom they are converted gathers the verse's second half, the iniquity laid on him, into 2:24."
+    },
+    {
+     "target": "Ezechiel 34:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you were as sheep straying",
+      "target": "My flocks have wandered in all mountains, and in every high hill"
+     }
     }
    ],
    "2:23": [
@@ -13128,6 +16310,74 @@
       "target": "for it is his battle, & he will deliver you into our hands."
      },
      "note": "Jahaziel's oracle to Josaphat is David's word to Golias turned into a promise: the battle is God's, not yours."
+    },
+    {
+     "target": "Deuteronomy 20:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for it is not your battle, but God's.",
+      "target": "will fight for you against your adversaries, to deliver you from danger."
+     }
+    }
+   ],
+   "6:18": [
+    {
+     "target": "3 Kings 8:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "If heaven & the heavens of heavens do not take thee, how much more this house, which I have built?",
+      "target": "if heaven, and the heavens of heavens cannot contain thee, how much more this house, which I have built?"
+     }
+    }
+   ],
+   "6:37": [
+    {
+     "target": "3 Kings 8:47",
+     "kind": "parallel",
+     "evidence": {
+      "source": "saying: We have sinned, we have done wickedly, we have dealt unjustly:",
+      "target": "saying: We have sinned, we have done wickedly, we have dealt impiously:"
+     }
+    }
+   ],
+   "6:41": [
+    {
+     "target": "Psalms 131:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "arise Lord God in thy rest, thou and the Ark of thy strength",
+      "target": "Arise Lord into thy rest, thou, and the ark of thy sanctification."
+     }
+    }
+   ],
+   "7:13": [
+    {
+     "target": "3 Kings 8:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "If I shall shut heaven, and rain fall not",
+      "target": "If the heaven shall be shut, and it rain not, because of their sins"
+     }
+    }
+   ],
+   "14:11": [
+    {
+     "target": "1 Kings 14:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord there is no difference with thee, whether thou help in few, or in many",
+      "target": "it is not hard for our Lord to save either in many or in few."
+     }
+    }
+   ],
+   "20:6": [
+    {
+     "target": "Esther 13:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "neither can any man resist thee.",
+      "target": "there is none that can resist thy will"
+     }
     }
    ]
   },
@@ -13152,6 +16402,14 @@
       "target": "Who is like to thee among the strong, o Lord?"
      },
      "note": "Micheas opens with the song's own question — 'Who is like to thee?' — and turns it from God's power against Egypt to his taking away of iniquity."
+    },
+    {
+     "target": "Exodus 34:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which takest away iniquity, and passest over the sin of the remnant of thine inheritance",
+      "target": "which takest away iniquity, and wicked facts, and sins"
+     }
     }
    ],
    "6:5": [
@@ -13207,6 +16465,16 @@
       "target": "they shall turn their swords into coulters, and their spears into sithes: nation shall not lift up sword against nation"
      },
      "note": "The swords-into-ploughshares verse of the shared oracle — the verse Joel 3:10 deliberately reverses, entered in this draft."
+    }
+   ],
+   "6:7": [
+    {
+     "target": "Isaias 1:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "with thousands of rams, or with many thousands of fat buckgoats",
+      "target": "the holocaust of rams, and the fat of fatlings, and the blood of calves, and lambs, and buck goats I have not desired"
+     }
     }
    ]
   },
@@ -13362,6 +16630,16 @@
      },
      "note": "God's first word to Josue quotes the border-promise of Deuteronomy and names its source: 'as I have spoken to Moyses'. The borders that follow in Josue are this verse's."
     }
+   ],
+   "1:8": [
+    {
+     "target": "Psalms 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou shalt meditate in it days and nights",
+      "target": "in his law he will meditate day and night"
+     }
+    }
    ]
   },
   "1 Kings": {
@@ -13440,6 +16718,26 @@
       "target": "I will kill, and I will make to live: I will strike, and I will heal, and there is none that can deliver out of my hand."
      },
      "note": "Anna's canticle sings the song of Moses back: the Lord who kills and makes alive, who brings down and fetches back. Wisdom 16:13 speaks the same confession, but its words track Anna's form; her canticle carries the verse here."
+    }
+   ],
+   "2:8": [
+    {
+     "target": "Luke 1:52",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He raiseth the needy man from the dust, and from the dung he lifteth up the poor",
+      "target": "He hath deposed the mighty from their seat, & hath exalted the humble"
+     }
+    }
+   ],
+   "13:14": [
+    {
+     "target": "Acts of the Apostles 13:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Our Lord hath sought him a man according to his heart",
+      "target": "I have found David the son of Jesse, a man according to my heart"
+     }
     }
    ]
   },
@@ -13609,6 +16907,36 @@
       "target": "Behold I will send mine Angel, which shall go before thee, and keep thee in thy journey"
      },
      "note": "Mark's opening citation is composite: its first half ('I send mine Angel before thy face') is Exodus' angel promised for the journey, before it is Malachias' (the seed keys Mark 1:2 to Malachias 3:1). Mark himself heads the whole with Esay's name."
+    }
+   ],
+   "4:29": [
+    {
+     "target": "Joel 3:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "immediately he putteth in the sickle, because harvest is come",
+      "target": "Put in the sithes, because the harvest is ripe"
+     }
+    }
+   ],
+   "8:18": [
+    {
+     "target": "Ezechiel 12:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "having eyes see you not? and having ears hear you not?",
+      "target": "which have eyes to see, and see not: and ears to hear, and hear not"
+     }
+    }
+   ],
+   "9:47": [
+    {
+     "target": "Isaias 66:24",
+     "kind": "quotation",
+     "evidence": {
+      "source": "where their worm dieth not, and the fire quencheth not",
+      "target": "their worm shall not die, and their fire shall not be quenched"
+     }
     }
    ]
   },
@@ -13839,6 +17167,86 @@
      },
      "note": "Ezechiel taunts Tyre's prince with Daniel as the living byword for wisdom — Daniel still a young exile at Babylon's court, already found tenfold wiser in every word of wisdom the king demanded."
     }
+   ],
+   "34:2": [
+    {
+     "target": "Jeremias 23:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Woe to the Pastors of Israel, which fed themselves",
+      "target": "Woe to the Pastors, that destroy and tear the flock of my pasture, saith our Lord"
+     }
+    }
+   ],
+   "34:15": [
+    {
+     "target": "Isaias 40:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will feed my sheep, & I will make them lie, saith our Lord God",
+      "target": "As a shepherd shall he feed his flock"
+     }
+    }
+   ],
+   "34:25": [
+    {
+     "target": "Leviticus 26:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will make a covenant of peace with them, and will make the most cruel beasts to cease out of the land",
+      "target": "I will give peace in your coasts: you shall sleep, and there shall be none to make you afraid. I will take away evil beasts"
+     }
+    }
+   ],
+   "36:26": [
+    {
+     "target": "Ezechiel 11:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will give you a new heart, and will put a new spirit in the midst of you: and will take away the stony heart out of your flesh, and will give you a fleshy heart",
+      "target": "I will give them one heart, and will give a new spirit in their bowels: and I will take away the stony heart out of their flesh, and will give them a fleshy heart"
+     }
+    }
+   ],
+   "36:35": [
+    {
+     "target": "Isaias 51:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "This land untilled is become as a garden of pleasure",
+      "target": "he will make her desert as delicacies, and her wilderness as the garden of our Lord"
+     }
+    }
+   ],
+   "39:29": [
+    {
+     "target": "Joel 2:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have poured out my spirit upon all the house of Israel, saith our Lord God",
+      "target": "I will pour out my spirit upon all flesh"
+     }
+    }
+   ],
+   "33:11": [
+    {
+     "target": "Ezechiel 18:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will not the death of the impious, but that the impious convert from his way, and live",
+      "target": "I will not the death of him that dieth, saith our Lord God, return ye, and live"
+     }
+    }
+   ],
+   "28:2": [
+    {
+     "target": "Isaias 14:14",
+     "kind": "theme",
+     "evidence": {
+      "source": "thy heart is elevated, and thou hast said: I am God",
+      "target": "I will ascend above the height of the clouds, I will be like to the Highest"
+     }
+    }
    ]
   },
   "Zacharias": {
@@ -13915,6 +17323,26 @@
       "target": "A widow and an orphan you shall not hurt"
      },
      "note": "Zacharias gathers the old law's protected ones — widow and pupil (orphan) first — into his justice charge. The seed carries Zacharias 7:10 -> Exodus 22 at chapter level only."
+    }
+   ],
+   "2:13": [
+    {
+     "target": "Habacuc 2:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Let all flesh be silent at the presence of our Lord",
+      "target": "let all the earth be silent at his presence"
+     }
+    }
+   ],
+   "13:9": [
+    {
+     "target": "Malachias 3:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "will burn them as silver is burnt: and I will try them as gold is tried",
+      "target": "he shall purge the sons of Levi, and will strain them as gold, and as silver"
+     }
     }
    ]
   },
@@ -14039,6 +17467,26 @@
      },
      "note": "Elias's forty days and nights to Horeb retrace Moyses' forty on the same mountain, fed once for the whole journey as Moyses was kept without bread and water."
     }
+   ],
+   "8:27": [
+    {
+     "target": "2 Paralipomenon 6:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "if heaven, and the heavens of heavens cannot contain thee, how much more this house, which I have built",
+      "target": "If heaven & the heavens of heavens do not take thee, how much more this house, which I have built"
+     }
+    }
+   ],
+   "17:1": [
+    {
+     "target": "Luke 4:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if there shall be these years dew and rain, but according to the words of my mouth",
+      "target": "in the days of Elias in Israel, when the Heaven was shut three years and six months"
+     }
+    }
    ]
   },
   "Numbers": {
@@ -14117,6 +17565,36 @@
       "target": "Because you have not believed me, to sanctify me before the children of Israel, you shall not bring in these peoples into the land, which I will give them"
      },
      "note": "When Moses must provide his successor, the old sentence is recited once more — the book keeps its own record straight, word for word in the charge."
+    }
+   ],
+   "12:7": [
+    {
+     "target": "Hebrews 3:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my servant Moyses is not such an one, who in all my house is most faithful",
+      "target": "Moyses indeed was faithful in all his house as a servant"
+     }
+    }
+   ],
+   "16:5": [
+    {
+     "target": "2 Timothy 2:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord will make it known who pertain to him",
+      "target": "Our Lord knoweth, who be his"
+     }
+    }
+   ],
+   "21:8": [
+    {
+     "target": "John 3:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Make a brazen serpent, and set it for a sign",
+      "target": "as Moyses exalted the serpent in the desert"
+     }
     }
    ]
   },
@@ -14216,6 +17694,36 @@
       "target": "nor make marriages with them. Thy daughter thou shalt not give to his son, nor take his daughter for thy son:"
      },
      "note": "Esdras's crisis is Deuteronomy's marriage ban broken: daughters taken for themselves and their sons, the holy seed mingled. Nehemias enforces the same law a generation later, keyed at 2 Esdras 13:25."
+    }
+   ],
+   "9:6": [
+    {
+     "target": "Baruch 1:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I am confounded and ashamed to lift up my face to thee",
+      "target": "To the Lord our God justice: but to us confusion of our face"
+     }
+    }
+   ],
+   "9:15": [
+    {
+     "target": "Daniel 9:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord God of Israel thou art just",
+      "target": "just is the Lord our God in all his works, which he hath done"
+     }
+    }
+   ],
+   "6:5": [
+    {
+     "target": "Daniel 5:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the vessels of the temple of God, of gold and of silver, which Nabuchodonosor had taken out of the Temple of Jerusalem",
+      "target": "the vessels of gold & silver, should be brought, which Nabuchodonosor his father had carried away out of the temple, that was in Jerusalem"
+     }
     }
    ]
   },
@@ -14424,6 +17932,66 @@
      },
      "note": "Nehemias binds the people by oath in the law's exact terms — give not your daughters, take not theirs — the same ban Esdras had wept over at 1 Esdras 9:2."
     }
+   ],
+   "9:12": [
+    {
+     "target": "Exodus 13:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in a pillar of a cloud thou wast their leader by day, and in a pillar of fire by night",
+      "target": "to shew the way by day in a pillar of a cloud, and by night in a pillar of fire"
+     }
+    }
+   ],
+   "9:18": [
+    {
+     "target": "Exodus 32:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "This is thy God, which brought thee out of Ægypt",
+      "target": "These are thy gods Israel, that have brought thee out of the land of Ægypt."
+     }
+    }
+   ],
+   "9:19": [
+    {
+     "target": "Exodus 13:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the pillar of the cloud departed not from them by day to lead them into the way, and the pillar of fire by night",
+      "target": "There never failed the pillar of the cloud by day, nor the pillar of fire by night, before the people."
+     }
+    }
+   ],
+   "9:23": [
+    {
+     "target": "Genesis 15:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou didst multiply their children as the stars of heaven",
+      "target": "Look up to heaven, and number the stars, if thou canst. And he said to him: so shall thy seed be."
+     }
+    }
+   ],
+   "9:27": [
+    {
+     "target": "Judges 2:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "gavest them saviours, that should save them from the hand of their enemies",
+      "target": "our Lord raised up Judges, that should deliver them from the hands of the wasters"
+     }
+    }
+   ],
+   "9:32": [
+    {
+     "target": "Deuteronomy 7:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "great, strong, and terrible, keeping covenant and mercy",
+      "target": "strong and faithful God, keeping his covenant and mercy to them that love him"
+     }
+    }
    ]
   },
   "Joel": {
@@ -14470,6 +18038,16 @@
      },
      "note": "Joel's locust host, sent by God and devouring the land bare, is the Exodus plague returned upon Israel herself; Joel promises the eaten years rendered back. Same plague-shape, graded parallel."
     }
+   ],
+   "2:31": [
+    {
+     "target": "Apocalypse 6:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The sun shall be turned into darkness, and the moon into blood",
+      "target": "the sun became black as it were sack-cloth of hair: and the whole moon became as blood"
+     }
+    }
    ]
   },
   "Jonas": {
@@ -14493,6 +18071,14 @@
       "target": "he hath heard my voice from his holy temple: and my cry in his sight, hath entered into his ears."
      },
      "note": "Jonas' prayer from the fish is woven from the psalms; here the heard-cry and the temple meet. The seed keys Jonas 2:3 to Psalms 119 and 129 at chapter level."
+    },
+    {
+     "target": "Psalms 119:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I cried out of my tribulation to our Lord, & he hath heard me",
+      "target": "When I was in tribulation I cried to our Lord: and he heard me"
+     }
     }
    ],
    "2:4": [
@@ -14548,6 +18134,26 @@
       "target": "he desired for his soul to die, and said: It sufficeth me Lord, take my soul"
      },
      "note": "Jonas under the ivy repeats Elias under the juniper in the same words — 'he desired for his soul to die' stands in both verses; the prophet angry at mercy sits where the prophet weary of flight sat."
+    }
+   ],
+   "2:9": [
+    {
+     "target": "Psalms 30:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "They that keep vanities in vain, forsake their mercy",
+      "target": "Thou hast hated them that observe vanities, unprofitably"
+     }
+    }
+   ],
+   "3:9": [
+    {
+     "target": "Joel 2:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Who knoweth if God will convert, and forgive",
+      "target": "Who knoweth if he will convert, & forgive"
+     }
     }
    ]
   },
@@ -14725,6 +18331,26 @@
      },
      "note": "The Spirit as pledge (the earnest-money of the inheritance) in both letters, with the sealing beside it at Ephesians 1:13 — an untranslatable-in-brief shared term, rendered 'pledge' in this corpus in both places."
     }
+   ],
+   "11:3": [
+    {
+     "target": "Genesis 3:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as the serpent seduced Eve by his subtlety",
+      "target": "The serpent deceived me, and I did eat"
+     }
+    }
+   ],
+   "5:1": [
+    {
+     "target": "Wisdom 9:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if our earthly house of this habitation be dissolved",
+      "target": "the earthly habitation presseth down the understanding"
+     }
+    }
    ]
   },
   "4 Kings": {
@@ -14869,6 +18495,26 @@
       "target": "when Elias came to him, he cast his mantle upon him."
      },
      "note": "The mantle that fell at the ascension is the mantle cast on Eliseus at the plough: the call and the succession are one garment, and Eliseus proves it at the same river."
+    }
+   ],
+   "5:14": [
+    {
+     "target": "Luke 4:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "washed in Jordan seven times according to the word of the man of God, and his flesh was restored",
+      "target": "none of them was made clean but Naaman the Syrian"
+     }
+    }
+   ],
+   "19:15": [
+    {
+     "target": "Isaias 37:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou art the only God of all the kings of the earth: thou madest heaven and earth",
+      "target": "thou art the only God of all the kingdoms of the earth, thou hast made heaven and earth"
+     }
     }
    ]
   },
@@ -15169,6 +18815,156 @@
      },
      "note": "The doxology that ends the psalter's fourth book ends David's psalm in the Chronicles too."
     }
+   ],
+   "16:8": [
+    {
+     "target": "Psalms 104:1",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Confess ye to our Lord, and invocate his name: make his inventions known among the peoples.",
+      "target": "Confess ye to our Lord, and invocate his name: shew forth his works among the Gentiles."
+     }
+    }
+   ],
+   "16:10": [
+    {
+     "target": "Psalms 104:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Praise ye his holy name: let the heart of them rejoice, that seek our Lord.",
+      "target": "let the heart of them rejoice that seek our Lord."
+     }
+    }
+   ],
+   "16:11": [
+    {
+     "target": "Psalms 104:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "seek ye his face always",
+      "target": "seek his face always."
+     }
+    }
+   ],
+   "16:14": [
+    {
+     "target": "Psalms 104:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He is the Lord our God: in all the earth are his judgements.",
+      "target": "He is the Lord our God: in all the earth are his judgments."
+     }
+    }
+   ],
+   "16:16": [
+    {
+     "target": "Psalms 104:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Which he covenanted with Abraham: and his oath with Isaac.",
+      "target": "Which he disposed to Abraham: and of his oath to Isaac."
+     }
+    }
+   ],
+   "16:17": [
+    {
+     "target": "Psalms 104:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "he appointed it to Jacob for a precept: and to Israel for an everlasting covenant",
+      "target": "he appointed it to Jacob for a precept: and to Israel for an eternal testament"
+     }
+    }
+   ],
+   "16:19": [
+    {
+     "target": "Psalms 104:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "When they were few in number: small and sojourners thereof.",
+      "target": "When they were of small number, very few and sojourners thereof:"
+     }
+    }
+   ],
+   "16:23": [
+    {
+     "target": "Psalms 95:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "shew forth from day to day his salvation.",
+      "target": "shew forth his salvation from day to day."
+     }
+    }
+   ],
+   "16:27": [
+    {
+     "target": "Psalms 95:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Confession and magnificence before him: strength and joy in his place.",
+      "target": "Confession and beauty in his sight: holiness and magnificence in his sanctification."
+     }
+    }
+   ],
+   "16:28": [
+    {
+     "target": "Psalms 95:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Bring to our Lord ye families of peoples: bring to our Lord glory and empire.",
+      "target": "Bring to our Lord ye families of Gentiles, bring ye to our Lord glory and honour:"
+     }
+    }
+   ],
+   "16:31": [
+    {
+     "target": "Psalms 95:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "let them say among nations, Our Lord hath reigned.",
+      "target": "Say ye among the Gentiles that our Lord hath reigned."
+     }
+    }
+   ],
+   "17:7": [
+    {
+     "target": "2 Kings 7:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I took thee, when in the pastures thou didest follow the flock, that thou shouldest be Prince of my people Israel.",
+      "target": "I took thee out of the pastures following the flocks, that thou shouldest be Prince over my people Israel:"
+     }
+    }
+   ],
+   "17:12": [
+    {
+     "target": "2 Kings 7:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He shall build me a house, and I will confirm his throne for ever.",
+      "target": "He shall build a house to my name, and I will establish the throne of his Kingdom for ever."
+     }
+    }
+   ],
+   "21:17": [
+    {
+     "target": "2 Kings 24:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "It is I that have sinned: it is I that have done the evil: this flock what hath it deserved?",
+      "target": "I am he that have sinned, I have done wickedly: these that are the sheep, what have they done?"
+     }
+    }
+   ],
+   "29:17": [
+    {
+     "target": "Jeremias 17:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I know my God that thou provest the hearts",
+      "target": "I the Lord that search the heart, and prove the reins"
+     }
+    }
    ]
   },
   "Leviticus": {
@@ -15181,6 +18977,46 @@
       "target": "he had touched the tip of the right ear of every one, and the thumbs of the right hand and foot"
      },
      "note": "Within the book itself: the cleansed leper is restored with the consecration rite of Aaron's sons — the host's blood on the right ear, the right thumb, the right foot — as one re-ordained into the camp."
+    }
+   ],
+   "19:2": [
+    {
+     "target": "1 Peter 1:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Be ye holy, because I the Lord your God am holy",
+      "target": "You shall be holy, because I am holy"
+     }
+    }
+   ],
+   "19:18": [
+    {
+     "target": "Matthew 22:39",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou shalt love thy friend as thyself",
+      "target": "Thou shalt love thy neighbour as thyself"
+     }
+    }
+   ],
+   "26:12": [
+    {
+     "target": "2 Corinthians 6:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I will walk among you, & will be your God, & you shall be my people",
+      "target": "I will dwell, and walk in them, and will be their God; and they shall be my people"
+     }
+    }
+   ],
+   "16:30": [
+    {
+     "target": "Hebrews 9:13",
+     "kind": "theme",
+     "evidence": {
+      "source": "cleansing from all your sins: before the Lord you shall be cleansed",
+      "target": "sanctifieth the polluted to the cleansing of the flesh"
+     }
     }
    ]
   },
@@ -15245,6 +19081,14 @@
       "target": "is not this a fire-brand taken out of the fire?"
      },
      "note": "Saving by pulling out of the fire is Zacharias' figure for Josue himself: a fire-brand taken out of the fire, spoken in the same verse as the rebuke Jude quotes at 1:9."
+    },
+    {
+     "target": "Amos 4:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but them save, pulling out of the fire",
+      "target": "you were made as a fire-brand hastily caught from the burning"
+     }
     }
    ],
    "1:14": [
@@ -15256,6 +19100,16 @@
       "target": "and with him thousands of Saints."
      },
      "note": "Honestly bounded: Henoch's prophecy itself is not written in Genesis or Deuteronomy and is not claimed here. What is written — and what Jude's sentence shares word for word — is Moses' blessing: the Lord coming with thousands of his saints."
+    }
+   ],
+   "1:13": [
+    {
+     "target": "Isaias 57:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "raging waves of the sea, foaming out their own confusions",
+      "target": "the impious are as it were the raging sea, which cannot be quiet, and the waves thereof overflow"
+     }
     }
    ]
   },
@@ -15325,6 +19179,16 @@
      },
      "note": "Within this group: Judges retells Caleb's offer and Othoniel's taking of Cariath Sepher in Josue's own words, nearly verbatim. The same event told twice, once in each book — the seam where Judges takes up Josue's narrative."
     }
+   ],
+   "6:12": [
+    {
+     "target": "Luke 1:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord be with thee, o most valiant of men",
+      "target": "our Lord is with thee: blessed art thou among women"
+     }
+    }
    ]
   },
   "Amos": {
@@ -15370,6 +19234,66 @@
       "target": "the mountains shall distill sweetness, and the hills shall flow with milk"
      },
      "note": "Amos' plenty and Joel's plenty share the dropping-sweetness mountains. The seed carries this only at chapter level (Joel 3:18 -> Amos 9)."
+    }
+   ],
+   "3:7": [
+    {
+     "target": "Apocalypse 10:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he have revealed his secret to his servants the Prophets",
+      "target": "the mystery of God shall be consummate, as he hath evangelized by his servants the Prophets"
+     }
+    }
+   ],
+   "4:13": [
+    {
+     "target": "Micheas 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "walketh upon the high places of the earth, our Lord the God of hosts is his name",
+      "target": "he will descend, and will tread upon the highest of the earth"
+     }
+    }
+   ],
+   "5:20": [
+    {
+     "target": "Sophonias 1:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "is not the day of our Lord darkness, & not light: and mist",
+      "target": "a day of darkness and mist, a day of cloud & whirlwind"
+     }
+    }
+   ],
+   "5:21": [
+    {
+     "target": "Isaias 1:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have hated, and have rejected your festivities",
+      "target": "My soul hateth your Calends, and your solemnities"
+     }
+    }
+   ],
+   "8:9": [
+    {
+     "target": "Luke 23:44",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The sun shall go down at midday, and I will make the earth to be dark in the day of light",
+      "target": "it was almost the sixth hour: and there was made darkness upon the whole earth"
+     }
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Psalms 138:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If they shall descend even to hell, thence shall my hand bring them out: and if they shall ascend even to heaven",
+      "target": "If I shall ascend into heaven, thou art there: if I descend into hell, thou art present"
+     }
     }
    ]
   },
@@ -15476,6 +19400,36 @@
      },
      "note": "Lamentations' counsel to the suffering man is Isaias's Servant turned into a rule of patience: give the cheek to him that strikes, as the Servant gave his cheeks to the pluckers."
     }
+   ],
+   "5:21": [
+    {
+     "target": "Jeremias 31:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Convert us o Lord to thee, and we shall be converted: renew our days, as from the beginning",
+      "target": "Convert me, and I shall be converted: because thou art the Lord my God"
+     }
+    }
+   ],
+   "1:18": [
+    {
+     "target": "Daniel 9:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord is just, because I have provoked his mouth to wrath",
+      "target": "just is the Lord our God in all his works, which he hath done"
+     }
+    }
+   ],
+   "3:42": [
+    {
+     "target": "Daniel 9:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "We have done wickedly, and provoked to wrath",
+      "target": "We have sinned, we have done iniquity, we have dealt impiously, and have revolted"
+     }
+    }
    ]
   },
   "2 Kings": {
@@ -15488,6 +19442,36 @@
       "target": "We have sworn to them in the name of our Lord the God of Israel, and therefore we may not touch them."
      },
      "note": "David learns the famine is for Saul's striking the Gabaonites, to whom Israel had sworn. The oath Saul broke is the one Josue's princes state here: sworn in the Lord's name, therefore untouchable. The seed carries this verse of 2 Kings only at chapter level (Josue 9); the verse anchor is entered here."
+    }
+   ],
+   "7:12": [
+    {
+     "target": "1 Paralipomenon 17:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will raise up thy seed after thee, which shall come forth of thy womb, and I will establish his Kingdom",
+      "target": "I will raise up thy seed after thee, which shall be of thy children: and I will establish his Kingdom"
+     }
+    }
+   ],
+   "7:14": [
+    {
+     "target": "Hebrews 1:5",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I will be to him for a father, and he shall be to me for a son",
+      "target": "I will be to him a Father, and he shall be to me a Son"
+     }
+    }
+   ],
+   "22:1": [
+    {
+     "target": "Psalms 17:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "David spake to our Lord the words of this song, in the day that our Lord delivered him out of the hand of all his enemies, and out of the hand of Saul",
+      "target": "who spake to our Lord the words of this canticle, in the day, that our Lord delivered him out of the hand of all his enemies, and out of the hand of Saul"
+     }
     }
    ]
   },
@@ -15534,6 +19518,76 @@
       "target": "The rich and poor have met one another: our Lord is the maker of both."
      },
      "note": "Job pleads his servants' cause from the proverb's ground before Solomon states it: one Maker made master and servant in the womb, as rich and poor have one Maker of both."
+    }
+   ],
+   "1:21": [
+    {
+     "target": "Daniel 2:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the name of our Lord be blessed",
+      "target": "The name of our Lord be blessed"
+     }
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Psalms 142:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "man is not justified compared with God",
+      "target": "no man living shall be justified in thy sight"
+     }
+    }
+   ],
+   "10:18": [
+    {
+     "target": "Jeremias 20:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Why didst thou bring me forth out of the matrice?",
+      "target": "Why came I out of the womb, that I should see labour and sorrow"
+     }
+    }
+   ],
+   "14:1": [
+    {
+     "target": "Ecclesiasticus 40:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Man born of woman, living a short time, is replenished with many miseries",
+      "target": "from the day of their coming forth of their mother's womb, until the day of their burying"
+     }
+    }
+   ],
+   "19:20": [
+    {
+     "target": "Psalms 101:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my bone hath cleaved to my skin",
+      "target": "my bone hath cleaved to my flesh"
+     }
+    }
+   ],
+   "38:31": [
+    {
+     "target": "Amos 5:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the shining stars Pleiades, or canst thou dissipate the circuit of Arcturus?",
+      "target": "Him that maketh Arcturus, and Orion"
+     }
+    }
+   ],
+   "42:2": [
+    {
+     "target": "Wisdom 11:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I know that thou canst do all things",
+      "target": "thou hast mercy on all, because thou canst do all things"
+     }
     }
    ]
   },
@@ -15629,6 +19683,26 @@
      },
      "note": "The bride's mandrakes at the gates are Rachel's mandrakes of the wheat harvest, the love-fruit Ruben found in the field and Lia's son brought home. The corpus spells the word Mandragoræs in the Canticle and mandragoras in Genesis; the plant and its errand are the same."
     }
+   ],
+   "4:15": [
+    {
+     "target": "John 4:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the well of living waters",
+      "target": "a fountain of water springing up unto life everlasting"
+     }
+    }
+   ],
+   "8:7": [
+    {
+     "target": "Proverbs 6:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if a man shall give all the substance of his house for love",
+      "target": "he shall restore sevenfold, and shall give up all the substance of his house"
+     }
+    }
    ]
   },
   "Philippians": {
@@ -15652,6 +19726,24 @@
       "target": "I will not put his name out of the book of life,"
      },
      "note": "Paul's fellow-labourers are known by the same register John is promised from: names in the book of life, and not blotted out of it. Exodus 32:33's striking-out stands behind both and is keyed at Apocalypse's verse."
+    },
+    {
+     "target": "Daniel 12:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whose names are in the book of life",
+      "target": "every one that shall be found written in the book"
+     }
+    }
+   ],
+   "2:15": [
+    {
+     "target": "Deuteronomy 32:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in the midst of a crooked and perverse Generation",
+      "target": "a froward and perverse generation"
+     }
     }
    ]
   },
@@ -15722,6 +19814,36 @@
       "target": "Why is wisdom no more in Theman? Counsel is perished from the children"
      },
      "note": "The wisdom of Edom destroyed — Jeremias asks why wisdom is no more in Theman, Abdias answers with its destruction."
+    }
+   ],
+   "1:4": [
+    {
+     "target": "Jeremias 49:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If thou shalt be exalted as an eagle, and if thou shalt set thy nest among the stars: thence will I pluck thee down",
+      "target": "When thou shalt exalt thy nest as an eagle, thence will I bring thee down"
+     }
+    }
+   ],
+   "1:16": [
+    {
+     "target": "Habacuc 2:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as you have drunk upon my holy mount, shall all Gentiles drink continually",
+      "target": "drink thou also, and be fast a sleep: the cup of the right hand of our Lord shall compass thee"
+     }
+    }
+   ],
+   "1:17": [
+    {
+     "target": "Joel 2:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And in mount Sion shall be salvation",
+      "target": "in mount Sion, and in Jerusalem shall be salvation"
+     }
     }
    ]
   },
@@ -15794,6 +19916,26 @@
       "target": "God is not as man, that he may lie, nor as the son of man, that he may be changed."
      },
      "note": "The God who cannot lie, of Balaam's oracle, is the God who promised eternal life before the secular times; Titus 1:12's Cretan poet is not Scripture and is not keyed."
+    }
+   ],
+   "2:14": [
+    {
+     "target": "Psalms 129:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that he might redeem us from all iniquity",
+      "target": "he shall redeem Israel, from all his iniquities"
+     }
+    }
+   ],
+   "3:5": [
+    {
+     "target": "Ezechiel 36:25",
+     "kind": "theme",
+     "evidence": {
+      "source": "he hath saved us by the laver of regeneration",
+      "target": "I will pour out upon you clean water, and you shall be cleansed from all your contaminations"
+     }
     }
    ]
   }

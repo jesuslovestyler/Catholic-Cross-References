@@ -11,7 +11,7 @@
  },
  "counts": {
   "margin_entries_read": 1984,
-  "references": 2813,
+  "references": 2814,
   "verses_with_references": 1889,
   "books_with_references": 65,
   "dropped_parts": 85
@@ -21,7 +21,8 @@
   "A target with no verse (e.g. \"Genesis 22\") cites the whole chapter, as the margin printed it.",
   "Targets in 3 Esdras, 4 Esdras, and the Prayer of Manasses — printed in the Douay Bible's appendix, not among the 73 books of the Catholic canon — carry \"appendix_targets\": true.",
   "Every margin entry that could not be read as a definite reference is listed in dropped-entries.json with the reason. Nothing was guessed.",
-  "Reading conventions are documented in the README, under \"How the margins were read\"."
+  "Reading conventions are documented in the README, under \"How the margins were read\".",
+  "Correction (v1.1.0, Nov 1, 2026): at 1 Peter 1:16 the raw margin reads \"Lev. 11, 19. 20, 7.\" — Leviticus chapters 11 and 19, then chapter 20 verse 7 (all three carry the \"be ye holy\" words Peter quotes: 11:44-45, 19:2, 20:7). The v0.1.0 parse fused the chapter list into a single target \"Leviticus 11:19\" (an unclean-birds verse). Corrected to the chapter targets \"Leviticus 11\" and \"Leviticus 19\", the form this dataset already uses for chapter citations (\"Deuteronomy 10\", \"Romans 2\" in the same margin entry). Reference count 2,813 → 2,814."
  ],
  "references": {
   "1 Corinthians": {
@@ -875,7 +876,8 @@
     {
      "raw": "Lev. 11, 19. 20, 7. Deu. 10. Ro. 2. Gal. 2.",
      "targets": [
-      "Leviticus 11:19",
+      "Leviticus 11",
+      "Leviticus 19",
       "Leviticus 20:7",
       "Deuteronomy 10",
       "Romans 2",
