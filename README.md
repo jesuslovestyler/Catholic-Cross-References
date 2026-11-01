@@ -6,6 +6,14 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 1.0.0 — the whole Bible
+
+**The whole Catholic Bible is covered.** `our-references.json` now holds **1,448 references** (391 parallel, 853 allusion, 145 quotation, 59 theme) at **1,304 source verses** across **70 source books**, built stage by stage on top of the seed: the deuterocanon complete first (Stage 2: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel), then the Torah complete (Stage 3: Genesis, Exodus, Leviticus, Numbers, Deuteronomy), then every remaining book (Stage 4: the histories, Psalms, Job, Proverbs, Ecclesiastes and the Canticle, the major and minor prophets, the Gospels and Acts, and the Epistles and Apocalypse).
+
+Coverage, counted from the data: **70 of the 73 Catholic books are touched by at least one reference in either direction** — 70 appear as source keys and 64 appear as targets. The honest gaps are named plainly: **Philemon, 2 John, and 3 John are touched in neither direction.** They were examined like every other book — Philemon is a personal letter, and 2 and 3 John are greetings and warnings — and they yield no verifiable Scripture anchor, so they are left empty rather than padded. There are no other untouched books.
+
+This release was gated on a full-canon audit of every entry in the layer, not a sample: all 2,896 evidence quotations (both passages of all 1,448 references) were re-verified verbatim as substrings of the cleaned original Douay-Rheims corpus text — **0 quote failures**; every kind is one of quotation, allusion, parallel or theme — **0 invalid kinds**; no unordered verse pair collides with the seed — **0 collisions**; and no pair is duplicated inside the layer — **0 duplicates**.
+
 ## Version 0.18.0 — the Epistles and the Apocalypse
 
 **Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, Apocalypse — 69 new references** (19 parallel, 41 allusion, 9 quotation). `our-references.json` now holds **1448 references** (391 parallel, 853 allusion, 145 quotation, 59 theme).
