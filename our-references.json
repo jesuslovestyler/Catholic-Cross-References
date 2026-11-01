@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.10.0",
- "stage": "Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.11.0",
+ "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, and 2 Kings. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 817,
+  "references": 862,
   "by_kind": {
-   "parallel": 245,
-   "allusion": 482,
+   "parallel": 255,
+   "allusion": 517,
    "quotation": 38,
    "theme": 52
   },
-  "source_books": 58,
-  "source_verses": 729
+  "source_books": 59,
+  "source_verses": 771
  },
  "references": {
   "Wisdom": {
@@ -1308,6 +1308,28 @@
      },
      "note": "Hebrews quotes the promise spoken to all Israel at the Jordan: he will not leave nor forsake thee. The seed carries this verse of Hebrews only at chapter level (Deuteronomy 31); the same promise as spoken to Josue (31:8) is keyed at Josue 1:5."
     }
+   ],
+   "4:8": [
+    {
+     "target": "Josue 11:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For if Jesus had given them rest: he would never speak of another day afterward.",
+      "target": "and the Land rested from battles."
+     },
+     "note": "Hebrews argues from the rest Josue gave: had that rest been final, God would not speak of another day. The corpus prints Josue's name as Jesus, the same Greek name, which is why the argument names him so. Keyed at the verse where the conquest closes with the land's rest; Josue 22:4 and 23:1 speak the same rest and are not separately keyed."
+    }
+   ],
+   "11:32": [
+    {
+     "target": "1 Kings 3:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "telling of Gedeon, Barac, Sampson, Jephte, David, Samuel, & the prophets:",
+      "target": "And all Israel knew from Dan to Bersabee, that faithful Samuel was the Prophet of our Lord."
+     },
+     "note": "Hebrews' roll names Samuel among the prophets of faith; his book's own verdict is that all Israel knew him a faithful prophet. The judges named with him in the same verse (Gedeon, Barac, Sampson, Jephte) are carried by this group's other entries rather than by separate name-only keys."
+    }
    ]
   },
   "Romans": {
@@ -1463,6 +1485,17 @@
       "target": "our Lord hath not given you a heart to understand, and eyes to see, and ears that can hear, unto this present day."
      },
      "note": "Paul's sentence is a weave: the spirit of compunction is Isaias 29:10's, but the eyes that see not, the ears that hear not, and the closing 'unto this present day' are Deuteronomy's words about the wilderness generation."
+    }
+   ],
+   "1:3": [
+    {
+     "target": "2 Kings 7:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "of his Son, (who was made to him of the seed of David according to the flesh,",
+      "target": "I will raise up thy seed after thee, which shall come forth of thy womb, and I will establish his Kingdom."
+     },
+     "note": "Paul opens Romans with the Son made of the seed of David according to the flesh; Nathan's oracle is the promise that fixes that seed: I will raise up thy seed after thee, and establish his kingdom. Graded allusion: Paul names the line, Nathan promises it."
     }
    ]
   },
@@ -2397,6 +2430,50 @@
       "target": "And stretching forth his hand to the people, he blessed them"
      },
      "note": "Simon the high priest, coming down from the altar in his glory, repeats Aaron's first act once the sacrifices were finished — hands lifted over all the congregation in blessing. The risen Lord takes the same stance at Luke 24:50 (entered as parallel)."
+    }
+   ],
+   "46:1": [
+    {
+     "target": "Josue 1:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Strong in battle was Jesus the son of Nave, successor of Moyses among the prophets, who was great according to his name,",
+      "target": "after the death of Moyses the servant of our Lord, that our Lord spake to Josue the son of Nun, the minister of Moyses,"
+     },
+     "note": "Sirach's praise of the fathers opens its Josue stanza with his succession: son of Nave (the corpus's Josue calls him son of Nun), successor of Moses. Josue's book opens at exactly that moment, Moses dead and his minister addressed."
+    }
+   ],
+   "46:5": [
+    {
+     "target": "Josue 10:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Whether was not the sun hindered in his anger, and one day was made as two?",
+      "target": "The Sun therefore stood still in the midst of heaven, & hastened not to go down the space of one day."
+     },
+     "note": "Sirach asks after the sun's hindering and the day made as two; Josue's narrative records the sun standing still and not hastening down for a day's space. The hailstones of the same battle are keyed in our layer at Ecclesiasticus 46:6 to Josue 10:11; this is the verse before it, for the sun."
+    }
+   ],
+   "46:13": [
+    {
+     "target": "Judges 2:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And all the judges by their name, whose heart was not corrupted: which were not turned away from our Lord,",
+      "target": "And our Lord raised up Judges, that should deliver them from the hands of the wasters"
+     },
+     "note": "Sirach blesses all the judges by name before it turns to Samuel; the book of Judges states their office in its own summary: the Lord raised up judges to deliver Israel from the wasters. Graded parallel: a benediction of the whole order, anchored at the verse that defines it."
+    }
+   ],
+   "46:16": [
+    {
+     "target": "1 Kings 10:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The beloved of our Lord his God Samuel the prophet of our Lord, renewed the empire, and anointed princes in his nation.",
+      "target": "Behold, our Lord hath anointed thee upon his inheritance to be Prince, and thou shalt deliver his people out of the hands of their enemies"
+     },
+     "note": "Sirach sums Samuel's work as anointing princes in his nation; the first anointing is Saul's, Samuel pouring the oil and naming him prince over the Lord's inheritance. Sirach 46:19-20's Samuel sayings are carried already (our layer and the seed); the anointing summary was unkeyed."
     }
    ]
   },
@@ -3989,6 +4066,17 @@
       "target": "From the fifteenth day of this seventh month, shall be the festivity of tabernacles seven days to the Lord"
      },
      "note": "The rededication of the temple is kept 'in manner of tabernacles' — Judas's eight days deliberately take the Leviticus feast's shape, remembering the feast lately kept in the mountains and dens."
+    }
+   ],
+   "12:15": [
+    {
+     "target": "Josue 6:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who without rams & engines in Jesus' time threw down Jericho, fiercely assaulted the walls.",
+      "target": "the walls forthwith fell: and every man went up by the place that was against him, and they took the city,"
+     },
+     "note": "Judas invokes the God who threw down Jericho in Jesus' time — the corpus's name for Josue — without engines, as Judas now assaults walls without them. Hebrews 11:30 to this same verse is the seed's; Judas's invocation was unkeyed. The seed also carries 2 Machabees 12:15 to Josue 6 at chapter level only."
     }
    ]
   },
@@ -6046,6 +6134,17 @@
      },
      "note": "Hananias broke the wooden yoke; Jeremias answers with Deuteronomy's curse made iron: serve thine enemy, and an iron yoke upon thy neck. The curse's words become the prophet's sentence on the nations."
     }
+   ],
+   "15:1": [
+    {
+     "target": "1 Kings 12:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If Moyses & Samuel shall stand before me, my soul is not toward this people",
+      "target": "And far from me be this sin in our Lord, that I should cease to pray for you,"
+     },
+     "note": "God names Samuel, with Moses, as the intercessor who would ordinarily stand before him for the people. Samuel's own vow is exactly that standing: far be it from him to cease to pray for them. Jeremias is told even that prayer would now be refused."
+    }
    ]
   },
   "2 Peter": {
@@ -6117,6 +6216,15 @@
       "target": "lift up thy rod, and stretch forth thy hand upon the sea, and divide it"
      },
      "note": "Isaias threatens Assyria with the rod lifted over the sea 'in the way of Egypt' — Moses' rod, stretched out to divide the waters."
+    },
+    {
+     "target": "Judges 7:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "according to the plague of Madian in the Rock Oreb,",
+      "target": "Oreb he slew in the Rock of Oreb,"
+     },
+     "note": "Isaias threatens Assur with a scourge according to the plague of Madian in the rock Oreb — the place takes its name from this verse, where Oreb the Madianite prince was slain in the rock called for him. The seed carries Isaias toward Judges 7 at chapter level only."
     }
    ],
    "11:16": [
@@ -6216,6 +6324,28 @@
       "target": "& grope thou at midday as the blind is wont to grope in the dark, and direct not thy ways."
      },
      "note": "Isaias' confession takes up the curse's doubled image entire: groping like the blind, and stumbling at midday as in darkness. The curse is confessed as the people's present state."
+    }
+   ],
+   "9:4": [
+    {
+     "target": "Judges 8:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou hast overcome, as in the day of Madian.",
+      "target": "But Madian was humbled before the children of Israel, neither could they any more lift up their necks"
+     },
+     "note": "The child prophecy measures the coming victory by the day of Madian: yoke, rod and sceptre overcome as then. The day itself closes at this verse, Madian humbled and unable to lift its neck under Gedeon. The seed carries this verse of Isaias to Judges 7 at chapter level only."
+    }
+   ],
+   "28:21": [
+    {
+     "target": "2 Kings 5:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For our Lord shall stand as in the mount of divisions: as in the valley, which is in Gabaon, shall he be angry",
+      "target": "Our Lord hath divided mine enemies before me, as waters are divided, therefore the name of the place was called Baal Pharasim."
+     },
+     "note": "Isaias's strange work is measured by the mount of divisions — Baal Pharasim, the lord of divisions, where David said the Lord divided his enemies as waters are divided, and named the place for it. The valley of Gabaon in the same verse of Isaias belongs to Josue's history; the mount belongs to this verse. The seed carries the pair at chapter level only."
     }
    ]
   },
@@ -6538,6 +6668,37 @@
      },
      "note": "What the disciples do in the cornfield is exactly what this law permits: ears broken by hand and eaten on the spot, no sickle. The day's controversy is the sabbath, not the plucking — the plucking was always lawful."
     }
+   ],
+   "1:5": [
+    {
+     "target": "Josue 6:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And Salmon begat Booz of Rahab.",
+      "target": "But Rahab the harlot and the house of her father, and all that she had, Josue caused to live, and they dwelt in the midst of Israel until this present day"
+     },
+     "note": "The genealogy names Rahab as Booz's mother; Josue's book is where she is spared and dwells in Israel to this day, which is how she stands in the line at all. Her faith is keyed by the seed at Hebrews 11:31 and James 2:25 to chapter 2; her preservation into the genealogy is this verse."
+    },
+    {
+     "target": "Ruth 4:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And Booz begat Obed of Ruth. And Obed begat Jesse.",
+      "target": "called his name Obed: this is the father of Isai, the father of David."
+     },
+     "note": "Matthew's line runs Booz begat Obed of Ruth, and Obed begat Jesse; Ruth's book closes on that same birth, the neighbours naming Obed, father of Isai (Jesse), father of David. The seed carries Matthew 1:3 to Ruth 4:18's genealogy list; the birth verse itself was unkeyed."
+    }
+   ],
+   "1:6": [
+    {
+     "target": "2 Kings 11:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And David the king begat Salomon of her that was the wife of Urias.",
+      "target": "David sent and brought her in into his house, & she became his wife, and she bare him a son:"
+     },
+     "note": "Matthew refuses Bethsabee's name and calls her her that was the wife of Urias — the genealogy itself points at the adultery. The verse it points to is this one: David bringing Urias's wife into his house after the mourning. Solomon's later birth to her is keyed by the seed at 2 Kings 12:24; the Urias clause belongs here."
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -6778,6 +6939,50 @@
      },
      "note": "Peter's discovery at Cesarea is Moses' confession: the God of gods accepts no person's face. The seed carries the same verse for Romans 2:11, Galatians 2:6, Colossians 3:25 and Ephesians 6:9; Peter's preaching of it was unkeyed."
     }
+   ],
+   "13:19": [
+    {
+     "target": "Josue 14:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "by lot he divided their land among them,",
+      "target": "dividing all things by lot, as our Lord had commanded in the hand of Moyses, to the nine tribes, and the half tribe."
+     },
+     "note": "Paul's history sermon compresses the whole allotment into one clause: destroying seven nations, he divided their land by lot. Josue 14:2 is where the book states the division by lot as Moses commanded; the lot-casting of chapter 18 stands behind it too."
+    }
+   ],
+   "13:22": [
+    {
+     "target": "1 Kings 13:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have found David the son of Jesse, a man according to my heart, who shall do all my wills.",
+      "target": "Our Lord hath sought him a man according to his heart: and him hath our Lord commanded to be Prince over his people,"
+     },
+     "note": "Paul's testimony weaves two texts: I have found David is Psalms 88:21's, but a man according to my heart is Samuel's sentence on Saul — the Lord hath sought him a man according to his heart, to be prince over his people. The seed carries Acts 13:22 only to 1 Kings 16 at chapter level; the heart-sentence stands at 13:14."
+    }
+   ],
+   "3:24": [
+    {
+     "target": "1 Kings 3:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And all the Prophets from Samuel and afterward that have spoken, told of these days.",
+      "target": "that faithful Samuel was the Prophet of our Lord."
+     },
+     "note": "Peter dates the prophets' witness from Samuel — the first of them. Samuel's own book fixes the moment he was established as such: all Israel knew that faithful Samuel was the prophet of our Lord. Hebrews 11:32 names him in the same company and is keyed beside this."
+    }
+   ],
+   "13:21": [
+    {
+     "target": "1 Kings 9:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he gave them Saul the son of Cis, a man of the tribe of Benjamin, forty years.",
+      "target": "And he had a son called Saul, chosen and good: and there was not a man of the children of Israel better than he"
+     },
+     "note": "Paul's sermon says God gave them Saul the son of Cis; Samuel's book introduces him in the same terms, Cis named at 9:1 and his son called Saul at 9:2. The seed carries Acts 13:21 only to two chapters of Judges, a margin's stray; the Saul it names belongs to this book."
+    }
    ]
   },
   "Luke": {
@@ -6889,6 +7094,83 @@
       "target": "And stretching forth his hand to the people, he blessed them"
      },
      "note": "The departing Lord takes Aaron's stance at his first blessing — hands lifted over the disciples as he is parted from them. Sirach's Simon does the same at the altar (entered as allusion)."
+    }
+   ],
+   "1:15": [
+    {
+     "target": "Judges 13:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and wine and sicer he shall not drink; and he shall be replenished with the Holy Ghost even from his mother's womb.",
+      "target": "beware therefore that thou drink not wine & sicer, nor eat any unclean thing:"
+     },
+     "note": "Gabriel's John is framed on the Nazarite annunciation: no wine nor sicer, consecrated from the womb. In Judges the abstinence is laid on Samson's mother (13:4), the child himself being Nazarite from his mother's womb at 13:5; Luke lays both on the child. The shared wording is the wine-and-sicer abstinence."
+    }
+   ],
+   "3:32": [
+    {
+     "target": "Ruth 4:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "who was of Jesse, who was of Obed, who was of Booz, who was of Salmon, who was of Naasson,",
+      "target": "Salmon begat Booz, Booz begat Obed,"
+     },
+     "note": "Luke's ascending genealogy passes through the same three begettings Ruth's closing list records in descending order: Salmon, Booz, Obed, then Jesse. Graded parallel: two tellings of one line, with no wording shared beyond the names in sequence."
+    }
+   ],
+   "1:52": [
+    {
+     "target": "1 Kings 2:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He hath deposed the mighty from their seat, & hath exalted the humble.",
+      "target": "Our Lord maketh poor and enricheth, humbleth and lifteth up."
+     },
+     "note": "The Magnificat sings Anna's canticle in new words: deposing and exalting answer Anna's humbleth and lifteth up, from the song of the barren woman who received Samuel. The next line of Mary's song is keyed beside this at 2:8."
+    }
+   ],
+   "1:53": [
+    {
+     "target": "1 Kings 2:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The hungry he hath filled with good things: and the rich he hath sent away empty.",
+      "target": "He raiseth the needy man from the dust, and from the dung he lifteth up the poor: that he may sit with Princes, and hold the throne of glory."
+     },
+     "note": "Mary's hungry filled and rich sent empty is Anna's reversal continued: the needy raised from dust and dung to sit with princes and hold a throne of glory. Two verses of Anna's song stand behind two verses of Mary's, and are keyed as two."
+    }
+   ],
+   "1:32": [
+    {
+     "target": "2 Kings 7:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord God shall give him the seat of David his father:",
+      "target": "He shall build a house to my name, and I will establish the throne of his Kingdom for ever."
+     },
+     "note": "Gabriel promises Mary the seat of David his father; Nathan's oracle is where that seat is promised, its throne established for ever for David's seed who builds the house. The eternity clause is keyed beside this at 7:16."
+    }
+   ],
+   "1:33": [
+    {
+     "target": "2 Kings 7:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and he shall reign in the house of Jacob for ever, and of his Kingdom there shall be no end.",
+      "target": "And thy house shall be faithful, and thy Kingdom for ever before thy face, and thy throne shall be firm continually."
+     },
+     "note": "Of his kingdom there shall be no end answers Nathan's close: thy kingdom for ever, thy throne firm continually. The seed and our layer both carry other verses to 7:16 (Hebrews and Sirach lines); Gabriel's no-end clause was unkeyed."
+    }
+   ],
+   "1:69": [
+    {
+     "target": "2 Kings 22:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And hath erected the horn of salvation to us, in the house of David his servant.",
+      "target": "my shield, and the horn of my salvation: my lifter up, and my refuge"
+     },
+     "note": "Zacharias blesses God for erecting the horn of salvation in David's house; the phrase is David's own, from his great song: God is the horn of my salvation. Psalms 131:17 promises God will bring forth a horn to David and stands in the same line; David's song is the phrase's first home and carries the key."
     }
    ]
   },
@@ -7292,6 +7574,103 @@
      },
      "note": "The processional psalm names God by Deuteronomy's works: judgment done to the pupil and the widow — orphans' father, widows' judge."
     }
+   ],
+   "113:3": [
+    {
+     "target": "Josue 3:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The sea saw, and fled: Jordan was turned backward.",
+      "target": "the waters that came downward stood in one place, and like a mountain swelling up appeared far from the city, that is called Adom, to the place of Sarthan"
+     },
+     "note": "The psalm pairs the sea's flight (Exodus) with Jordan turned backward; the turning is Josue's crossing, where the downward waters stood in one place like a mountain. The seed carries this psalm verse only at chapter level for Josue (Josue 3); the verse anchor is entered here."
+    }
+   ],
+   "82:12": [
+    {
+     "target": "Judges 7:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Put their Princes as Oreb, and Zeb,",
+      "target": "And two men that were apprehended of Madian, Oreb and Zeb, Oreb he slew in the Rock of Oreb, Zeb in the press of Zeb."
+     },
+     "note": "The psalm prays that the enemy princes be made as Oreb and Zeb, Madian's princes taken in Gedeon's pursuit and slain at the places that took their names. The prayer's second pair, Zebee and Salmana, is keyed beside this at Judges 8:21."
+    },
+    {
+     "target": "Judges 8:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and Zebee, and Salmana. All their Princes:",
+      "target": "Gedeon rose up, and slew Zebee and Salmana"
+     },
+     "note": "The same psalm verse names Madian's kings as well as its princes: Zebee and Salmana, whom Gedeon himself slew after Succoth and Phanuel refused him. Keyed separately from the Oreb-and-Zeb half of the verse because the deaths stand in different chapters."
+    }
+   ],
+   "98:6": [
+    {
+     "target": "1 Kings 7:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and Samuel among them that invocate his name: They invocated our Lord and he heard them:",
+      "target": "and Samuel cried to our Lord for Israel, & our Lord heard him."
+     },
+     "note": "The psalm enrols Samuel with Moses and Aaron among those who called on the Lord and were heard. The hearing it presupposes is this one: Samuel cried to the Lord for Israel at Masphath, and the Lord heard him, before the thunder of 7:10."
+    }
+   ],
+   "88:37": [
+    {
+     "target": "2 Kings 7:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "his seed shall continue for ever.",
+      "target": "And thy house shall be faithful, and thy Kingdom for ever before thy face, and thy throne shall be firm continually."
+     },
+     "note": "The covenant psalm swears David's oath back to God: his seed shall continue for ever, his throne as the sun (88:38). The oath it swears is Nathan's closing sentence, kingdom for ever and throne firm continually."
+    }
+   ],
+   "17:1": [
+    {
+     "target": "2 Kings 22:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "who spake to our Lord the words of this canticle, in the day, that our Lord delivered him out of the hand of all his enemies, and out of the hand of Saul, and he said:",
+      "target": "And David spake to our Lord the words of this song, in the day that our Lord delivered him out of the hand of all his enemies, and out of the hand of Saul."
+     },
+     "note": "Psalm 17 is David's song of deliverance — the same song 2 Kings 22 preserves in the history, under a heading the two books share nearly word for word. The song is keyed once more inside, at its theophany (17:8 to 22:8)."
+    }
+   ],
+   "17:8": [
+    {
+     "target": "2 Kings 22:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The earth was shaken & trembled: the foundations of mountains were troubled, and were moved, because he was wrath with them.",
+      "target": "The earth quaked and trembled, the foundations of the mountains were strucken, and shaken, because he was angry with them."
+     },
+     "note": "Inside the shared song, the theophany verse in both tellings: earth trembling, mountains' foundations shaken, because he was angry. The wording differs in small words between psalter and history, as copied songs do; the verse is the same verse."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "2 Kings 15:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The Psalm of David, when he fled from the face of Absalom his son.",
+      "target": "Arise let us fly: for there will be no escape for us from the face of Absalom"
+     },
+     "note": "The psalm's own heading sets it in Absalom's revolt: David fleeing from the face of Absalom his son. The flight the heading names is this verse, David rising to fly from Jerusalem before Absalom's face. In this corpus the heading stands as the psalm's first verse."
+    }
+   ],
+   "50:2": [
+    {
+     "target": "2 Kings 12:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when Nathan the Prophet came to him, after that he had sinned with Bethsabee.",
+      "target": "Our Lord therefore sent Nathan to David:"
+     },
+     "note": "The Miserere's heading, the psalm's second verse in this corpus, dates it to Nathan's coming after David's sin with Bethsabee. The coming it names is this verse: the Lord sent Nathan to David, and the parable of the ewe lamb followed. The seed carries Psalms 50 toward 2 Kings 12 at chapter level only."
+    }
    ]
   },
   "Deuteronomy": {
@@ -7680,6 +8059,28 @@
       "target": "the Lord thy God hath carried thee, as a man is wont to bear his little son, all the way that you have walked, until you came to this place."
      },
      "note": "The father who carried Israel in the wilderness 'as a man is wont to bear his little son' becomes in Osee the nurse who carried Ephraim in his arms — Deuteronomy's picture carried into the prophet's grief."
+    }
+   ],
+   "9:9": [
+    {
+     "target": "Judges 19:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "They have sinned deeply, as in the days of Gabaa: he will remember their iniquity, and will visit their sin.",
+      "target": "he brought forth his concubine to them, and he delivered her to them to be illuded: whom when they had abused all the night, they let her go in the morning."
+     },
+     "note": "Osee measures Ephraim's deep sin by the days of Gabaa — the Benjaminite city (Judges 19:14) where the Levite's concubine was abused all night and died. Osee 10:9 opens with the same Gabaa memory; it is set aside so the link is carried once, here."
+    }
+   ],
+   "13:11": [
+    {
+     "target": "1 Kings 12:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will give thee a king in my fury, and will take him away in mine indignation.",
+      "target": "Now therefore your king is ready, whom you have chosen and desired: behold our Lord hath given you a king."
+     },
+     "note": "Osee hears God claim the kingship's giving as his own angry act: I will give thee a king in my fury. Samuel's presentation of Saul is that giving, after the request of chapter 8 and the thunder-sign of this chapter: behold, the Lord hath given you a king, the king you chose and desired. The seed carries Osee 13:10 toward 1 Kings 8 at chapter level only."
     }
    ]
   },
@@ -8153,6 +8554,17 @@
      },
      "note": "Jesus' answer to the scribe begins with the Shema itself. The seed keys this verse of Mark to 6:5 (the love-command that follows at Mark 12:30); the words the Lord speaks first are 6:4's."
     }
+   ],
+   "12:33": [
+    {
+     "target": "1 Kings 15:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and to love his neighbour as himself, is a greater thing than all holocausts and sacrifices.",
+      "target": "For Better is Obedience Than Victims: and to harken rather than to offer the fat of rams."
+     },
+     "note": "The scribe's confession — love is a greater thing than all holocausts and sacrifices — is Samuel's sentence to Saul turned into a comparison of loves: better is obedience than victims. Jesus answers, Thou art not far from the kingdom. Osee 6:6's mercy-and-not-sacrifice stands in the same field and is set aside; Mark's comparative is Samuel's shape."
+    }
    ]
   },
   "Ezechiel": {
@@ -8306,6 +8718,17 @@
       "target": "from the which they shall come unto Emath as far as the borders of Sedada"
      },
      "note": "Ezechiel's survey of the restored land retraces this chapter's borders: the north line still runs from the great sea by Emath toward Sedada and Enan (34:7-9) — the old lot lines kept for the new possession."
+    }
+   ],
+   "16:8": [
+    {
+     "target": "Ruth 3:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and I spread my garment over thee, and covered thy ignominy. And I sware to thee, and I entered a covenant with thee, saith our Lord God: and thou wast made mine.",
+      "target": "spread thy mantle upon thy servant, because thou art nigh of kin."
+     },
+     "note": "God's espousal of Jerusalem is spoken in Ruth's own gesture: I spread my garment over thee, and entered a covenant. At the threshing floor Ruth asks Booz, her near kinsman, to spread his mantle over his handmaid — the covering that claims a wife. Ezechiel takes the gesture up into God's mouth."
     }
    ]
   },
@@ -8798,6 +9221,39 @@
      },
      "note": "David hands the charge down a second time: as Moses charged Josue, so David charges Salomon, with the same promise in the same words — the charge of 31:6–7 and the promise of 31:8 in one breath."
     }
+   ],
+   "2:7": [
+    {
+     "target": "Josue 7:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Achar, who troubled Israel, and sinned in the theft of the anathema.",
+      "target": "Because thou hast disturbed us, our Lord disturb thee in this day. And all Israel stoned him"
+     },
+     "note": "Chronicles' genealogy remembers Achar (Josue's Achan) by his deed: he troubled Israel in the anathema's theft. Josue's sentence answers word for word — thou hast disturbed us — and ends in the stoning the genealogy presupposes."
+    }
+   ],
+   "10:4": [
+    {
+     "target": "1 Kings 31:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Saul therefore caught his sword, and fell upon it.",
+      "target": "Saul therefore caught his sword, and fell upon it."
+     },
+     "note": "Chronicles retells Saul's death in Samuel's words, the closing clause verbatim: refused by his armourbearer, Saul caught his sword and fell upon it. The same event told twice; Chronicles adds its own verdict at 10:13-14, which is its commentary, not a second entry."
+    }
+   ],
+   "21:1": [
+    {
+     "target": "2 Kings 24:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "But Satan rose against Israel: and moved David to number Israel.",
+      "target": "stirred up David among them saying: Go, number Israel and Juda."
+     },
+     "note": "Chronicles retells the census in Samuel's shape — David moved to number Israel — but the two books name the mover differently, and the difference is stated, not harmonized: Samuel opens with the fury of the Lord stirring David up; Chronicles says Satan rose against Israel and moved him. The same event, told twice, with its tension on the page."
+    }
    ]
   },
   "Leviticus": {
@@ -8890,6 +9346,17 @@
      },
      "note": "Debora's song sings the same march Moses blessed: the Lord rising from Seir, the earth moved at his going forth. The theophany tradition begins in both songs."
     }
+   ],
+   "1:13": [
+    {
+     "target": "Josue 15:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And when Othoniel the son of Cenez, the younger brother of Caleb had taken it, he gave him Axa his daughter to wife.",
+      "target": "And Othoniel the son of Cenez, the younger brother of Caleb took it: & he gave him Axa his daughter to wife."
+     },
+     "note": "Within this group: Judges retells Caleb's offer and Othoniel's taking of Cariath Sepher in Josue's own words, nearly verbatim. The same event told twice, once in each book — the seam where Judges takes up Josue's narrative."
+    }
    ]
   },
   "Amos": {
@@ -8916,6 +9383,17 @@
      },
      "note": "Habacuc's prayer sees the coming from the same mountain Moses named: Pharan, and the glory covering the heavens."
     }
+   ],
+   "3:11": [
+    {
+     "target": "Josue 10:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The sun and the moon stood in their habitation,",
+      "target": "And the Sun & Moon stood still, till the people revenged themselves of their enemies."
+     },
+     "note": "Habacuc's prayer re-sees the Gabaon theophany: sun and moon standing in their habitation answers Josue's sun against Gabaon and moon against Aialon, both standing still. Graded allusion: the prophet is singing a new theophany in the old one's words, not citing the history."
+    }
    ]
   },
   "1 Timothy": {
@@ -8941,6 +9419,19 @@
       "target": "and thou shalt eat the fruit of thy womb, and the flesh of thy sons & of thy daughters, which our Lord thy God shall give thee, in the distress and vastation wherewith thine enemy shall oppress thee."
      },
      "note": "The siege-curse of Deuteronomy, fulfilled in Jerusalem's own streets and wept over: pitiful women's hands soddening their own children. Baruch's confession of the same curse is keyed to this verse in our layer."
+    }
+   ]
+  },
+  "2 Kings": {
+   "21:2": [
+    {
+     "target": "Josue 9:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "For the children of Israel had sworn to them, and Saul would strike them of zeal, as it were for the children of Israel & Juda.",
+      "target": "We have sworn to them in the name of our Lord the God of Israel, and therefore we may not touch them."
+     },
+     "note": "David learns the famine is for Saul's striking the Gabaonites, to whom Israel had sworn. The oath Saul broke is the one Josue's princes state here: sworn in the Lord's name, therefore untouchable. The seed carries this verse of 2 Kings only at chapter level (Josue 9); the verse anchor is entered here."
     }
    ]
   }

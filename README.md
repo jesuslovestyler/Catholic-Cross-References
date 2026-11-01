@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.11.0 — Josue, Judges, Ruth, 1 Kings, 2 Kings
+
+**Josue, Judges, Ruth, 1 Kings, 2 Kings — 45 new references** (35 allusion, 10 parallel). `our-references.json` now holds **862 references** (255 parallel, 517 allusion, 38 quotation, 52 theme).
+
+The strongest thread is Anna's canticle behind Mary's: the Magnificat's deposing and exalting and its hungry filled and rich sent empty are keyed verse by verse to 1 Kings 2:7–8, the song of the barren woman who received Samuel. Nathan's oracle is likewise gathered where later texts actually take it up — Gabriel's seat of David and kingdom without end to 2 Kings 7:13 and 7:16, and Paul's seed of David to 7:12 — while Hebrews 4:8's argument for another day is anchored at the land's rest in Josue 11:23, Rahab's place in the genealogy at Josue 6:25, and God's spreading his garment over Jerusalem in Ezechiel 16:8 at Ruth's own request at the threshing floor, Ruth 3:9. The gaps are stated plainly: Josue 24:15 ("choose this day") and Ruth 1:16–17 ("thy people my people") are much quoted in devotion but no later verse in this corpus takes up their wording with a verifiable anchor, so both are left unkeyed rather than forced, and Barac and Jephte receive no key in this stage — Hebrews 11:32 names them in a list with no verse-level deed attached.
+
 ## Version 0.10.0 — Deuteronomy: the Torah complete
 
 **Deuteronomy — 68 new references** (49 allusion, 10 parallel, 9 quotation). `our-references.json` now holds **817 references** (245 parallel, 482 allusion, 38 quotation, 52 theme). **With this version, our own layer covers the whole Torah** — Genesis, Exodus, Leviticus, Numbers, Deuteronomy — alongside the complete deuterocanon.
