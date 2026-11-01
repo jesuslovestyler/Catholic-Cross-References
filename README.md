@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.8.0 — Leviticus
+
+**Leviticus — 75 new references** (49 allusion, 16 parallel, 6 theme, 4 quotation). `our-references.json` now holds **681 references** (221 parallel, 383 allusion, 27 quotation, 50 theme).
+
+The old margins had done Leviticus more justice than Tobit — thirty-three of this stage's candidates, including the whole neighbour-love set into 19:18, were already carried by the seed and are not duplicated. What is new: the Day of Atonement completed — Hebrews 9:12 and 9:25 into chapter 16, and Romans 3:25 set beside 16:14 as **theme**, Christ the propitiation beside the blood sprinkled against the propitiatory; the scapegoat found in Isaias 53, the iniquities laid on its head (53:6 → 16:21) and borne away (53:11 → 16:22); "Be ye holy, because I the Lord your God am holy" anchored at its true verse, 19:2, for Peter's quotation (the seed carries the same quotation at 20:7 — and, apparently by a margin's chapter list misread as verses, at "11:19," an unclean-birds verse; the error is the seed's, noted here rather than silently repeated); the jubilee of 25:10 heard behind Isaias 61:1 and Jeremias 34:17; and the holiness code's long echo in Ezechiel. Chapters 1–3 and 27 honestly yield nothing the texts will verify — their New Testament echoes proved too diffuse to anchor, and were set aside rather than forced.
+
 ## Version 0.7.0 — Exodus
 
 **Exodus — 104 new references** (59 allusion, 25 parallel, 12 quotation, 8 theme), all keyed at the later verses that quote, retell, or argue from Exodus, pointing back. `our-references.json` now holds **606 references** (205 parallel, 334 allusion, 23 quotation, 44 theme).

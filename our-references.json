@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.7.0",
- "stage": "Stage 3: Genesis and Exodus. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.8.0",
+ "stage": "Stage 3: Genesis, Exodus, and Leviticus. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 606,
+  "references": 681,
   "by_kind": {
-   "parallel": 205,
-   "allusion": 334,
-   "quotation": 23,
-   "theme": 44
+   "parallel": 221,
+   "allusion": 383,
+   "quotation": 27,
+   "theme": 50
   },
-  "source_books": 49,
-  "source_verses": 529
+  "source_books": 52,
+  "source_verses": 602
  },
  "references": {
   "Wisdom": {
@@ -1189,6 +1189,61 @@
      },
      "note": "'After the second veil, the tabernacle which is called the Holy of Holies' — the veil of Exodus 26 that divides the Sanctuary from the Sanctuary of Sanctuaries."
     }
+   ],
+   "9:12": [
+    {
+     "target": "Leviticus 16:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but by his own blood entered in once into the Holies",
+      "target": "he shall carry in the blood thereof within the veil"
+     },
+     "note": "Christ's single entry 'by his own blood' answers the goat's blood carried within the veil for the sin of the people. The epistle has just described the yearly entry at 9:7 (seed-carried); this is its antitype, once for all."
+    }
+   ],
+   "9:25": [
+    {
+     "target": "Leviticus 16:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as the high priest entereth into the Holies, every year in the blood of others",
+      "target": "that you pray for the children of Israel, and for all their sins once in a year"
+     },
+     "note": "The 'every year' of the high priest's entry is Leviticus' own statute — expiation for all Israel's sins 'once in a year'. That yearly rhythm is what Christ's once-for-all entry brings to an end."
+    }
+   ],
+   "9:22": [
+    {
+     "target": "Leviticus 17:11",
+     "kind": "theme",
+     "evidence": {
+      "source": "without shedding of blood there is not remission",
+      "target": "because the life of the flesh is in the blood: and I have given it to you, that upon the altar you may make expiation with it for your souls"
+     },
+     "note": "Hebrews' axiom is Leviticus' own rationale: remission runs by blood because God gave the blood upon the altar for expiation — the life of the flesh surrendered for the soul. The epistle argues from the principle the law itself states."
+    }
+   ],
+   "10:4": [
+    {
+     "target": "Leviticus 16:30",
+     "kind": "theme",
+     "evidence": {
+      "source": "For it is impossible that with the blood of oxen and goats sins should be taken away",
+      "target": "Upon this day shall be the expiation of you, and cleansing from all your sins"
+     },
+     "note": "The Day promised cleansing from all your sins, yet had to return every year. Hebrews argues from that very recurrence that the blood of goats never took sins away, but only rehearsed the taking — the Day's own claim read against its yearly repetition (16:34)."
+    }
+   ],
+   "10:26": [
+    {
+     "target": "Leviticus 4:2",
+     "kind": "theme",
+     "evidence": {
+      "source": "For if we sin willingly after the knowledge of the truth received, now there is not left an host for sins",
+      "target": "The soul that sinneth by ignorance"
+     },
+     "note": "Leviticus' whole sin-offering system opens by limiting itself to sins of ignorance; for deliberate sin the law appoints no host. Hebrews preaches from inside that limit: to sin willingly, after knowledge received, is to step where no sacrifice was ever provided."
+    }
    ]
   },
   "Romans": {
@@ -1289,6 +1344,28 @@
       "target": "or if thou do not, strike me out of the book that thou hast written"
      },
      "note": "Paul takes up Moses' own plea after the calf (the plea begins at 32:31, 'either forgive them this trespass'): to be struck out of God's book himself, if only his brethren are spared."
+    }
+   ],
+   "14:13": [
+    {
+     "target": "Leviticus 19:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that you put not a stumbling block or a scandal to your brother",
+      "target": "nor put a stumbling block before the blind"
+     },
+     "note": "Paul lifts Leviticus' literal stumblingblock before the blind into the ethics of the strong toward the weak: the block is now whatever trips a brother in his conscience."
+    }
+   ],
+   "3:25": [
+    {
+     "target": "Leviticus 16:14",
+     "kind": "theme",
+     "evidence": {
+      "source": "whom God hath proposed a propitiation, by faith in his blood",
+      "target": "He shall take also of the blood of the calf, and sprinkle with his finger seven times against the propitiatory to the east"
+     },
+     "note": "Paul names Christ with the mercy-seat's own word. The propitiatory was the one place in Israel where blood was sprinkled to make atonement, seven times, on the Day of Atonement. The link is the argument itself: God sets forth in Christ's blood what the Day shadowed in blood sprinkled on gold."
     }
    ]
   },
@@ -2212,6 +2289,17 @@
       "target": "alms delivereth from death, and that is it which purgeth sins"
      },
      "note": "Alms resisting sins in Sirach is Tobias’s angel’s word: alms delivereth from death and purgeth sins."
+    }
+   ],
+   "50:22": [
+    {
+     "target": "Leviticus 9:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Then coming down, he lifted up his hands over all the congregation of the children of Israel",
+      "target": "And stretching forth his hand to the people, he blessed them"
+     },
+     "note": "Simon the high priest, coming down from the altar in his glory, repeats Aaron's first act once the sacrifices were finished — hands lifted over all the congregation in blessing. The risen Lord takes the same stance at Luke 24:50 (entered as parallel)."
     }
    ]
   },
@@ -3587,6 +3675,17 @@
      },
      "note": "Judas heartens his men with the fathers' first deliverance: saved in the Red Sea when Pharao with a great army followed them."
     }
+   ],
+   "6:53": [
+    {
+     "target": "Leviticus 25:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for that it was the seventh year",
+      "target": "but in the seventh year a sabbath shall be to the earth, of the resting of the Lord"
+     },
+     "note": "The famine inside the besieged sanctuary is explained by one clause — 'for that it was the seventh year'. The land was keeping its sabbath under Leviticus 25, and an unsown year meant no stores laid up."
+    }
    ]
   },
   "2 Machabees": {
@@ -3749,6 +3848,17 @@
       "target": "In the beginning GOD created heaven and earth"
      },
      "note": "The mother of the seven brethren states Genesis 1 as a doctrine of faith: heaven, earth, and all in them, and mankind also, God made of nothing."
+    }
+   ],
+   "10:6": [
+    {
+     "target": "Leviticus 23:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "with joy eight days they kept in manner of tabernacles",
+      "target": "From the fifteenth day of this seventh month, shall be the festivity of tabernacles seven days to the Lord"
+     },
+     "note": "The rededication of the temple is kept 'in manner of tabernacles' — Judas's eight days deliberately take the Leviticus feast's shape, remembering the feast lately kept in the mountains and dens."
     }
    ]
   },
@@ -5210,6 +5320,61 @@
      },
      "note": "Paul argues that the crossing itself was Israel's baptism — 'all in Moses were baptized in the cloud and in the sea' — the doctrinal pattern on which his warning to Corinth rests."
     }
+   ],
+   "6:9": [
+    {
+     "target": "Leviticus 20:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "nor the liers with mankind",
+      "target": "He that lieth with man as if he should company with woman, both have committed abomination"
+     },
+     "note": "Paul's single compound name for the vice is struck from Leviticus' own phrase — the man who 'lieth with mankind'. The list at Corinth is Paul's; the wording is the law's."
+    }
+   ],
+   "10:20": [
+    {
+     "target": "Leviticus 17:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "But the things that the heathen do immolate, to devils they do immolate, and not to God",
+      "target": "and they shall no more immolate their hosts to devils, with whom they have committed fornication"
+     },
+     "note": "Paul's charge that idol-sacrifice is devil-sacrifice is Leviticus 17:7's own verdict on Israel's sacrifices to the field devils, carried over to the Gentiles' tables."
+    }
+   ],
+   "15:20": [
+    {
+     "target": "Leviticus 23:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "But now Christ is risen again from the dead, the first fruits of them that sleep",
+      "target": "you shall bring sheaves of ears, the first fruits of your harvest to the Priest"
+     },
+     "note": "Paul names the risen Christ with the sheaf's title — the firstfruits of the harvest, which the priest lifts up before the Lord on the morrow after the sabbath (23:11): the very day of the resurrection."
+    }
+   ],
+   "9:13": [
+    {
+     "target": "Leviticus 6:16",
+     "kind": "theme",
+     "evidence": {
+      "source": "Know you not that they which work in the holy place, eat the things that are of the holy place: and they that serve the altar, participate with the altar?",
+      "target": "he shall eat it in the Holy place of the court of the tabernacle"
+     },
+     "note": "Paul's case for the preacher's living rests on the Levitical arrangement itself: those who minister eat the holy things in the holy place (so also 7:6 for the priests' flesh). The argument is institutional rather than verbal — graded theme."
+    }
+   ],
+   "10:18": [
+    {
+     "target": "Leviticus 7:15",
+     "kind": "theme",
+     "evidence": {
+      "source": "Behold Israel according to the flesh: they that eat the hosts, are they not partakers of the altar?",
+      "target": "the flesh whereof shall be eaten the same day"
+     },
+     "note": "Paul's altar-communion argument presupposes the peace offering's rule: the flesh is eaten by the offerers on the same day — eating the sacrifice is sharing the altar. What is true at Israel's altar is then turned against table-fellowship with idols."
+    }
    ]
   },
   "James": {
@@ -5242,6 +5407,17 @@
       "target": "Thou shalt not commit adultery"
      },
      "note": "James quotes the seventh commandment in the Decalogue's own words, to bind the whole Law to one Speaker."
+    }
+   ],
+   "5:4": [
+    {
+     "target": "Leviticus 19:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold the hire of the work-men that have reaped your fields, which is defrauded of you, cryeth",
+      "target": "The work of thy hireling shall not abide with thee until morning"
+     },
+     "note": "The hire kept back is Leviticus' exact case — the hireling's wage held past its day. James hears the withheld wage itself crying out. Malachias names the same offence from the same verse (entered separately); Tobias 4:15's wage rule is own-carried."
     }
    ]
   },
@@ -5315,6 +5491,28 @@
      },
      "note": "'Behold I send mine Angel' — Malachias opens with the words of the promise that closes the book of the covenant: the Angel who goes before Israel into the promised place."
     }
+   ],
+   "3:5": [
+    {
+     "target": "Leviticus 19:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and them that calumniate the hire of the hired man, the widows, and pupils, and oppress the stranger",
+      "target": "Thou shalt not calumniate thy neighbour, nor oppress him by violence. The work of thy hireling shall not abide with thee until morning"
+     },
+     "note": "The prophet's witness-list is built from Leviticus 19:13 itself: 'calumniate' and the hired man's hire are the verse's own two halves, fused in one phrase."
+    }
+   ],
+   "1:8": [
+    {
+     "target": "Leviticus 22:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If you offer the blind to be immolated, is it not evil? & if you offer the lame and the feeble is it not evil?",
+      "target": "If it have a blemish, you shall not offer it, neither shall it be acceptable"
+     },
+     "note": "The prophet's charge — blind, lame and feeble victims on the altar — is measured by the blemish law (spelled out at 22:22: the blind, the broken, the maimed). What would shame a governor's table profanes God's."
+    }
    ]
   },
   "Proverbs": {
@@ -5338,6 +5536,28 @@
       "target": "In the beginning GOD created heaven and earth"
      },
      "note": "Wisdom speaks as present when the heavens were prepared: Genesis' creation contemplated from within, by her who was with the Maker before the earth was made."
+    }
+   ],
+   "11:1": [
+    {
+     "target": "Leviticus 19:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "A deceitful balance, is abomination before God: and an equal weight is his will",
+      "target": "Let the balance be just, and the weights equal, the bushel just, and the sextary equal"
+     },
+     "note": "The proverb distils the holiness code's market law into one line: 'an equal weight is his will' is Leviticus' just balance in Solomon's dress. Amos and Micheas return to the same law (set aside as alternates)."
+    }
+   ],
+   "28:1": [
+    {
+     "target": "Leviticus 26:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The impious flyeth, no man pursuing: but the just confident as a lion, shall be without terror",
+      "target": "You shall fly, when no man pursueth you"
+     },
+     "note": "The covenant curse — flying, with no man pursuing — becomes the proverb's portrait of a guilty conscience. The just man's lion-like fearlessness is its mirror image."
     }
    ]
   },
@@ -5428,6 +5648,15 @@
       "target": "they shall make me a sanctuary, and I will dwell in the midst of them"
      },
      "note": "The promise first spoken for the tabernacle — 'I will dwell in the midst of them' — is the last word of the new creation, where the tabernacle of God is with men (John also gathers Leviticus 26 and Ezechiel 37 into it)."
+    },
+    {
+     "target": "Leviticus 26:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold the tabernacle of God with men, and he will dwell with them. And they shall be his people: and he God with them shall be their God",
+      "target": "I will walk among you, & will be your God, & you shall be my people"
+     },
+     "note": "The covenant formula of Leviticus 26:12 reaches its last form in the new Jerusalem: God dwelling with men, they his people, he their God. Ezekiel 37:27 stands between (entered at 26:11)."
     }
    ]
   },
@@ -5452,6 +5681,17 @@
       "target": "Rachel therefore died, and was buried in the high way that leadeth to Ephrata"
      },
      "note": "Rachel weeps in Jeremias from the grave Genesis records for her, on the high way that leadeth to Ephrata — the Bethlehem road."
+    }
+   ],
+   "34:17": [
+    {
+     "target": "Leviticus 25:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "You have not heard me, to proclaim liberty every man to his brother, and every one to his friend",
+      "target": "shalt proclaim remission to all the inhabitants of thy land"
+     },
+     "note": "Jerusalem's masters made the jubilee proclamation — liberty to their Hebrew slaves — and then took it back. Jeremiah answers with God's counter-proclamation of 'liberty' to the sword, the pestilence and the famine, turning Leviticus 25:10's word against them."
     }
    ]
   },
@@ -5535,6 +5775,61 @@
       "target": "the waters returned, and overwhelmed the chariots & the horsemen of all Pharao's army, who following were entered into the sea, neither did there so much as one of them remain"
      },
      "note": "Isaias' new-Exodus song names the drowned host exactly as Exodus does: chariot and horse, and not one of them remaining."
+    }
+   ],
+   "53:6": [
+    {
+     "target": "Leviticus 16:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and our Lord hath put upon him the iniquity of all us",
+      "target": "let him confess all the iniquities of the children of Israel, and all their offences and sins: which praying to light on his head"
+     },
+     "note": "All Israel's iniquities, confessed over the goat's head to light on him and be carried away — Isaiah sees that laying-on concentrated on the Servant: the Lord 'put upon him the iniquity of all us'."
+    }
+   ],
+   "53:11": [
+    {
+     "target": "Leviticus 16:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the same my just servant shall justify many, and he shall bear their iniquities",
+      "target": "And when the goat hath carried all their iniquities into the solitary ground"
+     },
+     "note": "'He shall bear their iniquities' — the scapegoat's work, carrying all the iniquities away into the solitary ground, becomes the Servant's own bearing. 1 Peter 2:24 takes the line up from Isaiah and is set aside here as mediated."
+    }
+   ],
+   "58:5": [
+    {
+     "target": "Leviticus 16:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Is this such a fast, as I have chosen: for a man by the day to afflict his soul?",
+      "target": "The seventh month, the tenth day of the month you shall afflict your souls"
+     },
+     "note": "Isaiah's question is aimed at the Day of Atonement's own phrase — 'afflict your souls', the one commanded soul-affliction of the year. The prophet asks whether bowing the head like a rush is the affliction God chose."
+    }
+   ],
+   "61:1": [
+    {
+     "target": "Leviticus 25:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "preach indulgence to the captives, and deliverance to them that are shut up",
+      "target": "Thou shalt sanctify the fiftieth year, and shalt proclaim remission to all the inhabitants of thy land: for it is the year of Jubilee"
+     },
+     "note": "The anointed one's proclamation to captives is the jubilee act itself: in the fiftieth year remission is proclaimed to all the land's inhabitants, and every man returns to his possession. Jesus reads this text at Nazareth (Luke 4) — that link runs through Isaiah and is set aside as mediated."
+    }
+   ],
+   "66:17": [
+    {
+     "target": "Leviticus 11:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they that did eat swine's flesh, and abomination, and the mouse",
+      "target": "the swine: which though it divideth the hoof, cheweth not the cud"
+     },
+     "note": "Isaiah's condemned garden-rites feast on Leviticus 11's own unclean list — the swine named at 11:7, the mouse following at 11:29 among the creeping things."
     }
    ]
   },
@@ -5705,6 +6000,50 @@
      },
      "note": "The didrachma the collectors seek from the Lord is the half-shekel first imposed at the numbering in Exodus — every man's ransom 'offered to the Lord'; the Lord's answer turns on who truly owes it. (In this corpus the collectors' question stands at Matthew 17:23.)"
     }
+   ],
+   "5:38": [
+    {
+     "target": "Leviticus 24:20",
+     "kind": "quotation",
+     "evidence": {
+      "source": "You have heard that it was said, An eye for an eye, and a tooth for a tooth.",
+      "target": "eye for eye, tooth for tooth he shall restore"
+     },
+     "note": "The Lord quotes the talion clause of Leviticus 24 — the law of retaliation that follows the blasphemer's case — before his own 'But I say to you not to resist evil'."
+    }
+   ],
+   "5:34": [
+    {
+     "target": "Leviticus 19:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Again you have heard that it was said to them of old, Thou shalt not commit perjury: but thou shall perform thy oaths to our Lord.",
+      "target": "Thou shalt not forswear thyself in my name, nor pollute the name of thy God"
+     },
+     "note": "The old saying the Lord cites is Leviticus' ban on swearing falsely by God's name; its second half also gathers the law of vows performed (Numbers 30). In this corpus the oath saying stands at Matthew 5:34; the seed keys that verse to the neighbouring 19:11, but the perjury clause itself is 19:12."
+    }
+   ],
+   "26:63": [
+    {
+     "target": "Leviticus 5:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I adjure thee by the living God, that thou tell us if thou be Christ the Son of God",
+      "target": "If a soul sin, and hear the voice of one swearing, and be witness, because either he himself saw, or is privy to it: unless he utter it, he shall bear his iniquity"
+     },
+     "note": "Caiaphas puts Jesus under adjuration — the solemn 'voice of one swearing' of Leviticus 5:1, which binds the hearer who is privy to the matter to utter it or bear his iniquity. Jesus, who had held his peace, answers under it."
+    }
+   ],
+   "26:65": [
+    {
+     "target": "Leviticus 21:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Then the high Priest rent his garments, saying: He hath blasphemed",
+      "target": "he shall not rent his garments"
+     },
+     "note": "At the verdict the high priest does the one thing Leviticus forbids the anointed high priest to do, even in mourning: he rents his garments."
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -5868,6 +6207,61 @@
      },
      "note": "Stephen's indictment: in those days they made the calf and offered sacrifice to the idol, as Exodus tells it."
     }
+   ],
+   "10:14": [
+    {
+     "target": "Leviticus 11:47",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for I did never eat any common and unclean thing",
+      "target": "that you may know the differences of the clean, and the unclean, and know what you ought to eat, and what to refuse"
+     },
+     "note": "Peter's protest is spoken out of Leviticus 11, whose own closing verse states the code's purpose — to know what to eat and what to refuse. The vision answers the code at its summary verse."
+    }
+   ],
+   "15:29": [
+    {
+     "target": "Leviticus 17:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "That you abstain from the things immolated to idols, and blood, and that which is strangled",
+      "target": "Any man whosoever of the house of Israel, and of the strangers, that sojourn among them, if he eat blood, I will set my face against his life"
+     },
+     "note": "The apostolic decree's blood clause rests on the one blood law in Leviticus that expressly names the sojourning stranger — the ground on which it can bind Gentile believers, whose meat (like the strangled) kept its blood."
+    }
+   ],
+   "16:16": [
+    {
+     "target": "Leviticus 20:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a certain wench having a Pythonical spirit, met us, that brought great gain to her masters by divining",
+      "target": "Man, or woman, in whom is a pythonical or divining spirit"
+     },
+     "note": "This translation uses the same rare word in both places: the Philippian girl's 'Pythonical spirit' is the very thing Leviticus 20:27 names — and Paul expels it rather than profit by it. Saul's errand at 1 Kings 28:7 uses the same word (entered separately)."
+    }
+   ],
+   "27:9": [
+    {
+     "target": "Leviticus 23:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whereas now it was not safe sailing, because the fast now was past",
+      "target": "upon the tenth day of this seventh month shall be the day of expiations most solemn"
+     },
+     "note": "Luke dates the voyage by 'the fast' without explaining it — his readers know the one fast of the year, the Day of Expiations on the tenth day of the seventh month."
+    }
+   ],
+   "2:1": [
+    {
+     "target": "Leviticus 23:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And when the days of Pentecost were accomplished, they were all together in one place",
+      "target": "unto the morrow after the seventh week be expired, that is to say fifty days, and so you shall offer a new sacrifice to the Lord"
+     },
+     "note": "Pentecost is Leviticus' fiftieth day, counted out from the firstfruits sheaf. The Spirit falls on the feast's own day — the church is gathered at the hour the law's count appointed."
+    }
    ]
   },
   "Luke": {
@@ -5935,6 +6329,50 @@
       "target": "You shall gird your reins, and you shall have shoes on your feet, holding staves in your hands, and you shall eat speedily"
      },
      "note": "The watchful servants of the parable wear the Passover's own posture — loins girt, in the night, ready for the Lord's coming."
+    }
+   ],
+   "2:21": [
+    {
+     "target": "Leviticus 12:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And after eight days were expired, that the child should be circumcised",
+      "target": "And the eighth day the little infant shall be circumcised"
+     },
+     "note": "The child is circumcised on Leviticus' day, within the mother's purification days. Genesis 17 commands the rite itself; John 7:22's sabbath argument from this verse is seed-carried."
+    }
+   ],
+   "10:28": [
+    {
+     "target": "Leviticus 18:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou hast answered right, this do and thou shalt live",
+      "target": "which a man doing, shall live in them"
+     },
+     "note": "Jesus seals the lawyer's answer with Leviticus' own promise in short form — do, and live. Paul quotes the full clause at Romans 10:5 (seed-carried)."
+    }
+   ],
+   "17:3": [
+    {
+     "target": "Leviticus 19:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If thy brother sin against thee, rebuke him: and if he do penance, forgive him",
+      "target": "Thou shalt not hate thy brother in thy heart, but control him openly, lest thou incur sin through him"
+     },
+     "note": "'Rebuke him' is Leviticus' open reproof — the appointed alternative to nursing hatred of a brother in the heart. The Lord joins to it the forgiveness Leviticus leaves implicit."
+    }
+   ],
+   "24:50": [
+    {
+     "target": "Leviticus 9:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and lifting up his hands he blessed them",
+      "target": "And stretching forth his hand to the people, he blessed them"
+     },
+     "note": "The departing Lord takes Aaron's stance at his first blessing — hands lifted over the disciples as he is parted from them. Sirach's Simon does the same at the altar (entered as allusion)."
     }
    ]
   },
@@ -6084,6 +6522,28 @@
       "target": "merciful and clement, patient and of much compassion"
      },
      "note": "The psalm of thanksgiving opens its praise with the Sinai formula: 'Our Lord is pitiful and merciful, long suffering and very merciful'."
+    }
+   ],
+   "14:5": [
+    {
+     "target": "Leviticus 25:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "That hath not given his money to usury, and hath not taken gifts upon the innocent",
+      "target": "Thou shalt not give him thy money to usury, and an overplus of the fruits thou shalt not exact of him"
+     },
+     "note": "The entrance psalm's righteous man is drawn with Leviticus' usury clause — he 'hath not given his money to usury' to his brother. (Psalm 14 in the Vulgate numbering this corpus uses; 15 in modern Bibles.)"
+    }
+   ],
+   "80:4": [
+    {
+     "target": "Leviticus 23:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Sound ye with trumpet in the new moon, in the notable day of your solemnity.",
+      "target": "The seventh month, on the first day of the month, shall be a Sabbath, a memorial, by sounding of trumpets"
+     },
+     "note": "The psalm summons the trumpet for the appointed solemnity at the new moon — the memorial of blowing trumpets on the first day of the seventh month, which opens the autumn feasts of Leviticus 23."
     }
    ]
   },
@@ -6285,6 +6745,17 @@
      },
      "note": "The second tables in Moses' retelling: 'hew thee two tables of stones, as the former were', as God commanded after the breaking."
     }
+   ],
+   "24:19": [
+    {
+     "target": "Leviticus 19:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou shalt not return to take it away: but thou shalt suffer the stranger, and the pupil, and the widow to take it away",
+      "target": "neither shalt thou gather the ears that remain"
+     },
+     "note": "Deuteronomy re-legislates Leviticus' gleaning law as the forgotten sheaf: what the reaper leaves behind is suffered to the stranger, the pupil and the widow. Leviticus extends the same mercy to the vineyard at 19:10 — left 'to the poor, and the strangers to take'."
+    }
    ]
   },
   "Osee": {
@@ -6333,6 +6804,17 @@
      },
      "note": "Peter transposes Sinai's 'priestly kingdom' into 'kingly priesthood' and keeps 'a holy nation' word for word; his 'people of purchase' carries on 19:5's peculiar people."
     }
+   ],
+   "1:16": [
+    {
+     "target": "Leviticus 19:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "because it is written: You shall be holy, because I am holy",
+      "target": "Be ye holy, because I the Lord your God am holy"
+     },
+     "note": "Peter cites the holiness command with 'it is written'. Leviticus speaks it three times (11:44; 19:2; 20:7); this is the form addressed to the whole assembly. The seed already carries Peter's quotation at 20:7."
+    }
    ]
   },
   "2 Paralipomenon": {
@@ -6354,6 +6836,39 @@
       "target": "Our Lord will fight for you and you shall hold your peace"
      },
      "note": "'It shall not be you that shall fight' is Exodus' promise in other words: 'Our Lord will fight for you, and you shall hold your peace'."
+    }
+   ],
+   "36:21": [
+    {
+     "target": "Leviticus 26:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for all the days of the desolation she kept a Sabbath, till the seventy years were expired",
+      "target": "Then shall the land take pleasure in her sabbaths all the days of her desolation"
+     },
+     "note": "The Chronicler reads the seventy years of exile as Leviticus 26:34 fulfilled, and says so in Jeremiah's name: the land, emptied of its people, at last keeps the sabbaths they had withheld from her."
+    }
+   ],
+   "7:1": [
+    {
+     "target": "Leviticus 9:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "fire descended from heaven, and devoured the holocausts & victims: and the majesty of our Lord filled the house",
+      "target": "a fire coming forth from our Lord, devoured the holocaust, and the fat that was upon the altar"
+     },
+     "note": "Solomon's dedication is Leviticus 9 written large: fire descends and devours the offerings, and the majesty of the Lord fills the house, as at the tabernacle's first altar."
+    }
+   ],
+   "26:21": [
+    {
+     "target": "Leviticus 13:46",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Ozias therefore the king was a leper until the day of his death, and he dwelt in a house apart full of the leprosy",
+      "target": "he shall dwell alone without the camp"
+     },
+     "note": "The leper king lives out the leper's sentence — cut off from the house of the Lord he had invaded, dwelling apart until his death — exactly as Leviticus 13:46 appoints for everyone the disease marks."
     }
    ]
   },
@@ -6416,6 +6931,28 @@
      },
      "note": "God's 'recounting' of Amalec to Saul is the oath written at Rephidim falling due: the memory of Amalec, sworn to be destroyed from under heaven, is now to be destroyed by Israel's king."
     }
+   ],
+   "28:7": [
+    {
+     "target": "Leviticus 20:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Seek me a woman that hath a pythonical spirit, and I will go to her, and will ask by her",
+      "target": "Man, or woman, in whom is a pythonical or divining spirit"
+     },
+     "note": "Saul, who had put away the diviners under this very law, goes by night to a woman 'that hath a pythonical spirit' — the law's own phrase for what he seeks."
+    }
+   ],
+   "6:3": [
+    {
+     "target": "Leviticus 5:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "but that which you owe render unto it for sin",
+      "target": "he shall offer for his offence a ram without spot out of the flocks"
+     },
+     "note": "Even the Philistines' diviners know an offended god is answered with the offence offering: they send golden emerods and mice 'for sin' beside the ark — Leviticus' asham imitated by Gentiles, restitution carried to the sanctuary."
+    }
    ]
   },
   "Aggeus": {
@@ -6429,6 +6966,28 @@
      },
      "note": "Aggeus steadies the builders by 'the word that I did covenant with you when you came out of the land of Egypt' — the covenant whose terms are 'if you will hear my voice, and keep my covenant'."
     }
+   ],
+   "2:13": [
+    {
+     "target": "Leviticus 6:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If a man take sanctified flesh in the skirt of his garment, and touch with the skirt thereof bread, or broth, or wine, or oil, or any meat: shall it be sanctified?",
+      "target": "Whatsoever shall touch the flesh thereof, shall be sanctified"
+     },
+     "note": "Aggeus is sent to 'ask the priests the law': his test case probes Leviticus 6:27, where what touches the sin offering's flesh is sanctified. The priests rule that holiness does not travel at second hand — and the prophet turns the ruling on the people's works."
+    }
+   ],
+   "2:14": [
+    {
+     "target": "Leviticus 22:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If one polluted on a soul touch any of all these, shall he be contaminated?",
+      "target": "He that toucheth a thing unclean by occasion of that is dead"
+     },
+     "note": "The second test case is Leviticus' corpse-uncleanness: defilement, unlike holiness, does spread by touch. The priests' 'He shall be contaminated' applies the law of Aaron's seed to the whole nation."
+    }
    ]
   },
   "Mark": {
@@ -6441,6 +7000,17 @@
       "target": "He that curseth his father, or mother, dying let him die"
      },
      "note": "Mark's form of the same quotation: 'He that shall curse father or mother, dying let him die'."
+    }
+   ],
+   "5:25": [
+    {
+     "target": "Leviticus 15:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And a woman which was in an issue of blood twelve years",
+      "target": "The woman that hath a flux of blood many days not in her menstrual time"
+     },
+     "note": "The woman's twelve-year issue is the case Leviticus 15:25 governs — a flux beyond the menstrual time, unclean all the days she is subject to it. She reaches Jesus through the crowd the law would have kept her apart from."
     }
    ]
   },
@@ -6465,6 +7035,15 @@
       "target": "I will dwell in the midst of the children of Israel & will be their God"
      },
      "note": "Ezechiel's restoration promise re-utters the tabernacle's dedication word: 'I will dwell in the midst of the children of Israel, and will be their God'."
+    },
+    {
+     "target": "Leviticus 26:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And my tabernacle shall be in them: & I will be their God, and they shall be my people",
+      "target": "I will set my tabernacle in the midst of you"
+     },
+     "note": "Ezekiel's restoration promise gathers Leviticus 26:11-12 into one verse — the tabernacle set among them, God theirs, they his people. The Apocalypse takes the same promise up at 26:12 (entered separately)."
     }
    ],
    "20:12": [
@@ -6476,6 +7055,94 @@
       "target": "it is a sign between me and you in your generations: that you may know that I am the Lord, which sanctify you"
      },
      "note": "Ezechiel re-utters God's Sinai word almost verbatim: the sabbaths given 'to be a sign between me and them, that they might know that I am the Lord sanctifying them'."
+    }
+   ],
+   "20:11": [
+    {
+     "target": "Leviticus 18:5",
+     "kind": "quotation",
+     "evidence": {
+      "source": "which a man doing, shall live in them",
+      "target": "which a man doing, shall live in them"
+     },
+     "note": "Ezekiel, rehearsing the gift of the statutes in the wilderness, quotes Leviticus' own promise attached to them word for word. Paul quotes the same clause at Romans 10:5 (seed-carried)."
+    }
+   ],
+   "5:10": [
+    {
+     "target": "Leviticus 26:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Therefore the fathers shall eat the sons in the midst of thee, and the sons shall eat their fathers",
+      "target": "so that you shall eat the flesh of your sons & of your daughters"
+     },
+     "note": "Ezekiel re-pronounces the covenant curse of Leviticus 26 as present judgment on Jerusalem. The siege of Samaria enacts it literally (4 Kings 6:29, entered as parallel)."
+    }
+   ],
+   "18:6": [
+    {
+     "target": "Leviticus 18:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "approached not to a menstruous woman",
+      "target": "To a woman, having her flowers, thou shalt not approach"
+     },
+     "note": "Ezekiel's portrait of the just man is a digest of the holiness code; this clause is Leviticus 18:19 in the prophet's own dress."
+    }
+   ],
+   "18:8": [
+    {
+     "target": "Leviticus 25:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath not lent to usury, and not taken more",
+      "target": "Thou shalt not give him thy money to usury, and an overplus of the fruits thou shalt not exact of him"
+     },
+     "note": "The paired marks of the just man — usury not charged and 'more' not taken — are Leviticus 25:37's own pair: money to usury, overplus exacted. Psalm 14:5 sings the same clause (entered separately)."
+    }
+   ],
+   "36:23": [
+    {
+     "target": "Leviticus 22:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And I will sanctify my great name, that is polluted among the Gentiles, which you have polluted in the midst of them",
+      "target": "Pollute not my holy name that I may be sanctified in the midst of the children of Israel"
+     },
+     "note": "Leviticus ends the priestly charges with the command not to pollute the Name, that it be sanctified in Israel's midst. Ezekiel takes the charge up for the exile, where the Name was polluted among the Gentiles instead. Matthew 6:9's 'hallowed be thy name' reaches Leviticus through this verse and is set aside as mediated."
+    }
+   ],
+   "44:23": [
+    {
+     "target": "Leviticus 10:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they shall teach my people what is between a holy thing and polluted, & between clean and unclean they shall shew to them",
+      "target": "that you may have knowledge to discern between the holy and profane, between the polluted and clean"
+     },
+     "note": "The charge given to Aaron after the death of Nadab and Abihu — to discern between holy and profane, polluted and clean — is handed on to Ezekiel's temple priests as their teaching office."
+    }
+   ],
+   "44:31": [
+    {
+     "target": "Leviticus 22:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All carrion, and thing taken by a beast of birds, and of cattle the Priests shall not eat",
+      "target": "Carrion and that which was taken of a beast, they shall not eat, nor be polluted in them"
+     },
+     "note": "Leviticus' carrion ban for the priests is re-enacted nearly word for word in Ezekiel's temple law."
+    }
+   ],
+   "44:22": [
+    {
+     "target": "Leviticus 21:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "widow, and her that is divorced they shall not take for wives, but virgins of the seed of the house of Israel",
+      "target": "but a widow and her that is put away, and a filth, and a whore he shall not take, but a maid of his own people"
+     },
+     "note": "Ezekiel's temple law extends the high priest's marriage rule — no widow, no divorced woman, a virgin of his own people — to all the priests of the restored house, with one stated exception for a priest's widow."
     }
    ]
   },
@@ -6489,6 +7156,17 @@
       "target": "wherein thou shalt grave after the work of a graver, Holy to the Lord"
      },
      "note": "The words graven on the high priest's golden plate — 'Holy to the Lord' — are in Zacharias' last day found upon a horse's bridle: the inscription itself is quoted and spread over all Jerusalem."
+    }
+   ],
+   "14:16": [
+    {
+     "target": "Leviticus 23:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "shall go up from year to year, to adore the King, the Lord of hosts, and to celebrate the festivity of tabernacles",
+      "target": "From the fifteenth day of this seventh month, shall be the festivity of tabernacles seven days to the Lord"
+     },
+     "note": "The feast given to Israel in Leviticus 23 is opened by Zechariah to 'all that shall be left of all Nations': every surviving people goes up to Jerusalem from year to year to keep it."
     }
    ]
   },
@@ -6514,6 +7192,28 @@
      },
      "note": "Solomon's dedication replays the tabernacle's: the cloud, and the glory of the Lord filling the house, so the priests cannot stand. (In this corpus Exodus 40 runs to thirty-six verses; the filling of the tabernacle stands at 40:32.)"
     }
+   ],
+   "18:38": [
+    {
+     "target": "Leviticus 9:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the fire of our Lord fell, and devoured the holocaust, and the wood, and the stones",
+      "target": "a fire coming forth from our Lord, devoured the holocaust, and the fat that was upon the altar"
+     },
+     "note": "Carmel replays the tabernacle's dedication: fire from the Lord falls and devours the holocaust, and all the people fall on their faces as Israel did at Aaron's first altar. Solomon's dedication repeats it again (2 Paralipomenon 7:1, entered separately)."
+    }
+   ],
+   "21:13": [
+    {
+     "target": "Leviticus 24:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they brought him forth without the city, and killed him with stones",
+      "target": "Bring forth the blasphemer without the camp, and let all that heard him put their hands upon his head, and let all the people stone him"
+     },
+     "note": "Naboth is condemned on a manufactured blasphemy charge and executed in the blasphemy law's own form — brought forth outside and stoned by the multitude. Stephen's death follows the same shape without the law's warrant (Acts 7:58, set aside: no verbal anchor)."
+    }
    ]
   },
   "Numbers": {
@@ -6538,6 +7238,39 @@
      },
      "note": "Moses, pleading after the spies, quotes God's own proclamation on Sinai back to him — patient, full of mercy, taking away iniquity; the quotation runs on into 34:7, to the visiting of the fathers' sins upon the children."
     }
+   ],
+   "3:4": [
+    {
+     "target": "Leviticus 10:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "For Nadab and Abiu died, when they offered the strange fire in the sight of our Lord",
+      "target": "offering before our Lord strange fire, which was not commanded them"
+     },
+     "note": "The genealogy retells the book's own tragedy in a single clause: strange fire, which was not commanded. The same retelling at Numbers 26:61 is set aside as a duplicate."
+    }
+   ],
+   "15:35": [
+    {
+     "target": "Leviticus 24:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "let all the multitude stone him without the camp",
+      "target": "Bring forth the blasphemer without the camp, and let all that heard him put their hands upon his head, and let all the people stone him"
+     },
+     "note": "The sentence on the sabbath wood-gatherer is pronounced in the blasphemy law's own form — brought forth without the camp and stoned by all the people — though his offence was the sabbath, not the Name."
+    }
+   ],
+   "16:35": [
+    {
+     "target": "Leviticus 10:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a fire also coming forth from our Lord, slew the two hundred fifty men, that offered the incense",
+      "target": "And fire coming forth from our Lord, devoured them, & they died before our Lord"
+     },
+     "note": "Core's company repeats Nadab and Abihu's offence — incense offered without command — and meets their fire. Unauthorized incense is answered from the same presence in both books."
+    }
    ]
   },
   "2 Esdras": {
@@ -6550,6 +7283,28 @@
       "target": "merciful and clement, patient and of much compassion"
      },
      "note": "The Levites' great prayer confesses Israel's rebellion in the words of the proclamation: a God 'propitious, gracious and merciful, long suffering and of much compassion', who did not forsake them."
+    }
+   ],
+   "9:29": [
+    {
+     "target": "Leviticus 18:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and sinned in thy judgments, which a man should do, and shall live in them",
+      "target": "which a man doing, shall live in them"
+     },
+     "note": "Nehemiah's great confession takes up the life-promise of the statutes, in adapted words, as the very words Israel sinned against. Ezekiel 20:11 quotes the clause word for word (entered as quotation)."
+    }
+   ],
+   "8:14": [
+    {
+     "target": "Leviticus 23:42",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that the children of Israel should dwell in tabernacles, on the solemn day, the seventh month",
+      "target": "shall dwell in bowers seven days"
+     },
+     "note": "Nehemiah's generation finds the booths command 'written in the law' and keeps it as it had not been kept since the days of Josue — the feast of Leviticus 23:34-42 revived out of the book itself."
     }
    ]
   },
@@ -6624,6 +7379,78 @@
       "target": "Which going in to our Lord, and speaking with him, he took away until he went forth"
      },
      "note": "Paul reads Moses' own act spiritually: as Moses, going in before the Lord, took away the veil (named at 34:33 and 34:35) until he came forth, so 'when he shall be converted to the Lord, the veil shall be taken away'."
+    }
+   ],
+   "6:16": [
+    {
+     "target": "Leviticus 26:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "That I will dwell, and walk in them, and will be their God; and they shall be my people",
+      "target": "I will walk among you, & will be your God, & you shall be my people"
+     },
+     "note": "Paul's temple catena quotes the covenant promise of Leviticus 26:11-12. The seed carries this verse of Paul at 26:11 (the tabernacle clause); the walking-and-people clause stands at 26:12."
+    }
+   ]
+  },
+  "4 Kings": {
+   "23:10": [
+    {
+     "target": "Leviticus 18:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that no man should consecrate his son or daughter by fire to Moloch",
+      "target": "Of thy seed thou shalt not give to be consecrated to the idol Moloch"
+     },
+     "note": "Josiah defiles Topheth to end the rite Leviticus 18:21 forbids — seed consecrated to Moloch, passed through the fire in the valley of the son of Hinnom."
+    }
+   ],
+   "6:29": [
+    {
+     "target": "Leviticus 26:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "We therefore boiled my son, and did eat him",
+      "target": "so that you shall eat the flesh of your sons & of your daughters"
+     },
+     "note": "In the Samaria siege the covenant curse stops being a threat: two mothers boil and eat a son, and the king of Israel hears the case in the famine Leviticus 26:29 foretold. Ezekiel re-pronounces the same curse (entered as allusion)."
+    }
+   ],
+   "12:16": [
+    {
+     "target": "Leviticus 7:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "But the money for offence, & the money for sins, they brought not into the temple of our Lord, because it was the Priests'",
+      "target": "the law of both hosts shall be one: to the Priest that offereth it, it shall pertain"
+     },
+     "note": "Joas's temple repairs respect the old rule: the money for offence and for sins is not treasury income, because Leviticus assigns both hosts — and their price — to the priest who offers them."
+    }
+   ]
+  },
+  "1 Paralipomenon": {
+   "29:15": [
+    {
+     "target": "Leviticus 25:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For we are pilgrims before thee, and strangers, as all our fathers",
+      "target": "you are my strangers & sojourners"
+     },
+     "note": "David's prayer over the temple treasury takes its self-understanding from the land law: because the land is God's, even Israel's king is his stranger and sojourner, and nothing dedicated is truly his own."
+    }
+   ]
+  },
+  "Leviticus": {
+   "14:14": [
+    {
+     "target": "Leviticus 8:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "shall put it upon the tip of the right ear of him that is cleansed, and upon the thumbs of his right hand and foot",
+      "target": "he had touched the tip of the right ear of every one, and the thumbs of the right hand and foot"
+     },
+     "note": "Within the book itself: the cleansed leper is restored with the consecration rite of Aaron's sons — the host's blood on the right ear, the right thumb, the right foot — as one re-ordained into the camp."
     }
    ]
   }
