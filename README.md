@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.7.0 — Exodus
+
+**Exodus — 104 new references** (59 allusion, 25 parallel, 12 quotation, 8 theme), all keyed at the later verses that quote, retell, or argue from Exodus, pointing back. `our-references.json` now holds **606 references** (205 parallel, 334 allusion, 23 quotation, 44 theme).
+
+Exodus, unlike Genesis, earns true quotations: Stephen's speech in Acts 7 is a spine of ten entries, carrying the burning bush itself (7:32 — the Gospels' own citations of Exodus 3:6 were already in the seed, and are not duplicated); James cites the commandments; and Numbers 14:18 quotes the Sinai proclamation back to God, Moses pleading God's own words. That proclamation (Exodus 34:6–7) draws six entries on its own — the Psalms, Joel, and Jonas taking up its mercy, Nahum its severity. The Pasch is gathered whole: Christ our Pasch in 1 Corinthians 5, the unblemished lamb in 1 Peter 1, the sprinkled blood in Hebrews 11, and Luke 9:31 as **theme** — on the mount, Moses and Elias speak of the Lord's "decease," in the Greek his *exodus*, beside the Passover chapter's own name for the feast. Small finds include Malachias 3:1 behind the Angel of Exodus 23:20, "the finger of God" (8:19) on Jesus's lips in Luke 11:20, and the golden plate's "Holy to the Lord" (28:36) reappearing on a horse's bridle in Zacharias 14:20. Twenty-nine of the forty chapters are touched; the rest are honestly thin — the plague chapters' great partners in the Psalms and Wisdom already stand in the seed and the deuterocanon layer, and the tabernacle chapters that repeat the prescriptions add no new links of their own.
+
 ## Version 0.6.0 — beyond the deuterocanon: Genesis
 
 The same work now extends into the rest of the canon, beginning where the Bible begins. **Genesis — 122 new references** (68 allusion, 43 parallel, 11 theme — and no quotations, honestly: every pair that would grade as a strict quotation of Genesis, like Romans 4:3 and Matthew 19:5, is already carried by the seed or by the deuterocanon layer). `our-references.json` now holds **502 references** (180 parallel, 275 allusion, 11 quotation, 36 theme).

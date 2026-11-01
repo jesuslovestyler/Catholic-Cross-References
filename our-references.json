@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.6.0",
- "stage": "Stage 3 begun: Genesis — the first book beyond the deuterocanon. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.7.0",
+ "stage": "Stage 3: Genesis and Exodus. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 502,
+  "references": 606,
   "by_kind": {
-   "parallel": 180,
-   "allusion": 275,
-   "quotation": 11,
-   "theme": 36
+   "parallel": 205,
+   "allusion": 334,
+   "quotation": 23,
+   "theme": 44
   },
-  "source_books": 30,
-  "source_verses": 430
+  "source_books": 49,
+  "source_verses": 529
  },
  "references": {
   "Wisdom": {
@@ -1112,6 +1112,83 @@
      },
      "note": "Abraham's word at Hebron — a stranger and pilgrim — is the confession Hebrews puts on all the patriarchs: they died in faith, saluting the promises from afar."
     }
+   ],
+   "11:28": [
+    {
+     "target": "Exodus 12:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "By faith, he celebrated the Pasch, & the shedding of the blood: that he which destroyed the first-born, might not touch them",
+      "target": "I shall see the blood, & shall pass over you"
+     },
+     "note": "By faith Moses kept the Passover and the shedding of the blood, so that the destroyer of the firstborn would not touch Israel — Exodus' word: 'I shall see the blood, and shall pass over you'."
+    }
+   ],
+   "11:29": [
+    {
+     "target": "Exodus 14:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "By faith they passed the red sea as it were by the dry land",
+      "target": "the children of Israel went through the midst of the dry sea"
+     },
+     "note": "By faith they passed the Red Sea as by dry land — Exodus: Israel 'went through the midst of the dry sea'."
+    }
+   ],
+   "9:4": [
+    {
+     "target": "Exodus 16:33",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a golden pot having Manna",
+      "target": "Take one vessel, and put Manna into it, so much as a gomor can hold: and lay it up before our Lord to keep unto your generations"
+     },
+     "note": "The ark's furniture in Hebrews includes the golden pot of manna — the vessel Moses commanded to be laid up 'to keep unto your generations'."
+    }
+   ],
+   "12:19": [
+    {
+     "target": "Exodus 19:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the sound of trumpet, and voice of words, which they that heard, excused themselves",
+      "target": "the sound of the trumpet grew louder by little and little, and was drawn out a length: Moyses spake, and God answered him"
+     },
+     "note": "Hebrews' Sinai has the trumpet that 'grew louder by little and little' — and the hearers who 'excused themselves' are those who begged, in Exodus 20, that the word not be spoken to them."
+    }
+   ],
+   "9:19": [
+    {
+     "target": "Exodus 24:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "all the commandment of the Law being read of Moyses to all the people",
+      "target": "taking the volume of the covenant, he read the people hearing it"
+     },
+     "note": "Hebrews' account of the covenant's sealing begins with the reading: Moses 'taking the volume of the covenant, read the people hearing it' (the blood-saying of 9:20 is carried by the seed to 24:8)."
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Exodus 25:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "wherein were the candlesticks, and the table, and the proposition of loaves",
+      "target": "Thou shalt make also a candle stick beaten of most pure gold"
+     },
+     "note": "Hebrews' inventory of the first tabernacle — candlestick, table, loaves of proposition — is the furniture commanded in Exodus 25 (the candlestick at 25:31, the table and loaves at 25:23-30)."
+    }
+   ],
+   "9:3": [
+    {
+     "target": "Exodus 26:33",
+     "kind": "parallel",
+     "evidence": {
+      "source": "after the second veil, the tabernacle, which is called Sancta Sanctorum",
+      "target": "with the which also the Sanctuary, and the Sanctuaries of the Sanctuary, shall be divided"
+     },
+     "note": "'After the second veil, the tabernacle which is called the Holy of Holies' — the veil of Exodus 26 that divides the Sanctuary from the Sanctuary of Sanctuaries."
+    }
    ]
   },
   "Romans": {
@@ -1201,6 +1278,17 @@
       "target": "thou hast done this thing, and hast not spared thine only begotten son for my sake"
      },
      "note": "Paul's 'spared not his own Son' turns the oath's own wording upon God himself: Abraham had not spared his only begotten son."
+    }
+   ],
+   "9:3": [
+    {
+     "target": "Exodus 32:32",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I wished myself to be an anathema from Christ for my brethren",
+      "target": "or if thou do not, strike me out of the book that thou hast written"
+     },
+     "note": "Paul takes up Moses' own plea after the calf (the plea begins at 32:31, 'either forgive them this trespass'): to be struck out of God's book himself, if only his brethren are spared."
     }
    ]
   },
@@ -4229,6 +4317,17 @@
      },
      "note": "The angel's carrying of Habacuc to the den is the Spirit's taking away of Philip from the eunuch's road: a prophet snatched from one place to another in a moment."
     }
+   ],
+   "8:11": [
+    {
+     "target": "Exodus 29:38",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and from him it took the continual sacrifice",
+      "target": "Two lambs of a year old every day continually"
+     },
+     "note": "The 'continual sacrifice' Daniel sees taken away is the daily oblation instituted here: two lambs of a year old, every day, continually (the institution runs to 29:42, 'a perpetual oblation')."
+    }
    ]
   },
   "Genesis": {
@@ -5078,6 +5177,39 @@
      },
      "note": "The death that is in Adam for all men is the sentence of Genesis 3 itself: dust thou art, and into dust thou shalt return."
     }
+   ],
+   "5:8": [
+    {
+     "target": "Exodus 12:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but in the azymes of sincerity and verity",
+      "target": "Seven days shall you eat azymes: in the first day there shall be no leaven in your houses"
+     },
+     "note": "Paul keeps the feast of unleavened bread in figure: the Church's azymes are sincerity and truth, against Exodus' seven days without leaven."
+    }
+   ],
+   "5:7": [
+    {
+     "target": "Exodus 12:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For our Pasch, Christ, is immolated",
+      "target": "Go take a lamb by your families, and sacrifice the Phase"
+     },
+     "note": "'Our Pasch, Christ, is immolated': Paul names Christ himself the lamb Moses commanded Israel to take and sacrifice."
+    }
+   ],
+   "10:2": [
+    {
+     "target": "Exodus 14:22",
+     "kind": "theme",
+     "evidence": {
+      "source": "all in Moyses were baptized in the cloud and in the sea",
+      "target": "went through the midst of the dry sea: for the water was as it were a wall on their right hand and their left"
+     },
+     "note": "Paul argues that the crossing itself was Israel's baptism — 'all in Moses were baptized in the cloud and in the sea' — the doctrinal pattern on which his warning to Corinth rests."
+    }
    ]
   },
   "James": {
@@ -5090,6 +5222,26 @@
       "target": "Let us make Man to our image & likeness"
      },
      "note": "James forbids cursing men on Genesis' ground: they are made after the similitude of God."
+    }
+   ],
+   "2:11": [
+    {
+     "target": "Exodus 20:13",
+     "kind": "quotation",
+     "evidence": {
+      "source": "said also, Thou shalt not kill",
+      "target": "Thou shalt not murder"
+     },
+     "note": "James quotes the sixth commandment; the DR text of Exodus renders the word 'murder' where James has 'kill'."
+    },
+    {
+     "target": "Exodus 20:14",
+     "kind": "quotation",
+     "evidence": {
+      "source": "For he that said, Thou shalt not commit adultery",
+      "target": "Thou shalt not commit adultery"
+     },
+     "note": "James quotes the seventh commandment in the Decalogue's own words, to bind the whole Law to one Speaker."
     }
    ]
   },
@@ -5140,6 +5292,28 @@
       "target": "one people shall overcome the other, and the elder shall serve the younger"
      },
      "note": "Malachias' 'I loved Jacob' is God's later word upon the oracle spoken before the twins were born: the elder shall serve the younger."
+    }
+   ],
+   "1:11": [
+    {
+     "target": "Exodus 20:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in every place there is sacrificing, and there is offered to my name a clean oblation",
+      "target": "in every place where the memory of my name shall be: I will come to thee, and will bless thee"
+     },
+     "note": "Exodus' altar law blesses 'every place where the memory of my name shall be'; Malachias sees the day when 'in every place there is offered to my name a clean oblation' among the Gentiles."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "Exodus 23:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Behold I send mine Angel, and he shall prepare the way before my face",
+      "target": "Behold I will send mine Angel, which shall go before thee"
+     },
+     "note": "'Behold I send mine Angel' — Malachias opens with the words of the promise that closes the book of the covenant: the Angel who goes before Israel into the promised place."
     }
    ]
   },
@@ -5210,6 +5384,50 @@
       "target": "in what day soever thou shalt eat of it, thou shalt die the death"
      },
      "note": "The death threatened at the tree, and entered by the eating of it, is abolished in the new creation: death shall be no more — the last word of the story answering the sentence of its first sin."
+    }
+   ],
+   "16:10": [
+    {
+     "target": "Exodus 10:22",
+     "kind": "theme",
+     "evidence": {
+      "source": "his kingdom was made dark",
+      "target": "horrible darkness in the whole Land of Ægypt three days"
+     },
+     "note": "The vial judgments replay the Egyptian plagues upon the beast's kingdom: the fifth vial's darkness, in which men gnaw their tongues, answers the ninth plague's three days of darkness over Egypt."
+    }
+   ],
+   "15:3": [
+    {
+     "target": "Exodus 15:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "singing the song of Moyses the servant of God, and the song of the Lamb",
+      "target": "Then sang Moyses and the children of Israel this song to our Lord"
+     },
+     "note": "The victors by the sea of glass sing 'the song of Moses the servant of God' — the song first sung on the far shore of the Red Sea — joined now to the song of the Lamb."
+    }
+   ],
+   "1:6": [
+    {
+     "target": "Exodus 19:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath made us a Kingdom and Priests to God",
+      "target": "you shall be unto me a Priestly Kingdom"
+     },
+     "note": "What God promised Israel at Sinai — 'you shall be unto me a priestly kingdom' — John blesses Christ for having made of his redeemed: 'a kingdom and priests to God'."
+    }
+   ],
+   "21:3": [
+    {
+     "target": "Exodus 25:8",
+     "kind": "theme",
+     "evidence": {
+      "source": "Behold the tabernacle of God with men, and he will dwell with them. And they shall be his people: and he God with them shall be their God",
+      "target": "they shall make me a sanctuary, and I will dwell in the midst of them"
+     },
+     "note": "The promise first spoken for the tabernacle — 'I will dwell in the midst of them' — is the last word of the new creation, where the tabernacle of God is with men (John also gathers Leviticus 26 and Ezechiel 37 into it)."
     }
    ]
   },
@@ -5285,6 +5503,39 @@
      },
      "note": "Isaiah's prayer takes its plea from the making of Adam: we are the clay, and the God who formed man of the slime of the earth is our maker and father."
     }
+   ],
+   "10:26": [
+    {
+     "target": "Exodus 14:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "his rod upon the sea, and he shall lift it up in the way of Ægypt",
+      "target": "lift up thy rod, and stretch forth thy hand upon the sea, and divide it"
+     },
+     "note": "Isaias threatens Assyria with the rod lifted over the sea 'in the way of Egypt' — Moses' rod, stretched out to divide the waters."
+    }
+   ],
+   "11:16": [
+    {
+     "target": "Exodus 14:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there shall be a way to the remnant of my people, which shall be left of the Assyrians: as there was to Israel in the day, that he came up out of the Land of Ægypt",
+      "target": "went through the midst of the dry sea"
+     },
+     "note": "The remnant's highway out of Assyria is promised in Exodus' own terms: a way through the sea 'as there was to Israel in the day that he came up out of the land of Egypt'."
+    }
+   ],
+   "43:17": [
+    {
+     "target": "Exodus 14:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Which brought forth the chariot & the horse, the arm and the strong: they slept together, neither shall they rise again",
+      "target": "the waters returned, and overwhelmed the chariots & the horsemen of all Pharao's army, who following were entered into the sea, neither did there so much as one of them remain"
+     },
+     "note": "Isaias' new-Exodus song names the drowned host exactly as Exodus does: chariot and horse, and not one of them remaining."
+    }
    ]
   },
   "John": {
@@ -5297,6 +5548,39 @@
       "target": "the serpent said to the woman: No, you shall not die the death"
      },
      "note": "The devil is a liar and the father of lies; his first recorded lie is the flat denial of God's word in Eden: No, you shall not die the death."
+    }
+   ],
+   "8:58": [
+    {
+     "target": "Exodus 3:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "before that Abraham was made, I am",
+      "target": "I am Which AM"
+     },
+     "note": "'Before Abraham was made, I am': the Lord takes to himself the Name spoken at the bush, I AM."
+    }
+   ],
+   "6:49": [
+    {
+     "target": "Exodus 16:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Your fathers did eat Manna in the desert; and they died",
+      "target": "This is the bread, which our Lord hath given you to eat"
+     },
+     "note": "'Your fathers did eat manna in the desert, and they died': the Lord sets the gift of Exodus — 'this is the bread which our Lord hath given you' — against the bread that does not let men die."
+    }
+   ],
+   "1:18": [
+    {
+     "target": "Exodus 33:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God no man hath seen at any time",
+      "target": "Thou canst not see my face: for man shall not see me, & live"
+     },
+     "note": "'God no man hath seen at any time' stands on the word spoken to Moses: 'man shall not see me, and live' — which is why the only-begotten Son, not a vision, is the declaration of the Father."
     }
    ]
   },
@@ -5332,6 +5616,15 @@
       "target": "having an handmaid, an Ægyptian named Agar"
      },
      "note": "Paul's allegory takes its figure from Genesis' plain introduction: Sarai's Egyptian handmaid, named Agar."
+    },
+    {
+     "target": "Exodus 19:20",
+     "kind": "theme",
+     "evidence": {
+      "source": "are the two testaments. The one from mount Sina, gendering unto bondage; which is Agar",
+      "target": "our Lord descended upon the mount Sinai"
+     },
+     "note": "Paul's allegory of the two covenants turns entirely on Sinai as the mountain where the covenant 'gendering unto bondage' was given — the descent of the Lord upon the mount in Exodus 19."
     }
    ],
    "4:28": [
@@ -5343,6 +5636,17 @@
       "target": "she conceived & bare a son in her old age, at the time that God had foretold her"
      },
      "note": "To be children of promise 'according to Isaac' is to be born as Isaac was: by promise, at the time God foretold, to parents in their old age."
+    }
+   ],
+   "3:17": [
+    {
+     "target": "Exodus 12:40",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Law which was made after four hundred and thirty years",
+      "target": "that they abode in Ægypt, was four hundred thirty years"
+     },
+     "note": "Paul's whole argument from chronology hangs on Exodus' own figure: the sojourn was four hundred thirty years, and the Law came after."
     }
    ]
   },
@@ -5367,6 +5671,39 @@
       "target": "the other came forth: and the woman said: Why is the partition divided for thee? And for this cause called his name Phares"
      },
      "note": "Matthew's genealogy keeps Thamar and her twins in the royal line: Phares, named for the partition divided at his birth."
+    }
+   ],
+   "2:20": [
+    {
+     "target": "Exodus 4:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they are dead that sought the life of the child",
+      "target": "they are all dead that sought thy life"
+     },
+     "note": "The angel's word to Joseph repeats, nearly word for word, God's word to Moses in Madian; Matthew draws the parallel between the two children himself."
+    }
+   ],
+   "15:4": [
+    {
+     "target": "Exodus 21:17",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He that shall curse father or mother, dying let him die",
+      "target": "He that curseth his father, or mother, dying let him die"
+     },
+     "note": "The Lord quotes the law of the cursing child in its own words, beside the fifth commandment (which the seed already carries at 20:12)."
+    }
+   ],
+   "17:23": [
+    {
+     "target": "Exodus 30:13",
+     "kind": "theme",
+     "evidence": {
+      "source": "there came they that received the didrachmes",
+      "target": "half a sicle according to the measure of the temple. A sicle hath twenty oboles. The half part of a sicle shall be offered to the Lord"
+     },
+     "note": "The didrachma the collectors seek from the Lord is the half-shekel first imposed at the numbering in Exodus — every man's ransom 'offered to the Lord'; the Lord's answer turns on who truly owes it. (In this corpus the collectors' question stands at Matthew 17:23.)"
     }
    ]
   },
@@ -5402,6 +5739,134 @@
       "target": "All the souls of the house of Jacob, that entered into Ægypt, were seventy"
      },
      "note": "Stephen reckons the kindred at seventy-five souls, following the Greek reckoning; Genesis as here printed numbers the house that entered Egypt at seventy."
+    },
+    {
+     "target": "Exodus 1:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "called thither Jacob his father and all his kindred in seventy five souls",
+      "target": "all the souls that came out of Jacob's thigh were seventy"
+     },
+     "note": "Stephen counts the kindred at seventy-five souls, following the Greek reckoning; Exodus counts seventy. The difference is printed openly in both texts, not smoothed over."
+    }
+   ],
+   "7:18": [
+    {
+     "target": "Exodus 1:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "another king arose in Ægypt, that knew not Joseph",
+      "target": "there arose a new king over Ægypt, that knew not Joseph"
+     },
+     "note": "Stephen's history begins where Exodus begins: a new king in Egypt who did not know Joseph."
+    }
+   ],
+   "7:21": [
+    {
+     "target": "Exodus 2:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Pharao's daughter took him up, and nourished him for her own son",
+      "target": "Whom she adopted into the place of a son"
+     },
+     "note": "Stephen: Pharaoh's daughter took the exposed child up and nourished him as her own son; Exodus: she adopted him into the place of a son."
+    }
+   ],
+   "7:27": [
+    {
+     "target": "Exodus 2:14",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Who hath appointed thee prince and judge over us",
+      "target": "Who hath appointed thee Prince and Judge over us?"
+     },
+     "note": "Stephen quotes the Hebrew workman's rebuff of Moses word for word."
+    }
+   ],
+   "7:35": [
+    {
+     "target": "Exodus 2:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "whom they denied, saying: Who hath appointed thee prince and Captain?",
+      "target": "Who hath appointed thee Prince and Judge over us?"
+     },
+     "note": "Stephen re-deploys the question against his hearers: the Moses they denied with these words is the one God sent as prince and redeemer. The Acts text here prints 'Captain' where 7:27 has 'judge'."
+    }
+   ],
+   "7:29": [
+    {
+     "target": "Exodus 2:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Moyses fled upon this word: and he became a sojourner in the land of Madian",
+      "target": "who flying from his sight, abode in the Land of Madian"
+     },
+     "note": "Moses' flight from Pharaoh's sight and his sojourning in Madian, retold by Stephen."
+    }
+   ],
+   "7:33": [
+    {
+     "target": "Exodus 3:5",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Loose off the shoe of thy feet, for the place wherein thou standest, is holy ground",
+      "target": "loose off thy shoe from thy feet: for the place wherein thou standest is holy ground"
+     },
+     "note": "Stephen quotes the word at the bush: the shoe loosed, the ground holy."
+    }
+   ],
+   "7:32": [
+    {
+     "target": "Exodus 3:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I am the God of thy fathers; the God of Abraham, the God of Isaac, and the God of Jacob",
+      "target": "I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob"
+     },
+     "note": "Stephen quotes God's self-naming at the bush, 'thy fathers' for Exodus' 'thy father'."
+    }
+   ],
+   "7:34": [
+    {
+     "target": "Exodus 3:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Seeing I have seen the affliction of my people which is in Ægypt, and I have heard their groaning",
+      "target": "I have seen the affliction of my people in Ægypt, and I have heard their cry"
+     },
+     "note": "Stephen quotes the opening of the call: God has seen the affliction and heard the cry (his 'descended to deliver' is 3:8)."
+    },
+    {
+     "target": "Exodus 3:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "And now come, and I will send thee into Ægypt",
+      "target": "come, and I will send thee to Pharao"
+     },
+     "note": "The same verse of Stephen quotes the commission itself: 'come, and I will send thee' — in Exodus, to Pharaoh; in Stephen's retelling, into Egypt."
+    }
+   ],
+   "13:17": [
+    {
+     "target": "Exodus 6:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in a mighty arm brought them out thereof",
+      "target": "redeem you in a high arm, and great judgments"
+     },
+     "note": "Paul at Antioch: God brought Israel out 'in a mighty arm' — Exodus' own word for the redemption, 'in a high arm, and great judgments'."
+    }
+   ],
+   "7:41": [
+    {
+     "target": "Exodus 32:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they made a calf in those days, and offered sacrifice to the idol",
+      "target": "made of them a molten calf. And they said: These are thy gods Israel"
+     },
+     "note": "Stephen's indictment: in those days they made the calf and offered sacrifice to the idol, as Exodus tells it."
     }
    ]
   },
@@ -5415,6 +5880,61 @@
       "target": "rained upon Sodome and Gomorre brimstone & fire from our Lord out of heaven"
      },
      "note": "The Lord makes Sodom — the city rained on with fire — the measure of tolerableness in the day of judgment."
+    }
+   ],
+   "1:68": [
+    {
+     "target": "Exodus 3:16",
+     "kind": "theme",
+     "evidence": {
+      "source": "he hath visited and wrought the redemption of his people",
+      "target": "Visiting I have visited you: and I have seen all things that have chanced to you in Ægypt"
+     },
+     "note": "In Exodus, God's 'visiting' his people is their redemption out of Egypt; Zacharias blesses the same visitation come again: he 'hath visited and wrought the redemption of his people'."
+    }
+   ],
+   "11:20": [
+    {
+     "target": "Exodus 8:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "if I in the finger of God",
+      "target": "This is the finger of God"
+     },
+     "note": "The magicians' confession over the plagues — 'This is the finger of God' — is the phrase the Lord takes up for his casting out of devils."
+    }
+   ],
+   "9:31": [
+    {
+     "target": "Exodus 12:11",
+     "kind": "theme",
+     "evidence": {
+      "source": "they told his decease that he should accomplish in Jerusalem",
+      "target": "it is the Phase (that is the Passage) of the Lord"
+     },
+     "note": "On the mountain Moses himself, with Elias, speaks with Jesus of his 'decease' — in the Greek, his exodus — to be accomplished in Jerusalem: the Lord's death named as the true Passage, of which the paschal night was the figure."
+    }
+   ],
+   "22:19": [
+    {
+     "target": "Exodus 12:14",
+     "kind": "theme",
+     "evidence": {
+      "source": "Do this for a commemoration of me",
+      "target": "you shall have this day for a monument: & you shall celebrate it solemn to the Lord"
+     },
+     "note": "The Lord institutes his own memorial at the Passover table: 'Do this for a commemoration of me' answers the day Exodus appointed to be kept 'for a monument' in every generation."
+    }
+   ],
+   "12:35": [
+    {
+     "target": "Exodus 12:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Let your loins be girded",
+      "target": "You shall gird your reins, and you shall have shoes on your feet, holding staves in your hands, and you shall eat speedily"
+     },
+     "note": "The watchful servants of the parable wear the Passover's own posture — loins girt, in the night, ready for the Lord's coming."
     }
    ]
   },
@@ -5452,6 +5972,658 @@
       "target": "for this cause called his name Phares"
      },
      "note": "The blessing on Booz's house names its own ancestor: Phares, whom Thamar bare to Judas, named for the breach at his birth."
+    }
+   ]
+  },
+  "Psalms": {
+   "104:25": [
+    {
+     "target": "Exodus 1:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He turned their heart that they hated his people: and to work guile toward his servants",
+      "target": "Come, let us wisely oppress the same, lest perhaps it multiply"
+     },
+     "note": "The psalm reads Egypt's oppression as God's turning of their heart; its 'work guile' answers the king's 'let us wisely oppress' — the same craft, seen from heaven's side."
+    }
+   ],
+   "104:37": [
+    {
+     "target": "Exodus 12:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he brought them forth with gold and silver",
+      "target": "they asked of the Ægyptians vessels of silver and gold"
+     },
+     "note": "The psalm's Exodus litany: God brought Israel forth laden with the silver and gold they had asked of the Egyptians."
+    }
+   ],
+   "105:12": [
+    {
+     "target": "Exodus 14:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they believed his words: and they sang his praises",
+      "target": "the people feared our Lord, and they believed our Lord, and Moyses his servant"
+     },
+     "note": "The psalm compresses the shore of the sea into one line: they believed — as Exodus says, 'the people feared our Lord, and they believed' — and then they sang."
+    }
+   ],
+   "117:14": [
+    {
+     "target": "Exodus 15:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Our Lord is my strength, and my praise: and he is made my salvation",
+      "target": "My strength, and my praise is our Lord, and he is made unto me a salvation"
+     },
+     "note": "The Hallel psalm takes the song of Moses for its own line, word for word with only the order turned."
+    }
+   ],
+   "117:16": [
+    {
+     "target": "Exodus 15:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The right hand of our Lord hath wrought strength",
+      "target": "Thy right hand, o Lord, is magnified in strength"
+     },
+     "note": "The same psalm's triple 'the right hand of our Lord' answers the song's 'Thy right hand, o Lord, is magnified in strength'."
+    }
+   ],
+   "77:54": [
+    {
+     "target": "Exodus 15:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he brought them into the mount of his sanctification",
+      "target": "bring them in, and plant them in the mountain of thy inheritance, in thy most firm habitation, which thou hast wrought, o Lord: thy sanctuary Lord, which thy hands have confirmed"
+     },
+     "note": "The psalm's history ends where the song pointed: God bringing his people in and planting them in the mountain of his sanctuary."
+    }
+   ],
+   "77:24": [
+    {
+     "target": "Exodus 16:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And he rained them Manna to eat, and bread of heaven he gave to them",
+      "target": "Behold I will rain you bread from heaven"
+     },
+     "note": "The psalm takes God's verb for its own: as God said 'I will rain you bread from heaven', so 'he rained them manna to eat'."
+    }
+   ],
+   "94:9": [
+    {
+     "target": "Exodus 17:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "As in the provocation according to the day of the tentation in the desert: where your fathers tempted me",
+      "target": "he called the name of that place, Temptation, because of the chiding of the children of Israel, and for that they tempted our Lord, saying: Is the Lord among us or not?"
+     },
+     "note": "The psalm's 'day of temptation in the desert' is the place Exodus itself names Temptation — Massa — where Israel said, 'Is the Lord among us or not?'"
+    }
+   ],
+   "105:19": [
+    {
+     "target": "Exodus 32:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they made a calf in Horeb: and they adored the sculptile",
+      "target": "he formed them by founder's work, and made of them a molten calf"
+     },
+     "note": "The psalm of Israel's rebellions: 'they made a calf in Horeb, and they adored the sculptile' — Aaron's molten calf of Exodus 32."
+    }
+   ],
+   "102:8": [
+    {
+     "target": "Exodus 34:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord is pitiful, and merciful: long suffering, and very merciful",
+      "target": "merciful and clement, patient and of much compassion"
+     },
+     "note": "The psalm of thanksgiving opens its praise with the Sinai formula: 'Our Lord is pitiful and merciful, long suffering and very merciful'."
+    }
+   ]
+  },
+  "Deuteronomy": {
+   "4:20": [
+    {
+     "target": "Exodus 1:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "brought out of the iron furnace of Ægypt",
+      "target": "the hard works of clay and brick"
+     },
+     "note": "Deuteronomy's 'iron furnace of Egypt' is the brick-kiln bondage of Exodus 1 named in a single image."
+    }
+   ],
+   "33:16": [
+    {
+     "target": "Exodus 3:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The blessing of him, that appeared in the bush",
+      "target": "appeared to him in a flame of fire out of the midst of a bush"
+     },
+     "note": "In Moses' blessing of Joseph, God is named simply as him 'that appeared in the bush' — the theophany of Exodus 3 become one of his titles."
+    }
+   ],
+   "6:8": [
+    {
+     "target": "Exodus 13:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou shalt bind them as a sign on thy hand, and they shall be and shall move between thine eyes",
+      "target": "it shall be as a sign in thy hand, and as a monument before thine eyes"
+     },
+     "note": "The sign upon the hand and the monument before the eyes were first appointed for the memorial of the Exodus; Deuteronomy binds the words of the Law itself with the same sign."
+    }
+   ],
+   "8:16": [
+    {
+     "target": "Exodus 16:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and fed thee with Manna in the wilderness, which thy fathers knew not",
+      "target": "Man-hu! Which signifieth: What is this! For they knew not what it was"
+     },
+     "note": "Deuteronomy's recital: God fed Israel 'with manna, which thy fathers knew not' — Exodus records the not-knowing itself: 'Man-hu — what is this? for they knew not what it was'."
+    }
+   ],
+   "8:15": [
+    {
+     "target": "Exodus 17:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "who brought forth rivers out of the hardest rock",
+      "target": "thou shalt strike the rock, & water shall go out thereof"
+     },
+     "note": "Deuteronomy's recital of the wilderness: God 'brought forth rivers out of the hardest rock' — the rock of Horeb, struck at God's command."
+    }
+   ],
+   "6:16": [
+    {
+     "target": "Exodus 17:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Thou shalt not tempt the Lord thy God, as thou didst tempt him in the place of tentation",
+      "target": "he called the name of that place, Temptation"
+     },
+     "note": "'Thou shalt not tempt the Lord thy God, as thou didst tempt him in the place of temptation' — Deuteronomy turns the named place of Exodus 17 into a standing commandment."
+    }
+   ],
+   "25:19": [
+    {
+     "target": "Exodus 17:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou shalt destroy his name under heaven",
+      "target": "I will destroy the memory of Amalec from under heaven"
+     },
+     "note": "The blot-out command is repeated at the end of the Law in nearly Exodus' words: what God swore at Rephidim, Israel is charged to perform in the land."
+    }
+   ],
+   "1:13": [
+    {
+     "target": "Exodus 18:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Give from among you wise and skillful men, and such whose conversation is approved in your tribes, that I may appoint them your princes",
+      "target": "provide out of all the people men that are wise, & do fear God, in whom there is truth, and that do hate avarice, and appoint of them tribunes, and centurions"
+     },
+     "note": "Moses' own retelling of the appointment of rulers: the wise men of Jethro's counsel become, in Deuteronomy, the heads chosen from the tribes."
+    }
+   ],
+   "32:11": [
+    {
+     "target": "Exodus 19:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath he spread his wings, and he hath taken him, and carried him on his shoulders",
+      "target": "I have carried you upon the wings of eagles"
+     },
+     "note": "The Song of Moses takes up God's Sinai word and makes it a picture: as the eagle carries her young, 'I have carried you upon the wings of eagles'."
+    }
+   ],
+   "5:6": [
+    {
+     "target": "Exodus 20:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I the Lord thy God, that brought thee out of the Land of Ægypt out of the house of servitude",
+      "target": "which brought thee forth out of the Land of Ægypt, out of the house of servitude"
+     },
+     "note": "Deuteronomy 5 repeats the Decalogue of Exodus 20 entire, on the plains of Moab a generation later; the preface stands word for word at the head of both givings."
+    }
+   ],
+   "18:16": [
+    {
+     "target": "Exodus 20:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as thou didst request of our Lord thy God in Horeb, when the assembly was gathered, and saidst: I will no more hear the voice of our Lord my God, and this exceeding great fire I will see no more, lest I die",
+      "target": "let not our Lord Speak to us, lest perhaps we die"
+     },
+     "note": "The promise of the prophet is grounded in Israel's plea at Horeb: 'let not our Lord speak to us, lest perhaps we die' — Deuteronomy quotes the plea back as the reason God will speak through a mediator."
+    }
+   ],
+   "10:19": [
+    {
+     "target": "Exodus 23:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And do you therefore love strangers because you also were strangers in the Land of Ægypt",
+      "target": "for you know the hearts of strangers: because yourselves also were strangers in the Land of Ægypt"
+     },
+     "note": "The motive is Exodus' own, repeated verbatim: love the stranger, 'because yourselves also were strangers in the land of Egypt'."
+    }
+   ],
+   "9:10": [
+    {
+     "target": "Exodus 31:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "two tables of stone written with the finger of God",
+      "target": "two stone tables of testimony, written with the finger of God"
+     },
+     "note": "Moses' retelling keeps the phrase entire: the tables were 'written with the finger of God' (the gift itself is Exodus 31:18; Exodus 32:16 says the same of the first tables)."
+    }
+   ],
+   "9:17": [
+    {
+     "target": "Exodus 32:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I cast the tables out of my hands, and brake them in your sight",
+      "target": "he threw the tables out of his hand, and brake them at the foot of the mount"
+     },
+     "note": "Moses' own retelling of the breaking of the tables at the foot of the mount."
+    }
+   ],
+   "9:21": [
+    {
+     "target": "Exodus 32:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "your sin that you had committed, that is, the calf, I took, and burnt it with fire, and breaking it into pieces, and bringing it wholly into dust, I threw it into the torrent",
+      "target": "he burnt it, & beat it into powder, which he strawed into water, and gave thereof drink to the children of Israel"
+     },
+     "note": "The calf's destruction retold by Moses: burnt, ground to powder, and strawed on water — in Exodus, water the children of Israel were made to drink."
+    }
+   ],
+   "33:9": [
+    {
+     "target": "Exodus 32:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He that said to his father and to his mother: I know you not; and to his brethren: I know you not",
+      "target": "every man kill his brother, and friend, and neighbour"
+     },
+     "note": "Levi's blessing is the wage of the calf: the Levites who, at Moses' word, knew neither brother nor friend nor neighbour are blessed as the tribe that 'said to his father and mother, I know you not'."
+    }
+   ],
+   "34:10": [
+    {
+     "target": "Exodus 33:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there rose no more a Prophet in Israel as Moyses, whom our Lord had known face to face",
+      "target": "spake unto Moyses face to face"
+     },
+     "note": "The epitaph of Moses measures all prophecy after him by Exodus' word: the Lord knew him 'face to face'."
+    }
+   ],
+   "10:1": [
+    {
+     "target": "Exodus 34:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Hew thee two tables of stones, as the former were",
+      "target": "Cut thee two tables of stone like unto the former"
+     },
+     "note": "The second tables in Moses' retelling: 'hew thee two tables of stones, as the former were', as God commanded after the breaking."
+    }
+   ]
+  },
+  "Osee": {
+   "11:1": [
+    {
+     "target": "Exodus 4:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "out of Ægypt I called my son",
+      "target": "My first-begotten son is Israel"
+     },
+     "note": "God called Israel 'my first-begotten son' in Exodus; Osee looks back: 'out of Egypt I called my son'."
+    }
+   ],
+   "13:4": [
+    {
+     "target": "Exodus 20:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "But I the Lord thy God out of the Land of Ægypt: and God beside me thou shalt not know, and there is no Saviour beside me",
+      "target": "I am the Lord thy God, which brought thee forth out of the Land of Ægypt"
+     },
+     "note": "Osee re-utters the Decalogue's preface as accusation: 'I the Lord thy God out of the land of Egypt — and God beside me thou shalt not know'."
+    }
+   ]
+  },
+  "1 Peter": {
+   "1:19": [
+    {
+     "target": "Exodus 12:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the precious blood as it were of an immaculate and unspotted Lamb, Christ",
+      "target": "a lamb without spot, a male, of a year old"
+     },
+     "note": "Christ is the 'immaculate and unspotted Lamb'; the paschal lamb of Exodus must be 'a lamb without spot'."
+    }
+   ],
+   "2:9": [
+    {
+     "target": "Exodus 19:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "an elect generation, a kingly priesthood, a holy nation",
+      "target": "you shall be unto me a Priestly Kingdom, and a holy nation"
+     },
+     "note": "Peter transposes Sinai's 'priestly kingdom' into 'kingly priesthood' and keeps 'a holy nation' word for word; his 'people of purchase' carries on 19:5's peculiar people."
+    }
+   ]
+  },
+  "2 Paralipomenon": {
+   "20:17": [
+    {
+     "target": "Exodus 14:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but only stand confidently, & you shall see the help of our Lord over you",
+      "target": "stand, and see the great wonders of our Lord"
+     },
+     "note": "Jahaziel's word to Josaphat replays Moses' word at the sea: stand, fear not, and see what the Lord will do."
+    },
+    {
+     "target": "Exodus 14:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "It shall not be you that shall fight",
+      "target": "Our Lord will fight for you and you shall hold your peace"
+     },
+     "note": "'It shall not be you that shall fight' is Exodus' promise in other words: 'Our Lord will fight for you, and you shall hold your peace'."
+    }
+   ]
+  },
+  "Micheas": {
+   "7:15": [
+    {
+     "target": "Exodus 15:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "According to the days of thy coming forth out of the Land of Ægypt I will shew him marvels",
+      "target": "terrible and laudable, doing marvels"
+     },
+     "note": "God promises Micheas a repetition of the Exodus: 'according to the days of thy coming forth out of Egypt I will shew him marvels' — the song's God is 'doing marvels'."
+    }
+   ],
+   "7:18": [
+    {
+     "target": "Exodus 15:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "What God is like to thee, which takest away iniquity",
+      "target": "Who is like to thee among the strong, o Lord?"
+     },
+     "note": "Micheas opens with the song's own question — 'Who is like to thee?' — and turns it from God's power against Egypt to his taking away of iniquity."
+    }
+   ]
+  },
+  "Josue": {
+   "5:12": [
+    {
+     "target": "Exodus 16:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Manna failed after they did eat of the corn of the Land",
+      "target": "the children of Israel did eat Manna forty years, till they came into the habitable land"
+     },
+     "note": "The manna that began in the desert fails at Gilgal, exactly where Exodus set its term: Israel ate it 'until they touched the borders of the land of Chanaan'."
+    }
+   ],
+   "8:31": [
+    {
+     "target": "Exodus 20:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as Moyses the servant of our Lord had commanded the children of Israel, and it is written in the volume of the law of Moyses: an Altar of unhewed stones which iron hath not touched",
+      "target": "thou shalt not build it of hewed stones: for if thou lift up thy knife over it, it shall be polluted"
+     },
+     "note": "Josue builds the altar on Ebal expressly 'as Moses had commanded... in the volume of the law' — the unhewed stones of Exodus' altar law, on which no iron has been lifted."
+    }
+   ]
+  },
+  "1 Kings": {
+   "15:2": [
+    {
+     "target": "Exodus 17:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have recounted whatsoever Amalec hath done to Israel: how he resisted them in the way when they came up out of Ægypt",
+      "target": "I will destroy the memory of Amalec from under heaven"
+     },
+     "note": "God's 'recounting' of Amalec to Saul is the oath written at Rephidim falling due: the memory of Amalec, sworn to be destroyed from under heaven, is now to be destroyed by Israel's king."
+    }
+   ]
+  },
+  "Aggeus": {
+   "2:6": [
+    {
+     "target": "Exodus 19:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the word that I did covenant with you when you came out of the Land of Ægypt",
+      "target": "If therefore you will hear my voice, and keep my covenant"
+     },
+     "note": "Aggeus steadies the builders by 'the word that I did covenant with you when you came out of the land of Egypt' — the covenant whose terms are 'if you will hear my voice, and keep my covenant'."
+    }
+   ]
+  },
+  "Mark": {
+   "7:10": [
+    {
+     "target": "Exodus 21:17",
+     "kind": "quotation",
+     "evidence": {
+      "source": "He that shall curse father or mother, dying let him die",
+      "target": "He that curseth his father, or mother, dying let him die"
+     },
+     "note": "Mark's form of the same quotation: 'He that shall curse father or mother, dying let him die'."
+    }
+   ]
+  },
+  "Ezechiel": {
+   "1:26": [
+    {
+     "target": "Exodus 24:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as it were the form of the sapphire stone the similitude of a throne",
+      "target": "under his feet as it were a work of sapphire stone"
+     },
+     "note": "On Sinai the elders saw under God's feet 'as it were a work of sapphire stone'; by the Chebar, Ezechiel sees the throne itself in the likeness of sapphire above the firmament."
+    }
+   ],
+   "37:27": [
+    {
+     "target": "Exodus 29:45",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my tabernacle shall be in them: & I will be their God, and they shall be my people",
+      "target": "I will dwell in the midst of the children of Israel & will be their God"
+     },
+     "note": "Ezechiel's restoration promise re-utters the tabernacle's dedication word: 'I will dwell in the midst of the children of Israel, and will be their God'."
+    }
+   ],
+   "20:12": [
+    {
+     "target": "Exodus 31:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "my sabbaths I gave to them, to be a sign between me and them: & that they might know that I am the Lord sanctifying them",
+      "target": "it is a sign between me and you in your generations: that you may know that I am the Lord, which sanctify you"
+     },
+     "note": "Ezechiel re-utters God's Sinai word almost verbatim: the sabbaths given 'to be a sign between me and them, that they might know that I am the Lord sanctifying them'."
+    }
+   ]
+  },
+  "Zacharias": {
+   "14:20": [
+    {
+     "target": "Exodus 28:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "In that day shall that which is upon the bridle of the horse be holy to our Lord",
+      "target": "wherein thou shalt grave after the work of a graver, Holy to the Lord"
+     },
+     "note": "The words graven on the high priest's golden plate — 'Holy to the Lord' — are in Zacharias' last day found upon a horse's bridle: the inscription itself is quoted and spread over all Jerusalem."
+    }
+   ]
+  },
+  "3 Kings": {
+   "12:28": [
+    {
+     "target": "Exodus 32:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Behold thy gods Israel, which brought thee out of the Land of Ægypt",
+      "target": "These are thy gods Israel, that have brought thee out of the land of Ægypt"
+     },
+     "note": "Jeroboam sets up his calves with Aaron's very formula — 'Behold thy gods, Israel, which brought thee out of the land of Egypt' — the apostasy quoting the apostasy."
+    }
+   ],
+   "8:11": [
+    {
+     "target": "Exodus 40:32",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the glory of our Lord had filled the house of our Lord",
+      "target": "the cloud covered the tabernacle of testimony, and the glory of our Lord filled it"
+     },
+     "note": "Solomon's dedication replays the tabernacle's: the cloud, and the glory of the Lord filling the house, so the priests cannot stand. (In this corpus Exodus 40 runs to thirty-six verses; the filling of the tabernacle stands at 40:32.)"
+    }
+   ]
+  },
+  "Numbers": {
+   "12:8": [
+    {
+     "target": "Exodus 33:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "mouth to mouth I speak to him: and plainly, and not by riddles and figures doth he see the Lord",
+      "target": "spake unto Moyses face to face, as a man is wont to speak to his friend"
+     },
+     "note": "God's defence of Moses against Miriam and Aaron rests on Exodus' word: with him he speaks 'mouth to mouth', as at Sinai he spoke 'face to face, as a man is wont to speak to his friend'."
+    }
+   ],
+   "14:18": [
+    {
+     "target": "Exodus 34:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The Lord is patient and full of mercy, taking away iniquity and wicked deeds",
+      "target": "merciful and clement, patient and of much compassion"
+     },
+     "note": "Moses, pleading after the spies, quotes God's own proclamation on Sinai back to him — patient, full of mercy, taking away iniquity; the quotation runs on into 34:7, to the visiting of the fathers' sins upon the children."
+    }
+   ]
+  },
+  "2 Esdras": {
+   "9:17": [
+    {
+     "target": "Exodus 34:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou a propitious God, & gracious, and merciful, long suffering and of much compassion, didst not forsake them",
+      "target": "merciful and clement, patient and of much compassion"
+     },
+     "note": "The Levites' great prayer confesses Israel's rebellion in the words of the proclamation: a God 'propitious, gracious and merciful, long suffering and of much compassion', who did not forsake them."
+    }
+   ]
+  },
+  "Joel": {
+   "2:13": [
+    {
+     "target": "Exodus 34:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because he is benign & merciful, patient and of much mercy",
+      "target": "merciful and clement, patient and of much compassion"
+     },
+     "note": "Joel summons Israel to return on the strength of the proclamation: 'he is benign and merciful, patient and of much mercy'."
+    }
+   ]
+  },
+  "Jonas": {
+   "4:2": [
+    {
+     "target": "Exodus 34:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I know that thou art a clement, and merciful God, patient, and of much compassion, and forgiving upon the evil",
+      "target": "merciful and clement, patient and of much compassion"
+     },
+     "note": "Jonas quotes the proclamation back at God as a complaint — 'I know that thou art a clement and merciful God, patient and of much compassion' — the formula almost word for word, turned into a grievance that Nineveh was spared."
+    }
+   ]
+  },
+  "Nahum": {
+   "1:3": [
+    {
+     "target": "Exodus 34:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord is patient, and great of strength, and cleansing, he will not make innocent",
+      "target": "no man of himself is innocent before thee"
+     },
+     "note": "Nahum takes the proclamation's severe edge: the Lord is patient, but 'cleansing, he will not make innocent' — Exodus: 'no man of himself is innocent before thee'."
+    }
+   ],
+   "1:2": [
+    {
+     "target": "Exodus 34:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God is jealous, & our Lord revenging",
+      "target": "The Lord his name is Jealous, God is an emulator"
+     },
+     "note": "Nahum's God 'is jealous' — Exodus gives the jealousy a name: 'The Lord, his name is Jealous'."
+    }
+   ]
+  },
+  "2 Corinthians": {
+   "3:7": [
+    {
+     "target": "Exodus 34:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the children of Israel could not behold the face of Moyses for the glory of his countenance",
+      "target": "seeing the face of Moyses horned, they were afraid to come near"
+     },
+     "note": "Paul: the children of Israel 'could not behold the face of Moses for the glory of his countenance'; Exodus: seeing Moses' face — the DR prints 'horned', for the Vulgate's word — 'they were afraid to come near'."
+    }
+   ],
+   "3:16": [
+    {
+     "target": "Exodus 34:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "when he shall be converted to our Lord, the veil shall be taken away",
+      "target": "Which going in to our Lord, and speaking with him, he took away until he went forth"
+     },
+     "note": "Paul reads Moses' own act spiritually: as Moses, going in before the Lord, took away the veil (named at 34:33 and 34:35) until he came forth, so 'when he shall be converted to the Lord, the veil shall be taken away'."
     }
    ]
   }
