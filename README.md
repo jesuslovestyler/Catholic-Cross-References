@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.15.0 — Isaias, Jeremias, Lamentations, Ezechiel, and Daniel chapters 1-12 only
+
+**Isaias, Jeremias, Lamentations, Ezechiel, and Daniel chapters 1-12 only — 143 new references** (16 parallel, 96 allusion, 27 quotation, 4 theme). `our-references.json` now holds **1277 references** (348 parallel, 751 allusion, 120 quotation, 58 theme).
+
+The great citations are completed verse by verse where the seed carried only their opening: Matthew's long Servant citation at Isaias 42:2–4, Luke's Nazareth reading at 61:2 and 58:6, the Ethiopian's second verse at 53:8, and Hebrews 8's new-covenant citation at Jeremias 31:32, 31:33 and 31:34; Daniel's Son of man is likewise gathered at every uncarried coming — Matthew 24:30, Luke 21:27, Acts 7:55, and the Apocalypse's 1:7, 1:13 and 14:14 — while John's closing visions take up Ezechiel's river and tree of life (47:1, 47:12) and Daniel's opened books and judgement given to the saints. The gaps are stated plainly: Lamentations yields a single new entry (3:30 → Isaias 50:6), its chapters 2 and 5 nothing that survives checking, and whole runs of Isaias, Jeremias, Ezechiel and Daniel — Daniel 13–14 and the additions not redone, having been completed at stage 2 — are left empty rather than padded; Matthew 2:23's Nazarene saying and John 7:38's unnamed citation were refused, because no verse in this corpus prints the words they claim. No draft entry was removed at merge: every one of the 143 verified against the text and none collided with a pair an earlier group of this run had already carried.
+
 ## Version 0.14.0 — Job, Proverbs, Ecclesiastes, Canticle of Canticles
 
 **Job, Proverbs, Ecclesiastes, Canticle of Canticles — 80 new references** (6 parallel, 64 allusion, 9 quotation, 1 theme). `our-references.json` now holds **1134 references** (332 parallel, 655 allusion, 93 quotation, 54 theme).
