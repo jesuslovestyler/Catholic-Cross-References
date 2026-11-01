@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.11.0",
- "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, and 2 Kings. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.12.0",
+ "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, and the Hebrew chapters of Esther. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 862,
+  "references": 962,
   "by_kind": {
-   "parallel": 255,
-   "allusion": 517,
-   "quotation": 38,
-   "theme": 52
+   "parallel": 303,
+   "allusion": 560,
+   "quotation": 46,
+   "theme": 53
   },
-  "source_books": 59,
-  "source_verses": 771
+  "source_books": 60,
+  "source_verses": 870
  },
  "references": {
   "Wisdom": {
@@ -1330,6 +1330,26 @@
      },
      "note": "Hebrews' roll names Samuel among the prophets of faith; his book's own verdict is that all Israel knew him a faithful prophet. The judges named with him in the same verse (Gedeon, Barac, Sampson, Jephte) are carried by this group's other entries rather than by separate name-only keys."
     }
+   ],
+   "11:35": [
+    {
+     "target": "3 Kings 17:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "women received of resurrection their dead",
+      "target": "the soul of the child returned into him, and he revived."
+     },
+     "note": "The first of the two raisings Hebrews sums up in a clause: the widow of Sarepta receives her son alive at Elias's prayer."
+    },
+    {
+     "target": "4 Kings 4:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "women received of resurrection their dead",
+      "target": "Call this Sunamite. Who being called, went in unto him: Who said: Take thy son."
+     },
+     "note": "The second raising behind the same clause of Hebrews: Eliseus gives the Sunamite her son back. Keyed beside the Sarepta entry, not merged into it."
+    }
    ]
   },
   "Romans": {
@@ -1496,6 +1516,17 @@
       "target": "I will raise up thy seed after thee, which shall come forth of thy womb, and I will establish his Kingdom."
      },
      "note": "Paul opens Romans with the Son made of the seed of David according to the flesh; Nathan's oracle is the promise that fixes that seed: I will raise up thy seed after thee, and establish his kingdom. Graded allusion: Paul names the line, Nathan promises it."
+    }
+   ],
+   "11:4": [
+    {
+     "target": "3 Kings 19:18",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I have left me seven thousand men, that have not bowed their knees to Baal?",
+      "target": "I will leave me in Israel seven thousand men, whose knees have not been bowed before Baal"
+     },
+     "note": "Paul quotes the divine answer given on Horeb. The seed carries Romans 11:3 to Elias's complaint (19:10); the answer half was unkeyed."
     }
    ]
   },
@@ -3893,6 +3924,17 @@
      },
      "note": "Judas musters his army by Deuteronomy's exemptions, 'according to the law': the house-builder (20:5), the vineyard-planter (20:6), the man who has despoused a wife (this verse), and the fearful (20:8). The seed carries 1 Machabees 3:56 only at chapter level (Deuteronomy 20)."
     }
+   ],
+   "7:41": [
+    {
+     "target": "4 Kings 19:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "an angel came forth, and struck of them an hundred eighty five thousand:",
+      "target": "struck in the camp of the Assyrians an hundred eighty five thousand."
+     },
+     "note": "Judas's general prays the Sennacherib deliverance back to God, number and all. The seed carries this verse only at chapter level (4 Kings 19)."
+    }
    ]
   },
   "2 Machabees": {
@@ -4247,6 +4289,116 @@
       "target": "Thou hast turned my mourning into joy unto me"
      },
      "note": "The edict proclaims in the psalm's phrase what Mardochaeus's prayer had begged: the day of mourning turned into joy."
+    }
+   ],
+   "2:6": [
+    {
+     "target": "4 Kings 24:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "who had been transported from Jerusalem the same time that Nabuchodonosor the king of Babylon transported Jechonias the king of Juda,",
+      "target": "He transported also Joachin into Babylon"
+     },
+     "note": "Mardochai's exile is dated by Kings' own event: the transporting of Jechonias, whom Kings names Joachin. The seed carries Esther 2:6 only at chapter level (4 Kings 24)."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "1 Kings 15:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Aman the son of Amadathi, which was of the stock of Agag:",
+      "target": "he apprehended Agag the king of Amalec alive:"
+     },
+     "note": "Aman is introduced by his stock: Agag, the Amalecite king Saul spared and Samuel hewed. The old unfinished war stands behind the new plot against the Jews."
+    }
+   ],
+   "3:12": [
+    {
+     "target": "3 Kings 21:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "it was written, as Aman had commanded, to all the king's lieutenants, and judges of the Provinces, and of diverse nations, as every nation could read, and hear according to the variety of languages, in the name of king Assuerus: and the letters signed with his ring,",
+      "target": "She therefore wrote letters in the name of Achab, and signed them with his ring, and sent to the ancients, and the chief men that were in his city"
+     },
+     "note": "Twice a destruction is set in motion by letters written in a king's name and sealed with a king's ring by another's hand: Jezabel's against Naboth, Aman's against a whole people. Esther's own counter-letters, signed with the same ring, are the reversal inside the book."
+    }
+   ],
+   "4:3": [
+    {
+     "target": "Jonas 3:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "there was great mourning with the Jews, fasting, howling, and weeping, many using sack-cloth and ashes for their couch.",
+      "target": "he rose up out of his throne, and cast away his garment from him, and was clothed with sackcloth, and sat in ashes."
+     },
+     "note": "Sackcloth and ashes under a royal death decree, in Susan and in Ninive: the mourning of a people fasting against a sentence. Graded parallel — the posture and words are shared, no line is borrowed."
+    }
+   ],
+   "6:1": [
+    {
+     "target": "Daniel 6:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "That night the king passed without sleep, and he commanded the histories and chronicles of former times to be brought him.",
+      "target": "sleep departed from him."
+     },
+     "note": "Two Persian kings kept awake on the night that decides a Hebrew's fate: Darius sleepless over Daniel in the den, Assuerus sleepless into the chronicles that honour Mardochai. Graded parallel, on the sleepless night and what it turns."
+    }
+   ],
+   "6:9": [
+    {
+     "target": "Genesis 41:43",
+     "kind": "parallel",
+     "evidence": {
+      "source": "let the chief of the king's Princes and nobles hold his horse and going through the street of the city, cry and say: So shall he be honoured, whomsoever the king will honour.",
+      "target": "he made him go up into his second chariot, the crier proclaiming that all should bow their knee before him"
+     },
+     "note": "The honour Aman designs for himself is Joseph's honour at Pharaoh's court: mounted, led through the city, a crier going before. Mardochai receives it within the chapter."
+    }
+   ],
+   "7:10": [
+    {
+     "target": "Proverbs 26:27",
+     "kind": "theme",
+     "evidence": {
+      "source": "Aman therefore was hanged on the gibbet, which he had prepared for Mardocheus",
+      "target": "He that diggeth a pit, shall fall into it"
+     },
+     "note": "Graded theme, honestly: no wording is borrowed, but the proverb is the plot — the device prepared for another becomes its maker's own gallows, as the pit swallows its digger."
+    }
+   ],
+   "8:2": [
+    {
+     "target": "Genesis 41:42",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the king took the ring, which he had commanded to be taken again from Aman, and delivered it to Mardocheus.",
+      "target": "he took his ring from his own hand, and gave it into his hand: and he put upon him a silk robe"
+     },
+     "note": "The signet passes to the Hebrew vizier in both courts: Pharaoh's ring to Joseph, Assuerus's ring — taken back from Aman — to Mardochai, who goes out robed in the next verses as Joseph was robed."
+    }
+   ],
+   "9:22": [
+    {
+     "target": "Psalms 29:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "mourning and sorrow were turned into mirth and joy",
+      "target": "Thou hast turned my mourning into joy unto me"
+     },
+     "note": "Purim's charter is the psalm's sentence turned from one man's deliverance to a people's: mourning turned into joy. Our layer keys the Greek additions' echoes of the same line (13:17, 16:21); the Hebrew chapter's own line was unkeyed."
+    }
+   ],
+   "1:19": [
+    {
+     "target": "Daniel 6:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "let it be written according to the law of the Persians and of Medes, which is not lawful to be transgressed,",
+      "target": "the law of Medes and Persians is, that every decree, which the king hath determined, is not lawful to be changed."
+     },
+     "note": "The irrevocable law of the Medes and Persians is stated in both courts in the same terms — in Esther it deposes Vasthi and later binds the king against his own decree for the Jews; in Daniel it binds Darius against Daniel."
     }
    ]
   },
@@ -5699,6 +5851,28 @@
      },
      "note": "The hire kept back is Leviticus' exact case — the hireling's wage held past its day. James hears the withheld wage itself crying out. Malachias names the same offence from the same verse (entered separately); Tobias 4:15's wage rule is own-carried."
     }
+   ],
+   "5:17": [
+    {
+     "target": "3 Kings 17:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "with prayer he prayed that it might not rain upon the earth, and it rained not for three years and six months.",
+      "target": "if there shall be these years dew and rain, but according to the words of my mouth."
+     },
+     "note": "James reads the drought oracle as Elias's prayer. The seed carries James 5:17 only at chapter level (3 Kings 17); this is the verse anchor, not a collision."
+    }
+   ],
+   "5:18": [
+    {
+     "target": "3 Kings 18:45",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And he prayed again: and the heaven gave rain",
+      "target": "there fell great rain."
+     },
+     "note": "The seed keys James 5:18 to 3 Kings 18:41, Elias on Carmel praying; the rain's falling, which James reports, stands at 18:45."
+    }
    ]
   },
   "Ecclesiastes": {
@@ -6022,6 +6196,28 @@
      },
      "note": "The last book of Scripture seals itself with the law's own seal: you shall not add to the word. Deuteronomy speaks the command twice (here, and at 12:32); the first stands as the anchor. Proverbs 30:6's 'add not to his words' is set aside — it cannot be told apart between the twin commands."
     }
+   ],
+   "11:6": [
+    {
+     "target": "3 Kings 17:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "These have power to shut heaven, that it rain not in the days of their prophecy",
+      "target": "if there shall be these years dew and rain, but according to the words of my mouth."
+     },
+     "note": "The two witnesses wield Elias's own sign: heaven shut against rain for the days of their prophecy, as it was shut at his mouth."
+    }
+   ],
+   "2:20": [
+    {
+     "target": "3 Kings 16:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou permittest the woman Jezabel, who calleth herself a prophetess, to teach, and to seduce my servants",
+      "target": "he took to wife Jezabel the daughter of Ethbaul the king of the Sidonians. And he went, and served Baal, and adored him."
+     },
+     "note": "Thyatira's prophetess bears the name of Ahab's queen, introduced here as the Sidonian bride who turned Israel to Baal. The seed carries Apocalypse 2:20 only at chapter level (3 Kings 18)."
+    }
    ]
   },
   "Jeremias": {
@@ -6144,6 +6340,39 @@
       "target": "And far from me be this sin in our Lord, that I should cease to pray for you,"
      },
      "note": "God names Samuel, with Moses, as the intercessor who would ordinarily stand before him for the people. Samuel's own vow is exactly that standing: far be it from him to cease to pray for them. Jeremias is told even that prayer would now be refused."
+    }
+   ],
+   "52:13": [
+    {
+     "target": "4 Kings 25:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he burnt the house of our Lord. And the king's house, and all the houses of Jerusalem",
+      "target": "And he burnt the house of our Lord, the king's house, and the houses of Jerusalem"
+     },
+     "note": "Jeremias's closing chapter retells the fall of Jerusalem from Kings; the burning of the house stands in both."
+    }
+   ],
+   "15:4": [
+    {
+     "target": "4 Kings 21:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because of Manasses the son of Ezechias the king of Juda, for all things that he did in Jerusalem.",
+      "target": "Because Manasses the king of Juda hath done these most wicked abominations"
+     },
+     "note": "Jeremias names the cause Kings recorded: Manasses' abominations are why the rage falls a generation later. The seed carries Jeremias 15:4 only at chapter level (4 Kings 21)."
+    }
+   ],
+   "22:8": [
+    {
+     "target": "3 Kings 9:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "every one shall say to his neighbour: Why hath the Lord done so to this great city?",
+      "target": "every one that shall pass by it, shall wonder, and hiss, and say: Why hath the Lord done thus to this land, and to this house?"
+     },
+     "note": "Jeremias preaches the byword the Lord himself pronounced over the finished house. The seed carries Jeremias 22:8 only at chapter level (3 Kings 9)."
     }
    ]
   },
@@ -6346,6 +6575,61 @@
       "target": "Our Lord hath divided mine enemies before me, as waters are divided, therefore the name of the place was called Baal Pharasim."
      },
      "note": "Isaias's strange work is measured by the mount of divisions — Baal Pharasim, the lord of divisions, where David said the Lord divided his enemies as waters are divided, and named the place for it. The valley of Gabaon in the same verse of Isaias belongs to Josue's history; the mount belongs to this verse. The seed carries the pair at chapter level only."
+    }
+   ],
+   "36:1": [
+    {
+     "target": "4 Kings 18:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Sennacherib king of the Assyrians came up against all the fenced cities of Juda, and took them.",
+      "target": "came up Sennacherib the king of Assyrians to all the fenced cities of Juda: and took them."
+     },
+     "note": "Isaias 36-39 retells the Kings history of Ezechias; this is its opening verse against Kings' own. The seed carries the pair only at chapter level (4 Kings 18)."
+    }
+   ],
+   "38:1": [
+    {
+     "target": "4 Kings 20:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Ezechias was sick even to death: and Isaie the son of Amos the Prophet, went in unto him",
+      "target": "Ezechias was sick even to death: & Isaie the son of Amos the prophet came and said to him"
+     },
+     "note": "The sickness oracle in the prophet's own book and in Kings, nearly word for word. The seed carries Isaias 38:1 only at chapter level (4 Kings 20)."
+    }
+   ],
+   "39:1": [
+    {
+     "target": "4 Kings 20:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Merodach Baladan the son of Baladan, king of Babylon, sent letters & gifts to Ezechias",
+      "target": "Berodach Baladan, the son of Baladan, the king of the Babylonians sent letters & gifts to Ezechias"
+     },
+     "note": "The Babylonian embassy in both tellings. The envoy's name is printed Merodach in Isaias and Berodach in Kings, as the corpus stands; the difference is noted, not smoothed."
+    }
+   ],
+   "37:16": [
+    {
+     "target": "4 Kings 19:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "which sittest upon the Cherubs, thou art the only God of all the kingdoms of the earth, thou hast made heaven and earth.",
+      "target": "which sittest upon the cherubins, thou art the only God of all the kings of the earth: thou madest heaven and earth:"
+     },
+     "note": "Ezechias's prayer before the letter, in Isaias's telling and in Kings'. Small wording differences (Cherubs/cherubins, kingdoms/kings) stand as printed."
+    }
+   ],
+   "37:36": [
+    {
+     "target": "4 Kings 19:35",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the Angel of our Lord came forth, and struck in the camp of the Assyrians an hundred eighty five thousand.",
+      "target": "an Angel of our Lord came, and struck in the camp of the Assyrians an hundred eighty five thousand."
+     },
+     "note": "The deliverance itself, in both tellings. Machabees' prayers recalling the same night are keyed to the Kings verse separately."
     }
    ]
   },
@@ -6699,6 +6983,39 @@
      },
      "note": "Matthew refuses Bethsabee's name and calls her her that was the wife of Urias — the genealogy itself points at the adultery. The verse it points to is this one: David bringing Urias's wife into his house after the mourning. Solomon's later birth to her is keyed by the seed at 2 Kings 12:24; the Urias clause belongs here."
     }
+   ],
+   "17:3": [
+    {
+     "target": "4 Kings 2:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "there appeared to them Moyses and Elias talking with him.",
+      "target": "Elias ascended by a hurl wind into heaven."
+     },
+     "note": "Elias appears on the mountain because his earthly exit was not death but being taken up; the parallel rests on that, and shares no wording beyond his name."
+    }
+   ],
+   "23:35": [
+    {
+     "target": "2 Paralipomenon 24:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "unto the blood of Zacharias the son of Barachias, whom you murdered between the temple & the altar.",
+      "target": "they threw stones according to the king's commandment, in the court of the house of our Lord."
+     },
+     "note": "The Zacharias stoned in the temple court is Joiada's son in Chronicles. Stated openly: Matthew names him son of Barachias, Chronicles son of Joiada — the texts are not harmonised here. The seed keys both Matthew 23:35 and Luke 11:51 to the dying words at 24:22; the stoning itself stands at 24:21."
+    }
+   ],
+   "12:42": [
+    {
+     "target": "3 Kings 10:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "she came from the ends of the earth to hear the wisdom of Salomon",
+      "target": "And all the earth desired to see Salomon's face, that they might hear his wisdom, which God had given in his heart."
+     },
+     "note": "The seed keys the queen's coming itself (Matthew 12:42 and Luke 11:31 to 3 Kings 10:1); this anchors the hearing of the wisdom, which is the Lord's own point, in the chapter's summary verse. Luke's telling is set aside as this entry's duplicate."
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -6983,6 +7300,28 @@
      },
      "note": "Paul's sermon says God gave them Saul the son of Cis; Samuel's book introduces him in the same terms, Cis named at 9:1 and his son called Saul at 9:2. The seed carries Acts 13:21 only to two chapters of Judges, a margin's stray; the Saul it names belongs to this book."
     }
+   ],
+   "7:48": [
+    {
+     "target": "3 Kings 8:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "But the Highest dwelleth not in houses made by hand",
+      "target": "if heaven, and the heavens of heavens cannot contain thee, how much more this house, which I have built?"
+     },
+     "note": "Stephen's sentence is Salomon's own dedication confession turned on the temple's defenders: the builder himself said heaven of heavens cannot contain God. Isaias 66:1, which Stephen quotes next, is a separate pair."
+    }
+   ],
+   "2:29": [
+    {
+     "target": "1 Paralipomenon 29:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he died, and was buried; and his sepulchre is with us until this present day.",
+      "target": "And he died in a good old age, full of days, and riches, & glory. And Salomon his son reigned for him."
+     },
+     "note": "Peter's premise — David died and was buried, so the psalm speaks of another — is Chronicles' closing verse on David. The seed carries Acts 2:29 to the Kings death verse (3 Kings 2:10); the Chronicles verse was unkeyed."
+    }
    ]
   },
   "Luke": {
@@ -7171,6 +7510,61 @@
       "target": "my shield, and the horn of my salvation: my lifter up, and my refuge"
      },
      "note": "Zacharias blesses God for erecting the horn of salvation in David's house; the phrase is David's own, from his great song: God is the horn of my salvation. Psalms 131:17 promises God will bring forth a horn to David and stands in the same line; David's song is the phrase's first home and carries the key."
+    }
+   ],
+   "4:25": [
+    {
+     "target": "3 Kings 17:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "when the Heaven was shut three years and six months",
+      "target": "if there shall be these years dew and rain, but according to the words of my mouth."
+     },
+     "note": "Jesus dates the shut heaven to Elias's word at Ahab's court. The seed keys Luke 4:25 only to the widow verse (17:9); the drought oracle itself was unkeyed."
+    }
+   ],
+   "4:26": [
+    {
+     "target": "3 Kings 17:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but into Sarepta of Sidon, to a widow woman.",
+      "target": "I have commanded a widow woman there to feed thee."
+     },
+     "note": "Jesus names the destination the Lord gave Elias: Sarepta, and a widow there. The seed keys the preceding verse (Luke 4:25) to this target; the sending itself stands at 4:26."
+    }
+   ],
+   "9:54": [
+    {
+     "target": "4 Kings 1:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord wilt thou we say that fire come down from Heaven and consume them?",
+      "target": "let fire come down from heaven, and devour thee, and thy fifty. Fire therefore came down from heaven"
+     },
+     "note": "James and John propose Elias's sentence on the Samaritan village; the Lord rebukes the proposal, but the words they reach for are this verse's."
+    }
+   ],
+   "1:17": [
+    {
+     "target": "4 Kings 2:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall go before him in the spirit and virtue of Elias",
+      "target": "The spirit of Elias hath rested upon Eliseus."
+     },
+     "note": "Gabriel's phrase for John is the prophets' confession over Eliseus: the spirit of Elias, resting on another. Malachias 4:5-6, the prophecy's own source, belongs to the prophets group."
+    }
+   ],
+   "10:4": [
+    {
+     "target": "4 Kings 4:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Carry not purse nor scrip, nor shoes; and salute nobody by the way.",
+      "target": "take my staff in thy hand, & go. If a man meet thee, salute him not: and if any man salute thee, answer him not"
+     },
+     "note": "The Seventy's commission keeps Eliseus's urgent charge to Giezi almost word for word on the salutation: greet no one, answer no greeting, go straight to the child — here, to the mission."
     }
    ]
   },
@@ -8216,6 +8610,237 @@
      },
      "note": "Chronicles retells Amasias' restraint with the law quoted word for word, 'as it is written in the Book of the law of Moyses'. The seed carries this verse only at chapter level (Deuteronomy 24); Kings' telling is keyed beside it."
     }
+   ],
+   "32:7": [
+    {
+     "target": "4 Kings 6:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "fear not, neither dread ye the king of the Assyrians, and all the multitude, that is with him: for there are many more with us, than with him.",
+      "target": "Fear not: for there are more with us than with them."
+     },
+     "note": "Ezechias heartens Jerusalem in Eliseus's words at Dothan — more with us than with them — now spoken of the unseen host against Assyria."
+    }
+   ],
+   "1:10": [
+    {
+     "target": "3 Kings 3:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Give me wisdom and intelligence, that I may come in and go out before thy people",
+      "target": "give to thy servant a docible heart, that he may judge the people, and discern between good & evil."
+     },
+     "note": "Salomon's request at Gabaon in both histories: wisdom to judge this great people. Our layer already keys Wisdom's prayers to each telling separately; the tellings themselves were unkeyed to each other."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "3 Kings 6:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Salomon began to build the house of our Lord in Jerusalem, in mount Moria",
+      "target": "he began to build a house to our Lord."
+     },
+     "note": "The temple begun, in both histories. Chronicles anchors it at Moria and Ornan's floor; Kings anchors it by the years from the Exodus. Our layer keys Genesis 22:2 to the Chronicles verse for the Moria name."
+    }
+   ],
+   "5:14": [
+    {
+     "target": "3 Kings 8:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the Priests could not stand and minister for the darkness. For the glory of our Lord had filled the house of God.",
+      "target": "the Priests could not stand and minister for the cloud: for the glory of our Lord had filled the house of our Lord."
+     },
+     "note": "The glory fills the finished house in both tellings; Chronicles prints darkness where Kings prints cloud, as the texts stand."
+    }
+   ],
+   "6:14": [
+    {
+     "target": "3 Kings 8:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "which keepest covenant and mercy with thy servants, that walk before thee in all their heart:",
+      "target": "which keepest covenant and mercy with thy servants, that walk before thee in all their heart."
+     },
+     "note": "The dedication prayer opens in both histories with Deuteronomy's confession of the covenant-keeping God; our layer keys the Kings verse back to Deuteronomy 7:9."
+    }
+   ],
+   "6:36": [
+    {
+     "target": "3 Kings 8:46",
+     "kind": "parallel",
+     "evidence": {
+      "source": "if they shall sin to thee (for there is no man that sinneth not)",
+      "target": "if they shall sin to thee (for there is no man which sinneth not)"
+     },
+     "note": "The prayer's confession that there is no man that sinneth not, in both tellings. The seed keys 1 John 1:8 to each verse separately; the tellings were unkeyed to each other."
+    }
+   ],
+   "7:12": [
+    {
+     "target": "3 Kings 9:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I have heard thy prayer, and have chosen this place to me for a house of sacrifice.",
+      "target": "I have heard thy prayer & thy petition which thou hast prayed before me: I have sanctified this house, which thou hast built"
+     },
+     "note": "The night answer to the dedication prayer in both histories: heard, and the house sanctified for the Name."
+    }
+   ],
+   "9:1": [
+    {
+     "target": "3 Kings 10:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The queen of Saba also, when she had heard the fame of Salomon, came to prove him in hard propositions in Jerusalem",
+      "target": "the queen of Saba also having heard the fame of Salomon, in the name of our Lord came to prove him in hard propositions."
+     },
+     "note": "The queen of Saba's visit in both histories. The seed carries the pair only at chapter level (3 Kings 10)."
+    }
+   ],
+   "10:8": [
+    {
+     "target": "3 Kings 12:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he forsook the counsel of the Ancients, and began to treat with young men, that had been brought up with him",
+      "target": "Who left the counsel of the ancients, which they had given him, and admitted youngmen, that had been brought up with him"
+     },
+     "note": "Roboam forsakes the ancients for the young men, in both histories — the schism's hinge in one verse."
+    }
+   ],
+   "12:9": [
+    {
+     "target": "3 Kings 14:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Sesac the king of Ægypt retired from Jerusalem, taking away the treasures of the house of our Lord, and of the king's house",
+      "target": "in the fifth year of the reign of Roboam, Sesac the king of Ægypt came up into Jerusalem"
+     },
+     "note": "Sesac's invasion in both histories: Kings dates the coming up, Chronicles inventories what he carried away, the temple treasures and Salomon's golden shields."
+    }
+   ],
+   "18:18": [
+    {
+     "target": "3 Kings 22:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I saw our Lord sitting in his throne, and all the host of heaven assisting him on the right hand and on the left.",
+      "target": "I saw our Lord sitting upon his throne, and all the host of heaven assisting him on the right hand and on the left:"
+     },
+     "note": "Micheas's vision of the throne before Ahab's last battle, in Kings and in Chronicles, nearly word for word."
+    }
+   ],
+   "23:11": [
+    {
+     "target": "4 Kings 11:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they brought forth the king's son, and put the crown upon him, and the testimony, and gave the law to be in his hand, and they made him king",
+      "target": "he brought forth the king's son, and put upon him the diadem, and the covenant: and they made him king, and anointed him"
+     },
+     "note": "Joas brought forth and crowned in the temple, in both histories — the child king hidden from Athalia made king by Joiada."
+    }
+   ],
+   "26:19": [
+    {
+     "target": "4 Kings 15:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "forthwith there rose a leprosy in his forehead before the Priests, in the house of our Lord upon the altar of incense.",
+      "target": "our Lord struck the king, and he was a leper until the day of his death"
+     },
+     "note": "Ozias the leper king in both histories: Kings states the stroke and the separate house; Chronicles alone tells why — the censer seized at the altar of incense."
+    }
+   ],
+   "33:6": [
+    {
+     "target": "4 Kings 21:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he made his sons to pass through fire, to the Valebenennom: he observed dreams, followed soothsayings",
+      "target": "he made his son pass through fire: and he used soothsaying, and observed divinations"
+     },
+     "note": "Manasses' banned rites enacted, in both histories. Our Deuteronomy stage keys the Kings verse to the law's banned list (18:10) and set the Chronicles telling aside there as its duplicate; the two tellings are keyed to each other here."
+    }
+   ],
+   "34:14": [
+    {
+     "target": "4 Kings 22:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Helcias the Priest found the Book of the law of our Lord by the hand of Moyses.",
+      "target": "I have found the Book of the law in the house of our Lord"
+     },
+     "note": "The finding of the Book in the temple repairs, in both histories — the event that drives Josias's reform."
+    }
+   ],
+   "35:1": [
+    {
+     "target": "4 Kings 23:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Josias made in Jerusalem a Phase to our Lord, which was immolated the fourteenth day of the first month.",
+      "target": "Make a Phase to our Lord your God, according as it is written in the Book of this covenant."
+     },
+     "note": "Josias's Passover in both histories: Chronicles dates and describes it, Kings gives the king's command from the found Book. The Kings verse is keyed back to Deuteronomy's Phase command separately."
+    }
+   ],
+   "35:20": [
+    {
+     "target": "4 Kings 23:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "came up Nechao the king of Ægypt to fight in Charcamis beside Euphrates: and Josias went forth to meet him.",
+      "target": "came up Pharao Nechao the king of Ægypt, against the king of Assyrians to the river Euphrates: and Josias the king went to meet him: and was slain in Mageddo"
+     },
+     "note": "Josias goes out against Nechao in both histories; Kings names the place of his death, Mageddo, which Zacharias's mourning remembers."
+    }
+   ],
+   "36:10": [
+    {
+     "target": "4 Kings 24:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he made Sedecias his uncle king over Juda and Jerusalem.",
+      "target": "And he appointed Matthanias his uncle for him: and called his name Sedecias."
+     },
+     "note": "The last king set up by Babylon in both histories: Chronicles calls him by his royal name only; Kings preserves his former name, Matthanias."
+    }
+   ],
+   "22:2": [
+    {
+     "target": "4 Kings 8:26",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Two & forty years old was Ochozias when he began to reign",
+      "target": "Two and twenty years old was Ochozias when he began to reign"
+     },
+     "note": "The same accession in both histories — and the ages differ as printed: forty-two in Chronicles, twenty-two in Kings. Entered as parallel with the discrepancy stated, not harmonised."
+    }
+   ],
+   "20:7": [
+    {
+     "target": "Isaias 41:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "gavest it to the seed of Abraham thy friend for ever?",
+      "target": "the seed of Abraham my friend:"
+     },
+     "note": "Josaphat pleads the land-promise to 'the seed of Abraham thy friend'; Isaias preserves the same divine title for Abraham, the friend of God, in the same phrase."
+    }
+   ],
+   "20:15": [
+    {
+     "target": "1 Kings 17:47",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Fear not, neither dread ye this multitude: for it is not your battle, but God's.",
+      "target": "for it is his battle, & he will deliver you into our hands."
+     },
+     "note": "Jahaziel's oracle to Josaphat is David's word to Golias turned into a promise: the battle is God's, not yours."
+    }
    ]
   },
   "Micheas": {
@@ -8765,6 +9390,17 @@
      },
      "note": "The song's tenderness turned to a threat: Israel kept as the apple of God's eye means the nations that touch her touch the eye itself."
     }
+   ],
+   "12:11": [
+    {
+     "target": "2 Paralipomenon 35:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "great lamentation in Jerusalem, as the lamentation of Adadremmon in the field of Mageddon.",
+      "target": "they carried him away into Jerusalem, & he died, & was buried in the monument of his fathers, and all Juda & Jerusalem mourned for him."
+     },
+     "note": "Zacharias measures the coming mourning by Mageddon's: Josias, slain at Mageddo, mourned by all Juda and Jerusalem. The seed carries Zacharias 12:11 only at chapter level (2 Paralipomenon 35)."
+    }
    ]
   },
   "3 Kings": {
@@ -8855,6 +9491,39 @@
      },
      "note": "Salomon opens the temple prayer with Deuteronomy's confession: the faithful God keeping covenant and mercy. The dedication stands on the law's own description of God."
     }
+   ],
+   "1:39": [
+    {
+     "target": "1 Kings 16:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Sadoc the priest took a horn of oil out of the tabernacle, and anointed Salomon",
+      "target": "Samuel therefore took the horn of oil, & anointed him in the midst of his brethren"
+     },
+     "note": "Salomon anointed with the horn of oil as David had been: the son's hurried anointing at Gihon repeats the father's at Bethlehem, horn and all."
+    }
+   ],
+   "18:36": [
+    {
+     "target": "Exodus 3:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord God of Abraham, and Isaac, and Israel, shew this day that thou art the God of Israel",
+      "target": "I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob."
+     },
+     "note": "Elias opens the Carmel prayer with the burning-bush name of God — Abraham, Isaac, and Israel, who is Jacob."
+    }
+   ],
+   "19:8": [
+    {
+     "target": "Exodus 34:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "walked in the strength of that meat forty days, & forty nights, unto the mount of God, Horeb.",
+      "target": "he was there with our Lord forty days & forty nights: he did not eat bread, and he drunk no water"
+     },
+     "note": "Elias's forty days and nights to Horeb retrace Moyses' forty on the same mountain, fed once for the whole journey as Moyses was kept without bread and water."
+    }
    ]
   },
   "Numbers": {
@@ -8933,6 +9602,96 @@
       "target": "Because you have not believed me, to sanctify me before the children of Israel, you shall not bring in these peoples into the land, which I will give them"
      },
      "note": "When Moses must provide his successor, the old sentence is recited once more — the book keeps its own record straight, word for word in the charge."
+    }
+   ]
+  },
+  "1 Esdras": {
+   "1:1": [
+    {
+     "target": "Isaias 44:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "our Lord raised up the spirit of Cyrus king of the Persians: & he made proclamation in all his Kingdom",
+      "target": "Who say to Cyrus: Thou art my pastor, and thou shalt accomplish all my will. Who say to Jerusalem: Thou shalt be built; and to the temple: Thou shalt be formed."
+     },
+     "note": "Esdras opens with Jeremiah's word accomplished, and behind Jeremiah stands Isaias naming Cyrus a century earlier: my pastor, who shall say Jerusalem be built and the temple be formed. The seed carries 1 Esdras 1:1 only at chapter level (Isaias 44)."
+    }
+   ],
+   "1:2": [
+    {
+     "target": "2 Paralipomenon 36:23",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thus saith Cyrus king of the Persians: All the Kingdoms of the earth hath the Lord the God of heaven given me, and he hath commanded me that I should build him a house in Jerusalem, which is in Jewry.",
+      "target": "Thus saith Cyrus king of the Persians: All Kingdoms of the earth hath the Lord the God of heaven given me, and he hath commanded me that I should build him a house in Jerusalem, which is in Jewry:"
+     },
+     "note": "Esdras re-issues the decree with which Chronicles ends — the same royal document, quoted, so that the return begins where the exile's book closed. 'All the Kingdoms' / 'All Kingdoms' differs as printed."
+    }
+   ],
+   "2:2": [
+    {
+     "target": "2 Esdras 7:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "They that came with Zorobabel, Josue, Nehemia, Saraia, Rahelaia, Mardochai, Belsan, Mesphar, Beguai, Rehum, Baana:",
+      "target": "They that came with Zorobabel, Josue, Nehemias, Azarias, Rahamias, Nahamani, Mardochæus, Belsam, Mespharath, Begoai, Nahum, Baana."
+     },
+     "note": "The register of the return stands in both Esdras and Nehemias lists. The leaders' names after the first two differ in form as printed (Saraia/Azarias, Rahelaia/Rahamias and so on); the lists are parallel registers, not one copied cleanly from the other."
+    }
+   ],
+   "3:4": [
+    {
+     "target": "Leviticus 23:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they made the solemnity of tabernacles, as it is written, and holocaust every day by order according to the precept",
+      "target": "From the fifteenth day of this seventh month, shall be the festivity of tabernacles seven days to the Lord."
+     },
+     "note": "The returned exiles keep Tabernacles 'as it is written' — the writing is Leviticus's appointment of the feast from the fifteenth day of the seventh month."
+    }
+   ],
+   "5:1": [
+    {
+     "target": "Aggeus 1:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "there prophesied Aggæus the Prophet, and Zacharias the son of Addo, prophesying to the Jews, that were in Jewry and Jerusalem",
+      "target": "the word of our Lord was made in the hand of Aggeus the Prophet, to Zorobabel the son of Salathiel, duke of Juda, and to Jesus the son of Josedec the grand Priest"
+     },
+     "note": "Esdras names the two prophets whose preaching restarted the temple; Aggeus's own book opens with that word, addressed to the same Zorobabel and Jesus (Josue). Zacharias's opening belongs with his own verse, keyed next at 5:2."
+    }
+   ],
+   "5:2": [
+    {
+     "target": "Zacharias 4:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Then rose up Zorobabel the son of Salathiel, and Josue the son of Josedec, and began to build the temple of God in Jerusalem",
+      "target": "The hands of Zorobabel have founded this house, and his hands shall perfit it"
+     },
+     "note": "Zorobabel rises and begins to build; Zacharias, the second prophet Esdras names, promises that the hands that founded the house shall finish it."
+    }
+   ],
+   "7:5": [
+    {
+     "target": "Exodus 6:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the son of Phinees, the son of Eleazar, the son of Aaron the Priest from the beginning:",
+      "target": "But Eleazar the son of Aaron took a wife of the daughters of Phutiel: who bare him Phinees."
+     },
+     "note": "Esdras's pedigree is run back link by link to Aaron; its last links stand in Exodus itself — Eleazar son of Aaron, father of Phinees."
+    }
+   ],
+   "9:2": [
+    {
+     "target": "Deuteronomy 7:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they have taken of their daughters to them and to their sons, and have mingled the holy seed with the people of the lands.",
+      "target": "nor make marriages with them. Thy daughter thou shalt not give to his son, nor take his daughter for thy son:"
+     },
+     "note": "Esdras's crisis is Deuteronomy's marriage ban broken: daughters taken for themselves and their sons, the holy seed mingled. Nehemias enforces the same law a generation later, keyed at 2 Esdras 13:25."
     }
    ]
   },
@@ -9032,6 +9791,105 @@
       "target": "Thy raiment, wherewith thou wast covered hath not decayed for age, and thy foot is not worn, lo this is the fortieth year."
      },
      "note": "The Levites' great prayer keeps Deuteronomy's two wonders in one verse: garments unworn and feet unworn through forty years. Deuteronomy speaks it twice — here in the humbling chapter, and at 29:5 — and 'nothing was wanting' is 2:7's word besides."
+    }
+   ],
+   "1:5": [
+    {
+     "target": "Daniel 9:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I beseech thee Lord God of heaven, strong, great, and terrible, which keepest covenant and mercy with them that love thee, and keep thy commandments:",
+      "target": "I beseech thee o Lord God great and terrible, which keepest covenant, & mercy to them that love thee, and keep thy commandments."
+     },
+     "note": "Nehemias opens his prayer in Daniel's words — the great and terrible God keeping covenant and mercy — a generation after Daniel prayed them in Babylon. Both prayers themselves rest on Deuteronomy 7:9, keyed in our layer at Daniel 9:4."
+    }
+   ],
+   "5:7": [
+    {
+     "target": "Leviticus 25:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Do you every one exact usuries of your brethren?",
+      "target": "take not usuries of him, nor more than thou gavest:"
+     },
+     "note": "Nehemias rebukes the nobles with the jubilee law's own word: usuries exacted of brethren, where Leviticus forbids taking usury of a brother."
+    }
+   ],
+   "9:11": [
+    {
+     "target": "Exodus 14:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou didst divide the sea before them, and they passed through the midst of the sea in dry land: but their persecutors thou threwest into the depth, as a stone into the rough waters.",
+      "target": "our Lord took it away, a vehement and burning wind blowing all the night, and turned it into dry ground: and the water was divided."
+     },
+     "note": "The Levites' prayer retells the sea crossing in Exodus's own elements: divided water, dry ground, the persecutors sunk like a stone — the stone is Exodus 15's song, the crossing Exodus 14's."
+    }
+   ],
+   "9:13": [
+    {
+     "target": "Exodus 19:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To mount Sinai also thou didst descend, and spakest with them from heaven, and thou gavest them right judgments, and the law of truth",
+      "target": "our Lord descended upon the mount Sinai in the very top of the mount"
+     },
+     "note": "The prayer's Sinai line against Exodus's own: the Lord descended on the mount, and there spoke and gave the law."
+    }
+   ],
+   "9:15": [
+    {
+     "target": "Exodus 16:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Bread also from heaven thou gavest them in their hunger",
+      "target": "Behold I will rain you bread from heaven"
+     },
+     "note": "The prayer keeps Exodus's very phrase for the manna: bread from heaven, given in hunger."
+    }
+   ],
+   "9:26": [
+    {
+     "target": "3 Kings 19:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they killed thy Prophets, which admonished them earnestly to return to thee",
+      "target": "thy Prophets they have slain with the sword, and I alone am left"
+     },
+     "note": "The Levites confess in Elias's complaint: the prophets killed by the people they were sent to recall. Our layer keys Romans 11:3 and 1 Machabees 2 to the same complaint; Nehemias's use of it was unkeyed."
+    }
+   ],
+   "9:33": [
+    {
+     "target": "1 Esdras 9:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou art just in all things, that have come upon us: because thou hast done truth, but we have done wickedly.",
+      "target": "Lord God of Israel thou art just: because we are left, which should be saved as at this day. Behold we are before thee in our sin"
+     },
+     "note": "Nehemias's Levites pray Esdras's confession over again: thou art just, we are before thee in our sin. The two great penitential prayers of the return answer each other."
+    }
+   ],
+   "13:1": [
+    {
+     "target": "Deuteronomy 23:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "there was found written in it, that the Ammonites and the Moabites should not enter into the Church of God for ever:",
+      "target": "The Ammonite and the Moabite yea after the tenth generation shall not enter into the church of our Lord, for ever:"
+     },
+     "note": "The public reading finds Deuteronomy's exclusion written and acts on it the same day. Our layer keys 13:2 to the blessing-into-cursing ground at 23:5; the exclusion itself stands at 23:3."
+    }
+   ],
+   "13:25": [
+    {
+     "target": "Deuteronomy 7:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "adjured them by God, that they should not give their daughters to their sons, nor take their daughters for their sons, and for themselves, saying:",
+      "target": "Thy daughter thou shalt not give to his son, nor take his daughter for thy son:"
+     },
+     "note": "Nehemias binds the people by oath in the law's exact terms — give not your daughters, take not theirs — the same ban Esdras had wept over at 1 Esdras 9:2."
     }
    ]
   },
@@ -9197,6 +10055,94 @@
      },
      "note": "Amasias spares his father's murderers' children 'according to that which is written in the book of the law of Moyses' — and the history quotes the law nearly entire. The seed points this verse at Deuteronomy 21 by chapter; the words quoted stand at 24:16."
     }
+   ],
+   "2:8": [
+    {
+     "target": "Josue 3:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Elias took his mantle, and folded it together, and smote the waters, which were divided into two parts, and they both passed over by the dry land.",
+      "target": "stood girded upon the dry ground in the midst of Jordan, and all the people passed over through the dry channel."
+     },
+     "note": "Jordan opens a second time: Elias and Eliseus cross on dry ground where Israel crossed behind the ark. The river, the dry passage, and the two parts are the link; the instruments differ, mantle for ark."
+    }
+   ],
+   "2:11": [
+    {
+     "target": "Genesis 5:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Elias ascended by a hurl wind into heaven.",
+      "target": "he walked with God, and was seen no more: because God took him."
+     },
+     "note": "Only two men leave the earth without the text recording a death: Henoch, whom God took, and Elias, taken up by the whirlwind. Graded parallel — the shape is shared, the wording is not."
+    }
+   ],
+   "18:4": [
+    {
+     "target": "Numbers 21:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "brake the brazen serpent, which Moyses had made: for until that time the children of Israel burnt incense to it",
+      "target": "Moyses therefore made A brazen Serpent, and set it for a sign"
+     },
+     "note": "Ezechias destroys the very sign Moyses made, because the sign had become an idol — the verse names its maker, and Numbers is the making."
+    }
+   ],
+   "23:21": [
+    {
+     "target": "Deuteronomy 16:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Make a Phase to our Lord your God, according as it is written in the Book of this covenant.",
+      "target": "that thou mayest make the Phase to our Lord thy God: because in this month our Lord thy God brought thee out of Ægypt by night."
+     },
+     "note": "Josias commands the Passover 'as written' — and what is written is Deuteronomy's command to make the Phase to the Lord thy God. Centralised at Jerusalem, as Deuteronomy requires and Samuel-era practice had not been."
+    }
+   ],
+   "23:17": [
+    {
+     "target": "3 Kings 13:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "It is the sepulchre of the man of God, which came from Juda, and foretold these things which thou hast done upon the altar of Bethel.",
+      "target": "a child shall be born to the house of David, named Josias, and he shall immolate upon thee priests of the excelses"
+     },
+     "note": "At Bethel Josias asks after the tomb of the man who, three centuries earlier, had named Josias himself against that altar. The history itself closes the prophecy's loop."
+    }
+   ],
+   "9:6": [
+    {
+     "target": "3 Kings 19:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I have anointed thee king over the people of the Lord of Israel",
+      "target": "Jehu the son of Namsi thou shalt anoint king over Israel"
+     },
+     "note": "The young prophet at Ramoth Galaad does what Elias was charged to do on Horeb: Jehu is anointed king over Israel, a generation after the charge was given."
+    }
+   ],
+   "13:14": [
+    {
+     "target": "4 Kings 2:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "My father, my father, the chariot of Israel and the guarder thereof.",
+      "target": "My father, my father, the chariot of Israel and the guider thereof."
+     },
+     "note": "Joas weeps over the dying Eliseus in Eliseus's own words over the ascending Elias — the cry is quoted, with only the last noun's spelling differing as printed (guarder/guider)."
+    }
+   ],
+   "2:14": [
+    {
+     "target": "3 Kings 19:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "with the mantle of Elias, that fell down to him, he smote the waters, and they were not divided.",
+      "target": "when Elias came to him, he cast his mantle upon him."
+     },
+     "note": "The mantle that fell at the ascension is the mantle cast on Eliseus at the plough: the call and the succession are one garment, and Eliseus proves it at the same river."
+    }
    ]
   },
   "1 Paralipomenon": {
@@ -9253,6 +10199,160 @@
       "target": "stirred up David among them saying: Go, number Israel and Juda."
      },
      "note": "Chronicles retells the census in Samuel's shape — David moved to number Israel — but the two books name the mover differently, and the difference is stated, not harmonized: Samuel opens with the fury of the Lord stirring David up; Chronicles says Satan rose against Israel and moved him. The same event, told twice, with its tension on the page."
+    }
+   ],
+   "11:3": [
+    {
+     "target": "2 Kings 5:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "they anointed him king over Israel, according to the word of our Lord, which he spake in the hand of Samuel.",
+      "target": "they anointed David to be king over Israel."
+     },
+     "note": "David made king over all Israel at Hebron, in both histories; Chronicles adds that it was according to the word spoken by Samuel."
+    }
+   ],
+   "13:10": [
+    {
+     "target": "2 Kings 6:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Our Lord therefore was angry against Oza, & struck him, for that he had touched the Ark: and he died there before our Lord.",
+      "target": "our Lord was wrath with indignation against Oza, and struck him for the rashness: who died there before the ark of God."
+     },
+     "note": "Oza struck at the ark's first bringing up, in Samuel and in Chronicles."
+    }
+   ],
+   "17:13": [
+    {
+     "target": "2 Kings 7:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will be to him for a father, and he shall be to me for a son",
+      "target": "I will be to him for a father, and he shall be to me for a son"
+     },
+     "note": "Nathan's oracle in both histories, word for word at its centre: the son of David held in a father-son covenant."
+    }
+   ],
+   "18:1": [
+    {
+     "target": "2 Kings 8:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "David struck the Philisthiims, and humbled them",
+      "target": "David struck the Philisthiims, and humbled them"
+     },
+     "note": "The wars of David open in both histories with the same sentence; what David took differs in the verses' second halves (Geth in Chronicles, the bridle of tribute in Samuel), and is left as printed."
+    }
+   ],
+   "20:1": [
+    {
+     "target": "2 Kings 11:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "at such time when kings are wont to go forth to battle, Joab gathered together the army",
+      "target": "at such time when kings are wont to proceed to battles, David sent Joab"
+     },
+     "note": "The Rabba campaign opens with the same season formula; Chronicles passes over the Bathsabee matter that fills Samuel's chapter. The seed carries the pair only at chapter level (2 Kings 11)."
+    }
+   ],
+   "22:8": [
+    {
+     "target": "2 Kings 7:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Thou hast shed much blood, and fought very many battles, thou canst not build a house to my name",
+      "target": "Shalt thou build me a house to dwell in?"
+     },
+     "note": "Chronicles gives the reason Samuel's oracle leaves unstated: the man of blood may not build. Samuel records the refusal; Chronicles records its ground."
+    }
+   ],
+   "27:24": [
+    {
+     "target": "1 Paralipomenon 21:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Joab the son of Sarvia began to number, and finished not: because upon this there fell wrath upon Israel",
+      "target": "Our Lord therefore sent the pestilence in Israel: and there fell of Israel seventy thousand men."
+     },
+     "note": "Within Chronicles itself: the registrar's note that the census number was never registered points back to the plague chapter it came from."
+    }
+   ],
+   "28:9": [
+    {
+     "target": "3 Kings 2:3",
+     "kind": "parallel",
+     "evidence": {
+      "source": "know the God of thy father, and serve him with a perfect heart",
+      "target": "keep his ceremonies, and his precepts & judgments, and testimonies as is written in the law of Moyses"
+     },
+     "note": "David's charge to Salomon stands in two forms: Chronicles' assembly charge (know God, serve him, seek and find) and Kings' deathbed charge (walk in his ways, keep the law of Moyses). Graded parallel — same charge, different words preserved."
+    }
+   ],
+   "2:5": [
+    {
+     "target": "Ruth 4:18",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the sons of Phares, Hesron and Hamul.",
+      "target": "Phares begat Esron"
+     },
+     "note": "Juda's line in the genealogies meets Ruth's closing genealogy at Phares and Hesron (Esron), the line that runs to David."
+    }
+   ],
+   "6:3": [
+    {
+     "target": "Exodus 6:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The children of Amram: Aaron, Moyses, and Maria.",
+      "target": "who bare him Aaron & Moyses."
+     },
+     "note": "The priestly genealogy's head in Chronicles against its source in Exodus: Amram's children are Aaron, Moyses and Maria."
+    }
+   ],
+   "16:9": [
+    {
+     "target": "Psalms 104:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Chant to him, and sing to him: & tell ye all his marvelous things.",
+      "target": "Chant to him, and sing to him: tell ye all his marvelous works."
+     },
+     "note": "David's thanksgiving psalm at the ark is a cento of psalms; this line is Psalm 104's, with only its last word differing as printed (things/works). The seed carries the psalm only at chapter level for 16:8."
+    }
+   ],
+   "16:15": [
+    {
+     "target": "Psalms 104:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Remember for ever his covenant: the word, which he commanded unto a thousand generations.",
+      "target": "He hath been mindful for ever of his testament; of the word which he commanded unto a thousand generations."
+     },
+     "note": "The cento again: the covenant remembered to a thousand generations, in David's singing of it and in the psalm it is taken from."
+    }
+   ],
+   "16:26": [
+    {
+     "target": "Psalms 95:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For all the gods of the peoples, be idols: but our Lord made the heavens.",
+      "target": "Because all the gods of the Gentiles are devils, but our Lord made the heavens."
+     },
+     "note": "The cento's line from Psalm 95, graded allusion, not quotation: the second half is word for word, but the gods are 'idols' in Chronicles and 'devils' in the psalm, as printed. The seed keys Psalm 95:1 to 16:23; this verse was unkeyed."
+    }
+   ],
+   "16:35": [
+    {
+     "target": "Psalms 105:47",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Save us o God our Saviour: and gather us together, and deliver us out of the nations, that we may confess to thy holy name",
+      "target": "Save us, o Lord our God: and gather us out of the Nations. That we may confess to thy holy name"
+     },
+     "note": "The cento closes with Psalm 105's closing prayer: save us, gather us out of the nations, that we may confess thy holy name."
     }
    ]
   },
