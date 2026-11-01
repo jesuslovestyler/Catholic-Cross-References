@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.5.0",
- "stage": "Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel",
- "generated": "2026-10-31",
+ "version": "0.6.0",
+ "stage": "Stage 3 begun: Genesis — the first book beyond the deuterocanon. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 380,
+  "references": 502,
   "by_kind": {
-   "parallel": 137,
-   "allusion": 207,
+   "parallel": 180,
+   "allusion": 275,
    "quotation": 11,
-   "theme": 25
+   "theme": 36
   },
-  "source_books": 11,
-  "source_verses": 320
+  "source_books": 30,
+  "source_verses": 430
  },
  "references": {
   "Wisdom": {
@@ -1068,6 +1068,50 @@
      },
      "note": "Before the brightness of glory in Hebrews stands Wisdom's sincere emanation of the glory of God."
     }
+   ],
+   "7:4": [
+    {
+     "target": "Genesis 14:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to whom also Abraham the Patriarch gave tithes of the principal things",
+      "target": "he gave him the tithes of all"
+     },
+     "note": "Hebrews builds Melchisedech's greatness on the act Genesis records in a single clause: Abraham gave him the tithes of all."
+    }
+   ],
+   "7:3": [
+    {
+     "target": "Genesis 14:18",
+     "kind": "theme",
+     "evidence": {
+      "source": "without father, without mother, without genealogy, having neither beginning of days nor end of life",
+      "target": "Melchisedech the king of Salem, bringing forth bread and wine, for he was the Priest of God most High"
+     },
+     "note": "Hebrews builds doctrine on Genesis' silence: Melchisedech enters the record and leaves it with no father, mother, genealogy, beginning of days, or end of life written of him — and so stands as a likeness of the Son of God."
+    }
+   ],
+   "11:12": [
+    {
+     "target": "Genesis 22:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "there rose as the stars of heaven in multitude, and as the sand that is by the sea shore innumerable",
+      "target": "I will multiply thy seed as the stars of heaven, and as the sand that is by the sea shore"
+     },
+     "note": "Hebrews' stars and sand are the oath's own figures, risen even of one, and him quite dead."
+    }
+   ],
+   "11:13": [
+    {
+     "target": "Genesis 23:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "confessing that they are pilgrims & strangers upon the earth",
+      "target": "I am a stranger and pilgrim among you"
+     },
+     "note": "Abraham's word at Hebron — a stranger and pilgrim — is the confession Hebrews puts on all the patriarchs: they died in faith, saluting the promises from afar."
+    }
    ]
   },
   "Romans": {
@@ -1080,6 +1124,83 @@
       "target": "the Creator of them may be seen, to be known thereby"
      },
      "note": "Paul's invisible things seen through the things made is Wisdom's Creator seen through the creature's greatness."
+    }
+   ],
+   "5:12": [
+    {
+     "target": "Genesis 2:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "by one man sin entered into this world, and by sin death",
+      "target": "in what day soever thou shalt eat of it, thou shalt die the death"
+     },
+     "note": "Paul's one man is Adam, and the death that passed unto all men is the sentence spoken at the forbidden tree."
+    }
+   ],
+   "8:20": [
+    {
+     "target": "Genesis 3:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "the creature is made subject to vanity, not willing, but for him that made it subject in hope",
+      "target": "cursed is the earth in thy work"
+     },
+     "note": "Paul reads the whole creature's subjection to vanity out of the curse on the earth for Adam's sake — and reads it as a subjection in hope, which points beyond the curse to its lifting."
+    }
+   ],
+   "5:14": [
+    {
+     "target": "Genesis 3:6",
+     "kind": "theme",
+     "evidence": {
+      "source": "who is a figure of him to come",
+      "target": "she took of the fruit thereof, & did eat, & gave to her husband, who did eat"
+     },
+     "note": "Paul calls Adam a figure of him to come: the eating of Genesis 3, by which death reigned, sets the pattern that the second Adam answers — one man's act deciding for the many, in ruin and in restoration."
+    }
+   ],
+   "4:13": [
+    {
+     "target": "Genesis 13:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the promise to Abraham, or to his seed, that he should be heir of the world",
+      "target": "All the land which thou seest will I give to thee, and to thy seed for ever"
+     },
+     "note": "Paul reads the land given to Abraham and his seed for ever as a promise of the world itself, inherited not by the Law but by the justice of faith."
+    }
+   ],
+   "4:19": [
+    {
+     "target": "Genesis 18:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the dead matrice of Sara",
+      "target": "it ceased to be with Sara after the manner of women"
+     },
+     "note": "Paul's 'dead matrice of Sara' is Genesis' plain word: it had ceased to be with Sara after the manner of women."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "Genesis 18:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "otherwise how shall God judge this world?",
+      "target": "which judgest all the earth: no, thou wilt not do this judgement"
+     },
+     "note": "Paul's rhetorical question stands in Abraham's: shall not he that judgest all the earth do judgment?"
+    }
+   ],
+   "8:32": [
+    {
+     "target": "Genesis 22:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He that spared not also his own Son, but for us all delivered him",
+      "target": "thou hast done this thing, and hast not spared thine only begotten son for my sake"
+     },
+     "note": "Paul's 'spared not his own Son' turns the oath's own wording upon God himself: Abraham had not spared his only begotten son."
     }
    ]
   },
@@ -3530,6 +3651,17 @@
      },
      "note": "Onias names Jeremias the prophet who prayeth much for the people and for the whole city; Jeremias's own book sets the measure of such intercession, Moyses and Samuel standing before God."
     }
+   ],
+   "7:28": [
+    {
+     "target": "Genesis 1:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "understand that God of nothing made them & mankind",
+      "target": "In the beginning GOD created heaven and earth"
+     },
+     "note": "The mother of the seven brethren states Genesis 1 as a doctrine of faith: heaven, earth, and all in them, and mankind also, God made of nothing."
+    }
    ]
   },
   "Esther": {
@@ -4096,6 +4228,1230 @@
       "target": "the Spirit of our Lord took away Philip"
      },
      "note": "The angel's carrying of Habacuc to the den is the Spirit's taking away of Philip from the eunuch's road: a prophet snatched from one place to another in a moment."
+    }
+   ]
+  },
+  "Genesis": {
+   "1:1": [
+    {
+     "target": "John 1:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "In the beginning GOD created heaven and earth",
+      "target": "In the beginning was the Word"
+     },
+     "note": "John opens his Gospel with Genesis' first words, setting the Word in the beginning before all created things."
+    }
+   ],
+   "1:3": [
+    {
+     "target": "2 Corinthians 4:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And God said: Be light made",
+      "target": "God that commanded light to shine of darkness"
+     },
+     "note": "Paul takes the first fiat of Genesis as the pattern of conversion: the God who commanded light out of darkness shines in hearts."
+    }
+   ],
+   "1:16": [
+    {
+     "target": "Psalms 135:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "a greater light to govern the day",
+      "target": "The sun to rule the day"
+     },
+     "note": "The psalm's creation litany takes up the greater light set in Genesis to govern the day."
+    }
+   ],
+   "1:27": [
+    {
+     "target": "1 Corinthians 11:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God created man to his own image",
+      "target": "he is the image and glory of God"
+     },
+     "note": "Paul's word for the man — the image and glory of God — rests on Genesis' word that God created man to his own image."
+    }
+   ],
+   "1:28": [
+    {
+     "target": "Psalms 8:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "rule over the fishes and the sea, and fowls of the air",
+      "target": "Thou hast subjected all things under his feet"
+     },
+     "note": "The psalm celebrates the dominion blessed in Genesis 1: all creatures subjected under man's feet."
+    }
+   ],
+   "1:31": [
+    {
+     "target": "1 Timothy 4:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God saw all things that he had made, and they were very good",
+      "target": "every creature of God is good"
+     },
+     "note": "Paul's rule that no creature is to be rejected rests on the verdict of the sixth day: all things very good."
+    }
+   ],
+   "2:2": [
+    {
+     "target": "Exodus 31:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "rested the seventh day, from all work that he had done",
+      "target": "in six days the Lord made heaven and earth, and in the seventh he ceased from work"
+     },
+     "note": "The sabbath given to Israel as a perpetual sign is grounded in God's own rest on the seventh day."
+    }
+   ],
+   "2:7": [
+    {
+     "target": "Job 33:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "breathed into his face the breath of life",
+      "target": "The Spirit of God made me, and the breadth of the Omnipotent gave me life"
+     },
+     "note": "Elihu confesses his own making in Adam's words: God's Spirit and his breath gave him life."
+    },
+    {
+     "target": "John 20:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "breathed into his face the breath of life, & man became a living soul",
+      "target": "he breathed upon them; and he said to them: Receive ye the Holy Ghost"
+     },
+     "note": "The risen Lord breathes on the apostles as God breathed on Adam: the new creation's life given as the first was."
+    }
+   ],
+   "2:8": [
+    {
+     "target": "Ezechiel 28:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "our Lord God had planted Paradise of pleasure from the beginning",
+      "target": "thou wast in the delicacies of the paradise of God"
+     },
+     "note": "The king of Tyre is figured as a fallen dweller of Eden, once in the delicacies of the paradise God planted at the beginning."
+    },
+    {
+     "target": "Isaias 51:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "had planted Paradise of pleasure from the beginning: wherein he placed man",
+      "target": "her wilderness as the garden of our Lord"
+     },
+     "note": "Isaiah promises Sion's restoration in Eden's image: her wilderness made as the garden of the Lord."
+    },
+    {
+     "target": "Ezechiel 36:35",
+     "kind": "allusion",
+     "evidence": {
+      "source": "planted Paradise of pleasure from the beginning",
+      "target": "This land untilled is become as a garden of pleasure"
+     },
+     "note": "Ezechiel's restored land is described in Eden's own term: become as a garden of pleasure."
+    }
+   ],
+   "2:9": [
+    {
+     "target": "Apocalypse 22:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the tree of life also in the middle of Paradise",
+      "target": "the tree of life, yielding twelve fruits"
+     },
+     "note": "The tree of life that stood in the middle of Paradise stands again in the city of God, yielding its fruits for the healing of the Gentiles."
+    },
+    {
+     "target": "Ezechiel 31:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "brought forth of the ground all manner of trees, fair to behold",
+      "target": "all the trees of pleasure, that were in the paradise of God, did emulate him"
+     },
+     "note": "Pharaoh's cedar is measured against the trees of Eden, the trees God brought forth in Paradise."
+    }
+   ],
+   "2:10": [
+    {
+     "target": "Apocalypse 22:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "a river issued out of the place of pleasure to water Paradise",
+      "target": "a river of living water, clear as crystal, proceeding from the seat of God and of the Lamb"
+     },
+     "note": "Eden's river returns at the end, flowing from the seat of God and of the Lamb through the city."
+    }
+   ],
+   "2:18": [
+    {
+     "target": "Ecclesiastes 4:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "It is not good for man to be alone",
+      "target": "Woe to him that is alone: because when he falleth, he hath none to lift him up"
+     },
+     "note": "The Preacher's woe on the solitary man takes up God's first 'not good': man was not made to be alone."
+    }
+   ],
+   "2:23": [
+    {
+     "target": "Ephesians 5:30",
+     "kind": "allusion",
+     "evidence": {
+      "source": "This now is bone of my bones, and flesh of my flesh",
+      "target": "we be the members of his body, of his flesh, and of his bones"
+     },
+     "note": "Paul speaks of the Church in Adam's words over Eve: flesh of his flesh and bone of his bones."
+    }
+   ],
+   "3:5": [
+    {
+     "target": "Isaias 14:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you shall be as gods, knowing good and evil",
+      "target": "I will be like to the Highest"
+     },
+     "note": "The serpent's promise to Eve is the ambition Isaiah hears in the king of Babylon's heart: I will be like to the Highest."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "1 John 2:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the tree was good to eat, and fair to the eyes, and delectable to behold",
+      "target": "the concupiscence of the flesh, and the concupiscence of the eyes, and the pride of life"
+     },
+     "note": "John's threefold concupiscence of the world answers Eve's threefold seeing of the tree: good to eat, fair to the eyes, and delectable to behold."
+    },
+    {
+     "target": "Osee 6:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "gave to her husband, who did eat",
+      "target": "they as Adam have transgressed the covenant"
+     },
+     "note": "Osee names Adam outright: Israel's covenant-breaking there, in the place of the promise, is Adam's transgression repeated."
+    }
+   ],
+   "3:14": [
+    {
+     "target": "Isaias 65:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "earth shalt thou eat all the days of thy life",
+      "target": "to the serpent dust shall be his bread"
+     },
+     "note": "In the peace of the new creation the serpent still eats dust: the curse of Eden stands as his portion even there."
+    },
+    {
+     "target": "Isaias 27:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And our Lord God said to the serpent: Because thou hast done this thing, accursed art thou",
+      "target": "our Lord will visit with his sore, and great, and strong sword upon Leviathan the serpent, the bar, & upon Leviathan the crooked serpent"
+     },
+     "note": "Isaiah's Leviathan, the crooked serpent visited with God's sword, is Eden's serpent under his curse, come to his end."
+    }
+   ],
+   "3:15": [
+    {
+     "target": "Romans 16:20",
+     "kind": "allusion",
+     "evidence": {
+      "source": "she shall bruise thy head in pieces",
+      "target": "the God of peace crush Satan under your feet quickly"
+     },
+     "note": "Paul promises the Church the bruising foretold in Eden: Satan crushed underfoot by the God of peace."
+    }
+   ],
+   "3:16": [
+    {
+     "target": "1 Timothy 2:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in travail shalt thou bring forth children",
+      "target": "she shall be saved by generation of children"
+     },
+     "note": "Paul takes up Eve's very sentence: childbearing, spoken first in travail, is spoken again as a place of salvation for her who continues in faith and love."
+    }
+   ],
+   "3:19": [
+    {
+     "target": "Ecclesiastes 3:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "into dust thou shalt return",
+      "target": "of earth they were made, and into earth they return together"
+     },
+     "note": "The Preacher restates Adam's sentence as the common lot of all: of earth they were made, and into earth they return together."
+    }
+   ],
+   "3:22": [
+    {
+     "target": "Apocalypse 2:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "lest perhaps he reach forth his hand, and take also of the tree of life, and eat, and live for ever",
+      "target": "To him that overcometh, I will give to eat of the tree of life, which is in the Paradise of my God"
+     },
+     "note": "What fallen Adam was barred from reaching lest he live for ever, the overcomer is given to eat: the tree of life in the Paradise of God."
+    }
+   ],
+   "4:24": [
+    {
+     "target": "Matthew 18:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "of Lamech seventy times seven-fold",
+      "target": "I say not to thee until seven times but until seventy times seven times"
+     },
+     "note": "The Lord's measure of forgiveness takes Lamech's measure of vengeance — seventy times seven-fold — and turns it inside out."
+    }
+   ],
+   "5:1": [
+    {
+     "target": "Matthew 1:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "This is the book of the generation of Adam",
+      "target": "The book of the generation of Jesus Christ"
+     },
+     "note": "Matthew opens his Gospel in Genesis' own formula — the book of the generation — for the Christ who recapitulates Adam."
+    }
+   ],
+   "6:9": [
+    {
+     "target": "Ezechiel 14:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Noe was a just and perfect man in his generations",
+      "target": "if these three men shall be in the midst thereof, Noe, Daniel, & Job: they by their justice shall deliver their own souls"
+     },
+     "note": "Ezechiel's Noe, first of his three righteous men, is Genesis' just and perfect man who walked with God."
+    }
+   ],
+   "9:3": [
+    {
+     "target": "1 Timothy 4:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all that moveth and liveth shall be yours for meat",
+      "target": "meats which God created to receive with thanks-giving"
+     },
+     "note": "The universal grant of food to Noe stands behind Paul's defence of meats which God created to be received with thanksgiving."
+    }
+   ],
+   "11:8": [
+    {
+     "target": "Deuteronomy 32:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "our Lord dispersed them from that place into all lands",
+      "target": "When the highest divided the nations: when he separated the sons of Adam, he appointed the limits of people"
+     },
+     "note": "Moses' song looks back to Babel: the dividing of the nations and the appointing of their limits is the dispersion from that place into all lands."
+    }
+   ],
+   "12:1": [
+    {
+     "target": "Isaias 51:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Go forth of thy country, and out of thy kindred, and out of thy father's house",
+      "target": "I called him alone, and blessed him, & multiplied him"
+     },
+     "note": "Isaiah bids Israel look to Abraham's call: one man called alone out of his father's house, and blessed and multiplied."
+    }
+   ],
+   "12:2": [
+    {
+     "target": "Exodus 32:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will make thee into a great nation",
+      "target": "I will make thee into a great nation"
+     },
+     "note": "God offers Moses the very promise-word first given to Abraham — and Moses refuses it, pleading for Abraham's seed instead."
+    }
+   ],
+   "12:7": [
+    {
+     "target": "Deuteronomy 34:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "To thy seed will I give this land",
+      "target": "This is the Land, for the which I sware to Abraham, Isaac, and Jacob, saying: To thy seed will I give it"
+     },
+     "note": "On Nebo the Lord shews Moses the land in the promise's own words, first spoken to Abram when he appeared to him."
+    }
+   ],
+   "13:10": [
+    {
+     "target": "Genesis 2:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "as the Paradise of our Lord",
+      "target": "our Lord God had planted Paradise of pleasure from the beginning"
+     },
+     "note": "Genesis itself measures the well-watered Jordan plain by Eden: as the Paradise of the Lord."
+    }
+   ],
+   "13:16": [
+    {
+     "target": "Numbers 23:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I will make thy seed as the dust of the earth: if any man be able to number the dust of the earth, thy seed also shall he be able to number",
+      "target": "Who may be able to number the dust of Jacob"
+     },
+     "note": "Balaam's question answers the promise: who may number the dust of Jacob, the seed made as the dust of the earth that no man can number?"
+    }
+   ],
+   "14:18": [
+    {
+     "target": "Psalms 109:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Melchisedech the king of Salem, bringing forth bread and wine, for he was the Priest of God most High",
+      "target": "Thou art a Priest for ever according to the order of Melchisedech"
+     },
+     "note": "David's oracle takes its everlasting priesthood from Salem's king, the priest of God most High who brought forth bread and wine."
+    }
+   ],
+   "15:5": [
+    {
+     "target": "2 Esdras 9:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Look up to heaven, and number the stars, if thou canst. And he said to him: so shall thy seed be",
+      "target": "thou didst multiply their children as the stars of heaven"
+     },
+     "note": "Nehemias' prayer recites the promise as fulfilled: their children multiplied as the stars Abram was bidden to number, if he could."
+    }
+   ],
+   "15:6": [
+    {
+     "target": "2 Esdras 9:8",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Abram believed God, and it was reputed to him unto justice",
+      "target": "thou didst find his heart faithful before thee: and thou madest a covenant with him"
+     },
+     "note": "The same prayer remembers why the covenant followed the believing: a heart found faithful before God."
+    }
+   ],
+   "15:7": [
+    {
+     "target": "Ezechiel 33:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I am the Lord that brought thee out from Ur of the Chaldees for to give thee this land, and that thou mightest possess it",
+      "target": "Abraham was one, and by inheritance he possessed the land"
+     },
+     "note": "The dwellers in the ruins argue from the promise itself: Abraham was one, and he possessed by inheritance the land God brought him out of Ur to give him."
+    }
+   ],
+   "17:12": [
+    {
+     "target": "Philippians 3:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "An infant of eight days shall be circumcised among you",
+      "target": "circumcised the eighth day, of the stock of Israel"
+     },
+     "note": "Paul's own circumcision, the eighth day, is his pedigree measured by the ordinance given in Abraham's house."
+    }
+   ],
+   "18:6": [
+    {
+     "target": "Matthew 13:33",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Make haste, temper together three measures of flour, and make hearth cakes",
+      "target": "leaven, which a woman took and hid in three measures of meal, until the whole was leavened"
+     },
+     "note": "The parable's three measures of meal are Sara's, tempered in haste at the tent door for the visit of the Lord."
+    }
+   ],
+   "18:14": [
+    {
+     "target": "Luke 1:37",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Is there any thing hard to God?",
+      "target": "there shall not be impossible with God any word"
+     },
+     "note": "Gabriel answers Mary with the assurance spoken at Mambre: no word shall be impossible with God — the same annunciation of a son where nature said none could be."
+    }
+   ],
+   "18:18": [
+    {
+     "target": "Galatians 3:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "in him are TO BE Blessed All The Nations of The Earth",
+      "target": "in thee shall all nations be blessed"
+     },
+     "note": "Paul's form of the promise — all nations blessed — follows this renewal of it at Mambre, rather than the 'kindreds' of its first giving at Genesis 12:3, which the seed already carries."
+    }
+   ],
+   "19:5": [
+    {
+     "target": "Judges 19:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Bring them forth hither that we may know them",
+      "target": "Bring forth the man, that entered into thy house, that we may abuse him"
+     },
+     "note": "Gibea repeats Sodom almost to the word: the guest demanded out of the host's house by the men of the city at night."
+    }
+   ],
+   "19:24": [
+    {
+     "target": "Deuteronomy 29:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "our Lord rained upon Sodome and Gomorre brimstone & fire from our Lord out of heaven",
+      "target": "after the example of the subversion of Sodom and Gomorrha, Adama, and Seboim, which our Lord subverted in his wrath & fury"
+     },
+     "note": "Moses holds up the subversion of Sodom as the standing example of a land burned with brimstone and sown no more."
+    },
+    {
+     "target": "Sophonias 2:9",
+     "kind": "parallel",
+     "evidence": {
+      "source": "rained upon Sodome and Gomorre brimstone & fire",
+      "target": "Moab shall be as Sodom, and the children of Ammon as Gomorrha, dryness of thorns, and heaps of salt"
+     },
+     "note": "Sophonias measures Moab and Ammon — Lot's own posterity — by the city Lot was delivered from: as Sodom, and as Gomorrha."
+    },
+    {
+     "target": "Ezechiel 16:49",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Therefore our Lord rained upon Sodome and Gomorre brimstone & fire",
+      "target": "Lo this was the iniquity of Sodom thy sister, pride, fullness of bread, and aboundance"
+     },
+     "note": "Ezechiel expounds what the iniquity of Sodom was, whose overthrow Genesis records: pride, fullness of bread, and a hand not stretched out to the poor."
+    },
+    {
+     "target": "Amos 4:11",
+     "kind": "parallel",
+     "evidence": {
+      "source": "rained upon Sodome and Gomorre brimstone & fire from our Lord out of heaven",
+      "target": "as God subverted Sodom and Gomorth"
+     },
+     "note": "Amos recalls the subversion as God's own act in history, the pattern of the overthrows he works in Israel."
+    }
+   ],
+   "22:2": [
+    {
+     "target": "John 3:16",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Take thy only begotten son, whom thou lovest, Isaac",
+      "target": "he gave his only-begotten Son"
+     },
+     "note": "John's only-begotten Son, given by the Father who so loved the world, answers Abraham's only begotten son, whom he loved, taken up for the offering."
+    },
+    {
+     "target": "2 Paralipomenon 3:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "go into the Land of vision: and there thou shalt offer him for an holocaust upon one of the mountains which I will shew thee",
+      "target": "Salomon began to build the house of our Lord in Jerusalem, in mount Moria"
+     },
+     "note": "The mountain of Isaac's offering is the temple mount: Moria — the 'Land of vision' as Genesis names the place, for 'in the mountain our Lord will see' (Genesis 22:14)."
+    }
+   ],
+   "22:6": [
+    {
+     "target": "John 19:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He took also the wood of the holocaust, and laid it upon Isaac his son",
+      "target": "bearing his own cross he went forth"
+     },
+     "note": "Isaac carries the wood of his own holocaust up the mountain; the Son bears his own cross forth to the place of sacrifice."
+    }
+   ],
+   "22:17": [
+    {
+     "target": "3 Kings 4:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "as the sand that is by the sea shore",
+      "target": "Juda and Israel innumerable, as the sand of the sea in multitude: eating, and drinking, and rejoicing"
+     },
+     "note": "Under Solomon the oath stands fulfilled in a single clause: Juda and Israel innumerable, as the sand of the sea."
+    }
+   ],
+   "26:12": [
+    {
+     "target": "Matthew 13:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he found that same year an hundred fold: and our Lord blessed him",
+      "target": "they yielded fruit, the one an hundredfold, the other threescore, and another thirty"
+     },
+     "note": "The sower's hundredfold is Isaac's measure: the one sowing in Genesis that found a hundredfold in the same year, in famine, because the Lord blessed him."
+    }
+   ],
+   "27:29": [
+    {
+     "target": "Numbers 24:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "He that shall curse thee, be he cursed: and he that shall bless thee, be he replenished with blessings",
+      "target": "He that blesseth thee, himself also shall be blessed: he that curseth thee, shall be reputed accurst"
+     },
+     "note": "Balaam, hired to curse Israel, blesses her in Isaac's own blessing-words spoken over Jacob."
+    }
+   ],
+   "29:31": [
+    {
+     "target": "1 Kings 1:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "our Lord seeing that he despised Lia, opened her womb, her sister remaining barren",
+      "target": "she upbraided her, that our Lord had shut her matrice"
+     },
+     "note": "Anna and Phenenna replay Rachel and Lia: two wives of one man, the Lord opening one womb and shutting the other, and the beloved wife sore vexed by her rival."
+    }
+   ],
+   "32:12": [
+    {
+     "target": "Osee 1:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "dilate my seed as the sand of the sea, which for multitude cannot be numbered",
+      "target": "the number of the children of Israel shall be as the sand of the sea, that is without measure, and shall not be numbered"
+     },
+     "note": "Osee takes up the promise Jacob himself had pleaded at the Jabbok: seed as the sand of the sea, that cannot be numbered."
+    }
+   ],
+   "35:2": [
+    {
+     "target": "Josue 24:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Cast away the strange gods that are among you",
+      "target": "take away strange gods out of the midst of you"
+     },
+     "note": "Josue at Sichem renews Jacob's own command in the same place: cast away the strange gods — the gods Jacob buried under the oak at Sichem."
+    }
+   ],
+   "37:9": [
+    {
+     "target": "Apocalypse 12:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the sun, and the moon, and eleven stars adore me",
+      "target": "a woman clothed with the sun, and the moon under her feet, & on her head a crown of twelve stars"
+     },
+     "note": "Joseph's dream-sign returns in heaven: sun and moon and stars gathered about the woman who brings forth the male child."
+    }
+   ],
+   "37:20": [
+    {
+     "target": "Matthew 21:38",
+     "kind": "allusion",
+     "evidence": {
+      "source": "come, let us kill him, and cast him into an old cistern",
+      "target": "This is the heir, come, let us kill him, and we shall have his inheritance"
+     },
+     "note": "The husbandmen's cry in the Lord's parable is the brethren's cry over Joseph the heir of the dreams: come, let us kill him."
+    }
+   ],
+   "37:28": [
+    {
+     "target": "Matthew 26:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "sold him to the Ismaelites, for twenty pieces of silver",
+      "target": "they appointed unto him thirty pieces of silver"
+     },
+     "note": "Joseph is sold by his brethren for pieces of silver, at Juda's counsel; the Son of David is priced at thirty pieces by Judas."
+    }
+   ],
+   "40:8": [
+    {
+     "target": "Daniel 2:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Why doth not interpretation belong to God?",
+      "target": "there is a God in heaven that revealeth mysteries"
+     },
+     "note": "Joseph and Daniel, the two dream-readers set before kings, make the same disclaimer: interpretation belongs to God, who revealeth mysteries."
+    }
+   ],
+   "46:8": [
+    {
+     "target": "Exodus 1:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "these are the names of the children of Israel, that entered into Ægypt, himself with his children",
+      "target": "These be the names of the children of Israel, that entered into Ægypt with Jacob"
+     },
+     "note": "Exodus opens by taking up Genesis' list-formula to the letter: these are the names of the children of Israel that entered into Egypt."
+    }
+   ],
+   "46:27": [
+    {
+     "target": "Exodus 1:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "All the souls of the house of Jacob, that entered into Ægypt, were seventy",
+      "target": "all the souls that came out of Jacob's thigh were seventy"
+     },
+     "note": "Exodus repeats Genesis' reckoning of the descent: seventy souls of the house of Jacob."
+    }
+   ],
+   "47:9": [
+    {
+     "target": "1 Paralipomenon 29:15",
+     "kind": "parallel",
+     "evidence": {
+      "source": "The days of the pilgrimage of my life are an hundred thirty years, few and evil",
+      "target": "we are pilgrims before thee, and strangers, as all our fathers"
+     },
+     "note": "David's prayer takes Jacob's own word for his years — pilgrimage — and makes it the confession of all the fathers."
+    }
+   ],
+   "47:27": [
+    {
+     "target": "Exodus 1:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "was increased, & multiplied exceedingly",
+      "target": "the children of Israel increased, and as it were springing up did multiply, and growing strong exceedingly, filled the land"
+     },
+     "note": "Exodus' first paragraph resumes Genesis' last word on the sojourn: Israel increased and multiplied exceedingly, even under a new king that knew not Joseph."
+    }
+   ],
+   "48:19": [
+    {
+     "target": "Deuteronomy 33:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "his younger brother shall be greater than he: and his seed shall grow into nations",
+      "target": "These are the multitudes of Ephraim, and these the thousands of Manasses"
+     },
+     "note": "Moses' blessing of Joseph reckons what Jacob foresaw with crossed hands: Ephraim the younger grown into multitudes."
+    }
+   ],
+   "49:4": [
+    {
+     "target": "1 Paralipomenon 5:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thou didst ascend thy father's bed, and didst defile his couch",
+      "target": "when he had violated his father's bed, his first-birth-right was given to the sons of Joseph"
+     },
+     "note": "The Chronicler explains Ruben's lost birthright out of Jacob's dying sentence: he had violated his father's bed."
+    }
+   ],
+   "49:9": [
+    {
+     "target": "Numbers 24:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "taking thy rest thou didst lie as a lion, and as it were a lioness, who shall raise him up?",
+      "target": "Lying he hath slept as a lion, and as a lioness, whom none shall be bold to raise up"
+     },
+     "note": "Balaam's oracle on Israel couches in Jacob's own lion-words over Juda, taking his rest none dares rouse."
+    }
+   ],
+   "49:10": [
+    {
+     "target": "Numbers 24:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Till he do Come That is to be Sent",
+      "target": "A star Shall Rise out of Jacob, and a rod shall arise from Israel"
+     },
+     "note": "Balaam's star out of Jacob and rod out of Israel answer Jacob's sceptre that shall not be taken from Juda till he come that is to be sent."
+    },
+    {
+     "target": "Ezechiel 21:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The Sceptre Shall Not be Taken Away From Judas",
+      "target": "till he came to whom judgement belongeth, and I will deliver it to him"
+     },
+     "note": "Ezechiel's triple 'iniquity, iniquity, iniquity' over the diadem runs till he come to whom judgment belongeth — the term Jacob's sceptre-oracle set."
+    }
+   ],
+   "49:16": [
+    {
+     "target": "Judges 16:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Dan shall judge his own people, as also another tribe in Israel",
+      "target": "he judged Israel twenty years"
+     },
+     "note": "Jacob's word on Dan is fulfilled in the one judge of Dan's stock: Samson, of Saraa, son of Manue (Judges 13:2), who judged Israel twenty years."
+    }
+   ],
+   "49:26": [
+    {
+     "target": "Deuteronomy 33:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "be they upon the head of Joseph, and upon the crown of the Nazarite among his brethren",
+      "target": "come upon the head of Joseph, and upon the crown of the Nazarite among his brethren"
+     },
+     "note": "Moses' blessing of Joseph closes in Jacob's very words: the blessing come upon the head of Joseph, the Nazarite among his brethren."
+    }
+   ],
+   "50:20": [
+    {
+     "target": "Romans 8:28",
+     "kind": "theme",
+     "evidence": {
+      "source": "You thought evil against me, but God turned that into good",
+      "target": "to them that love God, all things cooperate unto good"
+     },
+     "note": "Joseph's sentence is the doctrine in narrative form: evil thought against God's servant is turned by God into good, to save many peoples; Paul states it as the standing rule for them that love God."
+    }
+   ],
+   "50:24": [
+    {
+     "target": "Exodus 13:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God will visit you carry my bones with you out of this place",
+      "target": "Moyses also took Joseph's bones with him: because he had adjured the children of Israel, saying: God shall visit you, carry out my bones from hence with you"
+     },
+     "note": "Exodus records the oath kept at the going out: Moses took Joseph's bones, adjured in the words of Genesis 50."
+    },
+    {
+     "target": "Josue 24:32",
+     "kind": "parallel",
+     "evidence": {
+      "source": "God will visit you carry my bones with you out of this place",
+      "target": "The bones also of Joseph which the children of Israel had taken out of Ægypt, they buried in Sichem"
+     },
+     "note": "The bones carried out of Egypt under Joseph's adjuration are buried at last in Sichem, in the field Jacob bought — the oath's long journey ended where the patriarchs lie."
+    }
+   ]
+  },
+  "1 Corinthians": {
+   "11:8": [
+    {
+     "target": "Genesis 2:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "but the woman of the man",
+      "target": "our Lord God built the rib which he took of Adam into a woman"
+     },
+     "note": "Paul's 'woman of the man' states in a phrase what Genesis tells at length: the woman built from the rib taken out of Adam."
+    }
+   ],
+   "15:47": [
+    {
+     "target": "Genesis 2:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The first man of earth, earthly: the second man from Heaven, heavenly",
+      "target": "formed man of the slime of the earth"
+     },
+     "note": "The first man is 'of earth, earthly' because God formed him of the slime of the earth; the second man is set against him as from heaven."
+    }
+   ],
+   "15:22": [
+    {
+     "target": "Genesis 3:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "as in Adam all die",
+      "target": "dust thou art, and into dust thou shalt return"
+     },
+     "note": "The death that is in Adam for all men is the sentence of Genesis 3 itself: dust thou art, and into dust thou shalt return."
+    }
+   ]
+  },
+  "James": {
+   "3:9": [
+    {
+     "target": "Genesis 1:26",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we curse men which are made after the similitude of God",
+      "target": "Let us make Man to our image & likeness"
+     },
+     "note": "James forbids cursing men on Genesis' ground: they are made after the similitude of God."
+    }
+   ]
+  },
+  "Ecclesiastes": {
+   "7:30": [
+    {
+     "target": "Genesis 1:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God made man right, and he hath entangled himself with infinite questions",
+      "target": "God created man to his own image"
+     },
+     "note": "The Preacher sums up the fall in one line: God made man right — created to his image — and man has entangled himself."
+    }
+   ]
+  },
+  "Ephesians": {
+   "4:24": [
+    {
+     "target": "Genesis 1:27",
+     "kind": "allusion",
+     "evidence": {
+      "source": "put on the new man which according to God is created in justice, and holiness of the truth",
+      "target": "to the image of God he created him"
+     },
+     "note": "The new man is created according to God, as man was first created to God's image: a creation renewed."
+    }
+   ]
+  },
+  "Malachias": {
+   "2:10": [
+    {
+     "target": "Genesis 1:27",
+     "kind": "theme",
+     "evidence": {
+      "source": "Hath not one God created us?",
+      "target": "male and female he created them"
+     },
+     "note": "Malachias argues brotherhood from the one creation: one God created them all, male and female — one human family under one Father, which is why despising a brother violates the covenant."
+    }
+   ],
+   "1:2": [
+    {
+     "target": "Genesis 25:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Was not Esau brother to Jacob, saith our Lord, and I loved Jacob",
+      "target": "one people shall overcome the other, and the elder shall serve the younger"
+     },
+     "note": "Malachias' 'I loved Jacob' is God's later word upon the oracle spoken before the twins were born: the elder shall serve the younger."
+    }
+   ]
+  },
+  "Proverbs": {
+   "3:18": [
+    {
+     "target": "Genesis 2:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "She is a tree of life to them that shall apprehend her",
+      "target": "the tree of life also in the middle of Paradise"
+     },
+     "note": "Wisdom is praised in Eden's own title: a tree of life to them that lay hold on her."
+    }
+   ],
+   "8:27": [
+    {
+     "target": "Genesis 1:1",
+     "kind": "theme",
+     "evidence": {
+      "source": "When he prepared the heavens, I was present",
+      "target": "In the beginning GOD created heaven and earth"
+     },
+     "note": "Wisdom speaks as present when the heavens were prepared: Genesis' creation contemplated from within, by her who was with the Maker before the earth was made."
+    }
+   ]
+  },
+  "Apocalypse": {
+   "21:1": [
+    {
+     "target": "Genesis 1:1",
+     "kind": "theme",
+     "evidence": {
+      "source": "I saw a new heaven and a new earth. For the first heaven, and the first earth was gone",
+      "target": "In the beginning GOD created heaven and earth"
+     },
+     "note": "The last book answers the first in its own words: the heaven and earth created in the beginning give place to a new heaven and a new earth."
+    }
+   ],
+   "22:3": [
+    {
+     "target": "Genesis 3:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "no curse shall be any more",
+      "target": "cursed is the earth in thy work: with much toiling shalt thou eat thereof"
+     },
+     "note": "The end answers the beginning: in the city of God no curse shall be any more, where Eden heard the earth cursed in man's work."
+    }
+   ],
+   "12:9": [
+    {
+     "target": "Genesis 3:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that great dragon was cast forth, the old serpent, which is called the devil and Satan",
+      "target": "the serpent also was more subtile than all the beasts of the earth"
+     },
+     "note": "The Apocalypse names Eden's serpent outright: the old serpent, the devil and Satan, the seducer of the whole world."
+    }
+   ],
+   "21:4": [
+    {
+     "target": "Genesis 2:17",
+     "kind": "theme",
+     "evidence": {
+      "source": "death shall be no more, nor mourning, nor crying",
+      "target": "in what day soever thou shalt eat of it, thou shalt die the death"
+     },
+     "note": "The death threatened at the tree, and entered by the eating of it, is abolished in the new creation: death shall be no more — the last word of the story answering the sentence of its first sin."
+    }
+   ]
+  },
+  "Jeremias": {
+   "4:23": [
+    {
+     "target": "Genesis 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I beheld the earth, and lo it was void, and a thing of nothing: and the heavens, & there was no light in them",
+      "target": "the earth was void and vacant, and darkness was upon the face of the depth"
+     },
+     "note": "Jeremias sees judgment as un-creation: the earth void again as before the first day, and the heavens without the light God made."
+    }
+   ],
+   "31:15": [
+    {
+     "target": "Genesis 35:19",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the mourning, and weeping of Rachel weeping for her children",
+      "target": "Rachel therefore died, and was buried in the high way that leadeth to Ephrata"
+     },
+     "note": "Rachel weeps in Jeremias from the grave Genesis records for her, on the high way that leadeth to Ephrata — the Bethlehem road."
+    }
+   ]
+  },
+  "2 Peter": {
+   "3:5": [
+    {
+     "target": "Genesis 1:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Heavens were before, and the earth, out of water, and through water, consisting by the word of God",
+      "target": "the Spirit of God moved over the waters"
+     },
+     "note": "Peter's scoffers wilfully forget the first world as Genesis shews it: earth consisting out of water and through water, by the word of God."
+    }
+   ],
+   "3:6": [
+    {
+     "target": "Genesis 7:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that world then, being overflowed with water perished",
+      "target": "all flesh was consumed that moved upon the earth"
+     },
+     "note": "The world that then perished, overflowed with water, is the flood of Genesis, when all flesh that moved upon the earth was consumed."
+    }
+   ]
+  },
+  "Sophonias": {
+   "1:3": [
+    {
+     "target": "Genesis 1:28",
+     "kind": "allusion",
+     "evidence": {
+      "source": "gathering the fowls of the heaven, and fishes of the sea",
+      "target": "rule over the fishes and the sea, and fowls of the air"
+     },
+     "note": "Sophonias' gathering-away of man, beast, fowl, and fish unmakes the order of Genesis 1 in reverse: judgment as de-creation."
+    }
+   ]
+  },
+  "Isaias": {
+   "64:8": [
+    {
+     "target": "Genesis 2:7",
+     "kind": "theme",
+     "evidence": {
+      "source": "we clay: and thou art our maker, and all we the works of thy hands",
+      "target": "formed man of the slime of the earth"
+     },
+     "note": "Isaiah's prayer takes its plea from the making of Adam: we are the clay, and the God who formed man of the slime of the earth is our maker and father."
+    }
+   ]
+  },
+  "John": {
+   "8:44": [
+    {
+     "target": "Genesis 3:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he is a liar, & the father thereof",
+      "target": "the serpent said to the woman: No, you shall not die the death"
+     },
+     "note": "The devil is a liar and the father of lies; his first recorded lie is the flat denial of God's word in Eden: No, you shall not die the death."
+    }
+   ]
+  },
+  "Galatians": {
+   "4:4": [
+    {
+     "target": "Genesis 3:15",
+     "kind": "theme",
+     "evidence": {
+      "source": "God sent his Son made of a woman, made under the Law",
+      "target": "I will put enmity between thee & the woman, & thy seed and the seed of her"
+     },
+     "note": "The promise in Eden ran between the serpent and the woman, her seed against his: in the fullness of time God sent his Son made of a woman, the woman's seed come to end the enmity."
+    }
+   ],
+   "3:14": [
+    {
+     "target": "Genesis 12:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "on the Gentiles the blessing of Abraham might be made in Christ Jesus",
+      "target": "IN Thee shall all the kindreds of the earth be blessed"
+     },
+     "note": "Paul names the blessing of Abraham made upon the Gentiles in Christ Jesus: the kindreds of the earth blessed in Abraham, as was promised."
+    }
+   ],
+   "4:24": [
+    {
+     "target": "Genesis 16:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which is Agar",
+      "target": "having an handmaid, an Ægyptian named Agar"
+     },
+     "note": "Paul's allegory takes its figure from Genesis' plain introduction: Sarai's Egyptian handmaid, named Agar."
+    }
+   ],
+   "4:28": [
+    {
+     "target": "Genesis 21:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "we brethren, according to Isaac, are the children of promise",
+      "target": "she conceived & bare a son in her old age, at the time that God had foretold her"
+     },
+     "note": "To be children of promise 'according to Isaac' is to be born as Isaac was: by promise, at the time God foretold, to parents in their old age."
+    }
+   ]
+  },
+  "Matthew": {
+   "26:52": [
+    {
+     "target": "Genesis 9:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all that take the sword shall perish with the sword",
+      "target": "Whosoever shall shed man's blood, his blood shall be shed: for to the image of God man was made"
+     },
+     "note": "The Lord's word in Gethsemane restates the flood covenant's law: blood for blood, and its reason — man made to the image of God."
+    }
+   ],
+   "1:3": [
+    {
+     "target": "Genesis 38:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Judas begat Phares and Zaram of Thamar",
+      "target": "the other came forth: and the woman said: Why is the partition divided for thee? And for this cause called his name Phares"
+     },
+     "note": "Matthew's genealogy keeps Thamar and her twins in the royal line: Phares, named for the partition divided at his birth."
+    }
+   ]
+  },
+  "Acts of the Apostles": {
+   "17:26": [
+    {
+     "target": "Genesis 9:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he made of one, all mankind, to inhabit upon the whole face of the earth",
+      "target": "of these was all mankind spread over the whole earth"
+     },
+     "note": "Paul at Athens teaches Genesis 9: of Noe's three sons was all mankind spread over the whole earth."
+    }
+   ],
+   "2:6": [
+    {
+     "target": "Genesis 11:7",
+     "kind": "theme",
+     "evidence": {
+      "source": "every man heard them speak in his own tongue",
+      "target": "let us go down, and there confound their tongue, that none may hear his neighbour's voice"
+     },
+     "note": "Pentecost is Babel answered: there the tongue was confounded so that none might hear his neighbour's voice; here every man hears the great works of God in his own tongue."
+    }
+   ],
+   "7:14": [
+    {
+     "target": "Genesis 46:27",
+     "kind": "parallel",
+     "evidence": {
+      "source": "called thither Jacob his father and all his kindred in seventy five souls",
+      "target": "All the souls of the house of Jacob, that entered into Ægypt, were seventy"
+     },
+     "note": "Stephen reckons the kindred at seventy-five souls, following the Greek reckoning; Genesis as here printed numbers the house that entered Egypt at seventy."
+    }
+   ]
+  },
+  "Luke": {
+   "10:12": [
+    {
+     "target": "Genesis 19:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "it shall be more tolerable for Sodom in that day, than for that city",
+      "target": "rained upon Sodome and Gomorre brimstone & fire from our Lord out of heaven"
+     },
+     "note": "The Lord makes Sodom — the city rained on with fire — the measure of tolerableness in the day of judgment."
+    }
+   ]
+  },
+  "Exodus": {
+   "32:13": [
+    {
+     "target": "Genesis 22:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "to whom thou swarest by thine own self, saying: I will multiply your seed as the stars of heaven",
+      "target": "I will multiply thy seed as the stars of heaven, and as the sand that is by the sea shore"
+     },
+     "note": "Moses intercedes by pleading the sworn promise back to God: the stars of heaven, in the oath's own words."
+    }
+   ]
+  },
+  "Ruth": {
+   "4:11": [
+    {
+     "target": "Genesis 29:31",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Our Lord make this woman, which entereth into thy house, as Rachel, and Lia, which builded the house of Israel",
+      "target": "opened her womb, her sister remaining barren"
+     },
+     "note": "Bethlehem's elders bless Ruth in the names of Rachel and Lia, the two mothers who builded the house of Israel out of barren and opened wombs."
+    }
+   ],
+   "4:12": [
+    {
+     "target": "Genesis 38:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "thy house may be, as the house of Phares, whom Thamar bare to Judas",
+      "target": "for this cause called his name Phares"
+     },
+     "note": "The blessing on Booz's house names its own ancestor: Phares, whom Thamar bare to Judas, named for the breach at his birth."
     }
    ]
   }
