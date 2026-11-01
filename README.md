@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.10.0 — Deuteronomy: the Torah complete
+
+**Deuteronomy — 68 new references** (49 allusion, 10 parallel, 9 quotation). `our-references.json` now holds **817 references** (245 parallel, 482 allusion, 38 quotation, 52 theme). **With this version, our own layer covers the whole Torah** — Genesis, Exodus, Leviticus, Numbers, Deuteronomy — alongside the complete deuterocanon.
+
+Deuteronomy's famous web proved to be almost entirely the old margins' already — all three of the Lord's temptation answers, the great commandment, the prophet like Moses in Acts 3, "vengeance is mine." What was missing is surprising: Galatians 3:10 quotes the last of Ebal's curses — "Cursed be he that abideth not in the words of this law" (27:26) — the verse Paul builds the argument on, and it was in no margin we have; Romans 10:8 completes Paul's "the word is nigh thee" at 30:14, where the seed carried only the ascent half; Mark 12:29 keys Jesus' first word of the answer — the Shema itself, 6:4 — where the seed keyed only 6:5. Also new: "the poor you have always with you" traced to 15:11; the root of bitterness (Heb 12:15 → 29:18); God pleading with Israel out of His own divorce law (Jer 3:1 → 24:4); and the Song of Moses mapped verse by verse into the prophets and the Apocalypse. One famous candidate was refused on principle: Hebrews 1:6's "let all the angels of God adore him" stands in the Greek of 32:43 but **not in the Douay-Rheims text this dataset is built on** — and a reference cannot cite words its own Bible does not print.
+
 ## Version 0.9.0 — Numbers
 
 **Numbers — 68 new references** (50 allusion, 14 parallel, 2 quotation, 2 theme). `our-references.json` now holds **749 references** (235 parallel, 433 allusion, 29 quotation, 52 theme).

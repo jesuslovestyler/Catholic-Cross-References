@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.9.0",
- "stage": "Stage 3: Genesis, Exodus, Leviticus, and Numbers. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.10.0",
+ "stage": "Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 749,
+  "references": 817,
   "by_kind": {
-   "parallel": 235,
-   "allusion": 433,
-   "quotation": 29,
+   "parallel": 245,
+   "allusion": 482,
+   "quotation": 38,
    "theme": 52
   },
-  "source_books": 55,
-  "source_verses": 666
+  "source_books": 58,
+  "source_verses": 729
  },
  "references": {
   "Wisdom": {
@@ -1286,6 +1286,28 @@
      },
      "note": "Hebrews' comfort is for those who 'have fled' — the fugitive's own word and posture: as the manslayer fled to the appointed city and was safe from the avenger until judgment, so these have fled to hold fast the hope. Entered as theme: the link is the flight itself, not a shared phrase."
     }
+   ],
+   "12:15": [
+    {
+     "target": "Deuteronomy 29:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "lest any root of bitterness springing up do hinder, and by it many be polluted.",
+      "target": "and there be among you a root bringing forth gall & bitterness."
+     },
+     "note": "The root Hebrews warns the church against is the root Moses warned the covenant assembly against: one heart turned away, bringing forth gall and bitterness among the people."
+    }
+   ],
+   "13:5": [
+    {
+     "target": "Deuteronomy 31:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "For he said, I will not leave thee, neither will I forsake thee.",
+      "target": "& will not leave nor forsake thee."
+     },
+     "note": "Hebrews quotes the promise spoken to all Israel at the Jordan: he will not leave nor forsake thee. The seed carries this verse of Hebrews only at chapter level (Deuteronomy 31); the same promise as spoken to Josue (31:8) is keyed at Josue 1:5."
+    }
    ]
   },
   "Romans": {
@@ -1408,6 +1430,39 @@
       "target": "He shall take also of the blood of the calf, and sprinkle with his finger seven times against the propitiatory to the east"
      },
      "note": "Paul names Christ with the mercy-seat's own word. The propitiatory was the one place in Israel where blood was sprinkled to make atonement, seven times, on the Day of Atonement. The link is the argument itself: God sets forth in Christ's blood what the Day shadowed in blood sprinkled on gold."
+    }
+   ],
+   "10:8": [
+    {
+     "target": "Deuteronomy 30:14",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The word is nigh, in thy mouth, and in thy heart.",
+      "target": "But the word is very near thee, in thy mouth and in thy heart, to do it."
+     },
+     "note": "Paul takes Moses' sentence for the word of faith, nearly as it stands. The seed carries the ascent half of Paul's weave (Romans 10:6 → 30:12); the nearness half was unkeyed."
+    }
+   ],
+   "10:7": [
+    {
+     "target": "Deuteronomy 30:13",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Or who descendeth into the depth? that is to call Christ again from the dead.",
+      "target": "Which of us can pass over the sea and bring it even unto us, that we may hear, & do that which is commanded?"
+     },
+     "note": "Paul keeps Moses' question-shape — who shall cross over and bring it to us? — but turns the sea-crossing into a descent to the dead, Christ's own journey. Graded allusion, not quotation: the wording is deliberately changed. Baruch's asking of the same question is keyed to this verse in our layer."
+    }
+   ],
+   "11:8": [
+    {
+     "target": "Deuteronomy 29:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "eyes, that they may not see, and ears, that they may not hear; until this present day.",
+      "target": "our Lord hath not given you a heart to understand, and eyes to see, and ears that can hear, unto this present day."
+     },
+     "note": "Paul's sentence is a weave: the spirit of compunction is Isaias 29:10's, but the eyes that see not, the ears that hear not, and the closing 'unto this present day' are Deuteronomy's words about the wilderness generation."
     }
    ]
   },
@@ -2681,6 +2736,17 @@
      },
      "note": "Dying Tobias foretells the fall Jonas preached in Ninive's streets — the word once delayed by the city's repentance, not failed."
     }
+   ],
+   "1:7": [
+    {
+     "target": "Deuteronomy 26:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "so that in the third year he ministered all the tithing to the proselytes and strangers.",
+      "target": "in the third year of tithes thou shalt give to the Levite, & the stranger, & the pupil, & the widow, that they may eat within thy gates, and be filled:"
+     },
+     "note": "Tobias in exile keeps the third-year tithe — the tithe of the third year given to the stranger — which Deuteronomy appoints here (and at 14:28–29). The old man's charity is the law's calendar kept in a strange land."
+    }
    ]
   },
   "Judith": {
@@ -3728,6 +3794,28 @@
      },
      "note": "The famine inside the besieged sanctuary is explained by one clause — 'for that it was the seventh year'. The land was keeping its sabbath under Leviticus 25, and an unsown year meant no stores laid up."
     }
+   ],
+   "14:41": [
+    {
+     "target": "Deuteronomy 18:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "till there rise the faithful Prophet:",
+      "target": "A prophet of thy nation & of thy brethren like unto me, will our Lord thy God raise up to thee: him thou shalt hear,"
+     },
+     "note": "The nation settles Simon's house 'till there rise the faithful Prophet' — the settlement itself is provisional, suspended on the rising Moses promised. The verb is Deuteronomy's: the Lord will raise him up."
+    }
+   ],
+   "3:56": [
+    {
+     "target": "Deuteronomy 20:7",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he said to them, that built houses, and despoused wives, and planted vineyards, and to the fearful, that every one should return into his house, according to the law.",
+      "target": "What man is there, that hath despoused a wife, and not taken her? Let him go, and return into his house"
+     },
+     "note": "Judas musters his army by Deuteronomy's exemptions, 'according to the law': the house-builder (20:5), the vineyard-planter (20:6), the man who has despoused a wife (this verse), and the fearful (20:8). The seed carries 1 Machabees 3:56 only at chapter level (Deuteronomy 20)."
+    }
    ]
   },
   "2 Machabees": {
@@ -4499,6 +4587,28 @@
       "target": "They shall come in galleys from Italy, they shall overcome the Assyrians, and shall waste the Hebrews"
      },
      "note": "Daniel's galleys and Romans are the last word of Balaam's last oracle — the ships from Italy (the corpus's rendering of Cethim) that waste even the Hebrews."
+    }
+   ],
+   "4:34": [
+    {
+     "target": "Deuteronomy 32:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "because all his works are true, and his ways judgements, and them that walk in pride he can humble.",
+      "target": "The works of God be perfect, and all his ways judgments: God is faithful, and without any iniquity, just and right."
+     },
+     "note": "Nabuchodonosor's doxology confesses God in the song's terms: his works true, his ways judgments, the proud humbled — a pagan king made to sing Moses."
+    }
+   ],
+   "9:4": [
+    {
+     "target": "Deuteronomy 7:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I beseech thee o Lord God great and terrible, which keepest covenant, & mercy to them that love thee, and keep thy commandments.",
+      "target": "he is a strong and faithful God, keeping his covenant and mercy to them that love him, and to them that keep his precepts"
+     },
+     "note": "Daniel's confession begins where Deuteronomy's confession stands: God great and terrible, keeping covenant and mercy to them that love him. Nehemias 9:32 prays the same words; two keys carry the verse, and his is set aside."
     }
    ]
   },
@@ -5403,6 +5513,15 @@
       "target": "and they shall no more immolate their hosts to devils, with whom they have committed fornication"
      },
      "note": "Paul's charge that idol-sacrifice is devil-sacrifice is Leviticus 17:7's own verdict on Israel's sacrifices to the field devils, carried over to the Gentiles' tables."
+    },
+    {
+     "target": "Deuteronomy 32:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the things that the heathen do immolate, to devils they do immolate, and not to God.",
+      "target": "They immolated to devils and not to God, to gods, which they knew not"
+     },
+     "note": "Paul's warning to Corinth is Moses' song turned on the nations' altars: sacrifice to devils, and not to God — the apostle keeps the lawgiver's very contrast."
     }
    ],
    "15:20": [
@@ -5515,6 +5634,15 @@
       "target": "he shall not make his word frustrate, but all that he promised he shall fulfill"
      },
      "note": "The Preacher's counsel is the law's edge turned proverb: defer not to pay what thou hast vowed — the same duty this verse lays on the man who binds himself by an oath."
+    },
+    {
+     "target": "Deuteronomy 23:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If thou hast vowed any thing to God, defer not to pay it: for an unfaithful and foolish promise displeaseth him. But whatsoever thou hast vowed, pay it:",
+      "target": "When thou hast vowed a vow to our Lord thy God, thou shalt not slack to pay it: because our Lord thy God will require it."
+     },
+     "note": "The Preacher's vow-counsel is Deuteronomy's law turned to wisdom: defer not to pay it, for the Lord will require it. Our layer keys Deuteronomy's own restatement of the vow law back to Numbers 30."
     }
    ]
   },
@@ -5608,6 +5736,17 @@
      },
      "note": "The covenant 'of life and peace' Malachias recalls for Levi is this grant to Levi's zealous son: the peace of God's covenant, given to Phinees in the act of zeal."
     }
+   ],
+   "2:7": [
+    {
+     "target": "Deuteronomy 33:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For the lips of the Priest shall keep knowledge, and the law they shall require of his mouth",
+      "target": "thy judgments, o Jacob, and thy law, o Israel: they shall put incense in thy fury, and holocaust upon thine altar."
+     },
+     "note": "The priest from whose mouth the law is sought is Levi under Moses' blessing: keeper of God's judgments and law for Israel, and of the altar's incense. Malachias measures a fallen priesthood by the blessing's charge."
+    }
    ]
   },
   "Proverbs": {
@@ -5653,6 +5792,17 @@
       "target": "You shall fly, when no man pursueth you"
      },
      "note": "The covenant curse — flying, with no man pursuing — becomes the proverb's portrait of a guilty conscience. The just man's lion-like fearlessness is its mirror image."
+    }
+   ],
+   "6:21": [
+    {
+     "target": "Deuteronomy 11:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Bind them in thy heart continually, and put them about thy throat.",
+      "target": "Put these my words in your hearts and minds, and hang them for a sign on your hands, and place them between your eyes."
+     },
+     "note": "The father's commandments are to be worn as the law's words were worn: bound in the heart, hung about the body. Proverbs takes Deuteronomy's discipline for God's words and applies it to a father's — the same image stands at 6:8, the phylactery verse."
     }
    ]
   },
@@ -5721,6 +5871,15 @@
       "target": "Then sang Moyses and the children of Israel this song to our Lord"
      },
      "note": "The victors by the sea of glass sing 'the song of Moses the servant of God' — the song first sung on the far shore of the Red Sea — joined now to the song of the Lamb."
+    },
+    {
+     "target": "Deuteronomy 32:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and singing the song of Moyses the servant of God, and the song of the Lamb, saying: Great and marvelous are thy works Lord God omnipotent: just and true are thy ways King of the worlds.",
+      "target": "The works of God be perfect, and all his ways judgments: God is faithful, and without any iniquity, just and right."
+     },
+     "note": "The redeemed name the song they sing — Moses' — and the Lamb's together; and its words take up the song's own confession, that God's works are great and his ways just. Keyed at the song's first confession of God's ways; the song as a whole stands behind the naming."
     }
    ],
    "1:6": [
@@ -5763,6 +5922,17 @@
       "target": "that deceived the children of Israel at the suggestion of Balaam, and made you prevaricate against our Lord upon the sin of Phogor"
      },
      "note": "Moses' own indictment names the teacher John condemns: the eating and fornication at Phogor were Balaam's suggestion. The seed keys this verse of John to Balaam's parting counsel (24:14) and to the sin itself (25:2), but not to the verse that names its author."
+    }
+   ],
+   "22:18": [
+    {
+     "target": "Deuteronomy 4:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If any man shall add to these things, God shall add upon him the plagues written in this book.",
+      "target": "You shall not add to the word, that I speak to you, neither shall you take away from it"
+     },
+     "note": "The last book of Scripture seals itself with the law's own seal: you shall not add to the word. Deuteronomy speaks the command twice (here, and at 12:32); the first stands as the anchor. Proverbs 30:6's 'add not to his words' is set aside — it cannot be told apart between the twin commands."
     }
    ]
   },
@@ -5820,6 +5990,61 @@
       "target": "Woe to thee Moab, thou art undone people of Chamos. He hath given his sons into flight, and his daughters into captivity to Sehon the King of the Amorrheites"
      },
      "note": "The proverb's woe over Moab stands word for word in Jeremiah's mouth; only the flight of the sons has ripened into captivity."
+    }
+   ],
+   "28:9": [
+    {
+     "target": "Deuteronomy 18:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The Prophet, that hath prophesied peace: when his word shall come to pass, the Prophet shall be known, whom our Lord hath sent in truth.",
+      "target": "That which the same Prophet foretelleth, in the name of the Lord, & cometh not to pass: that our Lord hath not spoken"
+     },
+     "note": "Jeremias answers Hananias with Deuteronomy's own test: the prophet is known by whether his word comes to pass. He states the sign from its positive side; the law states it from the false side."
+    }
+   ],
+   "29:13": [
+    {
+     "target": "Deuteronomy 4:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "You shall seek me, and shall find: when you shall seek me with all your heart.",
+      "target": "thou shalt find him, yet so, if thou seek him with all thy heart, & all tribulation of thy soul."
+     },
+     "note": "The letter to the exiles promises in Deuteronomy's own condition: seek with all the heart, and find. Moses spoke it of the return from exile before the exile came."
+    }
+   ],
+   "3:1": [
+    {
+     "target": "Deuteronomy 24:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "If a man put away his wife, and she departing from him marry another man, will he return to her any more? Shall not that woman be polluted and contaminated?",
+      "target": "the former husband cannot take her again to wife: because she is polluted"
+     },
+     "note": "Jeremias preaches God's plea out of the divorce law's own case: the wife taken by another cannot return to the former husband, for she is polluted — and yet, saith the Lord, return unto me."
+    }
+   ],
+   "3:8": [
+    {
+     "target": "Deuteronomy 24:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I had put her away, and given her a bill of divorce",
+      "target": "he shall write a bill of divorce, and shall give it in her hand, and dismiss her out of his house."
+     },
+     "note": "God speaks of Israel's dismissal in the law's own instrument: the bill of divorce, written and given into the hand. The seed keys the Gospel divorce sayings to this verse; Jeremias' use of the bill itself was unkeyed."
+    }
+   ],
+   "28:14": [
+    {
+     "target": "Deuteronomy 28:48",
+     "kind": "allusion",
+     "evidence": {
+      "source": "An iron yoke have I put upon the neck of all these Nations, to serve Nabuchodonosor the king of Babylon, and they shall serve him",
+      "target": "Thou shalt serve thine enemy, whom our Lord will send upon thee, in hunger, and thirst, and nakedness, and all penury, and he shall put an iron yoke upon thy neck"
+     },
+     "note": "Hananias broke the wooden yoke; Jeremias answers with Deuteronomy's curse made iron: serve thine enemy, and an iron yoke upon thy neck. The curse's words become the prophet's sentence on the nations."
     }
    ]
   },
@@ -5970,6 +6195,28 @@
      },
      "note": "Isaiah's condemned garden-rites feast on Leviticus 11's own unclean list — the swine named at 11:7, the mouse following at 11:29 among the creeping things."
     }
+   ],
+   "1:2": [
+    {
+     "target": "Deuteronomy 32:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Hear ye heavens, & give ear o earth, because our Lord hath spoken.",
+      "target": "Hear ye heavens what things I speak, the earth hear the words of my mouth."
+     },
+     "note": "Isaias opens his prophecy by taking up the witnesses Moses summoned at the opening of his song: heavens and earth, called to hear."
+    }
+   ],
+   "59:10": [
+    {
+     "target": "Deuteronomy 28:29",
+     "kind": "allusion",
+     "evidence": {
+      "source": "We have groped as blind men for the wall, and as without eyes have feeled: we have stumbled at noon day as in darkness",
+      "target": "& grope thou at midday as the blind is wont to grope in the dark, and direct not thy ways."
+     },
+     "note": "Isaias' confession takes up the curse's doubled image entire: groping like the blind, and stumbling at midday as in darkness. The curse is confessed as the people's present state."
+    }
    ]
   },
   "John": {
@@ -6015,6 +6262,39 @@
       "target": "Thou canst not see my face: for man shall not see me, & live"
      },
      "note": "'God no man hath seen at any time' stands on the word spoken to Moses: 'man shall not see me, and live' — which is why the only-begotten Son, not a vision, is the declaration of the Father."
+    }
+   ],
+   "6:14": [
+    {
+     "target": "Deuteronomy 18:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "That this is the Prophet indeed that is to come into the world.",
+      "target": "A prophet of thy nation & of thy brethren like unto me, will our Lord thy God raise up to thee: him thou shalt hear,"
+     },
+     "note": "After the sign of the loaves the crowd names Jesus with Deuteronomy's title — the Prophet who was to come. The seed carries the Baptist's questioners asking after 'the Prophet' at John 1:21; the crowd's confession after a sign was unkeyed."
+    }
+   ],
+   "12:49": [
+    {
+     "target": "Deuteronomy 18:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the Father that sent me, he gave me commandment what I should say, and what I should speak.",
+      "target": "I will put my words in his mouth, and he shall speak all things that I shall command him."
+     },
+     "note": "The promised Prophet would speak only what God commanded, God's words put in his mouth; Jesus describes his own speaking in the promise's very terms."
+    }
+   ],
+   "19:31": [
+    {
+     "target": "Deuteronomy 21:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that the bodies might not remain upon the cross on the Sabboth",
+      "target": "his body shall not remain upon the tree, but the same day shall be buried: because he is accursed of God that hangeth on a tree"
+     },
+     "note": "The haste at the cross is this law at work: the body of the hanged must not remain upon the tree. John does not quote the law; the request to Pilate is its observance."
     }
    ]
   },
@@ -6081,6 +6361,28 @@
       "target": "that they abode in Ægypt, was four hundred thirty years"
      },
      "note": "Paul's whole argument from chronology hangs on Exodus' own figure: the sojourn was four hundred thirty years, and the Law came after."
+    }
+   ],
+   "3:10": [
+    {
+     "target": "Deuteronomy 27:26",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Cursed be every one that abideth not in all things that be written in the book of the Law, to do them.",
+      "target": "Cursed be he that abideth not in the words of this law, and fulfilleth them not in work"
+     },
+     "note": "Paul quotes the last of Ebal's curses, the one that seals all the rest: abiding in all the words of the law, and fulfilling them in work."
+    }
+   ],
+   "3:13": [
+    {
+     "target": "Deuteronomy 21:23",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Cursed is every one that hangeth on a tree",
+      "target": "he is accursed of God that hangeth on a tree"
+     },
+     "note": "Paul's parenthesis is Deuteronomy's sentence on the hanged man, quoted as written. The seed carries this verse of Galatians only at chapter level (Deuteronomy 21); the verse anchor is entered here."
     }
    ]
   },
@@ -6213,6 +6515,28 @@
       "target": "lest the people of our Lord be as sheep without a pastor"
      },
      "note": "The compassion of Jesus over the multitudes speaks Moses' prayer back to him — sheep without a shepherd — and answers it in his own person, the man provided to go in and out before them."
+    }
+   ],
+   "26:11": [
+    {
+     "target": "Deuteronomy 15:11",
+     "kind": "allusion",
+     "evidence": {
+      "source": "For the poor you have always with you: but me you have not always.",
+      "target": "There shall not want poor in the land of thy habitation: therefore I command thee that thou open thy hand to thy needy and poor brother"
+     },
+     "note": "The Lord's 'the poor you have always with you' is Deuteronomy's standing fact — the poor shall not cease out of the land — spoken over the ointment at Bethany. Mark's telling of the same saying is set aside; this entry carries it."
+    }
+   ],
+   "12:1": [
+    {
+     "target": "Deuteronomy 23:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "and his Disciples being hungry, began to pluck the ears, and to eat.",
+      "target": "If thou enter into thy friend's corn, thou shalt break the ears, and rub them in thy hand: but with a sickle thou shalt not reap."
+     },
+     "note": "What the disciples do in the cornfield is exactly what this law permits: ears broken by hand and eaten on the spot, no sickle. The day's controversy is the sabbath, not the plucking — the plucking was always lawful."
     }
    ]
   },
@@ -6432,6 +6756,28 @@
      },
      "note": "Pentecost is Leviticus' fiftieth day, counted out from the firstfruits sheaf. The Spirit falls on the feast's own day — the church is gathered at the hour the law's count appointed."
     }
+   ],
+   "7:37": [
+    {
+     "target": "Deuteronomy 18:15",
+     "kind": "quotation",
+     "evidence": {
+      "source": "A Prophet will God raise up to you of your own brethren as myself: him you shall hear.",
+      "target": "A prophet of thy nation & of thy brethren like unto me, will our Lord thy God raise up to thee: him thou shalt hear,"
+     },
+     "note": "Stephen quotes Moses' promise nearly word for word. The seed carries this verse of Acts only at chapter level (Deuteronomy 18); the verse anchor is entered here. Peter's quotation of the same promise (Acts 3:22) is the seed's at verse level."
+    }
+   ],
+   "10:34": [
+    {
+     "target": "Deuteronomy 10:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "In very deed I perceive that God is not an accepter of persons.",
+      "target": "that accepteth not person nor gifts."
+     },
+     "note": "Peter's discovery at Cesarea is Moses' confession: the God of gods accepts no person's face. The seed carries the same verse for Romans 2:11, Galatians 2:6, Colossians 3:25 and Ephesians 6:9; Peter's preaching of it was unkeyed."
+    }
    ]
   },
   "Luke": {
@@ -6580,6 +6926,17 @@
       "target": "for this cause called his name Phares"
      },
      "note": "The blessing on Booz's house names its own ancestor: Phares, whom Thamar bare to Judas, named for the breach at his birth."
+    }
+   ],
+   "4:10": [
+    {
+     "target": "Deuteronomy 25:5",
+     "kind": "parallel",
+     "evidence": {
+      "source": "that I may raise up the name of the deceased in his inheritance, lest his name be abolished out of his family and brethren and people.",
+      "target": "But his brother shall take her, & raise up the seed of his brother:"
+     },
+     "note": "Booz takes Ruth 'to raise up the name of the deceased' — the end Deuteronomy's levirate law exists for. Graded parallel, honestly: Booz is a kinsman redeeming, not the brother the law names, and the sandal of 25:7–9 is drawn off in the gate (Ruth 4:7–8) without the widow's spitting."
     }
    ]
   },
@@ -6879,6 +7236,61 @@
       "target": "and there shall be as well to him as to his seed the covenant of priesthood for ever, because he hath been zealous for his God, and hath expiated the wicked fact of the children of Israel"
      },
      "note": "The psalm reckons Phinees' zeal with Abraham's own reckoning word — reputed unto justice — and its 'for ever' is this covenant's: an everlasting priesthood to him and to his seed. Sirach's praise of Phinees is keyed to the same verse in our layer."
+    }
+   ],
+   "105:37": [
+    {
+     "target": "Deuteronomy 32:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And they immolated their sons, and their daughters to devils.",
+      "target": "They immolated to devils and not to God"
+     },
+     "note": "The psalm's horrified summary of the Canaan years keeps the song's phrase: immolated — to devils. What Moses sang of strange gods, the psalm finds done with Israel's own children."
+    }
+   ],
+   "134:14": [
+    {
+     "target": "Deuteronomy 32:36",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Because our Lord shall judge his people: and will be entreated toward his servants.",
+      "target": "Our Lord will judge his people, and will have mercy on his servants"
+     },
+     "note": "The psalm of the Exodus liturgy closes its history with the song's promise almost verbatim: the Lord will judge his people, and have mercy on his servants."
+    }
+   ],
+   "16:8": [
+    {
+     "target": "Deuteronomy 32:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "keep me, as the apple of the eye.",
+      "target": "he led him about, and taught him: and kept him as the apple of his eye."
+     },
+     "note": "David asks for himself the keeping Israel received in the wilderness: kept as the apple of God's eye. The figure is the song's before it is the psalm's."
+    }
+   ],
+   "67:18": [
+    {
+     "target": "Deuteronomy 33:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The chariot of God is ten thousand fold, thousands of them that rejoice, our Lord in them, in Sina in the holy place.",
+      "target": "and with him thousands of Saints."
+     },
+     "note": "The processional psalm's Sinai theophany keeps Moses' numbers: Sinai, and the thousands with him. Galatians' 'ordained by angels' (3:19) stands in the same tradition but shares no wording beyond the angels, and is set aside; this verse carries the theophany."
+    }
+   ],
+   "67:6": [
+    {
+     "target": "Deuteronomy 10:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "the father of orphans, and judge of widows. God in his holy place:",
+      "target": "He doth judgment to the pupil and the widow, loveth the stranger"
+     },
+     "note": "The processional psalm names God by Deuteronomy's works: judgment done to the pupil and the widow — orphans' father, widows' judge."
     }
    ]
   },
@@ -7212,6 +7624,17 @@
      },
      "note": "Deuteronomy's command to purge the guilty blood from Israel rests on this verse's doctrine, the Torah's fullest statement of it: a land polluted with blood is expiated no other way than by the blood of him who shed it."
     }
+   ],
+   "9:3": [
+    {
+     "target": "Deuteronomy 4:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the Lord thy God himself will pass over before thee, a devouring and consuming fire",
+      "target": "because the Lord thy God is a consuming fire, jealous God."
+     },
+     "note": "Within the book itself: the confession of chapter 4 — the Lord thy God is a consuming fire — becomes the battle-promise of chapter 9, the same fire passing over before Israel. Hebrews 12:29's 'our God is a consuming fire' is the seed's, keyed to 4:24."
+    }
    ]
   },
   "Osee": {
@@ -7247,6 +7670,17 @@
      },
      "note": "The prophet's one word for Israel's fall in the wilderness is this verse's: entered into, professed to, Beelphegor. The seed carries the psalm's witness (105:28) at this verse; Osee's is its own."
     }
+   ],
+   "11:3": [
+    {
+     "target": "Deuteronomy 1:31",
+     "kind": "allusion",
+     "evidence": {
+      "source": "And I as it were the nurse of Ephraim, carried them in mine arms: and they knew not that I cured them.",
+      "target": "the Lord thy God hath carried thee, as a man is wont to bear his little son, all the way that you have walked, until you came to this place."
+     },
+     "note": "The father who carried Israel in the wilderness 'as a man is wont to bear his little son' becomes in Osee the nurse who carried Ephraim in his arms — Deuteronomy's picture carried into the prophet's grief."
+    }
    ]
   },
   "1 Peter": {
@@ -7281,6 +7715,17 @@
       "target": "Be ye holy, because I the Lord your God am holy"
      },
      "note": "Peter cites the holiness command with 'it is written'. Leviticus speaks it three times (11:44; 19:2; 20:7); this is the form addressed to the whole assembly. The seed already carries Peter's quotation at 20:7."
+    }
+   ],
+   "1:17": [
+    {
+     "target": "Deuteronomy 10:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "him which without acception of persons judgeth according to every one's work",
+      "target": "that accepteth not person nor gifts."
+     },
+     "note": "The Father invoked in fear is Deuteronomy's impartial judge: without acception of persons, judging every one's work."
     }
    ]
   },
@@ -7347,6 +7792,28 @@
       "target": "in the second month, the fourteenth day of the month at even: with azymes and wild lettuce shall they eat it"
      },
      "note": "Ezechias' Passover is kept under this provision: the Phase of the second month, first given for the man unclean upon a soul or far off in his journey (9:10)."
+    }
+   ],
+   "19:7": [
+    {
+     "target": "Deuteronomy 10:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for there is no iniquity with the Lord our God, nor acception of persons, nor desire of gifts.",
+      "target": "a great God and mighty, and terrible, that accepteth not person nor gifts."
+     },
+     "note": "Josaphat charges his judges with Moses' words almost entire: no acception of persons, no gifts, with the God of gods. His 'the judgment is God's' (19:6) also answers Deuteronomy 1:17; the charge is keyed once, here."
+    }
+   ],
+   "25:4": [
+    {
+     "target": "Deuteronomy 24:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The fathers shall not be slain for the children, nor the children for their fathers, but every one shall die in his own sin.",
+      "target": "The fathers shall not be slain for the children, nor the children for the fathers, but every one shall die for his own sin,"
+     },
+     "note": "Chronicles retells Amasias' restraint with the law quoted word for word, 'as it is written in the Book of the law of Moyses'. The seed carries this verse only at chapter level (Deuteronomy 24); Kings' telling is keyed beside it."
     }
    ]
   },
@@ -7461,6 +7928,15 @@
       "target": "determine what cities shall be for the succour of fugitives, that have not voluntarily shed blood"
      },
      "note": "Josue separates the very cities God 'spake of by the hand of Moyses': the refuge law of this chapter put into possession, six cities among the Levites' forty-eight (35:6)."
+    },
+    {
+     "target": "Deuteronomy 19:2",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Separate the cities of the fugitives, of the which I spake to you by the hand of Moyses;",
+      "target": "three cities shalt thou separate to thee in the midst of the Land, which our Lord thy God will give thee in possession,"
+     },
+     "note": "Josue separates the refuge cities 'of the which I spake to you by the hand of Moyses' — the appointment Deuteronomy made (and Numbers 35 gives in full, keyed in our Numbers stage at Hebrews 6:18). The verb is the law's own: separate."
     }
    ],
    "23:13": [
@@ -7472,6 +7948,61 @@
       "target": "they that remain, shall be unto you as it were nails in your eyes, and spears in your sides, and they shall be your adversaries in the Land of your habitation"
      },
      "note": "Josue's farewell takes up the warning spoken on the march: the nations left in the land as nails — stakes — in the eyes, and spears in the sides."
+    }
+   ],
+   "10:27": [
+    {
+     "target": "Deuteronomy 21:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And when the sun was down, he commanded the soldiers to take them down from the gibbets.",
+      "target": "his body shall not remain upon the tree, but the same day shall be buried"
+     },
+     "note": "The five kings hang until sundown and no longer: Josue takes them down at the sun's going down, the same day, as the law of the hanged man commands."
+    }
+   ],
+   "22:5": [
+    {
+     "target": "Deuteronomy 10:12",
+     "kind": "allusion",
+     "evidence": {
+      "source": "that you love our Lord your God, and walk in all his ways, and observe all his commandments, and cleave to him, and serve him in all your heart, and in all your soul.",
+      "target": "what doth the Lord thy God require of thee, but that thou fear the Lord thy God, and walk in his ways, and love him, and serve the Lord thy God with all thy heart, and with all thy soul:"
+     },
+     "note": "Josue's farewell charge to the Transjordan tribes is a cento of this chapter: walk in his ways, love him, serve him with all the heart and soul — Deuteronomy 10:12's requirement, with the cleaving of 11:22 woven in."
+    }
+   ],
+   "1:5": [
+    {
+     "target": "Deuteronomy 31:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "as I have been with Moyses, so will I be with thee: I will not leave nor forsake thee.",
+      "target": "himself will be with thee: he will not leave, nor forsake thee"
+     },
+     "note": "God repeats to Josue, in the first person, the promise Moses had reported to him at the commissioning: I will not leave nor forsake thee. The transposition is only of person, as with Psalms 67:2 in our Numbers stage."
+    }
+   ],
+   "1:6": [
+    {
+     "target": "Deuteronomy 31:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Take courage, and be strong: for thou shalt by lot divide to this people the Land, for the which I sware to their fathers",
+      "target": "Take courage, & be strong: for thou shalt bring in this people into the Land, which our Lord sware that he would give to their fathers, and thou shalt divide it by lot."
+     },
+     "note": "God takes up Moses' charge to Josue in Moses' own words — take courage, be strong, divide the land by lot — now spoken over Moses' grave."
+    }
+   ],
+   "1:3": [
+    {
+     "target": "Deuteronomy 11:24",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Every place the step of your foot shall tread, will I deliver to you, as I have spoken to Moyses.",
+      "target": "Every place that your foot shall tread, shall be yours. From the desert, and from Libanus, from the great river Euphrates unto the west sea shall be your borders."
+     },
+     "note": "God's first word to Josue quotes the border-promise of Deuteronomy and names its source: 'as I have spoken to Moyses'. The borders that follow in Josue are this verse's."
     }
    ]
   },
@@ -7529,6 +8060,28 @@
       "target": "a razor shall not pass over his head"
      },
      "note": "Anna's vow for Samuel borrows the Nazarite's visible mark — the unshorn head of a child given to the Lord all the days of his life."
+    }
+   ],
+   "8:5": [
+    {
+     "target": "Deuteronomy 17:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "appoint us a king, that he may judge us, as also all nations have.",
+      "target": "and sayest: I will set a king over me, as all nations have round about:"
+     },
+     "note": "The elders ask in the very words Moses foresaw: a king, 'as all nations have'. Deuteronomy had written the request into the law four centuries before it was spoken."
+    }
+   ],
+   "2:6": [
+    {
+     "target": "Deuteronomy 32:39",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Our Lord mortifieth and quickeneth, bringeth down to hell and fetcheth back again.",
+      "target": "I will kill, and I will make to live: I will strike, and I will heal, and there is none that can deliver out of my hand."
+     },
+     "note": "Anna's canticle sings the song of Moses back: the Lord who kills and makes alive, who brings down and fetches back. Wisdom 16:13 speaks the same confession, but its words track Anna's form; her canticle carries the verse here."
     }
    ]
   },
@@ -7588,6 +8141,17 @@
       "target": "The woman that hath a flux of blood many days not in her menstrual time"
      },
      "note": "The woman's twelve-year issue is the case Leviticus 15:25 governs — a flux beyond the menstrual time, unclean all the days she is subject to it. She reaches Jesus through the crowd the law would have kept her apart from."
+    }
+   ],
+   "12:29": [
+    {
+     "target": "Deuteronomy 6:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Hear Israel: the Lord thy God, is one God.",
+      "target": "Hear Israel, The Lord our God, is one Lord."
+     },
+     "note": "Jesus' answer to the scribe begins with the Shema itself. The seed keys this verse of Mark to 6:5 (the love-command that follows at Mark 12:30); the words the Lord speaks first are 6:4's."
     }
    ]
   },
@@ -7767,6 +8331,17 @@
      },
      "note": "The feast given to Israel in Leviticus 23 is opened by Zechariah to 'all that shall be left of all Nations': every surviving people goes up to Jerusalem from year to year to keep it."
     }
+   ],
+   "2:8": [
+    {
+     "target": "Deuteronomy 32:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "for he that shall touch you, toucheth the apple of mine eye:",
+      "target": "and kept him as the apple of his eye."
+     },
+     "note": "The song's tenderness turned to a threat: Israel kept as the apple of God's eye means the nations that touch her touch the eye itself."
+    }
    ]
   },
   "3 Kings": {
@@ -7823,6 +8398,39 @@
       "target": "and may go out and enter in before them, and bring them out, or bring them in: lest the people of our Lord be as sheep without a pastor"
      },
      "note": "Micheas' vision over Ahab is Moses' fear for the congregation after him, in the same figure: Israel scattered as sheep not having a shepherd — and the Lord's answer there is that they have no master."
+    }
+   ],
+   "10:28": [
+    {
+     "target": "Deuteronomy 17:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And there were horses brought for Salomon out of Ægypt, and Coa",
+      "target": "he shall not multiply to himself horses, nor lead back the people into Ægypt"
+     },
+     "note": "The king law's first fence — no multiplying horses, no turning back to Egypt for them — and Salomon's merchants do exactly this. The narrative keeps the law's own geography: the horses come out of Egypt."
+    }
+   ],
+   "11:3": [
+    {
+     "target": "Deuteronomy 17:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he had wives as it were queens seven hundred, and concubines three hundred: and the women turned away his heart.",
+      "target": "He shall not have many wives, that may allure his mind, nor huge weights of silver & gold."
+     },
+     "note": "The king law's second fence, broken with its foretold consequence: many wives, and the heart turned away. The same verse's silver and gold are multiplied at 3 Kings 10."
+    }
+   ],
+   "8:23": [
+    {
+     "target": "Deuteronomy 7:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "which keepest covenant and mercy with thy servants, that walk before thee in all their heart.",
+      "target": "keeping his covenant and mercy to them that love him, and to them that keep his precepts, unto a thousand generations:"
+     },
+     "note": "Salomon opens the temple prayer with Deuteronomy's confession: the faithful God keeping covenant and mercy. The dedication stands on the law's own description of God."
     }
    ]
   },
@@ -7948,6 +8556,15 @@
       "target": "That thou shouldst curse mine enemies I called thee: and thou contrary wise blessest them"
      },
      "note": "Read aloud from the law in the restored congregation (the text is Deuteronomy 23), the cursing turned to blessing is anchored here at the moment Balac heard it. The seed points this verse only at Numbers 22 by chapter."
+    },
+    {
+     "target": "Deuteronomy 23:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "and they hired against them Balaam to curse them: and our God turned the cursing into blessing.",
+      "target": "& our Lord thy God would not hear Balaam, and he turned his cursing into thy blessing, for that he loved thee."
+     },
+     "note": "The returned exiles read the exclusion of Ammon and Moab aloud (13:1) and remember its ground in Deuteronomy's own words: God turned the cursing into blessing. The seed carries this verse only at chapter level (Deuteronomy 23); the precedent of our Numbers stage (the same verse, there refused verse-anchoring by the seed) is followed here. Our layer already keys Deuteronomy 23:5 back to Numbers 23:11."
     }
    ],
    "9:22": [
@@ -7959,6 +8576,39 @@
       "target": "Of whom he was strucken in the edge of the sword, and his land was possessed from Arnon unto Jeboc"
      },
      "note": "Nehemias' great confession counts the firstfruits of the promise kept as these two kingdoms east of Jordan — Sehon's land and Og's, possessed in this chapter."
+    }
+   ],
+   "1:9": [
+    {
+     "target": "Deuteronomy 30:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "although you shall be led away to the uttermost parts of heaven, thence will I gather you, and bring you back into the place",
+      "target": "If thou be dispersed as far as the poles of heaven, thence will our Lord thy God draw thee back."
+     },
+     "note": "Nehemias pleads Moses' promise back to God in Moses' own measure: scattered to heaven's uttermost, gathered thence. The prayer is Nehemiah 1 in modern editions; the corpus keeps it in 2 Esdras."
+    }
+   ],
+   "8:3": [
+    {
+     "target": "Deuteronomy 31:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "in the presence of the men, and women, & of those that understood: & the ears of all the people were attent to the book.",
+      "target": "and the people being assembled together, as well men as women, children, & strangers, that are within thy gates: that hearing they may learn, and fear our Lord your God"
+     },
+     "note": "Esdras' reading at the water gate is the assembly Deuteronomy ordained: the law read aloud (31:11) before men and women assembled, that hearing they may learn. Nehemiah 8 in modern editions."
+    }
+   ],
+   "9:21": [
+    {
+     "target": "Deuteronomy 8:4",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Forty years didst thou feed them in the desert, and nothing was wanting to them, their garments waxed not old, & their feet were not worn.",
+      "target": "Thy raiment, wherewith thou wast covered hath not decayed for age, and thy foot is not worn, lo this is the fortieth year."
+     },
+     "note": "The Levites' great prayer keeps Deuteronomy's two wonders in one verse: garments unworn and feet unworn through forty years. Deuteronomy speaks it twice — here in the humbling chapter, and at 29:5 — and 'nothing was wanting' is 2:7's word besides."
     }
    ]
   },
@@ -8056,6 +8706,17 @@
      },
      "note": "Paul's temple catena quotes the covenant promise of Leviticus 26:11-12. The seed carries this verse of Paul at 26:11 (the tabernacle clause); the walking-and-people clause stands at 26:12."
     }
+   ],
+   "6:14": [
+    {
+     "target": "Deuteronomy 22:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Bear not the yoke with infidels.",
+      "target": "Thou shalt not plough with an oxe and ass together."
+     },
+     "note": "Paul's unequal yoke is the law's plough-team: an ox and an ass under one yoke, kinds that cannot pull together. The image is Deuteronomy's; the application — fellowship with unbelief — is the apostle's."
+    }
    ]
   },
   "4 Kings": {
@@ -8091,6 +8752,28 @@
      },
      "note": "Joas's temple repairs respect the old rule: the money for offence and for sins is not treasury income, because Leviticus assigns both hosts — and their price — to the priest who offers them."
     }
+   ],
+   "21:6": [
+    {
+     "target": "Deuteronomy 18:10",
+     "kind": "parallel",
+     "evidence": {
+      "source": "And he made his son pass through fire: and he used soothsaying, and observed divinations, and made pythons, and multiplied enchanters",
+      "target": "Neither let there be found in thee any that shall expiate his son, or daughter, making them to pass through the fire: or that demandeth of soothsayers, and observeth dreams and divinations"
+     },
+     "note": "Manasses' reign is Deuteronomy's banned list enacted item by item — the son through the fire, soothsaying, divinations, pythons. Chronicles' retelling of the same reign (2 Paralipomenon 33:6) is set aside as this entry's duplicate."
+    }
+   ],
+   "14:6": [
+    {
+     "target": "Deuteronomy 24:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "The fathers shall not die for the children, neither shall the children die for the fathers: but every one shall die in his own sin.",
+      "target": "The fathers shall not be slain for the children, nor the children for the fathers, but every one shall die for his own sin,"
+     },
+     "note": "Amasias spares his father's murderers' children 'according to that which is written in the book of the law of Moyses' — and the history quotes the law nearly entire. The seed points this verse at Deuteronomy 21 by chapter; the words quoted stand at 24:16."
+    }
    ]
   },
   "1 Paralipomenon": {
@@ -8103,6 +8786,17 @@
       "target": "you are my strangers & sojourners"
      },
      "note": "David's prayer over the temple treasury takes its self-understanding from the land law: because the land is God's, even Israel's king is his stranger and sojourner, and nothing dedicated is truly his own."
+    }
+   ],
+   "28:20": [
+    {
+     "target": "Deuteronomy 31:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Deal manfully, and take courage, and do it: fear not, and be not dismayed: for our Lord my God will be with thee, and will not leave thee, nor forsake thee",
+      "target": "himself will be with thee: he will not leave, nor forsake thee: fear not, neither dread thou."
+     },
+     "note": "David hands the charge down a second time: as Moses charged Josue, so David charges Salomon, with the same promise in the same words — the charge of 31:6–7 and the promise of 31:8 in one breath."
     }
    ]
   },
@@ -8185,6 +8879,17 @@
      },
      "note": "Jephte's embassy to Ammon argues Israel's title from this embassy — the same messengers, the same request for passage, the same refusal that ended at Jasa."
     }
+   ],
+   "5:4": [
+    {
+     "target": "Deuteronomy 33:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Lord when thou wentest out of Seir, and didst pass by the countries of Edom, the earth was moved",
+      "target": "Our Lord came from Sinai, and from Seir is he risen to us: he hath appeared from mount Pharan, and with him thousands of Saints."
+     },
+     "note": "Debora's song sings the same march Moses blessed: the Lord rising from Seir, the earth moved at his going forth. The theophany tradition begins in both songs."
+    }
    ]
   },
   "Amos": {
@@ -8197,6 +8902,45 @@
       "target": "they shall abstain from wine, & every thing that can make one drunk"
      },
      "note": "The sin Amos charges on Israel is forcing the consecrated to break the first rule of their consecration — wine, which the Nazarite shall not touch."
+    }
+   ]
+  },
+  "Habacuc": {
+   "3:3": [
+    {
+     "target": "Deuteronomy 33:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "God will come from the South, and the holy one from mount Pharan: His glory shall cover the heavens",
+      "target": "he hath appeared from mount Pharan, and with him thousands of Saints. In his right hand a fiery law."
+     },
+     "note": "Habacuc's prayer sees the coming from the same mountain Moses named: Pharan, and the glory covering the heavens."
+    }
+   ]
+  },
+  "1 Timothy": {
+   "5:19": [
+    {
+     "target": "Deuteronomy 19:15",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Against a priest receive not accusation, but under two or three witnesses.",
+      "target": "but in the mouth of two or three witnesses shall every word stand."
+     },
+     "note": "Paul applies the law of witnesses to the church's own elders: no accusation received but under two or three witnesses. The seed carries the same law for Matthew 18:16, 2 Corinthians 13:1, John 8:17 and Hebrews 10:28; Timothy's church-order use was unkeyed."
+    }
+   ]
+  },
+  "Lamentations": {
+   "4:10": [
+    {
+     "target": "Deuteronomy 28:53",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The hands of pitiful women have sodden their own children: they were made their meat in the destruction of the daughter of my people.",
+      "target": "and thou shalt eat the fruit of thy womb, and the flesh of thy sons & of thy daughters, which our Lord thy God shall give thee, in the distress and vastation wherewith thine enemy shall oppress thee."
+     },
+     "note": "The siege-curse of Deuteronomy, fulfilled in Jerusalem's own streets and wept over: pitiful women's hands soddening their own children. Baruch's confession of the same curse is keyed to this verse in our layer."
     }
    ]
   }
