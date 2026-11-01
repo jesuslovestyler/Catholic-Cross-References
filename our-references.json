@@ -1,20 +1,20 @@
 {
  "name": "Catholic Cross References — our own references",
- "version": "0.12.0",
- "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, and the Hebrew chapters of Esther. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
+ "version": "0.13.0",
+ "stage": "Stage 4: Josue, Judges, Ruth, 1 Kings, 2 Kings, 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, the Hebrew chapters of Esther, and Psalms. Stage 3: the Torah complete — Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. (Stage 2, the deuterocanon complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch, 1–2 Machabees, and the additions to Esther and Daniel.)",
  "generated": "2026-11-01",
  "license": "Public domain (Unlicense). The passages quoted as evidence are the original Douay-Rheims Bible (1582–1610), also public domain.",
  "about": "References built by this project on top of the seed (cross-references.json), book by book. The deuterocanon is complete: Wisdom, Ecclesiasticus, Tobias, Judith, Baruch (with the Epistle of Jeremias), 1 and 2 Machabees, and the added chapters of Esther and Daniel — each in both directions, the book pointing to the rest of Scripture and the rest of Scripture pointing to it. Every reference was checked against both passages: the short quotations under \"evidence\" are the very words on which the link rests, taken from the original Douay-Rheims text. Kinds: quotation (one passage takes up the other's words), allusion (an echo a reader is meant to catch), parallel (the same event, person, or account in both), theme (the same doctrine or image developed in both). Nothing here is copied from any modern copyrighted apparatus; pairs the seed already carries are not repeated.",
  "counts": {
-  "references": 962,
+  "references": 1054,
   "by_kind": {
-   "parallel": 303,
-   "allusion": 560,
-   "quotation": 46,
+   "parallel": 326,
+   "allusion": 591,
+   "quotation": 84,
    "theme": 53
   },
-  "source_books": 60,
-  "source_verses": 870
+  "source_books": 61,
+  "source_verses": 956
  },
  "references": {
   "Wisdom": {
@@ -1350,6 +1350,147 @@
      },
      "note": "The second raising behind the same clause of Hebrews: Eliseus gives the Sunamite her son back. Keyed beside the Sarepta entry, not merged into it."
     }
+   ],
+   "1:9": [
+    {
+     "target": "Psalms 44:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou hast loved justice, and hated iniquity: therefore thee, God, thy God hath anointed with the oil of exultation above thy fellows.",
+      "target": "Thou hast loved justice, and hast hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows."
+     },
+     "note": "The second half of Hebrews' royal-psalm citation; the seed carries only the throne half at Hebrews 1:8 to 44:7."
+    }
+   ],
+   "1:11": [
+    {
+     "target": "Psalms 101:27",
+     "kind": "quotation",
+     "evidence": {
+      "source": "They shall perish, but thou shalt continue: and they shall all wax old as a garment.",
+      "target": "They shall perish, but thou art permanent: and they shall all wax old as a garment."
+     },
+     "note": "The seed carries Hebrews 1 only at chapter level to this verse; the verse anchor is entered here."
+    }
+   ],
+   "1:12": [
+    {
+     "target": "Psalms 101:28",
+     "kind": "quotation",
+     "evidence": {
+      "source": "but thou art the self-same, and thy years shall not fail.",
+      "target": "but thou art the self-same, and thy years shall not fail."
+     },
+     "note": "The close of the same citation in Hebrews 1, at the psalm's own next verse."
+    }
+   ],
+   "2:7": [
+    {
+     "target": "Psalms 8:6",
+     "kind": "quotation",
+     "evidence": {
+      "source": "with glory and honour thou hast crowned him",
+      "target": "with glory and honour thou hast crowned him:"
+     },
+     "note": "Hebrews' Psalm 8 citation, middle member; the seed carries Hebrews 2 only at chapter level to this verse."
+    }
+   ],
+   "2:8": [
+    {
+     "target": "Psalms 8:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "All things hast thou made subject under his feet.",
+      "target": "Thou hast subjected all things under his feet,"
+     },
+     "note": "The last member of Hebrews' Psalm 8 citation; Ephesians 1:22 and 1 Corinthians 15:26 to this verse are the seed's, this source verse is not."
+    }
+   ],
+   "3:9": [
+    {
+     "target": "Psalms 94:9",
+     "kind": "quotation",
+     "evidence": {
+      "source": "where your fathers tempted me: proved and saw my works",
+      "target": "where your fathers tempted me, proved me, and saw my works."
+     },
+     "note": "Inside Hebrews' long Psalm 94 exposition; the seed keys Hebrews 3:7 to 94:8 only."
+    }
+   ],
+   "3:10": [
+    {
+     "target": "Psalms 94:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "forty years. For the which cause I was offended with this Generation, and said, They do always err in heart.",
+      "target": "Forty years was I offended with that generation, and said: These always err in heart."
+     },
+     "note": "The next verse of the same exposition in Hebrews 3."
+    }
+   ],
+   "3:15": [
+    {
+     "target": "Psalms 94:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Today if you shall hear his voice, do not obdurate your hearts",
+      "target": "Today if ye shall hear his voice, harden not your hearts."
+     },
+     "note": "Hebrews repeats the psalm's Today a second time in the same chapter; the seed's pair is Hebrews 3:7 to this verse."
+    }
+   ],
+   "4:7": [
+    {
+     "target": "Psalms 94:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Today, in David saying, after so long time, as is above said, Today if you shall hear his voice: do not obdurate your hearts.",
+      "target": "Today if ye shall hear his voice, harden not your hearts."
+     },
+     "note": "Hebrews cites the Today a third time, now naming David as its speaker."
+    }
+   ],
+   "10:6": [
+    {
+     "target": "Psalms 39:7",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Holocausts and for sin did not please thee.",
+      "target": "Holocaust and for sin thou didst not require:"
+     },
+     "note": "The seed keys Hebrews 10:5 to this verse for its first half (sacrifice and oblation); this entry anchors the verse's second half at Hebrews' own next verse."
+    }
+   ],
+   "10:7": [
+    {
+     "target": "Psalms 39:8",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Then said I, Behold I come: in the head of the book it is written of me:",
+      "target": "then said I, Behold I come. In the head of the book it is written of me,"
+     },
+     "note": "The Behold I come of the psalm, on Christ's lips in Hebrews 10."
+    },
+    {
+     "target": "Psalms 39:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "That I may do thy will, o God.",
+      "target": "that I should do thy will: my God I would, and thy law in the midst of my heart."
+     },
+     "note": "The purpose clause of Hebrews' citation is the psalm's next verse; the psalm continues into the law in the heart, which Hebrews leaves unsaid."
+    }
+   ],
+   "10:13": [
+    {
+     "target": "Psalms 109:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "until his enemies be put the foot-stool of his feet.",
+      "target": "till I make thine enemies, the foot-stool of thy feet."
+     },
+     "note": "Hebrews' session argument rests on this clause of the great session psalm; the seed's Hebrews pairs to 109:1 are at 1:13 and chapter level at 10."
+    }
    ]
   },
   "Romans": {
@@ -1527,6 +1668,50 @@
       "target": "I will leave me in Israel seven thousand men, whose knees have not been bowed before Baal"
      },
      "note": "Paul quotes the divine answer given on Horeb. The seed carries Romans 11:3 to Elias's complaint (19:10); the answer half was unkeyed."
+    }
+   ],
+   "3:11": [
+    {
+     "target": "Psalms 13:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "there is not that understandeth, there is not that seeketh after God.",
+      "target": "to see if there be that understandeth, and seeketh after God."
+     },
+     "note": "Paul's catena in Romans 3 works through Psalm 13 verse by verse; the seed carries Romans 3:10 to 13:1 and stops there."
+    }
+   ],
+   "3:12": [
+    {
+     "target": "Psalms 13:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "All have declined, they are become unprofitable together: there is not that doeth good, there is not so much as one.",
+      "target": "All have declined, they are become unprofitable together: there is not that doth good, no not one."
+     },
+     "note": "The next line of Paul's catena. Psalm 52 repeats the same words; Paul's wording follows either copy, and the twin is entered in this draft from Psalm 52's side."
+    }
+   ],
+   "4:8": [
+    {
+     "target": "Psalms 31:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Blessed is the man to whom our Lord hath not imputed sin.",
+      "target": "Blessed is the man, to whom our Lord hath not imputed sin,"
+     },
+     "note": "The second half of Paul's Psalm 31 citation; the seed carries Romans 4:7 to 31:1 only (and Romans 4 at chapter level to 31:2)."
+    }
+   ],
+   "11:10": [
+    {
+     "target": "Psalms 68:24",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Be their eyes darkened, that they may not see: & their back make thou always crooked.",
+      "target": "Let their eyes be darkened that they see not: and make their back crooked always."
+     },
+     "note": "The second verse of Paul's Psalm 68 imprecation; the seed carries Romans 11:9 to 68:23 only."
     }
    ]
   },
@@ -5807,6 +5992,17 @@
      },
      "note": "Paul counts those who fell in one day at Phogor; Numbers gives the plague's whole toll — three and twenty thousand in the day, four and twenty thousand in all. The seed keys Paul's verse to the sin's opening (25:1); the reckoning of the dead is this verse."
     }
+   ],
+   "15:27": [
+    {
+     "target": "Psalms 8:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "All things are subdued to him",
+      "target": "Thou hast subjected all things under his feet,"
+     },
+     "note": "Paul argues from the psalm's subjection clause; the seed keys the neighbouring 1 Corinthians 15:26 and Ephesians 1:22 to this verse, not this source verse."
+    }
    ]
   },
   "James": {
@@ -5918,6 +6114,17 @@
       "target": "to the image of God he created him"
      },
      "note": "The new man is created according to God, as man was first created to God's image: a creation renewed."
+    }
+   ],
+   "1:20": [
+    {
+     "target": "Psalms 109:1",
+     "kind": "allusion",
+     "evidence": {
+      "source": "setting him on his right hand in celestials",
+      "target": "Sit on my right hand:"
+     },
+     "note": "The resurrection session in Ephesians is the session psalm's word enacted; stated as allusion, since Paul does not quote the psalm here."
     }
    ]
   },
@@ -6218,6 +6425,17 @@
      },
      "note": "Thyatira's prophetess bears the name of Ahab's queen, introduced here as the Sidonian bride who turned Israel to Baal. The seed carries Apocalypse 2:20 only at chapter level (3 Kings 18)."
     }
+   ],
+   "15:4": [
+    {
+     "target": "Psalms 85:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all nations shall come, and adore in thy sight,",
+      "target": "All nations whatsoever thou hast made, shall come, and shall adore before thee, o Lord:"
+     },
+     "note": "The song before the plagues takes up the psalm's promise that all nations shall come and adore."
+    }
    ]
   },
   "Jeremias": {
@@ -6373,6 +6591,17 @@
       "target": "every one that shall pass by it, shall wonder, and hiss, and say: Why hath the Lord done thus to this land, and to this house?"
      },
      "note": "Jeremias preaches the byword the Lord himself pronounced over the finished house. The seed carries Jeremias 22:8 only at chapter level (3 Kings 9)."
+    }
+   ],
+   "17:8": [
+    {
+     "target": "Psalms 1:3",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he shall be as a tree that is planted upon the waters, that spreadeth his roots towards moisture:",
+      "target": "he shall be as a tree, that is planted nigh to the streams of waters, which shall give his fruit in his time."
+     },
+     "note": "Jeremias' blessed man is the psalter's opening tree, leaf and fruit included; the seed keys Jeremias 17 to Psalm 1 at chapter level and 17:7 to the psalm as a whole."
     }
    ]
   },
@@ -6631,6 +6860,39 @@
      },
      "note": "The deliverance itself, in both tellings. Machabees' prayers recalling the same night are keyed to the Kings verse separately."
     }
+   ],
+   "38:18": [
+    {
+     "target": "Psalms 6:6",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hell shall not confess to thee, neither shall death praise thee:",
+      "target": "in hell who shall confess to thee?"
+     },
+     "note": "Ezechias' canticle argues with the psalm's own argument: in hell, who shall confess thee?"
+    }
+   ],
+   "38:19": [
+    {
+     "target": "Psalms 117:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The living the living he shall confess to thee, as I also this day:",
+      "target": "I shall not die, but shall live: and I will tell the works of our Lord."
+     },
+     "note": "Ezechias, turned back from death, takes up the psalm's I shall not die but live."
+    }
+   ],
+   "12:2": [
+    {
+     "target": "Psalms 117:14",
+     "kind": "quotation",
+     "evidence": {
+      "source": "our Lord is my strength, and my praise, & he is become my salvation.",
+      "target": "Our Lord is my strength, and my praise: and he is made my salvation."
+     },
+     "note": "Isaias' short canticle sings this verse of the festal psalm (itself Exodus 15:2's word); the seed keys Isaias 12:2 to Psalm 117 only at chapter level."
+    }
    ]
   },
   "John": {
@@ -6709,6 +6971,28 @@
       "target": "his body shall not remain upon the tree, but the same day shall be buried: because he is accursed of God that hangeth on a tree"
      },
      "note": "The haste at the cross is this law at work: the body of the hanged must not remain upon the tree. John does not quote the law; the request to Pilate is its observance."
+    }
+   ],
+   "19:36": [
+    {
+     "target": "Psalms 33:21",
+     "kind": "allusion",
+     "evidence": {
+      "source": "You shall not break a bone of him.",
+      "target": "Our Lord keepeth all their bones: there shall not one of them be broken."
+     },
+     "note": "Graded allusion, not quotation: John's fulfilled scripture may be the paschal bone law (Exodus 12:46) itself; the psalm's word about the just man's bones is the other printed anchor and is entered as the echo it is."
+    }
+   ],
+   "15:25": [
+    {
+     "target": "Psalms 34:19",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they hated me gratis.",
+      "target": "that hate me without cause,"
+     },
+     "note": "John says the word is written in their law; Psalm 68:5 has the same phrase and is chapter-keyed to John 15 in the seed, but this verse of Psalm 34 carries it in a psalm of the persecuted just man."
     }
    ]
   },
@@ -7016,6 +7300,39 @@
      },
      "note": "The seed keys the queen's coming itself (Matthew 12:42 and Luke 11:31 to 3 Kings 10:1); this anchors the hearing of the wisdom, which is the Lord's own point, in the chapter's summary verse. Luke's telling is set aside as this entry's duplicate."
     }
+   ],
+   "27:46": [
+    {
+     "target": "Psalms 21:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "My God, my God, why hast thou forsaken me?",
+      "target": "God my God have respect to me: why hast thou forsaken me?"
+     },
+     "note": "The cry from the cross. This corpus counts the psalm's title as verse 1, so the cry stands at 21:2; the seed keys Mark 15:34 to the title verse 21:1."
+    }
+   ],
+   "23:39": [
+    {
+     "target": "Psalms 117:25",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Blessed is he that cometh in the name of our Lord.",
+      "target": "Blessed be he that cometh in the name of our Lord."
+     },
+     "note": "Jesus takes the festal greeting on his own lips as the condition of Jerusalem seeing him again; on the corpus numbering see the Luke 19:38 entry."
+    }
+   ],
+   "27:34": [
+    {
+     "target": "Psalms 68:22",
+     "kind": "allusion",
+     "evidence": {
+      "source": "they gave him wine to drink mingled with gall.",
+      "target": "And they gave gall for my meat:"
+     },
+     "note": "Matthew's gall answers the psalm's gall; the vinegar half of the same psalm verse is keyed from John 19:28 in the seed."
+    }
    ]
   },
   "Acts of the Apostles": {
@@ -7322,6 +7639,39 @@
      },
      "note": "Peter's premise — David died and was buried, so the psalm speaks of another — is Chronicles' closing verse on David. The seed carries Acts 2:29 to the Kings death verse (3 Kings 2:10); the Chronicles verse was unkeyed."
     }
+   ],
+   "2:27": [
+    {
+     "target": "Psalms 15:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "thou wilt not leave my soul in hell, nor give thy Holy one to see corruption.",
+      "target": "thou wilt not leave my soul in hell: neither wilt give thy holy one to see corruption"
+     },
+     "note": "Peter's Pentecost citation at its first member; Acts 13:35 to this verse is the seed's, this source verse is not."
+    }
+   ],
+   "2:28": [
+    {
+     "target": "Psalms 15:10",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Thou hast made known to me the ways of life: thou shalt make me full of joyfulness with thy face.",
+      "target": "Thou hast made the ways of life known to me, thou shalt make me full of joy with thy countenance"
+     },
+     "note": "The second member of Peter's citation. This corpus prints the whole of the psalm verse, both members, under 15:10, so both Acts verses anchor there."
+    }
+   ],
+   "4:26": [
+    {
+     "target": "Psalms 2:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the kings of the earth stand up, and the Princes assemble together against our Lord, and against his Christ?",
+      "target": "The kings of the earth stood up, and the Princes came together in one against our Lord, and against his Christ."
+     },
+     "note": "The church's prayer in Acts 4 cites Psalm 2 verse by verse; the seed carries only 4:25 to 2:1."
+    }
    ]
   },
   "Luke": {
@@ -7345,6 +7695,15 @@
       "target": "Visiting I have visited you: and I have seen all things that have chanced to you in Ægypt"
      },
      "note": "In Exodus, God's 'visiting' his people is their redemption out of Egypt; Zacharias blesses the same visitation come again: he 'hath visited and wrought the redemption of his people'."
+    },
+    {
+     "target": "Psalms 71:18",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed be Our Lord God of Israel: because he hath visited and wrought the redemption of his people:",
+      "target": "Blessed be our Lord the God of Israel, who only doth marvelous things."
+     },
+     "note": "The Benedictus opens with the doxology that closes the psalter's second book; Psalm 40:14 and 105:48 carry the same blessing in their own doxologies."
     }
    ],
    "11:20": [
@@ -7477,6 +7836,15 @@
       "target": "He raiseth the needy man from the dust, and from the dung he lifteth up the poor: that he may sit with Princes, and hold the throne of glory."
      },
      "note": "Mary's hungry filled and rich sent empty is Anna's reversal continued: the needy raised from dust and dung to sit with princes and hold a throne of glory. Two verses of Anna's song stand behind two verses of Mary's, and are keyed as two."
+    },
+    {
+     "target": "Psalms 106:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The hungry he hath filled with good things:",
+      "target": "the hungry soul he hath filled with good things."
+     },
+     "note": "The Magnificat's filled-hungry line; Psalm 106 is the psalter's great thanksgiving for exactly such reversals."
     }
    ],
    "1:32": [
@@ -7510,6 +7878,15 @@
       "target": "my shield, and the horn of my salvation: my lifter up, and my refuge"
      },
      "note": "Zacharias blesses God for erecting the horn of salvation in David's house; the phrase is David's own, from his great song: God is the horn of my salvation. Psalms 131:17 promises God will bring forth a horn to David and stands in the same line; David's song is the phrase's first home and carries the key."
+    },
+    {
+     "target": "Psalms 131:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "hath erected the horn of salvation to us, in the house of David his servant.",
+      "target": "Thither will I bring forth a horn to David,"
+     },
+     "note": "Zacharias' horn of salvation in David's house is the horn God promises to bring forth for David in this psalm."
     }
    ],
    "4:25": [
@@ -7565,6 +7942,72 @@
       "target": "take my staff in thy hand, & go. If a man meet thee, salute him not: and if any man salute thee, answer him not"
      },
      "note": "The Seventy's commission keeps Eliseus's urgent charge to Giezi almost word for word on the salutation: greet no one, answer no greeting, go straight to the child — here, to the mission."
+    }
+   ],
+   "4:11": [
+    {
+     "target": "Psalms 90:12",
+     "kind": "quotation",
+     "evidence": {
+      "source": "in their hands they shall bear thee up, lest perhaps thou knock thy foot against a stone.",
+      "target": "In their hands they shall bear thee: lest perhaps thou knock thy foot against a stone."
+     },
+     "note": "The second half of Satan's Psalm 90 citation in Luke; the seed carries Luke 4:10 to 90:11 and Matthew 4:6 to this verse."
+    }
+   ],
+   "19:38": [
+    {
+     "target": "Psalms 117:25",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Blessed is he that cometh King in the name of our Lord",
+      "target": "Blessed be he that cometh in the name of our Lord."
+     },
+     "note": "The entry into Jerusalem in Luke. This corpus prints the Blessed-is-he at 117:25, not 26; the seed keys this verse of the psalm only from chapter-level Gospel sources."
+    }
+   ],
+   "1:50": [
+    {
+     "target": "Psalms 102:17",
+     "kind": "allusion",
+     "evidence": {
+      "source": "his mercy from generation unto generations, to them that fear him.",
+      "target": "the mercy of our Lord from everlasting, and unto everlasting upon them that fear him."
+     },
+     "note": "The Magnificat's mercy line is this verse of Psalm 102 in miniature."
+    }
+   ],
+   "1:71": [
+    {
+     "target": "Psalms 105:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Salvation from our enemies, and from the hand of all that hate us:",
+      "target": "he saved them from the hand of them that hated them:"
+     },
+     "note": "The Benedictus asks for the Exodus deliverance Psalm 105 sings of, in the psalm's own hand-of-the-hater wording."
+    }
+   ],
+   "1:73": [
+    {
+     "target": "Psalms 104:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The oath which he sware to Abraham our father,",
+      "target": "of his oath to Isaac."
+     },
+     "note": "The Benedictus names the oath to Abraham; Psalm 104 keeps the same oath in its covenant recital, disposed to Abraham and sworn to Isaac. The oath itself stands at Genesis 22:16, keyed in the Genesis stage."
+    }
+   ],
+   "1:79": [
+    {
+     "target": "Psalms 106:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "To illuminate them that sit in darkness, and in the shadow of death:",
+      "target": "Them that sat in darkness, and in the shadow of death:"
+     },
+     "note": "The Benedictus' dawn visits the prisoners Psalm 106 describes sitting in darkness and the shadow of death."
     }
    ]
   },
@@ -8065,6 +8508,325 @@
      },
      "note": "The Miserere's heading, the psalm's second verse in this corpus, dates it to Nathan's coming after David's sin with Bethsabee. The coming it names is this verse: the Lord sent Nathan to David, and the parable of the ewe lamb followed. The seed carries Psalms 50 toward 2 Kings 12 at chapter level only."
     }
+   ],
+   "77:20": [
+    {
+     "target": "Exodus 17:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he struck the rock and waters ran, & torrents flowed:",
+      "target": "thou shalt strike the rock, & water shall go out thereof, that the people may drink."
+     },
+     "note": "The historical psalm retells the struck rock of Horeb. Earlier stages keyed this psalm's manna and quails; the rock verses were left unkeyed."
+    }
+   ],
+   "77:44": [
+    {
+     "target": "Exodus 7:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he turned their rivers into blood, & their showers that they might not drink.",
+      "target": "he struck the water of the river before Pharao and his servants: which was turned into blood."
+     },
+     "note": "Psalm 77's plague recital, first plague: the rivers into blood."
+    }
+   ],
+   "77:45": [
+    {
+     "target": "Exodus 8:24",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He sent upon them a swarm of flies, and it eat them: and the frog, and it destroyed them.",
+      "target": "there came a very grievous fly into the houses of Pharao & of his servants, & into all the Land of Ægypt:"
+     },
+     "note": "The psalm gathers the fly and the frog plagues into one verse; this entry anchors the fly, Exodus 8's frog stands at 8:6."
+    }
+   ],
+   "77:47": [
+    {
+     "target": "Exodus 9:25",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he killed their vineyards with hail:",
+      "target": "the hail smote in all the Land of Ægypt all things that were in the fields,"
+     },
+     "note": "The hail plague in the psalm's recital."
+    }
+   ],
+   "77:51": [
+    {
+     "target": "Exodus 12:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he struck all the first-born in the land of Ægypt: the first fruits of all their labours",
+      "target": "our Lord struck every first-begotten in the Land of Ægypt,"
+     },
+     "note": "The last plague in the psalm's recital: the firstborn struck at midnight."
+    }
+   ],
+   "104:23": [
+    {
+     "target": "Genesis 46:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Israel entered into Ægypt, and Jacob was a sojourner in the land of Cham.",
+      "target": "he came into Ægypt with all his seed,"
+     },
+     "note": "Psalm 104's covenant recital reaches Jacob's descent into Egypt; Genesis 46:27 to this psalm is keyed in the Genesis stage from the other side of the recital."
+    }
+   ],
+   "104:28": [
+    {
+     "target": "Exodus 10:22",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He sent darkness, and obscured:",
+      "target": "there was made horrible darkness in the whole Land of Ægypt three days."
+     },
+     "note": "Psalm 104's plague recital opens, in its own order, with the darkness."
+    }
+   ],
+   "104:29": [
+    {
+     "target": "Exodus 7:20",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He turned their waters into blood: and killed their fishes.",
+      "target": "he struck the water of the river before Pharao and his servants: which was turned into blood."
+     },
+     "note": "The waters into blood in Psalm 104's recital; Psalm 77's telling of the same plague is entered separately above."
+    }
+   ],
+   "104:30": [
+    {
+     "target": "Exodus 8:6",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Their land brought forth frogs in the inner chambers of their kings.",
+      "target": "the frogs came up, and covered the Land of Ægypt."
+     },
+     "note": "The frogs in Psalm 104's recital, into the kings' own chambers."
+    }
+   ],
+   "104:31": [
+    {
+     "target": "Exodus 8:17",
+     "kind": "parallel",
+     "evidence": {
+      "source": "the cænomyia came: and the sciniphs in all their coasts.",
+      "target": "there were made sciniphs on men and on beasts:"
+     },
+     "note": "The sciniphs are named with the same rare word in the psalm and in Exodus."
+    }
+   ],
+   "104:32": [
+    {
+     "target": "Exodus 9:23",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He made their rains hail: fire burning in their land.",
+      "target": "our Lord gave thunders, and hail, and running lightnings on the land:"
+     },
+     "note": "The hail and fire of Psalm 104's recital."
+    }
+   ],
+   "104:34": [
+    {
+     "target": "Exodus 10:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "He said, & the locust came, & the bruchus whereof there was no number.",
+      "target": "the burning wind raised the locusts:"
+     },
+     "note": "The locusts in Psalm 104's recital, without number."
+    }
+   ],
+   "104:36": [
+    {
+     "target": "Exodus 12:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he struck every first begotten in their land: the first fruits of all their labour.",
+      "target": "our Lord struck every first-begotten in the Land of Ægypt,"
+     },
+     "note": "The firstborn in Psalm 104's recital, closing its plagues as Exodus closes its own."
+    }
+   ],
+   "105:9": [
+    {
+     "target": "Exodus 14:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "he rebuked the Red sea, and it was made dry: and he led them in the depths as in a desert.",
+      "target": "turned it into dry ground: and the water was divided."
+     },
+     "note": "Psalm 105's confession opens its history with the sea rebuked and made dry."
+    }
+   ],
+   "105:11": [
+    {
+     "target": "Exodus 14:28",
+     "kind": "parallel",
+     "evidence": {
+      "source": "water overwhelmed those that afflicted them: there did not one of them remain.",
+      "target": "the waters returned, and overwhelmed the chariots & the horsemen of all Pharao's army,"
+     },
+     "note": "Not one of them remain, in the psalm and in Exodus alike."
+    }
+   ],
+   "135:10": [
+    {
+     "target": "Exodus 12:29",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who struck Ægypt with their first-begotten: because his mercy is for ever.",
+      "target": "our Lord struck every first-begotten in the Land of Ægypt,"
+     },
+     "note": "The litany psalm's first Exodus item; the seed keys Exodus 11 to this psalm at chapter level only."
+    }
+   ],
+   "135:13": [
+    {
+     "target": "Exodus 14:21",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who divided the Red sea into divisions: because his mercy is for ever.",
+      "target": "turned it into dry ground: and the water was divided."
+     },
+     "note": "The divided sea in the litany psalm, under its mercy-for-ever refrain."
+    }
+   ],
+   "88:30": [
+    {
+     "target": "2 Kings 7:16",
+     "kind": "parallel",
+     "evidence": {
+      "source": "I will put his seed for ever and ever: and his throne as the days of heaven.",
+      "target": "thy Kingdom for ever before thy face, and thy throne shall be firm continually."
+     },
+     "note": "Psalm 88 sings Nathan's oracle back to God: seed and throne for ever. The oracle's own verses are the target; Acts 13:22 to this psalm is the seed's."
+    }
+   ],
+   "131:11": [
+    {
+     "target": "2 Kings 7:12",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Of the fruit of thy womb I will set upon thy seat.",
+      "target": "I will raise up thy seed after thee, which shall come forth of thy womb, and I will establish his Kingdom."
+     },
+     "note": "The sworn fruit-of-thy-womb of the psalm is Nathan's seed raised up after David. Later verses citing the psalm (Acts 2:30, John 7:42's context) are keyed elsewhere; this entry anchors the psalm to its own source."
+    }
+   ],
+   "17:50": [
+    {
+     "target": "2 Kings 22:50",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Therefore will I confess to thee among nations, o Lord: and will say a Psalm to thy name.",
+      "target": "Therefore will I confess unto thee, o Lord, among the Gentiles, and will sing to thy name."
+     },
+     "note": "The same song in both books. Paul's use of this verse (Romans 15:9) is the seed's; the Samuel copy was unkeyed."
+    }
+   ],
+   "17:51": [
+    {
+     "target": "2 Kings 22:51",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Magnifying the salvations of his king, and doing mercy to his Christ David, and to his seed for ever.",
+      "target": "Magnifying the salvations of his king, and doing mercy to his Christ David, and to his seed for ever."
+     },
+     "note": "The song's last verse, word for word in both books."
+    }
+   ],
+   "33:1": [
+    {
+     "target": "1 Kings 21:13",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when he changed his countenance before Abimelech, and he dismist him, and he went away",
+      "target": "he changed his countenance before them, and slipt down between their hands:"
+     },
+     "note": "The psalm's title names David feigning madness. Stated openly: the title says Abimelech, while the king in 1 Kings 21 is Achis of Geth; the episode is one and the same, the name difference is the texts' own."
+    }
+   ],
+   "56:1": [
+    {
+     "target": "1 Kings 24:4",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when he fled from the face of Saul into the cave.",
+      "target": "there was a cave, which Saul entered into, to do his easement: moreover David and his men lay hid in the inner part of the cave."
+     },
+     "note": "The cave psalm's title and the cave at 1 Kings 24. The seed keys 1 Kings 24 to this psalm at chapter level; the title's own verse is entered here."
+    }
+   ],
+   "62:1": [
+    {
+     "target": "1 Kings 23:14",
+     "kind": "parallel",
+     "evidence": {
+      "source": "when he was in the desert of Juda.",
+      "target": "David abode in the desert in most strong places, & he tarried in the mount of the desert Ziph,"
+     },
+     "note": "The desert psalm's title and David in the desert of Ziph, in Juda, while Saul sought him."
+    }
+   ],
+   "23:3": [
+    {
+     "target": "Psalms 14:1",
+     "kind": "parallel",
+     "evidence": {
+      "source": "Who shall ascend into the mount of our Lord? Or who shall stand in his holy place?",
+      "target": "Lord who shall dwell in thy tabernacle? Or who shall rest in thy holy hill?"
+     },
+     "note": "Two entrance liturgies asking the same question at the sanctuary door; Psalm 23's answer (clean hands, pure heart) follows in its next verse as Psalm 14's follows in its own."
+    }
+   ],
+   "52:3": [
+    {
+     "target": "Psalms 13:2",
+     "kind": "quotation",
+     "evidence": {
+      "source": "God hath looked forth from heaven, upon the children of men: to see if there be that understandeth, or seeketh after God.",
+      "target": "Our Lord hath looked forth from heaven upon the children of men, to see if there be that understandeth, and seeketh after God."
+     },
+     "note": "Psalm 52 is Psalm 13 sung again with God's name in place of the Lord's; the seed keys the two psalms only at 13:1 to the whole of 52."
+    }
+   ],
+   "69:2": [
+    {
+     "target": "Psalms 39:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "O God intend unto my help: Lord make haste to help me.",
+      "target": "It may please thee, o Lord, to deliver me: Lord have respect to help me."
+     },
+     "note": "Psalm 69 is the closing cry of Psalm 39 lifted out and sung on its own; the seed keys the two psalms only at chapter level (39 to 69:3)."
+    }
+   ],
+   "69:5": [
+    {
+     "target": "Psalms 39:17",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Let all that seek thee rejoice, and be glad in thee, and let them say always: Our Lord be magnified:",
+      "target": "Let all that seek thee rejoice and be glad upon thee: and let them that love thy salvation, say always: Our Lord be magnified:"
+     },
+     "note": "The lifted-out ending keeps Psalm 39's rejoicing verse almost word for word."
+    }
+   ],
+   "135:1": [
+    {
+     "target": "Psalms 117:1",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Confess ye to our Lord because he is good: because his mercy is for ever.",
+      "target": "Confess ye to our Lord because he is good: because his mercy is for ever."
+     },
+     "note": "The litany psalm opens with the festal psalm's opening line, which becomes its own refrain; the seed keys 117:1 to Psalm 135 only at chapter level (in reverse)."
+    }
    ]
   },
   "Deuteronomy": {
@@ -8521,6 +9283,70 @@
       "target": "that accepteth not person nor gifts."
      },
      "note": "The Father invoked in fear is Deuteronomy's impartial judge: without acception of persons, judging every one's work."
+    }
+   ],
+   "2:3": [
+    {
+     "target": "Psalms 33:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "you have tasted that our Lord is sweet.",
+      "target": "Taste ye, and see that our Lord is sweet:"
+     },
+     "note": "Peter's tasted-that-the-Lord-is-sweet is the psalm's invitation taken up; the same psalm is quoted at length two chapters later in the epistle."
+    }
+   ],
+   "2:7": [
+    {
+     "target": "Psalms 117:22",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the stone which the builders rejected, the same is made into the head of the corner:",
+      "target": "The stone, which the builders rejected: the same is made into the head of the corner."
+     },
+     "note": "Peter's stone citation at verse level; the seed keys 1 Peter 2 to this psalm only at chapter level (and to 117:25)."
+    }
+   ],
+   "3:11": [
+    {
+     "target": "Psalms 33:15",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Let him decline from evil, and do good: let him inquire peace, & follow it:",
+      "target": "Turn away from evil, and do good: seek after peace and pursue it."
+     },
+     "note": "Inside Peter's long Psalm 33 citation; the seed carries only 1 Peter 3:10 to 33:13, leaving the citation's remaining verses unkeyed."
+    }
+   ],
+   "3:12": [
+    {
+     "target": "Psalms 33:16",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the eyes of our Lord are upon the just, and his ears unto their prayers:",
+      "target": "The eyes of our Lord upon the just: and his ears unto their prayers."
+     },
+     "note": "The next verse of Peter's Psalm 33 citation."
+    },
+    {
+     "target": "Psalms 33:17",
+     "kind": "quotation",
+     "evidence": {
+      "source": "the countenance of our Lord upon them that do evil things.",
+      "target": "the countenance of our Lord is upon them that do evil things:"
+     },
+     "note": "The last member of Peter's Psalm 33 citation, at the psalm's next verse."
+    }
+   ],
+   "5:7": [
+    {
+     "target": "Psalms 54:23",
+     "kind": "allusion",
+     "evidence": {
+      "source": "casting all your carefulness upon him, because he hath care of you.",
+      "target": "Cast thy care upon our Lord: and he will nourish thee:"
+     },
+     "note": "Peter's casting is the psalm's imperative turned into an exhortation; the seed keys 1 Peter 5 to this psalm only at chapter level."
     }
    ]
   },
@@ -9705,6 +10531,15 @@
       "target": "merciful and clement, patient and of much compassion"
      },
      "note": "The Levites' great prayer confesses Israel's rebellion in the words of the proclamation: a God 'propitious, gracious and merciful, long suffering and of much compassion', who did not forsake them."
+    },
+    {
+     "target": "Psalms 102:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "thou a propitious God, & gracious, and merciful, long suffering and of much compassion, didst not forsake them.",
+      "target": "Our Lord is pitiful, and merciful: long suffering, and very merciful."
+     },
+     "note": "Nehemias' great confession prays the mercy proclamation in the form Psalm 102 sings it. The fountainhead is Exodus 34:6, keyed in the Exodus stage; this entry records the psalm form Nehemias' wording follows."
     }
    ],
    "9:29": [
@@ -9927,6 +10762,61 @@
       "target": "merciful and clement, patient and of much compassion"
      },
      "note": "Jonas quotes the proclamation back at God as a complaint — 'I know that thou art a clement and merciful God, patient and of much compassion' — the formula almost word for word, turned into a grievance that Nineveh was spared."
+    }
+   ],
+   "2:3": [
+    {
+     "target": "Psalms 17:7",
+     "kind": "allusion",
+     "evidence": {
+      "source": "out of the belly of hell cried I, and thou hast heard my voice.",
+      "target": "he hath heard my voice from his holy temple: and my cry in his sight, hath entered into his ears."
+     },
+     "note": "Jonas' prayer from the fish is woven from the psalms; here the heard-cry and the temple meet. The seed keys Jonas 2:3 to Psalms 119 and 129 at chapter level."
+    }
+   ],
+   "2:4": [
+    {
+     "target": "Psalms 41:8",
+     "kind": "allusion",
+     "evidence": {
+      "source": "all thy surges, and thy waves have passed over me.",
+      "target": "All thy high things, and thy ways have passed over me."
+     },
+     "note": "Jonas' waves are the psalm's waters passing over the soul. This corpus prints the psalm's word as ways where the sense is waves; the shared clause have passed over me is what is printed in both."
+    }
+   ],
+   "2:5": [
+    {
+     "target": "Psalms 30:23",
+     "kind": "quotation",
+     "evidence": {
+      "source": "I am cast away from the sight of thine eyes: but yet I shall see thy holy temple again.",
+      "target": "I am cast away from the sight of thine eyes."
+     },
+     "note": "Jonas quotes the psalm's cast-away word and answers it with his own yet I shall see thy temple."
+    }
+   ],
+   "2:6": [
+    {
+     "target": "Psalms 68:2",
+     "kind": "allusion",
+     "evidence": {
+      "source": "The waters have compassed me even to the soul:",
+      "target": "Save me, o God: because waters are entered into my soul."
+     },
+     "note": "The waters-to-the-soul of the great passion psalm, prayed again inside the fish."
+    }
+   ],
+   "2:10": [
+    {
+     "target": "Psalms 49:14",
+     "kind": "allusion",
+     "evidence": {
+      "source": "I in the voice of praise will immolate to thee: what things soever I have vowed I will render",
+      "target": "Immolate to God the sacrifice of praise, and pay thy vows to the Highest."
+     },
+     "note": "Jonas' vow from the fish is Psalm 49's sacrifice of praise and paying of vows, performed."
     }
    ]
   },
@@ -10354,6 +11244,94 @@
      },
      "note": "The cento closes with Psalm 105's closing prayer: save us, gather us out of the nations, that we may confess thy holy name."
     }
+   ],
+   "16:22": [
+    {
+     "target": "Psalms 104:15",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Touch not my anointed: and unto my Prophets be not malicious.",
+      "target": "Touch not my anointed, and toward my Prophets be not malignant."
+     },
+     "note": "The Touch not my anointed of the Chronicles psalm is this verse of Psalm 104."
+    }
+   ],
+   "16:24": [
+    {
+     "target": "Psalms 95:3",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Tell his glory among the gentiles: among all peoples his marvelous works.",
+      "target": "Shew forth his glory among the Gentiles, his marvelous works in all peoples."
+     },
+     "note": "The second half of David's psalm follows Psalm 95; the seed carries only 16:23 to 95:1 from this stretch."
+    }
+   ],
+   "16:25": [
+    {
+     "target": "Psalms 95:4",
+     "kind": "quotation",
+     "evidence": {
+      "source": "our Lord is great, and laudable exceedingly: and terrible over all gods.",
+      "target": "our Lord is great, and exceeding laudable: he is terrible above all gods."
+     },
+     "note": "Great and terrible above all gods, in both copies."
+    }
+   ],
+   "16:29": [
+    {
+     "target": "Psalms 95:9",
+     "kind": "allusion",
+     "evidence": {
+      "source": "adore our Lord in holy honour.",
+      "target": "adore ye our Lord in his holy court."
+     },
+     "note": "The adore-in-holiness of the Chronicles psalm is Psalm 95's adore in his holy court."
+    }
+   ],
+   "16:30": [
+    {
+     "target": "Psalms 95:10",
+     "kind": "allusion",
+     "evidence": {
+      "source": "Let all the earth be moved before his face: for he founded the world unmovable.",
+      "target": "he hath corrected the round world, which shall not be moved:"
+     },
+     "note": "Earth moved before his face, and the world unmovable, in both copies."
+    }
+   ],
+   "16:33": [
+    {
+     "target": "Psalms 95:13",
+     "kind": "quotation",
+     "evidence": {
+      "source": "he is come to judge the earth.",
+      "target": "he cometh to judge the earth. He will judge the round world in equity,"
+     },
+     "note": "The trees of the forest in the Chronicles verse answer to Psalm 95:12; the judge-of-the-earth clause is this verse's."
+    }
+   ],
+   "16:34": [
+    {
+     "target": "Psalms 105:1",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Confess ye to our Lord, because he is good: because his mercy is for ever.",
+      "target": "Confess ye to our Lord because he is good: because his mercy is for ever."
+     },
+     "note": "The great refrain that opens Psalm 105 (and 106, and 117); the seed keys 16:34 to Psalm 105 at chapter level and to 106:1 at verse level."
+    }
+   ],
+   "16:36": [
+    {
+     "target": "Psalms 105:48",
+     "kind": "quotation",
+     "evidence": {
+      "source": "Blessed be our Lord the God of Israel from eternity unto eternity: and let all the people say: Amen,",
+      "target": "Blessed be our Lord the God of Israel from everlasting unto everlasting: and all the people shall say: Be it, be it."
+     },
+     "note": "The doxology that ends the psalter's fourth book ends David's psalm in the Chronicles too."
+    }
    ]
   },
   "Leviticus": {
@@ -10494,6 +11472,17 @@
      },
      "note": "Habacuc's prayer re-sees the Gabaon theophany: sun and moon standing in their habitation answers Josue's sun against Gabaon and moon against Aialon, both standing still. Graded allusion: the prophet is singing a new theophany in the old one's words, not citing the history."
     }
+   ],
+   "3:19": [
+    {
+     "target": "Psalms 17:34",
+     "kind": "allusion",
+     "evidence": {
+      "source": "he will make my feet as of the harts': and upon my high places he",
+      "target": "That perfited my feet as it were of harts: and setting me upon high things."
+     },
+     "note": "Habacuc's canticle closes with David's song: feet as the harts', and the high places."
+    }
    ]
   },
   "1 Timothy": {
@@ -10532,6 +11521,19 @@
       "target": "We have sworn to them in the name of our Lord the God of Israel, and therefore we may not touch them."
      },
      "note": "David learns the famine is for Saul's striking the Gabaonites, to whom Israel had sworn. The oath Saul broke is the one Josue's princes state here: sworn in the Lord's name, therefore untouchable. The seed carries this verse of 2 Kings only at chapter level (Josue 9); the verse anchor is entered here."
+    }
+   ]
+  },
+  "Job": {
+   "7:17": [
+    {
+     "target": "Psalms 8:5",
+     "kind": "allusion",
+     "evidence": {
+      "source": "What is man that thou magnifiest him? Or why settest thou thy heart toward him?",
+      "target": "What is man, that thou art mindful of him? Or the son of man, that thou visitest him?"
+     },
+     "note": "Job asks the psalm's wonder-question in affliction's key: what is man, that God should regard him. Entered as a verbal echo between the two books, without asserting which text was written first."
     }
    ]
   }

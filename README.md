@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.13.0 — Psalms (the whole psalter)
+
+**Psalms (the whole psalter) — 92 new references** (23 parallel, 31 allusion, 38 quotation). `our-references.json` now holds **1054 references** (326 parallel, 591 allusion, 84 quotation, 53 theme).
+
+The psalter's great citations are completed verse by verse where the seed carried only a first member or a whole chapter: Hebrews 1's royal and eternal psalms (1:9 → 44:8; 1:11–12 → 101:27–28), its thrice-repeated Today of Psalm 94, Peter's long Psalm 33 citation in 1 Peter 3:11–12, the unkeyed members of Paul's Romans 3 catena (3:11–12 → 13:2–3), and the cry from the cross keyed at Psalms 21:2, where this corpus prints it — its title is verse 1. The historical psalms are likewise mapped in their own recitals — Psalms 77, 104, 105, and 135 plague by plague and sea by sea to Exodus, David's song of Psalm 17 to its second printing in 2 Kings 22, the Chronicler's psalm in 1 Paralipomenon 16 to Psalms 95, 104, and 105, and Jonas's prayer from the fish, woven verse by verse from Psalms 17, 30, 41, 49, and 68. The gaps are stated plainly: roughly 90 of the 150 psalms yield no new entry, their links already carried by the seed at verse level or their echoes too generic to anchor; Psalm 118, the great Torah psalm, is left unkeyed verse by verse rather than padded with thematic links; and six further draft entries were removed at merge because an earlier group of this same run had already carried them into our layer.
+
 ## Version 0.12.0 — 3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, and the Hebrew chapters of Esther
 
 **3 Kings, 4 Kings, 1 Paralipomenon, 2 Paralipomenon, Esdras, Nehemias, and the Hebrew chapters of Esther — 100 new references** (48 parallel, 43 allusion, 8 quotation, 1 theme). `our-references.json` now holds **962 references** (303 parallel, 560 allusion, 46 quotation, 53 theme).
