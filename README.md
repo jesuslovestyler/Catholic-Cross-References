@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed below now serves the deuterocanon books and added chapters beside the Treasury of Scripture Knowledge.
 
+## Version 0.16.0 — the Minor Prophets
+
+**Osee, Joel, Amos, Abdias, Jonas, Micheas, Nahum, Habacuc, Sophonias, Aggeus, Zacharias, Malachias — 45 new references** (9 parallel, 25 allusion, 11 quotation). `our-references.json` now holds **1322 references** (357 parallel, 776 allusion, 131 quotation, 58 theme).
+
+The great citations are completed verse by verse where the seed carried only their opening: Peter's Pentecost quotation is filled in at Acts 2:18–21 → Joel 2:29–32, James's council citation at Acts 15:16–17 → Amos 9:11–12, Stephen's Moloch verse at Acts 7:43 → Amos 5:26, and Habacuc's "the just shall live in his faith" (2:4) is keyed at both Galatians 3:11 and Hebrews 10:38, while the twelve are also mapped quoting each other — Amos opening with Joel's roar out of Sion (1:2 → Joel 3:16), Abdias's Edom oracle anchored verse by verse in Jeremias 49, the shared mountain oracle of Micheas 4:2–3 and Isaias 2:3–4 with Joel 3:10 deliberately reversing its swords into ploughshares, and Aggeus setting Zorobabel as the signet (2:24) where Jeremias had plucked his grandfather Jechonias off (22:24). The gaps are stated plainly: Abdias beyond verses 5–8 and 21, Nahum 2–3 beyond 1:15, Zacharias 5, 10 and 11 beyond 11:13, and Malachias 2 yield nothing that survives checking and are left empty rather than padded, and the famous messenger and Elias web of Malachias 3–4 and the sign of Jonas were already the seed's at verse level and are not duplicated. Six further draft entries were removed at merge because an earlier group of this same run had already carried them into our layer — Micheas 4:1 → Isaias 2:2, Jonas's psalm-woven prayer at 2:4–6, Habacuc 3:19 → Psalms 17:34, and Jeremias 26:18 → Micheas 3:12.
+
 ## Version 0.15.0 — Isaias, Jeremias, Lamentations, Ezechiel, and Daniel chapters 1-12 only
 
 **Isaias, Jeremias, Lamentations, Ezechiel, and Daniel chapters 1-12 only — 143 new references** (16 parallel, 96 allusion, 27 quotation, 4 theme). `our-references.json` now holds **1277 references** (348 parallel, 751 allusion, 120 quotation, 58 theme).
