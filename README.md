@@ -6,6 +6,12 @@ Modern Catholic Bibles are nearly bare of cross references in the seven books th
 
 It already feeds the free [Catholic Bible app](https://jesuslovestyler.github.io/Catholic-Bible/) (Douay-Rheims, Challoner revision), where the seed and our own cross references serve beside the Treasury of Scripture Knowledge, each under its own name.
 
+## Version 3.0.0 — the expansion complete
+
+**Our own layer completes its expansion: `our-references.json` now holds 2,594 references** (1,279 allusion, 851 parallel, 239 quotation, 225 theme) at **2,292 verses** in **73 books**. It grew from 1,870 in two passes: a second deepening pass added **504** references — including the first verified anchors for Philemon, 2 John, and 3 John, so all 73 books now carry own-layer references — and the Gospel parallels sweep added **220**, every one kind **parallel**, built from the Gospel texts themselves. Across the three reference files the complete dataset now holds **23,764 references**: the original Douay-Rheims margin seed (2,814), the Haydock seed (18,356), and our own layer (2,594).
+
+Every own-layer entry carries verbatim evidence from both passages, verified against the original Douay-Rheims corpus. The parallels sweep worked from a systematic pericope inventory of the four Gospels, and **all 112 genuine parallel clusters across the four Gospels are now fully mapped when all layers are combined**.
+
 ## Version 2.0.0 — the Haydock seed
 
 **A third source joins the dataset: the cross references of Haydock's Catholic Bible.** `haydock-references.json` holds **18,356 verified references** at **9,954 verses** in **71 books**, recovered from the Douay-Rheims Bible with commentary by the Rev. George Leo Haydock (1811–1814, public domain). It carries two streams, named on every entry: the references printed in that Bible's margins (4,781 references), and the Scripture citations embedded in Fr. Haydock's verse-by-verse commentary notes (13,283), with 292 references attested in both streams and merged once, both raw texts preserved. Across its three reference files the dataset now holds **23,040 references**.
